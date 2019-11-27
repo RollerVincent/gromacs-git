@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="20" failures="0" disabled="0" errors="0" timestamp="2019-11-12T01:53:54" time="0.056" name="AllTests">
+  <testsuite name="SplineTableTest/0" tests="10" failures="0" disabled="0" errors="0" time="0.048">
+    <testcase name="HandlesIncorrectInput" type_param="gmx::QuadraticSplineTable" status="run" time="0.001" classname="SplineTableTest/0" />
+    <testcase name="Sinc" type_param="gmx::QuadraticSplineTable" status="run" time="0" classname="SplineTableTest/0" />
+    <testcase name="LJ12" type_param="gmx::QuadraticSplineTable" status="run" time="0.006" classname="SplineTableTest/0" />
+    <testcase name="PmeCorrection" type_param="gmx::QuadraticSplineTable" status="run" time="0.001" classname="SplineTableTest/0" />
+    <testcase name="HandlesIncorrectNumericalInput" type_param="gmx::QuadraticSplineTable" status="run" time="0" classname="SplineTableTest/0" />
+    <testcase name="NumericalInputPmeCorr" type_param="gmx::QuadraticSplineTable" status="run" time="0" classname="SplineTableTest/0" />
+    <testcase name="TwoFunctions" type_param="gmx::QuadraticSplineTable" status="run" time="0.012" classname="SplineTableTest/0" />
+    <testcase name="ThreeFunctions" type_param="gmx::QuadraticSplineTable" status="run" time="0.014" classname="SplineTableTest/0" />
+    <testcase name="Simd" type_param="gmx::QuadraticSplineTable" status="run" time="0.003" classname="SplineTableTest/0" />
+    <testcase name="SimdTwoFunctions" type_param="gmx::QuadraticSplineTable" status="run" time="0.011" classname="SplineTableTest/0" />
+  </testsuite>
+  <testsuite name="SplineTableTest/1" tests="10" failures="0" disabled="0" errors="0" time="0.008">
+    <testcase name="HandlesIncorrectInput" type_param="gmx::CubicSplineTable" status="run" time="0" classname="SplineTableTest/1" />
+    <testcase name="Sinc" type_param="gmx::CubicSplineTable" status="run" time="0" classname="SplineTableTest/1" />
+    <testcase name="LJ12" type_param="gmx::CubicSplineTable" status="run" time="0.001" classname="SplineTableTest/1" />
+    <testcase name="PmeCorrection" type_param="gmx::CubicSplineTable" status="run" time="0.001" classname="SplineTableTest/1" />
+    <testcase name="HandlesIncorrectNumericalInput" type_param="gmx::CubicSplineTable" status="run" time="0" classname="SplineTableTest/1" />
+    <testcase name="NumericalInputPmeCorr" type_param="gmx::CubicSplineTable" status="run" time="0" classname="SplineTableTest/1" />
+    <testcase name="TwoFunctions" type_param="gmx::CubicSplineTable" status="run" time="0.002" classname="SplineTableTest/1" />
+    <testcase name="ThreeFunctions" type_param="gmx::CubicSplineTable" status="run" time="0.002" classname="SplineTableTest/1" />
+    <testcase name="Simd" type_param="gmx::CubicSplineTable" status="run" time="0.001" classname="SplineTableTest/1" />
+    <testcase name="SimdTwoFunctions" type_param="gmx::CubicSplineTable" status="run" time="0.001" classname="SplineTableTest/1" />
+  </testsuite>
+</testsuites>

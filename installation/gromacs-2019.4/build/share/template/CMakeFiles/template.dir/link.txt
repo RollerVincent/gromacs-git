@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++   -mavx2 -mfma    -std=c++11  -Wno-unknown-pragmas  -O3 -DNDEBUG   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names    CMakeFiles/template.dir/template.cpp.o  -o ../../bin/template -Wl,-rpath,@loader_path/../lib ../../lib/libgromacs.4.0.0.dylib -lm 

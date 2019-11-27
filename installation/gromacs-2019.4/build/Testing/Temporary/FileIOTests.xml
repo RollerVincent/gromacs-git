@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="17" failures="0" disabled="0" errors="0" timestamp="2019-11-12T01:53:54" time="0.008" name="AllTests">
+  <testsuite name="FileMD5Test" tests="2" failures="0" disabled="0" errors="0" time="0.001">
+    <testcase name="CanComputeMD5" status="run" time="0.001" classname="FileMD5Test" />
+    <testcase name="ReturnsErrorIfFileModeIsWrong" status="run" time="0" classname="FileMD5Test" />
+  </testsuite>
+  <testsuite name="ReadTest" tests="9" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="get_eint_ReadsInteger" status="run" time="0" classname="ReadTest" />
+    <testcase name="get_eint_WarnsAboutFloat" status="run" time="0" classname="ReadTest" />
+    <testcase name="get_eint_WarnsAboutString" status="run" time="0" classname="ReadTest" />
+    <testcase name="get_eint64_ReadsInteger" status="run" time="0" classname="ReadTest" />
+    <testcase name="get_eint64_WarnsAboutFloat" status="run" time="0" classname="ReadTest" />
+    <testcase name="get_eint64_WarnsAboutString" status="run" time="0" classname="ReadTest" />
+    <testcase name="get_ereal_ReadsInteger" status="run" time="0" classname="ReadTest" />
+    <testcase name="get_ereal_ReadsFloat" status="run" time="0" classname="ReadTest" />
+    <testcase name="get_ereal_WarnsAboutString" status="run" time="0" classname="ReadTest" />
+  </testsuite>
+  <testsuite name="TngTest" tests="2" failures="0" disabled="0" errors="0" time="0.001">
+    <testcase name="CanOpenTngFile" status="run" time="0.001" classname="TngTest" />
+    <testcase name="CloseBeforeOpenIsNotFatal" status="run" time="0" classname="TngTest" />
+  </testsuite>
+  <testsuite name="WithDifferentFormats/StructureIORoundtripTest" tests="4" failures="0" disabled="0" errors="0" time="0.006">
+    <testcase name="ReadWriteTpsConf/0" value_param="&apos;gro&apos;" status="run" time="0.001" classname="WithDifferentFormats/StructureIORoundtripTest" />
+    <testcase name="ReadWriteTpsConf/1" value_param="&apos;g96&apos;" status="run" time="0.001" classname="WithDifferentFormats/StructureIORoundtripTest" />
+    <testcase name="ReadWriteTpsConf/2" value_param="&apos;pdb&apos;" status="run" time="0.003" classname="WithDifferentFormats/StructureIORoundtripTest" />
+    <testcase name="ReadWriteTpsConf/3" value_param="&apos;esp&apos;" status="run" time="0.001" classname="WithDifferentFormats/StructureIORoundtripTest" />
+  </testsuite>
+</testsuites>

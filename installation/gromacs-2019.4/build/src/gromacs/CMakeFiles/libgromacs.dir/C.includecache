@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/external/vmd_molfile/vmddlopen.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+vmddlopen.h
+/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/external/vmd_molfile/vmddlopen.h
+dl.h
+-
+errno.h
+-
+string.h
+-
+mach-o/dyld.h
+-
+windows.h
+-
+dlfcn.h
+-
+
+/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/external/vmd_molfile/vmddlopen.h
+

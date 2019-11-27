@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="112" failures="0" disabled="0" errors="0" timestamp="2019-11-12T01:53:54" time="0.006" name="AllTests">
+  <testsuite name="EmptyArrayRefWithPaddingTest" tests="1" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="IsEmpty" status="run" time="0" classname="EmptyArrayRefWithPaddingTest" />
+  </testsuite>
+  <testsuite name="EmptyConstArrayRefWithPaddingTest" tests="1" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="IsEmpty" status="run" time="0" classname="EmptyConstArrayRefWithPaddingTest" />
+  </testsuite>
+  <testsuite name="ArrayRefWithPaddingTest/0" tests="2" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="AssignFromPaddedVectorWorks" type_param="gmx::ArrayRefWithPadding&lt;int&gt;" status="run" time="0" classname="ArrayRefWithPaddingTest/0" />
+    <testcase name="ConstructFromPointersWorks" type_param="gmx::ArrayRefWithPadding&lt;int&gt;" status="run" time="0" classname="ArrayRefWithPaddingTest/0" />
+  </testsuite>
+  <testsuite name="ArrayRefWithPaddingTest/1" tests="2" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="AssignFromPaddedVectorWorks" type_param="gmx::ArrayRefWithPadding&lt;float&gt;" status="run" time="0" classname="ArrayRefWithPaddingTest/1" />
+    <testcase name="ConstructFromPointersWorks" type_param="gmx::ArrayRefWithPadding&lt;float&gt;" status="run" time="0" classname="ArrayRefWithPaddingTest/1" />
+  </testsuite>
+  <testsuite name="ArrayRefWithPaddingTest/2" tests="2" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="AssignFromPaddedVectorWorks" type_param="gmx::ArrayRefWithPadding&lt;double&gt;" status="run" time="0" classname="ArrayRefWithPaddingTest/2" />
+    <testcase name="ConstructFromPointersWorks" type_param="gmx::ArrayRefWithPadding&lt;double&gt;" status="run" time="0" classname="ArrayRefWithPaddingTest/2" />
+  </testsuite>
+  <testsuite name="StructureSimilarityTest" tests="6" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="StructureComparedToSelfHasZeroRMSD" status="run" time="0" classname="StructureSimilarityTest" />
+    <testcase name="StructureComparedToSelfHasZeroRho" status="run" time="0" classname="StructureSimilarityTest" />
+    <testcase name="YieldsCorrectRMSD" status="run" time="0" classname="StructureSimilarityTest" />
+    <testcase name="YieldsCorrectRho" status="run" time="0" classname="StructureSimilarityTest" />
+    <testcase name="YieldsCorrectRMSDWithIndex" status="run" time="0" classname="StructureSimilarityTest" />
+    <testcase name="YieldsCorrectRhoWidthIndex" status="run" time="0" classname="StructureSimilarityTest" />
+  </testsuite>
+  <testsuite name="FunctionTest" tests="21" failures="0" disabled="0" errors="0" time="0.006">
+    <testcase name="StaticLog2" status="run" time="0.001" classname="FunctionTest" />
+    <testcase name="Log2I32Bit" status="run" time="0" classname="FunctionTest" />
+    <testcase name="Log2I64Bit" status="run" time="0.001" classname="FunctionTest" />
+    <testcase name="GreatestCommonDivisor" status="run" time="0" classname="FunctionTest" />
+    <testcase name="InvsqrtFloat" status="run" time="0" classname="FunctionTest" />
+    <testcase name="InvsqrtDouble" status="run" time="0" classname="FunctionTest" />
+    <testcase name="InvsqrtInteger" status="run" time="0.001" classname="FunctionTest" />
+    <testcase name="InvcbrtFloat" status="run" time="0" classname="FunctionTest" />
+    <testcase name="InvcbrtDouble" status="run" time="0" classname="FunctionTest" />
+    <testcase name="InvcbrtInteger" status="run" time="0" classname="FunctionTest" />
+    <testcase name="SixthrootFloat" status="run" time="0.001" classname="FunctionTest" />
+    <testcase name="SixthrootDouble" status="run" time="0" classname="FunctionTest" />
+    <testcase name="SixthrootInteger" status="run" time="0" classname="FunctionTest" />
+    <testcase name="InvsixthrootFloat" status="run" time="0" classname="FunctionTest" />
+    <testcase name="InvsixthrootDouble" status="run" time="0" classname="FunctionTest" />
+    <testcase name="InvsixthrootInteger" status="run" time="0" classname="FunctionTest" />
+    <testcase name="Powers" status="run" time="0" classname="FunctionTest" />
+    <testcase name="ErfInvFloat" status="run" time="0" classname="FunctionTest" />
+    <testcase name="ErfInvDouble" status="run" time="0" classname="FunctionTest" />
+    <testcase name="ErfAndErfInvAreInversesFloat" status="run" time="0.001" classname="FunctionTest" />
+    <testcase name="ErfAndErfInvAreInversesDouble" status="run" time="0" classname="FunctionTest" />
+  </testsuite>
+  <testsuite name="InvertMatrixTest" tests="2" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="IdentityIsImpotent" status="run" time="0" classname="InvertMatrixTest" />
+    <testcase name="ComputesInverse" status="run" time="0" classname="InvertMatrixTest" />
+  </testsuite>
+  <testsuite name="InvertBoxMatrixTest" tests="2" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="IdentityIsImpotent" status="run" time="0" classname="InvertBoxMatrixTest" />
+    <testcase name="ComputesInverseInPlace" status="run" time="0" classname="InvertBoxMatrixTest" />
+  </testsuite>
+  <testsuite name="PaddedVectorTest/0" tests="4" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="ConstructsResizesAndReserves" type_param="std::__1::allocator&lt;int&gt;" status="run" time="0" classname="PaddedVectorTest/0" />
+    <testcase name="CanCopyAssign" type_param="std::__1::allocator&lt;int&gt;" status="run" time="0" classname="PaddedVectorTest/0" />
+    <testcase name="CanMoveAssign" type_param="std::__1::allocator&lt;int&gt;" status="run" time="0" classname="PaddedVectorTest/0" />
+    <testcase name="CanSwap" type_param="std::__1::allocator&lt;int&gt;" status="run" time="0" classname="PaddedVectorTest/0" />
+  </testsuite>
+  <testsuite name="PaddedVectorTest/1" tests="4" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="ConstructsResizesAndReserves" type_param="std::__1::allocator&lt;float&gt;" status="run" time="0" classname="PaddedVectorTest/1" />
+    <testcase name="CanCopyAssign" type_param="std::__1::allocator&lt;float&gt;" status="run" time="0" classname="PaddedVectorTest/1" />
+    <testcase name="CanMoveAssign" type_param="std::__1::allocator&lt;float&gt;" status="run" time="0" classname="PaddedVectorTest/1" />
+    <testcase name="CanSwap" type_param="std::__1::allocator&lt;float&gt;" status="run" time="0" classname="PaddedVectorTest/1" />
+  </testsuite>
+  <testsuite name="PaddedVectorTest/2" tests="4" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="ConstructsResizesAndReserves" type_param="std::__1::allocator&lt;double&gt;" status="run" time="0" classname="PaddedVectorTest/2" />
+    <testcase name="CanCopyAssign" type_param="std::__1::allocator&lt;double&gt;" status="run" time="0" classname="PaddedVectorTest/2" />
+    <testcase name="CanMoveAssign" type_param="std::__1::allocator&lt;double&gt;" status="run" time="0" classname="PaddedVectorTest/2" />
+    <testcase name="CanSwap" type_param="std::__1::allocator&lt;double&gt;" status="run" time="0" classname="PaddedVectorTest/2" />
+  </testsuite>
+  <testsuite name="PaddedVectorTest/3" tests="4" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="ConstructsResizesAndReserves" type_param="std::__1::allocator&lt;gmx::BasicVector&lt;float&gt; &gt;" status="run" time="0" classname="PaddedVectorTest/3" />
+    <testcase name="CanCopyAssign" type_param="std::__1::allocator&lt;gmx::BasicVector&lt;float&gt; &gt;" status="run" time="0" classname="PaddedVectorTest/3" />
+    <testcase name="CanMoveAssign" type_param="std::__1::allocator&lt;gmx::BasicVector&lt;float&gt; &gt;" status="run" time="0" classname="PaddedVectorTest/3" />
+    <testcase name="CanSwap" type_param="std::__1::allocator&lt;gmx::BasicVector&lt;float&gt; &gt;" status="run" time="0" classname="PaddedVectorTest/3" />
+  </testsuite>
+  <testsuite name="PaddedVectorTest/4" tests="4" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="ConstructsResizesAndReserves" type_param="std::__1::allocator&lt;gmx::BasicVector&lt;double&gt; &gt;" status="run" time="0" classname="PaddedVectorTest/4" />
+    <testcase name="CanCopyAssign" type_param="std::__1::allocator&lt;gmx::BasicVector&lt;double&gt; &gt;" status="run" time="0" classname="PaddedVectorTest/4" />
+    <testcase name="CanMoveAssign" type_param="std::__1::allocator&lt;gmx::BasicVector&lt;double&gt; &gt;" status="run" time="0" classname="PaddedVectorTest/4" />
+    <testcase name="CanSwap" type_param="std::__1::allocator&lt;gmx::BasicVector&lt;double&gt; &gt;" status="run" time="0" classname="PaddedVectorTest/4" />
+  </testsuite>
+  <testsuite name="PaddedVectorTest/5" tests="4" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="ConstructsResizesAndReserves" type_param="gmx::Allocator&lt;int, gmx::AlignedAllocationPolicy&gt;" status="run" time="0" classname="PaddedVectorTest/5" />
+    <testcase name="CanCopyAssign" type_param="gmx::Allocator&lt;int, gmx::AlignedAllocationPolicy&gt;" status="run" time="0" classname="PaddedVectorTest/5" />
+    <testcase name="CanMoveAssign" type_param="gmx::Allocator&lt;int, gmx::AlignedAllocationPolicy&gt;" status="run" time="0" classname="PaddedVectorTest/5" />
+    <testcase name="CanSwap" type_param="gmx::Allocator&lt;int, gmx::AlignedAllocationPolicy&gt;" status="run" time="0" classname="PaddedVectorTest/5" />
+  </testsuite>
+  <testsuite name="PaddedVectorTest/6" tests="4" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="ConstructsResizesAndReserves" type_param="gmx::Allocator&lt;float, gmx::AlignedAllocationPolicy&gt;" status="run" time="0" classname="PaddedVectorTest/6" />
+    <testcase name="CanCopyAssign" type_param="gmx::Allocator&lt;float, gmx::AlignedAllocationPolicy&gt;" status="run" time="0" classname="PaddedVectorTest/6" />
+    <testcase name="CanMoveAssign" type_param="gmx::Allocator&lt;float, gmx::AlignedAllocationPolicy&gt;" status="run" time="0" classname="PaddedVectorTest/6" />
+    <testcase name="CanSwap" type_param="gmx::Allocator&lt;float, gmx::AlignedAllocationPolicy&gt;" status="run" time="0" classname="PaddedVectorTest/6" />
+  </testsuite>
+  <testsuite name="PaddedVectorTest/7" tests="4" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="ConstructsResizesAndReserves" type_param="gmx::Allocator&lt;double, gmx::AlignedAllocationPolicy&gt;" status="run" time="0" classname="PaddedVectorTest/7" />
+    <testcase name="CanCopyAssign" type_param="gmx::Allocator&lt;double, gmx::AlignedAllocationPolicy&gt;" status="run" time="0" classname="PaddedVectorTest/7" />
+    <testcase name="CanMoveAssign" type_param="gmx::Allocator&lt;double, gmx::AlignedAllocationPolicy&gt;" status="run" time="0" classname="PaddedVectorTest/7" />
+    <testcase name="CanSwap" type_param="gmx::Allocator&lt;double, gmx::AlignedAllocationPolicy&gt;" status="run" time="0" classname="PaddedVectorTest/7" />
+  </testsuite>
+  <testsuite name="PaddedVectorTest/8" tests="4" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="ConstructsResizesAndReserves" type_param="gmx::Allocator&lt;gmx::BasicVector&lt;float&gt;, gmx::AlignedAllocationPolicy&gt;" status="run" time="0" classname="PaddedVectorTest/8" />
+    <testcase name="CanCopyAssign" type_param="gmx::Allocator&lt;gmx::BasicVector&lt;float&gt;, gmx::AlignedAllocationPolicy&gt;" status="run" time="0" classname="PaddedVectorTest/8" />
+    <testcase name="CanMoveAssign" type_param="gmx::Allocator&lt;gmx::BasicVector&lt;float&gt;, gmx::AlignedAllocationPolicy&gt;" status="run" time="0" classname="PaddedVectorTest/8" />
+    <testcase name="CanSwap" type_param="gmx::Allocator&lt;gmx::BasicVector&lt;float&gt;, gmx::AlignedAllocationPolicy&gt;" status="run" time="0" classname="PaddedVectorTest/8" />
+  </testsuite>
+  <testsuite name="PaddedVectorTest/9" tests="4" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="ConstructsResizesAndReserves" type_param="gmx::Allocator&lt;gmx::BasicVector&lt;double&gt;, gmx::AlignedAllocationPolicy&gt;" status="run" time="0" classname="PaddedVectorTest/9" />
+    <testcase name="CanCopyAssign" type_param="gmx::Allocator&lt;gmx::BasicVector&lt;double&gt;, gmx::AlignedAllocationPolicy&gt;" status="run" time="0" classname="PaddedVectorTest/9" />
+    <testcase name="CanMoveAssign" type_param="gmx::Allocator&lt;gmx::BasicVector&lt;double&gt;, gmx::AlignedAllocationPolicy&gt;" status="run" time="0" classname="PaddedVectorTest/9" />
+    <testcase name="CanSwap" type_param="gmx::Allocator&lt;gmx::BasicVector&lt;double&gt;, gmx::AlignedAllocationPolicy&gt;" status="run" time="0" classname="PaddedVectorTest/9" />
+  </testsuite>
+  <testsuite name="RVecTest" tests="33" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="CanBeStoredInVector" status="run" time="0" classname="RVecTest" />
+    <testcase name="ConvertsImplicitlyFrom_rvec" status="run" time="0" classname="RVecTest" />
+    <testcase name="ConvertsImplicitlyTo_rvec" status="run" time="0" classname="RVecTest" />
+    <testcase name="WorksAsMutable_rvec" status="run" time="0" classname="RVecTest" />
+    <testcase name="WorksAs_rvec_Array" status="run" time="0" classname="RVecTest" />
+    <testcase name="CanAddRVecToRvec" status="run" time="0" classname="RVecTest" />
+    <testcase name="CanAddAssignRVecToRvec" status="run" time="0" classname="RVecTest" />
+    <testcase name="CanSubtractRVecFromRvec" status="run" time="0" classname="RVecTest" />
+    <testcase name="CanSubtractAssignRVecFromRvec" status="run" time="0" classname="RVecTest" />
+    <testcase name="CanDotProductRVecByRvec" status="run" time="0" classname="RVecTest" />
+    <testcase name="CanCrossProductRVecByRvec" status="run" time="0" classname="RVecTest" />
+    <testcase name="CanDivideRVecInplace" status="run" time="0" classname="RVecTest" />
+    <testcase name="CanScaleRVec" status="run" time="0" classname="RVecTest" />
+    <testcase name="CanDivideRVec" status="run" time="0" classname="RVecTest" />
+    <testcase name="CanDoUnitvFromRVec" status="run" time="0" classname="RVecTest" />
+    <testcase name="CanSqLengthOfRVec" status="run" time="0" classname="RVecTest" />
+    <testcase name="CanLengthOfRVec" status="run" time="0" classname="RVecTest" />
+    <testcase name="CanCastToRVec" status="run" time="0" classname="RVecTest" />
+    <testcase name="CanCastToDVec" status="run" time="0" classname="RVecTest" />
+    <testcase name="CanLeftScalarMultiply" status="run" time="0" classname="RVecTest" />
+    <testcase name="CanRightScalarMultiply" status="run" time="0" classname="RVecTest" />
+    <testcase name="CanGetUnitvFromRVec" status="run" time="0" classname="RVecTest" />
+    <testcase name="CanGetSqLengthOfRVec" status="run" time="0" classname="RVecTest" />
+    <testcase name="CanGetLengthOfRVec" status="run" time="0" classname="RVecTest" />
+    <testcase name="CanDoCrossProductOfRVec" status="run" time="0" classname="RVecTest" />
+    <testcase name="CanDoDotProductOfRVec" status="run" time="0" classname="RVecTest" />
+    <testcase name="WorksAs_dvec_Reference" status="run" time="0" classname="RVecTest" />
+    <testcase name="WorksAs_ivec_Reference" status="run" time="0" classname="RVecTest" />
+    <testcase name="WorksAs_rvec_Reference" status="run" time="0" classname="RVecTest" />
+    <testcase name="CopyConstructorWorks" status="run" time="0" classname="RVecTest" />
+    <testcase name="CopyAssignmentWorks" status="run" time="0" classname="RVecTest" />
+    <testcase name="MoveConstructorWorks" status="run" time="0" classname="RVecTest" />
+    <testcase name="MoveAssignmentWorks" status="run" time="0" classname="RVecTest" />
+  </testsuite>
+</testsuites>

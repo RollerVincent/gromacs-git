@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="6" failures="0" disabled="0" errors="0" timestamp="2019-11-12T01:53:54" time="0" name="AllTests">
+  <testsuite name="CompatibilityHelper" tests="1" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="MakeUniqueCompiles" status="run" time="0" classname="CompatibilityHelper" />
+  </testsuite>
+  <testsuite name="NotNullConstruction" tests="1" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="Works" status="run" time="0" classname="NotNullConstruction" />
+  </testsuite>
+  <testsuite name="NotNullCasting" tests="1" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="Works" status="run" time="0" classname="NotNullCasting" />
+  </testsuite>
+  <testsuite name="NotNullAssignment" tests="1" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="Works" status="run" time="0" classname="NotNullAssignment" />
+  </testsuite>
+  <testsuite name="MakeNotNull" tests="1" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="Works" status="run" time="0" classname="MakeNotNull" />
+  </testsuite>
+  <testsuite name="NotNull" tests="1" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="WorksInContainers" status="run" time="0" classname="NotNull" />
+  </testsuite>
+</testsuites>

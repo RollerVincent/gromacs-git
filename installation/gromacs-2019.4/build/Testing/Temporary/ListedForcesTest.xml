@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="15" failures="0" disabled="0" errors="0" timestamp="2019-11-12T01:53:54" time="0.004" name="AllTests">
+  <testsuite name="BondedTest" tests="15" failures="0" disabled="0" errors="0" time="0.004">
+    <testcase name="BondAnglePbcNone" status="run" time="0" classname="BondedTest" />
+    <testcase name="BondAnglePbcXy" status="run" time="0.001" classname="BondedTest" />
+    <testcase name="BondAnglePbcXyz" status="run" time="0" classname="BondedTest" />
+    <testcase name="DihedralAnglePbcNone" status="run" time="0" classname="BondedTest" />
+    <testcase name="DihedralAnglePbcXy" status="run" time="0" classname="BondedTest" />
+    <testcase name="DihedralAnglePbcXyz" status="run" time="0" classname="BondedTest" />
+    <testcase name="IfuncBondsPbcNo" status="run" time="0" classname="BondedTest" />
+    <testcase name="IfuncBondsPbcXy" status="run" time="0" classname="BondedTest" />
+    <testcase name="IfuncBondsPbcXyz" status="run" time="0.001" classname="BondedTest" />
+    <testcase name="IfuncAnglesPbcNo" status="run" time="0" classname="BondedTest" />
+    <testcase name="IfuncAnglesPbcXy" status="run" time="0" classname="BondedTest" />
+    <testcase name="IfuncAnglesPbcXYZ" status="run" time="0" classname="BondedTest" />
+    <testcase name="IfuncProperDihedralsPbcNo" status="run" time="0.001" classname="BondedTest" />
+    <testcase name="IfuncProperDihedralsPbcXy" status="run" time="0" classname="BondedTest" />
+    <testcase name="IfuncProperDihedralsPbcXyz" status="run" time="0" classname="BondedTest" />
+  </testsuite>
+</testsuites>

@@ -1,0 +1,405 @@
+Determining if files io.h exist failed with the following output:
+Change Dir: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4fb8a/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_4fb8a.dir/build.make CMakeFiles/cmTC_4fb8a.dir/build
+Building C object CMakeFiles/cmTC_4fb8a.dir/HAVE_IO_H.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_4fb8a.dir/HAVE_IO_H.c.o   -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CheckIncludeFiles/HAVE_IO_H.c
+/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CheckIncludeFiles/HAVE_IO_H.c:2:10: fatal error: 'io.h' file not found
+#include <io.h>
+         ^~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_4fb8a.dir/HAVE_IO_H.c.o] Error 1
+make: *** [cmTC_4fb8a/fast] Error 2
+
+Source:
+/* */
+#include <io.h>
+
+
+int main(void){return 0;}
+
+Determining if the _fileno exist failed with the following output:
+Change Dir: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ecd18/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_ecd18.dir/build.make CMakeFiles/cmTC_ecd18.dir/build
+Building CXX object CMakeFiles/cmTC_ecd18.dir/CheckSymbolExists.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11  -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_ecd18.dir/CheckSymbolExists.cxx.o -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: use of undeclared identifier '_fileno'; did you mean 'fileno'?
+  return ((int*)(&_fileno))[argc];
+                  ^~~~~~~
+                  fileno
+/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/stdio.h:216:6: note: 'fileno' declared here
+int      fileno(FILE *);
+         ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_ecd18.dir/CheckSymbolExists.cxx.o] Error 1
+make: *** [cmTC_ecd18/fast] Error 2
+
+File /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _fileno
+  return ((int*)(&_fileno))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the _commit exist failed with the following output:
+Change Dir: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fba53/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_fba53.dir/build.make CMakeFiles/cmTC_fba53.dir/build
+Building CXX object CMakeFiles/cmTC_fba53.dir/CheckSymbolExists.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11  -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_fba53.dir/CheckSymbolExists.cxx.o -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:2:10: fatal error: 'io.h' file not found
+#include <io.h>
+         ^~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_fba53.dir/CheckSymbolExists.cxx.o] Error 1
+make: *** [cmTC_fba53/fast] Error 2
+
+File /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <io.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _commit
+  return ((int*)(&_commit))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function clock_gettime exists in the rt failed with the following output:
+Change Dir: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_25b93/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_25b93.dir/build.make CMakeFiles/cmTC_25b93.dir/build
+Building C object CMakeFiles/cmTC_25b93.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-unknown-pragmas  -DCHECK_FUNCTION_EXISTS=clock_gettime -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_25b93.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.11.1/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_25b93
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_25b93.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -Wno-unknown-pragmas  -DCHECK_FUNCTION_EXISTS=clock_gettime -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_25b93.dir/CheckFunctionExists.c.o  -o cmTC_25b93 -lrt 
+ld: library not found for -lrt
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_25b93] Error 1
+make: *** [cmTC_25b93/fast] Error 2
+
+
+Determining if the function feenableexcept exists in the m failed with the following output:
+Change Dir: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_38423/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_38423.dir/build.make CMakeFiles/cmTC_38423.dir/build
+Building C object CMakeFiles/cmTC_38423.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-unknown-pragmas  -DCHECK_FUNCTION_EXISTS=feenableexcept -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_38423.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.11.1/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_38423
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_38423.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -Wno-unknown-pragmas  -DCHECK_FUNCTION_EXISTS=feenableexcept -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_38423.dir/CheckFunctionExists.c.o  -o cmTC_38423 -lm 
+Undefined symbols for architecture x86_64:
+  "_feenableexcept", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_38423] Error 1
+make: *** [cmTC_38423/fast] Error 2
+
+
+Determining if the function fedisableexcept exists in the m failed with the following output:
+Change Dir: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a174d/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_a174d.dir/build.make CMakeFiles/cmTC_a174d.dir/build
+Building C object CMakeFiles/cmTC_a174d.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-unknown-pragmas  -DCHECK_FUNCTION_EXISTS=fedisableexcept -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_a174d.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.11.1/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a174d
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a174d.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -Wno-unknown-pragmas  -DCHECK_FUNCTION_EXISTS=fedisableexcept -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a174d.dir/CheckFunctionExists.c.o  -o cmTC_a174d -lm 
+Undefined symbols for architecture x86_64:
+  "_fedisableexcept", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_a174d] Error 1
+make: *** [cmTC_a174d/fast] Error 2
+
+
+Performing C SOURCE FILE Test sched_affinity_compile failed with the following output:
+Change Dir: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_855f3/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_855f3.dir/build.make CMakeFiles/cmTC_855f3.dir/build
+Building C object CMakeFiles/cmTC_855f3.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-unknown-pragmas  -Dsched_affinity_compile -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_855f3.dir/src.c.o   -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/src.c
+/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/src.c:7:3: error: use of undeclared identifier 'cpu_set_t'
+  cpu_set_t mask;
+  ^
+/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/src.c:8:3: warning: implicit declaration of function 'CPU_ZERO' is invalid in C99 [-Wimplicit-function-declaration]
+  CPU_ZERO(&mask);
+  ^
+/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/src.c:8:13: error: use of undeclared identifier 'mask'; did you mean 'main'?
+  CPU_ZERO(&mask);
+            ^~~~
+            main
+/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/src.c:5:5: note: 'main' declared here
+int main(void) {
+    ^
+/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/src.c:9:3: warning: implicit declaration of function 'sched_getaffinity' is invalid in C99 [-Wimplicit-function-declaration]
+  sched_getaffinity(0, sizeof(cpu_set_t), &mask);
+  ^
+/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/src.c:9:31: error: use of undeclared identifier 'cpu_set_t'
+  sched_getaffinity(0, sizeof(cpu_set_t), &mask);
+                              ^
+/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/src.c:9:44: error: use of undeclared identifier 'mask'; did you mean 'main'?
+  sched_getaffinity(0, sizeof(cpu_set_t), &mask);
+                                           ^~~~
+                                           main
+/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/src.c:5:5: note: 'main' declared here
+int main(void) {
+    ^
+/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/src.c:10:6: warning: implicit declaration of function 'CPU_ISSET' is invalid in C99 [-Wimplicit-function-declaration]
+  if(CPU_ISSET(0,&mask))
+     ^
+/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/src.c:10:19: error: use of undeclared identifier 'mask'; did you mean 'main'?
+  if(CPU_ISSET(0,&mask))
+                  ^~~~
+                  main
+/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/src.c:5:5: note: 'main' declared here
+int main(void) {
+    ^
+/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/src.c:12:5: warning: implicit declaration of function 'CPU_CLR' is invalid in C99 [-Wimplicit-function-declaration]
+    CPU_CLR(0,&mask);
+    ^
+/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/src.c:12:16: error: use of undeclared identifier 'mask'; did you mean 'main'?
+    CPU_CLR(0,&mask);
+               ^~~~
+               main
+/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/src.c:5:5: note: 'main' declared here
+int main(void) {
+    ^
+/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/src.c:13:5: warning: implicit declaration of function 'CPU_SET' is invalid in C99 [-Wimplicit-function-declaration]
+    CPU_SET(0,&mask);
+    ^
+/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/src.c:13:16: error: use of undeclared identifier 'mask'; did you mean 'main'?
+    CPU_SET(0,&mask);
+               ^~~~
+               main
+/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/src.c:5:5: note: 'main' declared here
+int main(void) {
+    ^
+/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/src.c:15:3: warning: implicit declaration of function 'sched_setaffinity' is invalid in C99 [-Wimplicit-function-declaration]
+  sched_setaffinity(0, sizeof(cpu_set_t), &mask);
+  ^
+/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/src.c:15:31: error: use of undeclared identifier 'cpu_set_t'
+  sched_setaffinity(0, sizeof(cpu_set_t), &mask);
+                              ^
+/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/src.c:15:44: error: use of undeclared identifier 'mask'; did you mean 'main'?
+  sched_setaffinity(0, sizeof(cpu_set_t), &mask);
+                                           ^~~~
+                                           main
+/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/src.c:5:5: note: 'main' declared here
+int main(void) {
+    ^
+/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/src.c:16:10: warning: implicit declaration of function 'CPU_COUNT' is invalid in C99 [-Wimplicit-function-declaration]
+  return CPU_COUNT(&mask);
+         ^
+/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/src.c:16:21: error: use of undeclared identifier 'mask'; did you mean 'main'?
+  return CPU_COUNT(&mask);
+                    ^~~~
+                    main
+/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/src.c:5:5: note: 'main' declared here
+int main(void) {
+    ^
+7 warnings and 10 errors generated.
+make[1]: *** [CMakeFiles/cmTC_855f3.dir/src.c.o] Error 1
+make: *** [cmTC_855f3/fast] Error 2
+
+Source file was:
+#ifndef _GNU_SOURCE
+#define _GNU_SOURCE 1
+#endif
+#include <sched.h>
+int main(void) {
+  int i;
+  cpu_set_t mask;
+  CPU_ZERO(&mask);
+  sched_getaffinity(0, sizeof(cpu_set_t), &mask);
+  if(CPU_ISSET(0,&mask))
+  {
+    CPU_CLR(0,&mask);
+    CPU_SET(0,&mask);
+  }
+  sched_setaffinity(0, sizeof(cpu_set_t), &mask);
+  return CPU_COUNT(&mask);
+}
+Determining if files malloc.h exist failed with the following output:
+Change Dir: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a237b/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_a237b.dir/build.make CMakeFiles/cmTC_a237b.dir/build
+Building C object CMakeFiles/cmTC_a237b.dir/HAVE_MALLOC_H.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_a237b.dir/HAVE_MALLOC_H.c.o   -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CheckIncludeFiles/HAVE_MALLOC_H.c
+/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CheckIncludeFiles/HAVE_MALLOC_H.c:2:10: fatal error: 'malloc.h' file not found
+#include <malloc.h>
+         ^~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_a237b.dir/HAVE_MALLOC_H.c.o] Error 1
+make: *** [cmTC_a237b/fast] Error 2
+
+Source:
+/* */
+#include <malloc.h>
+
+
+int main(void){return 0;}
+
+Determining if the memalign exist failed with the following output:
+Change Dir: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7a90f/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_7a90f.dir/build.make CMakeFiles/cmTC_7a90f.dir/build
+Building CXX object CMakeFiles/cmTC_7a90f.dir/CheckSymbolExists.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11  -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_7a90f.dir/CheckSymbolExists.cxx.o -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: use of undeclared identifier 'memalign'
+  return ((int*)(&memalign))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_7a90f.dir/CheckSymbolExists.cxx.o] Error 1
+make: *** [cmTC_7a90f/fast] Error 2
+
+File /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memalign
+  return ((int*)(&memalign))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C++ SOURCE FILE Test PTHREAD_SETAFFINITY failed with the following output:
+Change Dir: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c9db0/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_c9db0.dir/build.make CMakeFiles/cmTC_c9db0.dir/build
+Building CXX object CMakeFiles/cmTC_c9db0.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11  -Wno-unknown-pragmas  -DPTHREAD_SETAFFINITY -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_c9db0.dir/src.cxx.o -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/src.cxx
+/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/src.cxx:6:22: error: unknown type name 'cpu_set_t'
+    int main(void) { cpu_set_t set;
+                     ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_c9db0.dir/src.cxx.o] Error 1
+make: *** [cmTC_c9db0/fast] Error 2
+
+Source file was:
+#define _GNU_SOURCE
+#include <pthread.h>
+#include <stdlib.h>
+#include <stdio.h>
+#include <errno.h>
+    int main(void) { cpu_set_t set;
+        CPU_ZERO(&set);
+        CPU_SET(0, &set);
+        pthread_setaffinity_np(pthread_self(), sizeof(set), &set);
+        return 0;
+    }
+Performing C SOURCE FILE Test C_xCORE_AVX512_qopt_zmm_usage_high_FLAG_ACCEPTED failed with the following output:
+Change Dir: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_acccc/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_acccc.dir/build.make CMakeFiles/cmTC_acccc.dir/build
+Building C object CMakeFiles/cmTC_acccc.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-unknown-pragmas  -DC_xCORE_AVX512_qopt_zmm_usage_high_FLAG_ACCEPTED  -xCORE-AVX512 -qopt-zmm-usage=high -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_acccc.dir/src.c.o   -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/src.c
+clang: error: unknown argument: '-qopt-zmm-usage=high'
+clang: error: language not recognized: 'CORE-AVX512'
+clang: warning: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/src.c: 'linker' input unused [-Wunused-command-line-argument]
+make[1]: *** [CMakeFiles/cmTC_acccc.dir/src.c.o] Error 1
+make: *** [cmTC_acccc/fast] Error 2
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_xCORE_AVX512_FLAG_ACCEPTED failed with the following output:
+Change Dir: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e9038/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_e9038.dir/build.make CMakeFiles/cmTC_e9038.dir/build
+Building C object CMakeFiles/cmTC_e9038.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-unknown-pragmas  -DC_xCORE_AVX512_FLAG_ACCEPTED  -xCORE-AVX512 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_e9038.dir/src.c.o   -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/src.c
+clang: error: language not recognized: 'CORE-AVX512'
+clang: warning: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/src.c: 'linker' input unused [-Wunused-command-line-argument]
+make[1]: *** [CMakeFiles/cmTC_e9038.dir/src.c.o] Error 1
+make: *** [cmTC_e9038/fast] Error 2
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_xCORE_AVX512_qopt_zmm_usage_high_FLAG_ACCEPTED failed with the following output:
+Change Dir: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0a909/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_0a909.dir/build.make CMakeFiles/cmTC_0a909.dir/build
+Building CXX object CMakeFiles/cmTC_0a909.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11  -Wno-unknown-pragmas  -DCXX_xCORE_AVX512_qopt_zmm_usage_high_FLAG_ACCEPTED  -xCORE-AVX512 -qopt-zmm-usage=high -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_0a909.dir/src.cxx.o -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/src.cxx
+clang: error: unknown argument: '-qopt-zmm-usage=high'
+clang: error: language not recognized: 'CORE-AVX512'
+clang: warning: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/src.cxx: 'linker' input unused [-Wunused-command-line-argument]
+make[1]: *** [CMakeFiles/cmTC_0a909.dir/src.cxx.o] Error 1
+make: *** [cmTC_0a909/fast] Error 2
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test CXX_xCORE_AVX512_FLAG_ACCEPTED failed with the following output:
+Change Dir: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_19018/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_19018.dir/build.make CMakeFiles/cmTC_19018.dir/build
+Building CXX object CMakeFiles/cmTC_19018.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11  -Wno-unknown-pragmas  -DCXX_xCORE_AVX512_FLAG_ACCEPTED  -xCORE-AVX512 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_19018.dir/src.cxx.o -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/src.cxx
+clang: error: language not recognized: 'CORE-AVX512'
+clang: warning: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/src.cxx: 'linker' input unused [-Wunused-command-line-argument]
+make[1]: *** [CMakeFiles/cmTC_19018.dir/src.cxx.o] Error 1
+make: *** [cmTC_19018/fast] Error 2
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test HAS_NO_MSVC_UNUSED failed with the following output:
+Change Dir: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_63685/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_63685.dir/build.make CMakeFiles/cmTC_63685.dir/build
+Building CXX object CMakeFiles/cmTC_63685.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -mavx2 -mfma    -std=c++11  -Wno-unknown-pragmas  -DHAS_NO_MSVC_UNUSED /wd4101 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_63685.dir/src.cxx.o -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/src.cxx
+clang: error: no such file or directory: '/wd4101'
+make[1]: *** [CMakeFiles/cmTC_63685.dir/src.cxx.o] Error 1
+make: *** [cmTC_63685/fast] Error 2
+
+Source file was:
+int main() { return 0;}
+Performing C++ SOURCE FILE Test HAS_DECL_IN_SOURCE failed with the following output:
+Change Dir: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_27bfe/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_27bfe.dir/build.make CMakeFiles/cmTC_27bfe.dir/build
+Building CXX object CMakeFiles/cmTC_27bfe.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -mavx2 -mfma    -std=c++11  -Wno-unknown-pragmas  -DHAS_DECL_IN_SOURCE -wd1419 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_27bfe.dir/src.cxx.o -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/src.cxx
+clang: error: unknown argument: '-wd1419'
+make[1]: *** [CMakeFiles/cmTC_27bfe.dir/src.cxx.o] Error 1
+make: *** [cmTC_27bfe/fast] Error 2
+
+Source file was:
+int main() { return 0;}

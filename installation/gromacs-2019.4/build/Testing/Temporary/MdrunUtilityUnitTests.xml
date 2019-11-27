@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="13" failures="0" disabled="0" errors="0" timestamp="2019-11-12T01:53:54" time="0.002" name="AllTests">
+  <testsuite name="ThreadAffinityTest" tests="13" failures="0" disabled="0" errors="0" time="0.002">
+    <testcase name="DoesNothingWhenDisabled" status="run" time="0.001" classname="ThreadAffinityTest" />
+    <testcase name="DoesNothingWhenNotSupported" status="run" time="0" classname="ThreadAffinityTest" />
+    <testcase name="DoesNothingWithAutoAndTooFewUserSetThreads" status="run" time="0" classname="ThreadAffinityTest" />
+    <testcase name="DoesNothingWithAutoAndTooManyUserSetThreads" status="run" time="0" classname="ThreadAffinityTest" />
+    <testcase name="DoesNothingWithAutoAndTooManyAutoSetThreads" status="run" time="0" classname="ThreadAffinityTest" />
+    <testcase name="DoesNothingWithUnknownHardware" status="run" time="0" classname="ThreadAffinityTest" />
+    <testcase name="DoesNothingWithTooManyThreads" status="run" time="0" classname="ThreadAffinityTest" />
+    <testcase name="DoesNothingWithTooLargeOffset" status="run" time="0" classname="ThreadAffinityTest" />
+    <testcase name="DoesNothingWithTooLargeStride" status="run" time="0" classname="ThreadAffinityTest" />
+    <testcase name="PinsSingleThreadWithAuto" status="run" time="0.001" classname="ThreadAffinityTest" />
+    <testcase name="PinsSingleThreadWhenForced" status="run" time="0" classname="ThreadAffinityTest" />
+    <testcase name="PinsSingleThreadWithOffsetWhenForced" status="run" time="0" classname="ThreadAffinityTest" />
+    <testcase name="HandlesPinningFailureWithSingleThread" status="run" time="0" classname="ThreadAffinityTest" />
+  </testsuite>
+</testsuites>

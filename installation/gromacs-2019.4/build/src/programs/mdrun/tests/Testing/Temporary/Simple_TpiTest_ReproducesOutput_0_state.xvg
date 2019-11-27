@@ -1,0 +1,35 @@
+# This file was created Tue Nov 12 01:54:17 2019
+# Created by:
+#                  :-) GROMACS - legacy-mdrun-test, 2019.4 (-:
+# 
+# Executable:   /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/bin/legacy-mdrun-test
+# Data prefix:  /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4 (source tree)
+# Working dir:  /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/programs/mdrun/tests
+# Command line:
+#   legacy-mdrun-test --gtest_output=xml:/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/Testing/Temporary/LegacyGroupSchemeMdrunTests.xml
+# legacy-mdrun-test is part of G R O M A C S:
+#
+# Gromacs Runs One Microsecond At Cannonball Speeds
+#
+@    title "TPI energy distribution"
+@    xaxis  label "\xb\f{}U - log(V/<V>)"
+@    yaxis  label "count"
+@TYPE xy
+@ subtitle "number \xb\f{}U > 50: 2.000e+02"
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "direct"
+@ s1 legend "reweighted"
+ 59.10          0  0.00000e+00
+ 59.20          0  0.00000e+00
+ 59.30          0  0.00000e+00
+ 59.40          0  0.00000e+00
+ 59.50          0  0.00000e+00
+ 59.60          0  0.00000e+00
+ 59.70          0  0.00000e+00
+ 59.80          0  0.00000e+00
+ 59.90          0  0.00000e+00

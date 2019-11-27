@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="4" failures="0" disabled="0" errors="0" timestamp="2019-11-12T01:53:54" time="0" name="AllTests">
+  <testsuite name="CpuInfoTest" tests="1" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="SupportLevel" status="run" time="0" classname="CpuInfoTest" />
+  </testsuite>
+  <testsuite name="HardwareTopologyTest" tests="3" failures="0" disabled="0" errors="0" time="0">
+    <testcase name="Execute" status="run" time="0" classname="HardwareTopologyTest" />
+    <testcase name="ProcessorSelfconsistency" status="run" time="0" classname="HardwareTopologyTest" />
+    <testcase name="NumaCacheSelfconsistency" status="run" time="0" classname="HardwareTopologyTest" />
+  </testsuite>
+</testsuites>
