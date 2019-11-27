@@ -48,10 +48,10 @@ RM = /usr/local/Cellar/cmake/3.11.1/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4
+CMAKE_SOURCE_DIR = /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build
+CMAKE_BINARY_DIR = /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -116,7 +116,7 @@ test/fast: test
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && /usr/local/Cellar/cmake/3.11.1/bin/cpack --config ./CPackConfig.cmake
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && /usr/local/Cellar/cmake/3.11.1/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -149,7 +149,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && /usr/local/Cellar/cmake/3.11.1/bin/cpack --config ./CPackSourceConfig.cmake /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CPackSourceConfig.cmake
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && /usr/local/Cellar/cmake/3.11.1/bin/cpack --config ./CPackSourceConfig.cmake /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -159,14 +159,14 @@ package_source/fast: package_source
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/correlationfunctions/tests/CMakeFiles/progress.marks
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f CMakeFiles/Makefile2 src/gromacs/correlationfunctions/tests/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles 0
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/correlationfunctions/tests/CMakeFiles/progress.marks
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f CMakeFiles/Makefile2 src/gromacs/correlationfunctions/tests/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f CMakeFiles/Makefile2 src/gromacs/correlationfunctions/tests/clean
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f CMakeFiles/Makefile2 src/gromacs/correlationfunctions/tests/clean
 .PHONY : clean
 
 # The main clean target
@@ -176,22 +176,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f CMakeFiles/Makefile2 src/gromacs/correlationfunctions/tests/preinstall
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f CMakeFiles/Makefile2 src/gromacs/correlationfunctions/tests/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f CMakeFiles/Makefile2 src/gromacs/correlationfunctions/tests/preinstall
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f CMakeFiles/Makefile2 src/gromacs/correlationfunctions/tests/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/gromacs/correlationfunctions/tests/CMakeFiles/correlations-test.dir/rule:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f CMakeFiles/Makefile2 src/gromacs/correlationfunctions/tests/CMakeFiles/correlations-test.dir/rule
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f CMakeFiles/Makefile2 src/gromacs/correlationfunctions/tests/CMakeFiles/correlations-test.dir/rule
 .PHONY : src/gromacs/correlationfunctions/tests/CMakeFiles/correlations-test.dir/rule
 
 # Convenience name for target.
@@ -201,7 +201,7 @@ correlations-test: src/gromacs/correlationfunctions/tests/CMakeFiles/correlation
 
 # fast build rule for target.
 correlations-test/fast:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/correlationfunctions/tests/CMakeFiles/correlations-test.dir/build.make src/gromacs/correlationfunctions/tests/CMakeFiles/correlations-test.dir/build
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/correlationfunctions/tests/CMakeFiles/correlations-test.dir/build.make src/gromacs/correlationfunctions/tests/CMakeFiles/correlations-test.dir/build
 .PHONY : correlations-test/fast
 
 __/__/__/testutils/unittest_main.o: __/__/__/testutils/unittest_main.cpp.o
@@ -210,7 +210,7 @@ __/__/__/testutils/unittest_main.o: __/__/__/testutils/unittest_main.cpp.o
 
 # target to build an object file
 __/__/__/testutils/unittest_main.cpp.o:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/correlationfunctions/tests/CMakeFiles/correlations-test.dir/build.make src/gromacs/correlationfunctions/tests/CMakeFiles/correlations-test.dir/__/__/__/testutils/unittest_main.cpp.o
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/correlationfunctions/tests/CMakeFiles/correlations-test.dir/build.make src/gromacs/correlationfunctions/tests/CMakeFiles/correlations-test.dir/__/__/__/testutils/unittest_main.cpp.o
 .PHONY : __/__/__/testutils/unittest_main.cpp.o
 
 __/__/__/testutils/unittest_main.i: __/__/__/testutils/unittest_main.cpp.i
@@ -219,7 +219,7 @@ __/__/__/testutils/unittest_main.i: __/__/__/testutils/unittest_main.cpp.i
 
 # target to preprocess a source file
 __/__/__/testutils/unittest_main.cpp.i:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/correlationfunctions/tests/CMakeFiles/correlations-test.dir/build.make src/gromacs/correlationfunctions/tests/CMakeFiles/correlations-test.dir/__/__/__/testutils/unittest_main.cpp.i
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/correlationfunctions/tests/CMakeFiles/correlations-test.dir/build.make src/gromacs/correlationfunctions/tests/CMakeFiles/correlations-test.dir/__/__/__/testutils/unittest_main.cpp.i
 .PHONY : __/__/__/testutils/unittest_main.cpp.i
 
 __/__/__/testutils/unittest_main.s: __/__/__/testutils/unittest_main.cpp.s
@@ -228,7 +228,7 @@ __/__/__/testutils/unittest_main.s: __/__/__/testutils/unittest_main.cpp.s
 
 # target to generate assembly for a file
 __/__/__/testutils/unittest_main.cpp.s:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/correlationfunctions/tests/CMakeFiles/correlations-test.dir/build.make src/gromacs/correlationfunctions/tests/CMakeFiles/correlations-test.dir/__/__/__/testutils/unittest_main.cpp.s
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/correlationfunctions/tests/CMakeFiles/correlations-test.dir/build.make src/gromacs/correlationfunctions/tests/CMakeFiles/correlations-test.dir/__/__/__/testutils/unittest_main.cpp.s
 .PHONY : __/__/__/testutils/unittest_main.cpp.s
 
 autocorr.o: autocorr.cpp.o
@@ -237,7 +237,7 @@ autocorr.o: autocorr.cpp.o
 
 # target to build an object file
 autocorr.cpp.o:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/correlationfunctions/tests/CMakeFiles/correlations-test.dir/build.make src/gromacs/correlationfunctions/tests/CMakeFiles/correlations-test.dir/autocorr.cpp.o
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/correlationfunctions/tests/CMakeFiles/correlations-test.dir/build.make src/gromacs/correlationfunctions/tests/CMakeFiles/correlations-test.dir/autocorr.cpp.o
 .PHONY : autocorr.cpp.o
 
 autocorr.i: autocorr.cpp.i
@@ -246,7 +246,7 @@ autocorr.i: autocorr.cpp.i
 
 # target to preprocess a source file
 autocorr.cpp.i:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/correlationfunctions/tests/CMakeFiles/correlations-test.dir/build.make src/gromacs/correlationfunctions/tests/CMakeFiles/correlations-test.dir/autocorr.cpp.i
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/correlationfunctions/tests/CMakeFiles/correlations-test.dir/build.make src/gromacs/correlationfunctions/tests/CMakeFiles/correlations-test.dir/autocorr.cpp.i
 .PHONY : autocorr.cpp.i
 
 autocorr.s: autocorr.cpp.s
@@ -255,7 +255,7 @@ autocorr.s: autocorr.cpp.s
 
 # target to generate assembly for a file
 autocorr.cpp.s:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/correlationfunctions/tests/CMakeFiles/correlations-test.dir/build.make src/gromacs/correlationfunctions/tests/CMakeFiles/correlations-test.dir/autocorr.cpp.s
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/correlationfunctions/tests/CMakeFiles/correlations-test.dir/build.make src/gromacs/correlationfunctions/tests/CMakeFiles/correlations-test.dir/autocorr.cpp.s
 .PHONY : autocorr.cpp.s
 
 correlationdataset.o: correlationdataset.cpp.o
@@ -264,7 +264,7 @@ correlationdataset.o: correlationdataset.cpp.o
 
 # target to build an object file
 correlationdataset.cpp.o:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/correlationfunctions/tests/CMakeFiles/correlations-test.dir/build.make src/gromacs/correlationfunctions/tests/CMakeFiles/correlations-test.dir/correlationdataset.cpp.o
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/correlationfunctions/tests/CMakeFiles/correlations-test.dir/build.make src/gromacs/correlationfunctions/tests/CMakeFiles/correlations-test.dir/correlationdataset.cpp.o
 .PHONY : correlationdataset.cpp.o
 
 correlationdataset.i: correlationdataset.cpp.i
@@ -273,7 +273,7 @@ correlationdataset.i: correlationdataset.cpp.i
 
 # target to preprocess a source file
 correlationdataset.cpp.i:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/correlationfunctions/tests/CMakeFiles/correlations-test.dir/build.make src/gromacs/correlationfunctions/tests/CMakeFiles/correlations-test.dir/correlationdataset.cpp.i
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/correlationfunctions/tests/CMakeFiles/correlations-test.dir/build.make src/gromacs/correlationfunctions/tests/CMakeFiles/correlations-test.dir/correlationdataset.cpp.i
 .PHONY : correlationdataset.cpp.i
 
 correlationdataset.s: correlationdataset.cpp.s
@@ -282,7 +282,7 @@ correlationdataset.s: correlationdataset.cpp.s
 
 # target to generate assembly for a file
 correlationdataset.cpp.s:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/correlationfunctions/tests/CMakeFiles/correlations-test.dir/build.make src/gromacs/correlationfunctions/tests/CMakeFiles/correlations-test.dir/correlationdataset.cpp.s
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/correlationfunctions/tests/CMakeFiles/correlations-test.dir/build.make src/gromacs/correlationfunctions/tests/CMakeFiles/correlations-test.dir/correlationdataset.cpp.s
 .PHONY : correlationdataset.cpp.s
 
 expfit.o: expfit.cpp.o
@@ -291,7 +291,7 @@ expfit.o: expfit.cpp.o
 
 # target to build an object file
 expfit.cpp.o:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/correlationfunctions/tests/CMakeFiles/correlations-test.dir/build.make src/gromacs/correlationfunctions/tests/CMakeFiles/correlations-test.dir/expfit.cpp.o
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/correlationfunctions/tests/CMakeFiles/correlations-test.dir/build.make src/gromacs/correlationfunctions/tests/CMakeFiles/correlations-test.dir/expfit.cpp.o
 .PHONY : expfit.cpp.o
 
 expfit.i: expfit.cpp.i
@@ -300,7 +300,7 @@ expfit.i: expfit.cpp.i
 
 # target to preprocess a source file
 expfit.cpp.i:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/correlationfunctions/tests/CMakeFiles/correlations-test.dir/build.make src/gromacs/correlationfunctions/tests/CMakeFiles/correlations-test.dir/expfit.cpp.i
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/correlationfunctions/tests/CMakeFiles/correlations-test.dir/build.make src/gromacs/correlationfunctions/tests/CMakeFiles/correlations-test.dir/expfit.cpp.i
 .PHONY : expfit.cpp.i
 
 expfit.s: expfit.cpp.s
@@ -309,7 +309,7 @@ expfit.s: expfit.cpp.s
 
 # target to generate assembly for a file
 expfit.cpp.s:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/correlationfunctions/tests/CMakeFiles/correlations-test.dir/build.make src/gromacs/correlationfunctions/tests/CMakeFiles/correlations-test.dir/expfit.cpp.s
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/correlationfunctions/tests/CMakeFiles/correlations-test.dir/build.make src/gromacs/correlationfunctions/tests/CMakeFiles/correlations-test.dir/expfit.cpp.s
 .PHONY : expfit.cpp.s
 
 manyautocorrelation.o: manyautocorrelation.cpp.o
@@ -318,7 +318,7 @@ manyautocorrelation.o: manyautocorrelation.cpp.o
 
 # target to build an object file
 manyautocorrelation.cpp.o:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/correlationfunctions/tests/CMakeFiles/correlations-test.dir/build.make src/gromacs/correlationfunctions/tests/CMakeFiles/correlations-test.dir/manyautocorrelation.cpp.o
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/correlationfunctions/tests/CMakeFiles/correlations-test.dir/build.make src/gromacs/correlationfunctions/tests/CMakeFiles/correlations-test.dir/manyautocorrelation.cpp.o
 .PHONY : manyautocorrelation.cpp.o
 
 manyautocorrelation.i: manyautocorrelation.cpp.i
@@ -327,7 +327,7 @@ manyautocorrelation.i: manyautocorrelation.cpp.i
 
 # target to preprocess a source file
 manyautocorrelation.cpp.i:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/correlationfunctions/tests/CMakeFiles/correlations-test.dir/build.make src/gromacs/correlationfunctions/tests/CMakeFiles/correlations-test.dir/manyautocorrelation.cpp.i
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/correlationfunctions/tests/CMakeFiles/correlations-test.dir/build.make src/gromacs/correlationfunctions/tests/CMakeFiles/correlations-test.dir/manyautocorrelation.cpp.i
 .PHONY : manyautocorrelation.cpp.i
 
 manyautocorrelation.s: manyautocorrelation.cpp.s
@@ -336,7 +336,7 @@ manyautocorrelation.s: manyautocorrelation.cpp.s
 
 # target to generate assembly for a file
 manyautocorrelation.cpp.s:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/correlationfunctions/tests/CMakeFiles/correlations-test.dir/build.make src/gromacs/correlationfunctions/tests/CMakeFiles/correlations-test.dir/manyautocorrelation.cpp.s
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/correlationfunctions/tests/CMakeFiles/correlations-test.dir/build.make src/gromacs/correlationfunctions/tests/CMakeFiles/correlations-test.dir/manyautocorrelation.cpp.s
 .PHONY : manyautocorrelation.cpp.s
 
 # Help Target
@@ -381,6 +381,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

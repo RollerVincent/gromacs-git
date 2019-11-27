@@ -43,10 +43,10 @@ RM = /usr/local/Cellar/cmake/3.11.1/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4
+CMAKE_SOURCE_DIR = /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build
+CMAKE_BINARY_DIR = /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build
 
 # Include any dependencies generated for this target.
 include src/programs/CMakeFiles/gmx.dir/depend.make
@@ -59,29 +59,29 @@ include src/programs/CMakeFiles/gmx.dir/flags.make
 
 src/programs/CMakeFiles/gmx.dir/gmx.cpp.o: src/programs/CMakeFiles/gmx.dir/flags.make
 src/programs/CMakeFiles/gmx.dir/gmx.cpp.o: ../src/programs/gmx.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/programs/CMakeFiles/gmx.dir/gmx.cpp.o"
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/programs && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gmx.dir/gmx.cpp.o -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/programs/gmx.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/programs/CMakeFiles/gmx.dir/gmx.cpp.o"
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/programs && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gmx.dir/gmx.cpp.o -c /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/programs/gmx.cpp
 
 src/programs/CMakeFiles/gmx.dir/gmx.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gmx.dir/gmx.cpp.i"
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/programs && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/programs/gmx.cpp > CMakeFiles/gmx.dir/gmx.cpp.i
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/programs && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/programs/gmx.cpp > CMakeFiles/gmx.dir/gmx.cpp.i
 
 src/programs/CMakeFiles/gmx.dir/gmx.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gmx.dir/gmx.cpp.s"
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/programs && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/programs/gmx.cpp -o CMakeFiles/gmx.dir/gmx.cpp.s
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/programs && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/programs/gmx.cpp -o CMakeFiles/gmx.dir/gmx.cpp.s
 
 src/programs/CMakeFiles/gmx.dir/legacymodules.cpp.o: src/programs/CMakeFiles/gmx.dir/flags.make
 src/programs/CMakeFiles/gmx.dir/legacymodules.cpp.o: ../src/programs/legacymodules.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/programs/CMakeFiles/gmx.dir/legacymodules.cpp.o"
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/programs && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gmx.dir/legacymodules.cpp.o -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/programs/legacymodules.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/programs/CMakeFiles/gmx.dir/legacymodules.cpp.o"
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/programs && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gmx.dir/legacymodules.cpp.o -c /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/programs/legacymodules.cpp
 
 src/programs/CMakeFiles/gmx.dir/legacymodules.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gmx.dir/legacymodules.cpp.i"
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/programs && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/programs/legacymodules.cpp > CMakeFiles/gmx.dir/legacymodules.cpp.i
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/programs && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/programs/legacymodules.cpp > CMakeFiles/gmx.dir/legacymodules.cpp.i
 
 src/programs/CMakeFiles/gmx.dir/legacymodules.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gmx.dir/legacymodules.cpp.s"
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/programs && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/programs/legacymodules.cpp -o CMakeFiles/gmx.dir/legacymodules.cpp.s
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/programs && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/programs/legacymodules.cpp -o CMakeFiles/gmx.dir/legacymodules.cpp.s
 
 # Object files for target gmx
 gmx_OBJECTS = \
@@ -90,8 +90,8 @@ gmx_OBJECTS = \
 
 # External object files for target gmx
 gmx_EXTERNAL_OBJECTS = \
-"/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/programs/CMakeFiles/mdrun_objlib.dir/mdrun/mdrun.cpp.o" \
-"/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/programs/CMakeFiles/view_objlib.dir/view/view.cpp.o"
+"/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/programs/CMakeFiles/mdrun_objlib.dir/mdrun/mdrun.cpp.o" \
+"/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/programs/CMakeFiles/view_objlib.dir/view/view.cpp.o"
 
 bin/gmx: src/programs/CMakeFiles/gmx.dir/gmx.cpp.o
 bin/gmx: src/programs/CMakeFiles/gmx.dir/legacymodules.cpp.o
@@ -100,8 +100,8 @@ bin/gmx: src/programs/CMakeFiles/view_objlib.dir/view/view.cpp.o
 bin/gmx: src/programs/CMakeFiles/gmx.dir/build.make
 bin/gmx: lib/libgromacs.4.0.0.dylib
 bin/gmx: src/programs/CMakeFiles/gmx.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../../bin/gmx"
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/programs && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gmx.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../../bin/gmx"
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/programs && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gmx.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/programs/CMakeFiles/gmx.dir/build: bin/gmx
@@ -109,10 +109,10 @@ src/programs/CMakeFiles/gmx.dir/build: bin/gmx
 .PHONY : src/programs/CMakeFiles/gmx.dir/build
 
 src/programs/CMakeFiles/gmx.dir/clean:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/programs && $(CMAKE_COMMAND) -P CMakeFiles/gmx.dir/cmake_clean.cmake
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/programs && $(CMAKE_COMMAND) -P CMakeFiles/gmx.dir/cmake_clean.cmake
 .PHONY : src/programs/CMakeFiles/gmx.dir/clean
 
 src/programs/CMakeFiles/gmx.dir/depend:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4 /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/programs /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/programs /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/programs/CMakeFiles/gmx.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4 /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/programs /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/programs /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/programs/CMakeFiles/gmx.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/programs/CMakeFiles/gmx.dir/depend
 

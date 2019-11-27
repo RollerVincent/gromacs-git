@@ -26,7 +26,7 @@ src/gromacs/onlinehelp/tests/CMakeFiles/onlinehelp-test.dir/__/__/__/testutils/u
  ../src/external/googletest/googletest/include/gtest/internal/gtest-type-util.h
  ../src/gmxpre.h
  ../src/testutils/testinit.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/testutils/unittest_main.cpp
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/testutils/unittest_main.cpp
  src/gmxpre-config.h
 src/gromacs/onlinehelp/tests/CMakeFiles/onlinehelp-test.dir/helpformat.cpp.o
  ../src/external/googletest/googletest/include/gtest/gtest-death-test.h
@@ -55,7 +55,7 @@ src/gromacs/onlinehelp/tests/CMakeFiles/onlinehelp-test.dir/helpformat.cpp.o
  ../src/gromacs/onlinehelp/helpformat.h
  ../src/gromacs/utility/classhelpers.h
  ../src/testutils/stringtest.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/onlinehelp/tests/helpformat.cpp
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/onlinehelp/tests/helpformat.cpp
  src/gmxpre-config.h
 src/gromacs/onlinehelp/tests/CMakeFiles/onlinehelp-test.dir/helpmanager.cpp.o
  ../src/external/googletest/googlemock/include/gmock/gmock-actions.h
@@ -115,7 +115,7 @@ src/gromacs/onlinehelp/tests/CMakeFiles/onlinehelp-test.dir/helpmanager.cpp.o
  ../src/gromacs/utility/textwriter.h
  ../src/testutils/stringtest.h
  ../src/testutils/testasserts.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/onlinehelp/tests/helpmanager.cpp
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/onlinehelp/tests/helpmanager.cpp
  src/gmxpre-config.h
 src/gromacs/onlinehelp/tests/CMakeFiles/onlinehelp-test.dir/helpwritercontext.cpp.o
  ../src/external/googletest/googletest/include/gtest/gtest-death-test.h
@@ -149,5 +149,5 @@ src/gromacs/onlinehelp/tests/CMakeFiles/onlinehelp-test.dir/helpwritercontext.cp
  ../src/gromacs/utility/gmxassert.h
  ../src/gromacs/utility/stringutil.h
  ../src/testutils/stringtest.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/onlinehelp/tests/helpwritercontext.cpp
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/onlinehelp/tests/helpwritercontext.cpp
  src/gmxpre-config.h

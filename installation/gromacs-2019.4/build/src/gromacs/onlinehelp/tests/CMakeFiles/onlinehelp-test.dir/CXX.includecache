@@ -628,21 +628,21 @@ gromacs/utility/real.h
 
 ../src/testutils/testinit.h
 
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/onlinehelp/tests/helpformat.cpp
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/onlinehelp/tests/helpformat.cpp
 gmxpre.h
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/onlinehelp/tests/gmxpre.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/onlinehelp/tests/gmxpre.h
 gromacs/onlinehelp/helpformat.h
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/onlinehelp/tests/gromacs/onlinehelp/helpformat.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/onlinehelp/tests/gromacs/onlinehelp/helpformat.h
 gtest/gtest.h
 -
 testutils/stringtest.h
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/onlinehelp/tests/testutils/stringtest.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/onlinehelp/tests/testutils/stringtest.h
 
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/onlinehelp/tests/helpmanager.cpp
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/onlinehelp/tests/helpmanager.cpp
 gmxpre.h
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/onlinehelp/tests/gmxpre.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/onlinehelp/tests/gmxpre.h
 gromacs/onlinehelp/helpmanager.h
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/onlinehelp/tests/gromacs/onlinehelp/helpmanager.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/onlinehelp/tests/gromacs/onlinehelp/helpmanager.h
 string
 -
 gmock/gmock.h
@@ -650,47 +650,47 @@ gmock/gmock.h
 gtest/gtest.h
 -
 gromacs/onlinehelp/helptopic.h
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/onlinehelp/tests/gromacs/onlinehelp/helptopic.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/onlinehelp/tests/gromacs/onlinehelp/helptopic.h
 gromacs/onlinehelp/helpwritercontext.h
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/onlinehelp/tests/gromacs/onlinehelp/helpwritercontext.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/onlinehelp/tests/gromacs/onlinehelp/helpwritercontext.h
 gromacs/utility/exceptions.h
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/onlinehelp/tests/gromacs/utility/exceptions.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/onlinehelp/tests/gromacs/utility/exceptions.h
 gromacs/utility/stringstream.h
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/onlinehelp/tests/gromacs/utility/stringstream.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/onlinehelp/tests/gromacs/utility/stringstream.h
 gromacs/utility/textwriter.h
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/onlinehelp/tests/gromacs/utility/textwriter.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/onlinehelp/tests/gromacs/utility/textwriter.h
 gromacs/onlinehelp/tests/mock_helptopic.h
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/onlinehelp/tests/gromacs/onlinehelp/tests/mock_helptopic.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/onlinehelp/tests/gromacs/onlinehelp/tests/mock_helptopic.h
 testutils/stringtest.h
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/onlinehelp/tests/testutils/stringtest.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/onlinehelp/tests/testutils/stringtest.h
 testutils/testasserts.h
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/onlinehelp/tests/testutils/testasserts.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/onlinehelp/tests/testutils/testasserts.h
 
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/onlinehelp/tests/helpwritercontext.cpp
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/onlinehelp/tests/helpwritercontext.cpp
 gmxpre.h
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/onlinehelp/tests/gmxpre.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/onlinehelp/tests/gmxpre.h
 gromacs/onlinehelp/helpwritercontext.h
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/onlinehelp/tests/gromacs/onlinehelp/helpwritercontext.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/onlinehelp/tests/gromacs/onlinehelp/helpwritercontext.h
 string
 -
 gtest/gtest.h
 -
 gromacs/utility/arrayref.h
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/onlinehelp/tests/gromacs/utility/arrayref.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/onlinehelp/tests/gromacs/utility/arrayref.h
 gromacs/utility/gmxassert.h
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/onlinehelp/tests/gromacs/utility/gmxassert.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/onlinehelp/tests/gromacs/utility/gmxassert.h
 gromacs/utility/stringutil.h
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/onlinehelp/tests/gromacs/utility/stringutil.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/onlinehelp/tests/gromacs/utility/stringutil.h
 testutils/stringtest.h
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/onlinehelp/tests/testutils/stringtest.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/onlinehelp/tests/testutils/stringtest.h
 
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/testutils/unittest_main.cpp
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/testutils/unittest_main.cpp
 gmxpre.h
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/testutils/gmxpre.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/testutils/gmxpre.h
 gtest/gtest.h
 -
 testutils/testinit.h
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/testutils/testutils/testinit.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/testutils/testutils/testinit.h
 
 src/gmxpre-config.h
 

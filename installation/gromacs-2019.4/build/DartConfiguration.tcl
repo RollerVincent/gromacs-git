@@ -4,14 +4,14 @@
 
 
 # Configuration directories and files
-SourceDirectory: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4
-BuildDirectory: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build
+SourceDirectory: /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4
+BuildDirectory: /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build
 
 # Where to place the cost data store
 CostDataFile: 
 
 # Site is something like machine.domain, i.e. pragmatic.crd
-Site: Vincents-MacBook-Pro.local
+Site: dhcp-10-181-7-10.dynamic.eduroam.mwn.de
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
 BuildName: Darwin-c++
@@ -36,7 +36,7 @@ ScpCommand: /usr/bin/scp
 NightlyStartTime: 00:00:00 EST
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/usr/local/Cellar/cmake/3.11.1/bin/cmake" "/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4"
+ConfigureCommand: "/usr/local/Cellar/cmake/3.11.1/bin/cmake" "/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4"
 MakeCommand: /usr/local/Cellar/cmake/3.11.1/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 

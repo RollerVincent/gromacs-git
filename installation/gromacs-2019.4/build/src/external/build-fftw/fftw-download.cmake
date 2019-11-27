@@ -5,8 +5,8 @@
 # download fails).
 message(STATUS "downloading...
      src='http://www.fftw.org/fftw-3.3.8.tar.gz'
-     dest='/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/external/build-fftw/fftw.tar.gz'")
-file(DOWNLOAD "http://www.fftw.org/fftw-3.3.8.tar.gz" "/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/external/build-fftw/fftw.tar.gz"
+     dest='/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/external/build-fftw/fftw.tar.gz'")
+file(DOWNLOAD "http://www.fftw.org/fftw-3.3.8.tar.gz" "/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/external/build-fftw/fftw.tar.gz"
      SHOW_PROGRESS STATUS status LOG log)
 list(GET status 0 status_code)
 list(GET status 1 status_string)

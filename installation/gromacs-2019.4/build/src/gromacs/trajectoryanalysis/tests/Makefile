@@ -48,10 +48,10 @@ RM = /usr/local/Cellar/cmake/3.11.1/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4
+CMAKE_SOURCE_DIR = /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build
+CMAKE_BINARY_DIR = /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -138,7 +138,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && /usr/local/Cellar/cmake/3.11.1/bin/cpack --config ./CPackSourceConfig.cmake /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CPackSourceConfig.cmake
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && /usr/local/Cellar/cmake/3.11.1/bin/cpack --config ./CPackSourceConfig.cmake /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -149,7 +149,7 @@ package_source/fast: package_source
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && /usr/local/Cellar/cmake/3.11.1/bin/cpack --config ./CPackConfig.cmake
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && /usr/local/Cellar/cmake/3.11.1/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -159,14 +159,14 @@ package/fast: package
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/trajectoryanalysis/tests/CMakeFiles/progress.marks
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f CMakeFiles/Makefile2 src/gromacs/trajectoryanalysis/tests/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles 0
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/trajectoryanalysis/tests/CMakeFiles/progress.marks
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f CMakeFiles/Makefile2 src/gromacs/trajectoryanalysis/tests/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f CMakeFiles/Makefile2 src/gromacs/trajectoryanalysis/tests/clean
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f CMakeFiles/Makefile2 src/gromacs/trajectoryanalysis/tests/clean
 .PHONY : clean
 
 # The main clean target
@@ -176,22 +176,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f CMakeFiles/Makefile2 src/gromacs/trajectoryanalysis/tests/preinstall
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f CMakeFiles/Makefile2 src/gromacs/trajectoryanalysis/tests/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f CMakeFiles/Makefile2 src/gromacs/trajectoryanalysis/tests/preinstall
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f CMakeFiles/Makefile2 src/gromacs/trajectoryanalysis/tests/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/gromacs/trajectoryanalysis/tests/CMakeFiles/test_selection.dir/rule:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f CMakeFiles/Makefile2 src/gromacs/trajectoryanalysis/tests/CMakeFiles/test_selection.dir/rule
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f CMakeFiles/Makefile2 src/gromacs/trajectoryanalysis/tests/CMakeFiles/test_selection.dir/rule
 .PHONY : src/gromacs/trajectoryanalysis/tests/CMakeFiles/test_selection.dir/rule
 
 # Convenience name for target.
@@ -201,12 +201,12 @@ test_selection: src/gromacs/trajectoryanalysis/tests/CMakeFiles/test_selection.d
 
 # fast build rule for target.
 test_selection/fast:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/test_selection.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/test_selection.dir/build
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/test_selection.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/test_selection.dir/build
 .PHONY : test_selection/fast
 
 # Convenience name for target.
 src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/rule:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f CMakeFiles/Makefile2 src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/rule
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f CMakeFiles/Makefile2 src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/rule
 .PHONY : src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/rule
 
 # Convenience name for target.
@@ -216,7 +216,7 @@ trajectoryanalysis-test: src/gromacs/trajectoryanalysis/tests/CMakeFiles/traject
 
 # fast build rule for target.
 trajectoryanalysis-test/fast:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build
 .PHONY : trajectoryanalysis-test/fast
 
 __/__/__/testutils/unittest_main.o: __/__/__/testutils/unittest_main.cpp.o
@@ -225,7 +225,7 @@ __/__/__/testutils/unittest_main.o: __/__/__/testutils/unittest_main.cpp.o
 
 # target to build an object file
 __/__/__/testutils/unittest_main.cpp.o:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/__/__/__/testutils/unittest_main.cpp.o
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/__/__/__/testutils/unittest_main.cpp.o
 .PHONY : __/__/__/testutils/unittest_main.cpp.o
 
 __/__/__/testutils/unittest_main.i: __/__/__/testutils/unittest_main.cpp.i
@@ -234,7 +234,7 @@ __/__/__/testutils/unittest_main.i: __/__/__/testutils/unittest_main.cpp.i
 
 # target to preprocess a source file
 __/__/__/testutils/unittest_main.cpp.i:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/__/__/__/testutils/unittest_main.cpp.i
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/__/__/__/testutils/unittest_main.cpp.i
 .PHONY : __/__/__/testutils/unittest_main.cpp.i
 
 __/__/__/testutils/unittest_main.s: __/__/__/testutils/unittest_main.cpp.s
@@ -243,7 +243,7 @@ __/__/__/testutils/unittest_main.s: __/__/__/testutils/unittest_main.cpp.s
 
 # target to generate assembly for a file
 __/__/__/testutils/unittest_main.cpp.s:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/__/__/__/testutils/unittest_main.cpp.s
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/__/__/__/testutils/unittest_main.cpp.s
 .PHONY : __/__/__/testutils/unittest_main.cpp.s
 
 angle.o: angle.cpp.o
@@ -252,7 +252,7 @@ angle.o: angle.cpp.o
 
 # target to build an object file
 angle.cpp.o:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/angle.cpp.o
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/angle.cpp.o
 .PHONY : angle.cpp.o
 
 angle.i: angle.cpp.i
@@ -261,7 +261,7 @@ angle.i: angle.cpp.i
 
 # target to preprocess a source file
 angle.cpp.i:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/angle.cpp.i
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/angle.cpp.i
 .PHONY : angle.cpp.i
 
 angle.s: angle.cpp.s
@@ -270,7 +270,7 @@ angle.s: angle.cpp.s
 
 # target to generate assembly for a file
 angle.cpp.s:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/angle.cpp.s
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/angle.cpp.s
 .PHONY : angle.cpp.s
 
 clustsize.o: clustsize.cpp.o
@@ -279,7 +279,7 @@ clustsize.o: clustsize.cpp.o
 
 # target to build an object file
 clustsize.cpp.o:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/clustsize.cpp.o
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/clustsize.cpp.o
 .PHONY : clustsize.cpp.o
 
 clustsize.i: clustsize.cpp.i
@@ -288,7 +288,7 @@ clustsize.i: clustsize.cpp.i
 
 # target to preprocess a source file
 clustsize.cpp.i:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/clustsize.cpp.i
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/clustsize.cpp.i
 .PHONY : clustsize.cpp.i
 
 clustsize.s: clustsize.cpp.s
@@ -297,7 +297,7 @@ clustsize.s: clustsize.cpp.s
 
 # target to generate assembly for a file
 clustsize.cpp.s:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/clustsize.cpp.s
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/clustsize.cpp.s
 .PHONY : clustsize.cpp.s
 
 cmdlinerunner.o: cmdlinerunner.cpp.o
@@ -306,7 +306,7 @@ cmdlinerunner.o: cmdlinerunner.cpp.o
 
 # target to build an object file
 cmdlinerunner.cpp.o:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/cmdlinerunner.cpp.o
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/cmdlinerunner.cpp.o
 .PHONY : cmdlinerunner.cpp.o
 
 cmdlinerunner.i: cmdlinerunner.cpp.i
@@ -315,7 +315,7 @@ cmdlinerunner.i: cmdlinerunner.cpp.i
 
 # target to preprocess a source file
 cmdlinerunner.cpp.i:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/cmdlinerunner.cpp.i
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/cmdlinerunner.cpp.i
 .PHONY : cmdlinerunner.cpp.i
 
 cmdlinerunner.s: cmdlinerunner.cpp.s
@@ -324,7 +324,7 @@ cmdlinerunner.s: cmdlinerunner.cpp.s
 
 # target to generate assembly for a file
 cmdlinerunner.cpp.s:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/cmdlinerunner.cpp.s
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/cmdlinerunner.cpp.s
 .PHONY : cmdlinerunner.cpp.s
 
 distance.o: distance.cpp.o
@@ -333,7 +333,7 @@ distance.o: distance.cpp.o
 
 # target to build an object file
 distance.cpp.o:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/distance.cpp.o
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/distance.cpp.o
 .PHONY : distance.cpp.o
 
 distance.i: distance.cpp.i
@@ -342,7 +342,7 @@ distance.i: distance.cpp.i
 
 # target to preprocess a source file
 distance.cpp.i:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/distance.cpp.i
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/distance.cpp.i
 .PHONY : distance.cpp.i
 
 distance.s: distance.cpp.s
@@ -351,7 +351,7 @@ distance.s: distance.cpp.s
 
 # target to generate assembly for a file
 distance.cpp.s:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/distance.cpp.s
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/distance.cpp.s
 .PHONY : distance.cpp.s
 
 freevolume.o: freevolume.cpp.o
@@ -360,7 +360,7 @@ freevolume.o: freevolume.cpp.o
 
 # target to build an object file
 freevolume.cpp.o:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/freevolume.cpp.o
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/freevolume.cpp.o
 .PHONY : freevolume.cpp.o
 
 freevolume.i: freevolume.cpp.i
@@ -369,7 +369,7 @@ freevolume.i: freevolume.cpp.i
 
 # target to preprocess a source file
 freevolume.cpp.i:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/freevolume.cpp.i
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/freevolume.cpp.i
 .PHONY : freevolume.cpp.i
 
 freevolume.s: freevolume.cpp.s
@@ -378,7 +378,7 @@ freevolume.s: freevolume.cpp.s
 
 # target to generate assembly for a file
 freevolume.cpp.s:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/freevolume.cpp.s
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/freevolume.cpp.s
 .PHONY : freevolume.cpp.s
 
 moduletest.o: moduletest.cpp.o
@@ -387,7 +387,7 @@ moduletest.o: moduletest.cpp.o
 
 # target to build an object file
 moduletest.cpp.o:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/moduletest.cpp.o
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/moduletest.cpp.o
 .PHONY : moduletest.cpp.o
 
 moduletest.i: moduletest.cpp.i
@@ -396,7 +396,7 @@ moduletest.i: moduletest.cpp.i
 
 # target to preprocess a source file
 moduletest.cpp.i:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/moduletest.cpp.i
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/moduletest.cpp.i
 .PHONY : moduletest.cpp.i
 
 moduletest.s: moduletest.cpp.s
@@ -405,7 +405,7 @@ moduletest.s: moduletest.cpp.s
 
 # target to generate assembly for a file
 moduletest.cpp.s:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/moduletest.cpp.s
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/moduletest.cpp.s
 .PHONY : moduletest.cpp.s
 
 pairdist.o: pairdist.cpp.o
@@ -414,7 +414,7 @@ pairdist.o: pairdist.cpp.o
 
 # target to build an object file
 pairdist.cpp.o:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/pairdist.cpp.o
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/pairdist.cpp.o
 .PHONY : pairdist.cpp.o
 
 pairdist.i: pairdist.cpp.i
@@ -423,7 +423,7 @@ pairdist.i: pairdist.cpp.i
 
 # target to preprocess a source file
 pairdist.cpp.i:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/pairdist.cpp.i
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/pairdist.cpp.i
 .PHONY : pairdist.cpp.i
 
 pairdist.s: pairdist.cpp.s
@@ -432,7 +432,7 @@ pairdist.s: pairdist.cpp.s
 
 # target to generate assembly for a file
 pairdist.cpp.s:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/pairdist.cpp.s
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/pairdist.cpp.s
 .PHONY : pairdist.cpp.s
 
 rdf.o: rdf.cpp.o
@@ -441,7 +441,7 @@ rdf.o: rdf.cpp.o
 
 # target to build an object file
 rdf.cpp.o:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/rdf.cpp.o
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/rdf.cpp.o
 .PHONY : rdf.cpp.o
 
 rdf.i: rdf.cpp.i
@@ -450,7 +450,7 @@ rdf.i: rdf.cpp.i
 
 # target to preprocess a source file
 rdf.cpp.i:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/rdf.cpp.i
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/rdf.cpp.i
 .PHONY : rdf.cpp.i
 
 rdf.s: rdf.cpp.s
@@ -459,7 +459,7 @@ rdf.s: rdf.cpp.s
 
 # target to generate assembly for a file
 rdf.cpp.s:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/rdf.cpp.s
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/rdf.cpp.s
 .PHONY : rdf.cpp.s
 
 sasa.o: sasa.cpp.o
@@ -468,7 +468,7 @@ sasa.o: sasa.cpp.o
 
 # target to build an object file
 sasa.cpp.o:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/sasa.cpp.o
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/sasa.cpp.o
 .PHONY : sasa.cpp.o
 
 sasa.i: sasa.cpp.i
@@ -477,7 +477,7 @@ sasa.i: sasa.cpp.i
 
 # target to preprocess a source file
 sasa.cpp.i:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/sasa.cpp.i
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/sasa.cpp.i
 .PHONY : sasa.cpp.i
 
 sasa.s: sasa.cpp.s
@@ -486,7 +486,7 @@ sasa.s: sasa.cpp.s
 
 # target to generate assembly for a file
 sasa.cpp.s:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/sasa.cpp.s
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/sasa.cpp.s
 .PHONY : sasa.cpp.s
 
 select.o: select.cpp.o
@@ -495,7 +495,7 @@ select.o: select.cpp.o
 
 # target to build an object file
 select.cpp.o:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/select.cpp.o
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/select.cpp.o
 .PHONY : select.cpp.o
 
 select.i: select.cpp.i
@@ -504,7 +504,7 @@ select.i: select.cpp.i
 
 # target to preprocess a source file
 select.cpp.i:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/select.cpp.i
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/select.cpp.i
 .PHONY : select.cpp.i
 
 select.s: select.cpp.s
@@ -513,7 +513,7 @@ select.s: select.cpp.s
 
 # target to generate assembly for a file
 select.cpp.s:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/select.cpp.s
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/select.cpp.s
 .PHONY : select.cpp.s
 
 surfacearea.o: surfacearea.cpp.o
@@ -522,7 +522,7 @@ surfacearea.o: surfacearea.cpp.o
 
 # target to build an object file
 surfacearea.cpp.o:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/surfacearea.cpp.o
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/surfacearea.cpp.o
 .PHONY : surfacearea.cpp.o
 
 surfacearea.i: surfacearea.cpp.i
@@ -531,7 +531,7 @@ surfacearea.i: surfacearea.cpp.i
 
 # target to preprocess a source file
 surfacearea.cpp.i:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/surfacearea.cpp.i
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/surfacearea.cpp.i
 .PHONY : surfacearea.cpp.i
 
 surfacearea.s: surfacearea.cpp.s
@@ -540,7 +540,7 @@ surfacearea.s: surfacearea.cpp.s
 
 # target to generate assembly for a file
 surfacearea.cpp.s:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/surfacearea.cpp.s
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/surfacearea.cpp.s
 .PHONY : surfacearea.cpp.s
 
 test_selection.o: test_selection.cpp.o
@@ -549,7 +549,7 @@ test_selection.o: test_selection.cpp.o
 
 # target to build an object file
 test_selection.cpp.o:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/test_selection.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/test_selection.dir/test_selection.cpp.o
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/test_selection.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/test_selection.dir/test_selection.cpp.o
 .PHONY : test_selection.cpp.o
 
 test_selection.i: test_selection.cpp.i
@@ -558,7 +558,7 @@ test_selection.i: test_selection.cpp.i
 
 # target to preprocess a source file
 test_selection.cpp.i:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/test_selection.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/test_selection.dir/test_selection.cpp.i
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/test_selection.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/test_selection.dir/test_selection.cpp.i
 .PHONY : test_selection.cpp.i
 
 test_selection.s: test_selection.cpp.s
@@ -567,7 +567,7 @@ test_selection.s: test_selection.cpp.s
 
 # target to generate assembly for a file
 test_selection.cpp.s:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/test_selection.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/test_selection.dir/test_selection.cpp.s
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/test_selection.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/test_selection.dir/test_selection.cpp.s
 .PHONY : test_selection.cpp.s
 
 topologyinformation.o: topologyinformation.cpp.o
@@ -576,7 +576,7 @@ topologyinformation.o: topologyinformation.cpp.o
 
 # target to build an object file
 topologyinformation.cpp.o:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/topologyinformation.cpp.o
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/topologyinformation.cpp.o
 .PHONY : topologyinformation.cpp.o
 
 topologyinformation.i: topologyinformation.cpp.i
@@ -585,7 +585,7 @@ topologyinformation.i: topologyinformation.cpp.i
 
 # target to preprocess a source file
 topologyinformation.cpp.i:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/topologyinformation.cpp.i
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/topologyinformation.cpp.i
 .PHONY : topologyinformation.cpp.i
 
 topologyinformation.s: topologyinformation.cpp.s
@@ -594,7 +594,7 @@ topologyinformation.s: topologyinformation.cpp.s
 
 # target to generate assembly for a file
 topologyinformation.cpp.s:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/topologyinformation.cpp.s
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/topologyinformation.cpp.s
 .PHONY : topologyinformation.cpp.s
 
 trajectory.o: trajectory.cpp.o
@@ -603,7 +603,7 @@ trajectory.o: trajectory.cpp.o
 
 # target to build an object file
 trajectory.cpp.o:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/trajectory.cpp.o
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/trajectory.cpp.o
 .PHONY : trajectory.cpp.o
 
 trajectory.i: trajectory.cpp.i
@@ -612,7 +612,7 @@ trajectory.i: trajectory.cpp.i
 
 # target to preprocess a source file
 trajectory.cpp.i:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/trajectory.cpp.i
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/trajectory.cpp.i
 .PHONY : trajectory.cpp.i
 
 trajectory.s: trajectory.cpp.s
@@ -621,7 +621,7 @@ trajectory.s: trajectory.cpp.s
 
 # target to generate assembly for a file
 trajectory.cpp.s:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/trajectory.cpp.s
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/trajectory.cpp.s
 .PHONY : trajectory.cpp.s
 
 unionfind.o: unionfind.cpp.o
@@ -630,7 +630,7 @@ unionfind.o: unionfind.cpp.o
 
 # target to build an object file
 unionfind.cpp.o:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/unionfind.cpp.o
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/unionfind.cpp.o
 .PHONY : unionfind.cpp.o
 
 unionfind.i: unionfind.cpp.i
@@ -639,7 +639,7 @@ unionfind.i: unionfind.cpp.i
 
 # target to preprocess a source file
 unionfind.cpp.i:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/unionfind.cpp.i
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/unionfind.cpp.i
 .PHONY : unionfind.cpp.i
 
 unionfind.s: unionfind.cpp.s
@@ -648,7 +648,7 @@ unionfind.s: unionfind.cpp.s
 
 # target to generate assembly for a file
 unionfind.cpp.s:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/unionfind.cpp.s
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/build.make src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/unionfind.cpp.s
 .PHONY : unionfind.cpp.s
 
 # Help Target
@@ -727,6 +727,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites tests="13" failures="0" disabled="0" errors="0" timestamp="2019-11-12T01:53:54" time="0.031" name="AllTests">
-  <testsuite name="ThreadAffinityMultiRankTest" tests="6" failures="0" disabled="0" errors="0" time="0.015">
-    <testcase name="PinsWholeNode" status="run" time="0.003" classname="ThreadAffinityMultiRankTest" />
-    <testcase name="PinsWithOffsetAndStride" status="run" time="0.01" classname="ThreadAffinityMultiRankTest" />
-    <testcase name="PinsTwoNodes" status="run" time="0.001" classname="ThreadAffinityMultiRankTest" />
-    <testcase name="DoesNothingWhenDisabled" status="run" time="0" classname="ThreadAffinityMultiRankTest" />
-    <testcase name="HandlesTooManyThreadsWithAuto" status="run" time="0.001" classname="ThreadAffinityMultiRankTest" />
-    <testcase name="HandlesTooManyThreadsWithForce" status="run" time="0" classname="ThreadAffinityMultiRankTest" />
+<testsuites tests="13" failures="0" disabled="0" errors="0" timestamp="2019-11-27T19:14:44" time="0.049" name="AllTests">
+  <testsuite name="ThreadAffinityMultiRankTest" tests="6" failures="0" disabled="0" errors="0" time="0.024">
+    <testcase name="PinsWholeNode" status="run" time="0.005" classname="ThreadAffinityMultiRankTest" />
+    <testcase name="PinsWithOffsetAndStride" status="run" time="0.008" classname="ThreadAffinityMultiRankTest" />
+    <testcase name="PinsTwoNodes" status="run" time="0.004" classname="ThreadAffinityMultiRankTest" />
+    <testcase name="DoesNothingWhenDisabled" status="run" time="0.001" classname="ThreadAffinityMultiRankTest" />
+    <testcase name="HandlesTooManyThreadsWithAuto" status="run" time="0.002" classname="ThreadAffinityMultiRankTest" />
+    <testcase name="HandlesTooManyThreadsWithForce" status="run" time="0.004" classname="ThreadAffinityMultiRankTest" />
   </testsuite>
-  <testsuite name="ThreadAffinityHeterogeneousNodesTest" tests="7" failures="0" disabled="0" errors="0" time="0.016">
-    <testcase name="PinsOnMasterOnly" status="run" time="0.001" classname="ThreadAffinityHeterogeneousNodesTest" />
-    <testcase name="PinsOnNonMasterOnly" status="run" time="0.001" classname="ThreadAffinityHeterogeneousNodesTest" />
-    <testcase name="HandlesUnknownHardwareOnNonMaster" status="run" time="0" classname="ThreadAffinityHeterogeneousNodesTest" />
-    <testcase name="PinsAutomaticallyOnMasterOnly" status="run" time="0.001" classname="ThreadAffinityHeterogeneousNodesTest" />
-    <testcase name="PinsAutomaticallyOnNonMasterOnly" status="run" time="0.011" classname="ThreadAffinityHeterogeneousNodesTest" />
-    <testcase name="HandlesInvalidOffsetOnNonMasterOnly" status="run" time="0" classname="ThreadAffinityHeterogeneousNodesTest" />
+  <testsuite name="ThreadAffinityHeterogeneousNodesTest" tests="7" failures="0" disabled="0" errors="0" time="0.025">
+    <testcase name="PinsOnMasterOnly" status="run" time="0.003" classname="ThreadAffinityHeterogeneousNodesTest" />
+    <testcase name="PinsOnNonMasterOnly" status="run" time="0.009" classname="ThreadAffinityHeterogeneousNodesTest" />
+    <testcase name="HandlesUnknownHardwareOnNonMaster" status="run" time="0.002" classname="ThreadAffinityHeterogeneousNodesTest" />
+    <testcase name="PinsAutomaticallyOnMasterOnly" status="run" time="0.009" classname="ThreadAffinityHeterogeneousNodesTest" />
+    <testcase name="PinsAutomaticallyOnNonMasterOnly" status="run" time="0" classname="ThreadAffinityHeterogeneousNodesTest" />
+    <testcase name="HandlesInvalidOffsetOnNonMasterOnly" status="run" time="0.001" classname="ThreadAffinityHeterogeneousNodesTest" />
     <testcase name="HandlesInvalidStrideOnNonMasterOnly" status="run" time="0.001" classname="ThreadAffinityHeterogeneousNodesTest" />
   </testsuite>
 </testsuites>

@@ -1,8 +1,8 @@
-# Install script for directory: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/math
+# Install script for directory: /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/math
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/usr/local/gromacs")
+  set(CMAKE_INSTALL_PREFIX "/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/gromacs")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,22 +34,22 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevelopmentx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/gromacs/math" TYPE FILE FILES
-    "/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/math/3dtransforms.h"
-    "/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/math/arrayrefwithpadding.h"
-    "/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/math/do_fit.h"
-    "/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/math/functions.h"
-    "/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/math/gmxcomplex.h"
-    "/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/math/units.h"
-    "/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/math/utilities.h"
-    "/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/math/vec.h"
-    "/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/math/vectypes.h"
-    "/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/math/paddedvector.h"
+    "/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/math/3dtransforms.h"
+    "/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/math/arrayrefwithpadding.h"
+    "/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/math/do_fit.h"
+    "/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/math/functions.h"
+    "/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/math/gmxcomplex.h"
+    "/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/math/units.h"
+    "/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/math/utilities.h"
+    "/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/math/vec.h"
+    "/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/math/vectypes.h"
+    "/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/math/paddedvector.h"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/math/tests/cmake_install.cmake")
+  include("/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/math/tests/cmake_install.cmake")
 
 endif()
 

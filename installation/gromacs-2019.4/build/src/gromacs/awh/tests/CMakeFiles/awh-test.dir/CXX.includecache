@@ -802,11 +802,11 @@ gromacs/utility/classhelpers.h
 
 ../src/testutils/testinit.h
 
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/awh/tests/bias.cpp
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/awh/tests/bias.cpp
 gmxpre.h
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/awh/tests/gmxpre.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/awh/tests/gmxpre.h
 gromacs/awh/bias.h
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/awh/tests/gromacs/awh/bias.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/awh/tests/gromacs/awh/bias.h
 cmath
 -
 memory
@@ -820,25 +820,25 @@ gmock/gmock.h
 gtest/gtest.h
 -
 gromacs/awh/correlationgrid.h
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/awh/tests/gromacs/awh/correlationgrid.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/awh/tests/gromacs/awh/correlationgrid.h
 gromacs/awh/pointstate.h
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/awh/tests/gromacs/awh/pointstate.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/awh/tests/gromacs/awh/pointstate.h
 gromacs/compat/make_unique.h
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/awh/tests/gromacs/compat/make_unique.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/awh/tests/gromacs/compat/make_unique.h
 gromacs/mdtypes/awh-params.h
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/awh/tests/gromacs/mdtypes/awh-params.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/awh/tests/gromacs/mdtypes/awh-params.h
 gromacs/utility/stringutil.h
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/awh/tests/gromacs/utility/stringutil.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/awh/tests/gromacs/utility/stringutil.h
 testutils/refdata.h
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/awh/tests/testutils/refdata.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/awh/tests/testutils/refdata.h
 testutils/testasserts.h
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/awh/tests/testutils/testasserts.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/awh/tests/testutils/testasserts.h
 
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/awh/tests/biasstate.cpp
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/awh/tests/biasstate.cpp
 gmxpre.h
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/awh/tests/gmxpre.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/awh/tests/gmxpre.h
 gromacs/awh/biasstate.h
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/awh/tests/gromacs/awh/biasstate.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/awh/tests/gromacs/awh/biasstate.h
 cmath
 -
 memory
@@ -850,27 +850,27 @@ gmock/gmock.h
 gtest/gtest.h
 -
 gromacs/awh/grid.h
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/awh/tests/gromacs/awh/grid.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/awh/tests/gromacs/awh/grid.h
 gromacs/awh/pointstate.h
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/awh/tests/gromacs/awh/pointstate.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/awh/tests/gromacs/awh/pointstate.h
 gromacs/compat/make_unique.h
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/awh/tests/gromacs/compat/make_unique.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/awh/tests/gromacs/compat/make_unique.h
 gromacs/math/functions.h
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/awh/tests/gromacs/math/functions.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/awh/tests/gromacs/math/functions.h
 gromacs/mdtypes/awh-params.h
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/awh/tests/gromacs/mdtypes/awh-params.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/awh/tests/gromacs/mdtypes/awh-params.h
 gromacs/utility/smalloc.h
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/awh/tests/gromacs/utility/smalloc.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/awh/tests/gromacs/utility/smalloc.h
 testutils/testasserts.h
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/awh/tests/testutils/testasserts.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/awh/tests/testutils/testasserts.h
 testutils/testfilemanager.h
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/awh/tests/testutils/testfilemanager.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/awh/tests/testutils/testfilemanager.h
 
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/awh/tests/grid.cpp
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/awh/tests/grid.cpp
 gmxpre.h
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/awh/tests/gmxpre.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/awh/tests/gmxpre.h
 gromacs/awh/grid.h
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/awh/tests/gromacs/awh/grid.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/awh/tests/gromacs/awh/grid.h
 cmath
 -
 memory
@@ -882,19 +882,19 @@ gmock/gmock.h
 gtest/gtest.h
 -
 gromacs/mdtypes/awh-params.h
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/awh/tests/gromacs/mdtypes/awh-params.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/awh/tests/gromacs/mdtypes/awh-params.h
 gromacs/utility/gmxassert.h
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/awh/tests/gromacs/utility/gmxassert.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/awh/tests/gromacs/utility/gmxassert.h
 testutils/testasserts.h
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/awh/tests/testutils/testasserts.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/awh/tests/testutils/testasserts.h
 
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/testutils/unittest_main.cpp
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/testutils/unittest_main.cpp
 gmxpre.h
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/testutils/gmxpre.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/testutils/gmxpre.h
 gtest/gtest.h
 -
 testutils/testinit.h
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/testutils/testutils/testinit.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/testutils/testutils/testinit.h
 
 src/gmxpre-config.h
 

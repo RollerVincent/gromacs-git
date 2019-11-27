@@ -26,7 +26,7 @@ src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/__/__/__/testutils/unittest_ma
  ../src/external/googletest/googletest/include/gtest/internal/gtest-type-util.h
  ../src/gmxpre.h
  ../src/testutils/testinit.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/testutils/unittest_main.cpp
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/testutils/unittest_main.cpp
  src/gmxpre-config.h
 src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/pmebsplinetest.cpp.o
  ../src/external/googletest/googlemock/include/gmock/gmock-actions.h
@@ -104,9 +104,9 @@ src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/pmebsplinetest.cpp.o
  ../src/gromacs/utility/unique_cptr.h
  ../src/testutils/refdata.h
  ../src/testutils/testasserts.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/ewald/tests/pmebsplinetest.cpp
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/ewald/tests/pmetestcommon.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/ewald/tests/testhardwarecontexts.h
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/ewald/tests/pmebsplinetest.cpp
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/ewald/tests/pmetestcommon.h
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/ewald/tests/testhardwarecontexts.h
  src/config.h
  src/gmxpre-config.h
 src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/pmegathertest.cpp.o
@@ -180,9 +180,9 @@ src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/pmegathertest.cpp.o
  ../src/gromacs/utility/unique_cptr.h
  ../src/testutils/refdata.h
  ../src/testutils/testasserts.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/ewald/tests/pmegathertest.cpp
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/ewald/tests/pmetestcommon.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/ewald/tests/testhardwarecontexts.h
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/ewald/tests/pmegathertest.cpp
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/ewald/tests/pmetestcommon.h
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/ewald/tests/testhardwarecontexts.h
  src/config.h
  src/gmxpre-config.h
 src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/pmesolvetest.cpp.o
@@ -256,9 +256,9 @@ src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/pmesolvetest.cpp.o
  ../src/gromacs/utility/unique_cptr.h
  ../src/testutils/refdata.h
  ../src/testutils/testasserts.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/ewald/tests/pmesolvetest.cpp
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/ewald/tests/pmetestcommon.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/ewald/tests/testhardwarecontexts.h
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/ewald/tests/pmesolvetest.cpp
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/ewald/tests/pmetestcommon.h
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/ewald/tests/testhardwarecontexts.h
  src/config.h
  src/gmxpre-config.h
 src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/pmesplinespreadtest.cpp.o
@@ -332,9 +332,9 @@ src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/pmesplinespreadtest.cpp.o
  ../src/gromacs/utility/unique_cptr.h
  ../src/testutils/refdata.h
  ../src/testutils/testasserts.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/ewald/tests/pmesplinespreadtest.cpp
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/ewald/tests/pmetestcommon.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/ewald/tests/testhardwarecontexts.h
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/ewald/tests/pmesplinespreadtest.cpp
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/ewald/tests/pmetestcommon.h
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/ewald/tests/testhardwarecontexts.h
  src/config.h
  src/gmxpre-config.h
 src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/pmetestcommon.cpp.o
@@ -413,9 +413,9 @@ src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/pmetestcommon.cpp.o
  ../src/gromacs/utility/stringutil.h
  ../src/gromacs/utility/unique_cptr.h
  ../src/testutils/testasserts.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/ewald/tests/pmetestcommon.cpp
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/ewald/tests/pmetestcommon.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/ewald/tests/testhardwarecontexts.h
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/ewald/tests/pmetestcommon.cpp
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/ewald/tests/pmetestcommon.h
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/ewald/tests/testhardwarecontexts.h
  src/config.h
  src/gmxpre-config.h
 src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/testhardwarecontexts.cpp.o
@@ -470,7 +470,7 @@ src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/testhardwarecontexts.cpp.o
  ../src/gromacs/utility/smalloc.h
  ../src/gromacs/utility/stringutil.h
  ../src/gromacs/utility/unique_cptr.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/ewald/tests/testhardwarecontexts.cpp
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/ewald/tests/testhardwarecontexts.h
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/ewald/tests/testhardwarecontexts.cpp
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/ewald/tests/testhardwarecontexts.h
  src/config.h
  src/gmxpre-config.h

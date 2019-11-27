@@ -1,8 +1,8 @@
-# Install script for directory: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/share/template
+# Install script for directory: /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/share/template
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/usr/local/gromacs")
+  set(CMAKE_INSTALL_PREFIX "/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/gromacs")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,18 +33,18 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevelopmentx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gromacs/template" TYPE FILE RENAME "CMakeLists.txt" FILES "/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/share/template/CMakeLists.txt.template")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gromacs/template" TYPE FILE RENAME "CMakeLists.txt" FILES "/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/share/template/CMakeLists.txt.template")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevelopmentx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gromacs/template" TYPE FILE FILES
-    "/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/share/template/README"
-    "/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/share/template/template.cpp"
-    "/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/share/template/Makefile.pkg"
+    "/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/share/template/README"
+    "/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/share/template/template.cpp"
+    "/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/share/template/Makefile.pkg"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevelopmentx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gromacs/template/cmake" TYPE FILE FILES "/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/share/template/cmake/FindGROMACS.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gromacs/template/cmake" TYPE FILE FILES "/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/share/template/cmake/FindGROMACS.cmake")
 endif()
 

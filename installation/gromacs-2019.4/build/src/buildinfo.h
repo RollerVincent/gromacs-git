@@ -52,16 +52,16 @@
 #define BUILD_CXXFLAGS          " -mavx2 -mfma    -std=c++11  -Wno-unknown-pragmas  -O3 -DNDEBUG  "
 
 /** Installation prefix (default location of data files) */
-#define CMAKE_INSTALL_PREFIX    "/usr/local/gromacs"
+#define CMAKE_INSTALL_PREFIX    "/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/gromacs"
 
 /** Source directory for the build */
-#define CMAKE_SOURCE_DIR        "/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4"
+#define CMAKE_SOURCE_DIR        "/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4"
 
 /** Directory for test input files */
-#define GMX_TESTSIMULATIONDATABASE_DIR  "/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/testutils/simulationdatabase"
+#define GMX_TESTSIMULATIONDATABASE_DIR  "/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/testutils/simulationdatabase"
 
 /** Binary directory for the build */
-#define CMAKE_BINARY_DIR        "/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build"
+#define CMAKE_BINARY_DIR        "/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build"
 
 /** Location of GROMACS-specific data files */
 #define GMX_INSTALL_GMXDATADIR  "share/gromacs"

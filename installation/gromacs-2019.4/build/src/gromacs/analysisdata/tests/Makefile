@@ -48,10 +48,10 @@ RM = /usr/local/Cellar/cmake/3.11.1/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4
+CMAKE_SOURCE_DIR = /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build
+CMAKE_BINARY_DIR = /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -127,7 +127,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && /usr/local/Cellar/cmake/3.11.1/bin/cpack --config ./CPackSourceConfig.cmake /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CPackSourceConfig.cmake
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && /usr/local/Cellar/cmake/3.11.1/bin/cpack --config ./CPackSourceConfig.cmake /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -138,7 +138,7 @@ package_source/fast: package_source
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && /usr/local/Cellar/cmake/3.11.1/bin/cpack --config ./CPackConfig.cmake
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && /usr/local/Cellar/cmake/3.11.1/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -159,14 +159,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/analysisdata/tests/CMakeFiles/progress.marks
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f CMakeFiles/Makefile2 src/gromacs/analysisdata/tests/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles 0
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/analysisdata/tests/CMakeFiles/progress.marks
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f CMakeFiles/Makefile2 src/gromacs/analysisdata/tests/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f CMakeFiles/Makefile2 src/gromacs/analysisdata/tests/clean
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f CMakeFiles/Makefile2 src/gromacs/analysisdata/tests/clean
 .PHONY : clean
 
 # The main clean target
@@ -176,22 +176,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f CMakeFiles/Makefile2 src/gromacs/analysisdata/tests/preinstall
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f CMakeFiles/Makefile2 src/gromacs/analysisdata/tests/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f CMakeFiles/Makefile2 src/gromacs/analysisdata/tests/preinstall
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f CMakeFiles/Makefile2 src/gromacs/analysisdata/tests/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.dir/rule:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f CMakeFiles/Makefile2 src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.dir/rule
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f CMakeFiles/Makefile2 src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.dir/rule
 .PHONY : src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.dir/rule
 
 # Convenience name for target.
@@ -201,12 +201,12 @@ analysisdata-test: src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.d
 
 # fast build rule for target.
 analysisdata-test/fast:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.dir/build.make src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.dir/build
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.dir/build.make src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.dir/build
 .PHONY : analysisdata-test/fast
 
 # Convenience name for target.
 src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test-shared.dir/rule:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f CMakeFiles/Makefile2 src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test-shared.dir/rule
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f CMakeFiles/Makefile2 src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test-shared.dir/rule
 .PHONY : src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test-shared.dir/rule
 
 # Convenience name for target.
@@ -216,7 +216,7 @@ analysisdata-test-shared: src/gromacs/analysisdata/tests/CMakeFiles/analysisdata
 
 # fast build rule for target.
 analysisdata-test-shared/fast:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test-shared.dir/build.make src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test-shared.dir/build
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test-shared.dir/build.make src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test-shared.dir/build
 .PHONY : analysisdata-test-shared/fast
 
 __/__/__/testutils/unittest_main.o: __/__/__/testutils/unittest_main.cpp.o
@@ -225,7 +225,7 @@ __/__/__/testutils/unittest_main.o: __/__/__/testutils/unittest_main.cpp.o
 
 # target to build an object file
 __/__/__/testutils/unittest_main.cpp.o:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.dir/build.make src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.dir/__/__/__/testutils/unittest_main.cpp.o
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.dir/build.make src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.dir/__/__/__/testutils/unittest_main.cpp.o
 .PHONY : __/__/__/testutils/unittest_main.cpp.o
 
 __/__/__/testutils/unittest_main.i: __/__/__/testutils/unittest_main.cpp.i
@@ -234,7 +234,7 @@ __/__/__/testutils/unittest_main.i: __/__/__/testutils/unittest_main.cpp.i
 
 # target to preprocess a source file
 __/__/__/testutils/unittest_main.cpp.i:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.dir/build.make src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.dir/__/__/__/testutils/unittest_main.cpp.i
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.dir/build.make src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.dir/__/__/__/testutils/unittest_main.cpp.i
 .PHONY : __/__/__/testutils/unittest_main.cpp.i
 
 __/__/__/testutils/unittest_main.s: __/__/__/testutils/unittest_main.cpp.s
@@ -243,7 +243,7 @@ __/__/__/testutils/unittest_main.s: __/__/__/testutils/unittest_main.cpp.s
 
 # target to generate assembly for a file
 __/__/__/testutils/unittest_main.cpp.s:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.dir/build.make src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.dir/__/__/__/testutils/unittest_main.cpp.s
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.dir/build.make src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.dir/__/__/__/testutils/unittest_main.cpp.s
 .PHONY : __/__/__/testutils/unittest_main.cpp.s
 
 analysisdata.o: analysisdata.cpp.o
@@ -252,7 +252,7 @@ analysisdata.o: analysisdata.cpp.o
 
 # target to build an object file
 analysisdata.cpp.o:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.dir/build.make src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.dir/analysisdata.cpp.o
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.dir/build.make src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.dir/analysisdata.cpp.o
 .PHONY : analysisdata.cpp.o
 
 analysisdata.i: analysisdata.cpp.i
@@ -261,7 +261,7 @@ analysisdata.i: analysisdata.cpp.i
 
 # target to preprocess a source file
 analysisdata.cpp.i:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.dir/build.make src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.dir/analysisdata.cpp.i
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.dir/build.make src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.dir/analysisdata.cpp.i
 .PHONY : analysisdata.cpp.i
 
 analysisdata.s: analysisdata.cpp.s
@@ -270,7 +270,7 @@ analysisdata.s: analysisdata.cpp.s
 
 # target to generate assembly for a file
 analysisdata.cpp.s:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.dir/build.make src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.dir/analysisdata.cpp.s
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.dir/build.make src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.dir/analysisdata.cpp.s
 .PHONY : analysisdata.cpp.s
 
 arraydata.o: arraydata.cpp.o
@@ -279,7 +279,7 @@ arraydata.o: arraydata.cpp.o
 
 # target to build an object file
 arraydata.cpp.o:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.dir/build.make src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.dir/arraydata.cpp.o
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.dir/build.make src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.dir/arraydata.cpp.o
 .PHONY : arraydata.cpp.o
 
 arraydata.i: arraydata.cpp.i
@@ -288,7 +288,7 @@ arraydata.i: arraydata.cpp.i
 
 # target to preprocess a source file
 arraydata.cpp.i:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.dir/build.make src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.dir/arraydata.cpp.i
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.dir/build.make src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.dir/arraydata.cpp.i
 .PHONY : arraydata.cpp.i
 
 arraydata.s: arraydata.cpp.s
@@ -297,7 +297,7 @@ arraydata.s: arraydata.cpp.s
 
 # target to generate assembly for a file
 arraydata.cpp.s:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.dir/build.make src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.dir/arraydata.cpp.s
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.dir/build.make src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.dir/arraydata.cpp.s
 .PHONY : arraydata.cpp.s
 
 average.o: average.cpp.o
@@ -306,7 +306,7 @@ average.o: average.cpp.o
 
 # target to build an object file
 average.cpp.o:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.dir/build.make src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.dir/average.cpp.o
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.dir/build.make src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.dir/average.cpp.o
 .PHONY : average.cpp.o
 
 average.i: average.cpp.i
@@ -315,7 +315,7 @@ average.i: average.cpp.i
 
 # target to preprocess a source file
 average.cpp.i:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.dir/build.make src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.dir/average.cpp.i
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.dir/build.make src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.dir/average.cpp.i
 .PHONY : average.cpp.i
 
 average.s: average.cpp.s
@@ -324,7 +324,7 @@ average.s: average.cpp.s
 
 # target to generate assembly for a file
 average.cpp.s:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.dir/build.make src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.dir/average.cpp.s
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.dir/build.make src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.dir/average.cpp.s
 .PHONY : average.cpp.s
 
 datatest.o: datatest.cpp.o
@@ -333,7 +333,7 @@ datatest.o: datatest.cpp.o
 
 # target to build an object file
 datatest.cpp.o:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test-shared.dir/build.make src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test-shared.dir/datatest.cpp.o
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test-shared.dir/build.make src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test-shared.dir/datatest.cpp.o
 .PHONY : datatest.cpp.o
 
 datatest.i: datatest.cpp.i
@@ -342,7 +342,7 @@ datatest.i: datatest.cpp.i
 
 # target to preprocess a source file
 datatest.cpp.i:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test-shared.dir/build.make src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test-shared.dir/datatest.cpp.i
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test-shared.dir/build.make src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test-shared.dir/datatest.cpp.i
 .PHONY : datatest.cpp.i
 
 datatest.s: datatest.cpp.s
@@ -351,7 +351,7 @@ datatest.s: datatest.cpp.s
 
 # target to generate assembly for a file
 datatest.cpp.s:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test-shared.dir/build.make src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test-shared.dir/datatest.cpp.s
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test-shared.dir/build.make src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test-shared.dir/datatest.cpp.s
 .PHONY : datatest.cpp.s
 
 histogram.o: histogram.cpp.o
@@ -360,7 +360,7 @@ histogram.o: histogram.cpp.o
 
 # target to build an object file
 histogram.cpp.o:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.dir/build.make src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.dir/histogram.cpp.o
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.dir/build.make src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.dir/histogram.cpp.o
 .PHONY : histogram.cpp.o
 
 histogram.i: histogram.cpp.i
@@ -369,7 +369,7 @@ histogram.i: histogram.cpp.i
 
 # target to preprocess a source file
 histogram.cpp.i:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.dir/build.make src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.dir/histogram.cpp.i
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.dir/build.make src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.dir/histogram.cpp.i
 .PHONY : histogram.cpp.i
 
 histogram.s: histogram.cpp.s
@@ -378,7 +378,7 @@ histogram.s: histogram.cpp.s
 
 # target to generate assembly for a file
 histogram.cpp.s:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.dir/build.make src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.dir/histogram.cpp.s
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.dir/build.make src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.dir/histogram.cpp.s
 .PHONY : histogram.cpp.s
 
 lifetime.o: lifetime.cpp.o
@@ -387,7 +387,7 @@ lifetime.o: lifetime.cpp.o
 
 # target to build an object file
 lifetime.cpp.o:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.dir/build.make src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.dir/lifetime.cpp.o
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.dir/build.make src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.dir/lifetime.cpp.o
 .PHONY : lifetime.cpp.o
 
 lifetime.i: lifetime.cpp.i
@@ -396,7 +396,7 @@ lifetime.i: lifetime.cpp.i
 
 # target to preprocess a source file
 lifetime.cpp.i:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.dir/build.make src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.dir/lifetime.cpp.i
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.dir/build.make src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.dir/lifetime.cpp.i
 .PHONY : lifetime.cpp.i
 
 lifetime.s: lifetime.cpp.s
@@ -405,7 +405,7 @@ lifetime.s: lifetime.cpp.s
 
 # target to generate assembly for a file
 lifetime.cpp.s:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.dir/build.make src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.dir/lifetime.cpp.s
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.dir/build.make src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test.dir/lifetime.cpp.s
 .PHONY : lifetime.cpp.s
 
 mock_datamodule.o: mock_datamodule.cpp.o
@@ -414,7 +414,7 @@ mock_datamodule.o: mock_datamodule.cpp.o
 
 # target to build an object file
 mock_datamodule.cpp.o:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test-shared.dir/build.make src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test-shared.dir/mock_datamodule.cpp.o
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test-shared.dir/build.make src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test-shared.dir/mock_datamodule.cpp.o
 .PHONY : mock_datamodule.cpp.o
 
 mock_datamodule.i: mock_datamodule.cpp.i
@@ -423,7 +423,7 @@ mock_datamodule.i: mock_datamodule.cpp.i
 
 # target to preprocess a source file
 mock_datamodule.cpp.i:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test-shared.dir/build.make src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test-shared.dir/mock_datamodule.cpp.i
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test-shared.dir/build.make src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test-shared.dir/mock_datamodule.cpp.i
 .PHONY : mock_datamodule.cpp.i
 
 mock_datamodule.s: mock_datamodule.cpp.s
@@ -432,7 +432,7 @@ mock_datamodule.s: mock_datamodule.cpp.s
 
 # target to generate assembly for a file
 mock_datamodule.cpp.s:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test-shared.dir/build.make src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test-shared.dir/mock_datamodule.cpp.s
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test-shared.dir/build.make src/gromacs/analysisdata/tests/CMakeFiles/analysisdata-test-shared.dir/mock_datamodule.cpp.s
 .PHONY : mock_datamodule.cpp.s
 
 # Help Target
@@ -487,6 +487,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

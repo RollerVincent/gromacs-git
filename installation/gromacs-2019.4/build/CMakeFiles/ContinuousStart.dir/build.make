@@ -43,10 +43,10 @@ RM = /usr/local/Cellar/cmake/3.11.1/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4
+CMAKE_SOURCE_DIR = /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build
+CMAKE_BINARY_DIR = /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build
 
 # Utility rule file for ContinuousStart.
 
@@ -71,6 +71,6 @@ CMakeFiles/ContinuousStart.dir/clean:
 .PHONY : CMakeFiles/ContinuousStart.dir/clean
 
 CMakeFiles/ContinuousStart.dir/depend:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4 /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4 /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/ContinuousStart.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4 /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4 /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/ContinuousStart.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ContinuousStart.dir/depend
 

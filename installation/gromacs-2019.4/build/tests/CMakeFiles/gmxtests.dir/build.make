@@ -43,10 +43,10 @@ RM = /usr/local/Cellar/cmake/3.11.1/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4
+CMAKE_SOURCE_DIR = /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build
+CMAKE_BINARY_DIR = /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build
 
 # Utility rule file for gmxtests.
 
@@ -67,10 +67,10 @@ tests/CMakeFiles/gmxtests.dir/build: gmxtests
 .PHONY : tests/CMakeFiles/gmxtests.dir/build
 
 tests/CMakeFiles/gmxtests.dir/clean:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/tests && $(CMAKE_COMMAND) -P CMakeFiles/gmxtests.dir/cmake_clean.cmake
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/tests && $(CMAKE_COMMAND) -P CMakeFiles/gmxtests.dir/cmake_clean.cmake
 .PHONY : tests/CMakeFiles/gmxtests.dir/clean
 
 tests/CMakeFiles/gmxtests.dir/depend:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4 /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/tests /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/tests /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/tests/CMakeFiles/gmxtests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4 /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/tests /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/tests /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/tests/CMakeFiles/gmxtests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tests/CMakeFiles/gmxtests.dir/depend
 

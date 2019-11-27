@@ -1,8 +1,8 @@
 khc2c.lo: \
-  /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/rdft/khc2c.c \
-  /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/rdft/ct-hc2c.h \
-  /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/rdft/rdft.h \
-  /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/kernel/ifftw.h \
+  /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/rdft/khc2c.c \
+  /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/rdft/ct-hc2c.h \
+  /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/rdft/rdft.h \
+  /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/kernel/ifftw.h \
   ../config.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/Availability.h \
@@ -123,13 +123,13 @@ khc2c.lo: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_types/_timeval64.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/time.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_select.h \
-  /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/rdft/codelet-rdft.h
+  /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/rdft/codelet-rdft.h
 
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/rdft/ct-hc2c.h:
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/rdft/ct-hc2c.h:
 
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/rdft/rdft.h:
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/rdft/rdft.h:
 
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/kernel/ifftw.h:
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/kernel/ifftw.h:
 
 ../config.h:
 
@@ -371,4 +371,4 @@ khc2c.lo: \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_select.h:
 
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/rdft/codelet-rdft.h:
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/rdft/codelet-rdft.h:

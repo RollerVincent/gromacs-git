@@ -1,6 +1,6 @@
 print.lo: \
-  /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/kernel/print.c \
-  /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/kernel/ifftw.h \
+  /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/kernel/print.c \
+  /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/kernel/ifftw.h \
   ../config.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/Availability.h \
@@ -128,7 +128,7 @@ print.lo: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/secure/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/secure/_common.h
 
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/kernel/ifftw.h:
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/kernel/ifftw.h:
 
 ../config.h:
 

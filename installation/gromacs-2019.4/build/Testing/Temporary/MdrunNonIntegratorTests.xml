@@ -1,68 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites tests="57" failures="0" disabled="0" errors="0" timestamp="2019-11-12T01:54:15" time="2.132" name="AllTests">
-  <testsuite name="MinimizersWorkWithConstraints/EnergyMinimizationTest" tests="6" failures="0" disabled="0" errors="0" time="0.327">
-    <testcase name="WithinTolerances/0" value_param="(&quot;spc5&quot;, &quot;steep&quot;)" status="run" time="0.111" classname="MinimizersWorkWithConstraints/EnergyMinimizationTest" />
-    <testcase name="WithinTolerances/1" value_param="(&quot;spc5&quot;, &quot;cg&quot;)" status="run" time="0.112" classname="MinimizersWorkWithConstraints/EnergyMinimizationTest" />
-    <testcase name="WithinTolerances/2" value_param="(&quot;glycine_vacuo&quot;, &quot;steep&quot;)" status="run" time="0.042" classname="MinimizersWorkWithConstraints/EnergyMinimizationTest" />
-    <testcase name="WithinTolerances/3" value_param="(&quot;glycine_vacuo&quot;, &quot;cg&quot;)" status="run" time="0.039" classname="MinimizersWorkWithConstraints/EnergyMinimizationTest" />
-    <testcase name="WithinTolerances/4" value_param="(&quot;alanine_vsite_vacuo&quot;, &quot;steep&quot;)" status="run" time="0.013" classname="MinimizersWorkWithConstraints/EnergyMinimizationTest" />
-    <testcase name="WithinTolerances/5" value_param="(&quot;alanine_vsite_vacuo&quot;, &quot;cg&quot;)" status="run" time="0.01" classname="MinimizersWorkWithConstraints/EnergyMinimizationTest" />
+<testsuites tests="57" failures="0" disabled="0" errors="0" timestamp="2019-11-27T19:15:34" time="3.546" name="AllTests">
+  <testsuite name="MinimizersWorkWithConstraints/EnergyMinimizationTest" tests="6" failures="0" disabled="0" errors="0" time="0.622">
+    <testcase name="WithinTolerances/0" value_param="(&quot;spc5&quot;, &quot;steep&quot;)" status="run" time="0.2" classname="MinimizersWorkWithConstraints/EnergyMinimizationTest" />
+    <testcase name="WithinTolerances/1" value_param="(&quot;spc5&quot;, &quot;cg&quot;)" status="run" time="0.186" classname="MinimizersWorkWithConstraints/EnergyMinimizationTest" />
+    <testcase name="WithinTolerances/2" value_param="(&quot;glycine_vacuo&quot;, &quot;steep&quot;)" status="run" time="0.095" classname="MinimizersWorkWithConstraints/EnergyMinimizationTest" />
+    <testcase name="WithinTolerances/3" value_param="(&quot;glycine_vacuo&quot;, &quot;cg&quot;)" status="run" time="0.091" classname="MinimizersWorkWithConstraints/EnergyMinimizationTest" />
+    <testcase name="WithinTolerances/4" value_param="(&quot;alanine_vsite_vacuo&quot;, &quot;steep&quot;)" status="run" time="0.032" classname="MinimizersWorkWithConstraints/EnergyMinimizationTest" />
+    <testcase name="WithinTolerances/5" value_param="(&quot;alanine_vsite_vacuo&quot;, &quot;cg&quot;)" status="run" time="0.017" classname="MinimizersWorkWithConstraints/EnergyMinimizationTest" />
   </testsuite>
-  <testsuite name="MinimizersWork/EnergyMinimizationTest" tests="6" failures="0" disabled="0" errors="0" time="0.145">
+  <testsuite name="MinimizersWork/EnergyMinimizationTest" tests="6" failures="0" disabled="0" errors="0" time="0.321">
     <testcase name="WithinTolerances/0" value_param="(&quot;argon12&quot;, &quot;steep&quot;)" status="run" time="0.01" classname="MinimizersWork/EnergyMinimizationTest" />
-    <testcase name="WithinTolerances/1" value_param="(&quot;argon12&quot;, &quot;cg&quot;)" status="run" time="0.008" classname="MinimizersWork/EnergyMinimizationTest" />
-    <testcase name="WithinTolerances/2" value_param="(&quot;argon12&quot;, &quot;l-bfgs&quot;)" status="run" time="0.007" classname="MinimizersWork/EnergyMinimizationTest" />
-    <testcase name="WithinTolerances/3" value_param="(&quot;glycine_no_constraints_vacuo&quot;, &quot;steep&quot;)" status="run" time="0.045" classname="MinimizersWork/EnergyMinimizationTest" />
-    <testcase name="WithinTolerances/4" value_param="(&quot;glycine_no_constraints_vacuo&quot;, &quot;cg&quot;)" status="run" time="0.037" classname="MinimizersWork/EnergyMinimizationTest" />
-    <testcase name="WithinTolerances/5" value_param="(&quot;glycine_no_constraints_vacuo&quot;, &quot;l-bfgs&quot;)" status="run" time="0.038" classname="MinimizersWork/EnergyMinimizationTest" />
+    <testcase name="WithinTolerances/1" value_param="(&quot;argon12&quot;, &quot;cg&quot;)" status="run" time="0.012" classname="MinimizersWork/EnergyMinimizationTest" />
+    <testcase name="WithinTolerances/2" value_param="(&quot;argon12&quot;, &quot;l-bfgs&quot;)" status="run" time="0.015" classname="MinimizersWork/EnergyMinimizationTest" />
+    <testcase name="WithinTolerances/3" value_param="(&quot;glycine_no_constraints_vacuo&quot;, &quot;steep&quot;)" status="run" time="0.091" classname="MinimizersWork/EnergyMinimizationTest" />
+    <testcase name="WithinTolerances/4" value_param="(&quot;glycine_no_constraints_vacuo&quot;, &quot;cg&quot;)" status="run" time="0.092" classname="MinimizersWork/EnergyMinimizationTest" />
+    <testcase name="WithinTolerances/5" value_param="(&quot;glycine_no_constraints_vacuo&quot;, &quot;l-bfgs&quot;)" status="run" time="0.101" classname="MinimizersWork/EnergyMinimizationTest" />
   </testsuite>
-  <testsuite name="NormalMdrunIsReproduced/MdrunRerunTest" tests="12" failures="0" disabled="0" errors="0" time="0.631">
-    <testcase name="WithinTolerances/0" value_param="(&quot;argon12&quot;, &quot;md&quot;)" status="run" time="0.014" classname="NormalMdrunIsReproduced/MdrunRerunTest" />
-    <testcase name="WithinTolerances/1" value_param="(&quot;argon12&quot;, &quot;md-vv&quot;)" status="run" time="0.016" classname="NormalMdrunIsReproduced/MdrunRerunTest" />
-    <testcase name="WithinTolerances/2" value_param="(&quot;argon12&quot;, &quot;bd&quot;)" status="run" time="0.015" classname="NormalMdrunIsReproduced/MdrunRerunTest" />
-    <testcase name="WithinTolerances/3" value_param="(&quot;argon12&quot;, &quot;sd&quot;)" status="run" time="0.016" classname="NormalMdrunIsReproduced/MdrunRerunTest" />
-    <testcase name="WithinTolerances/4" value_param="(&quot;spc5&quot;, &quot;md&quot;)" status="run" time="0.123" classname="NormalMdrunIsReproduced/MdrunRerunTest" />
-    <testcase name="WithinTolerances/5" value_param="(&quot;spc5&quot;, &quot;md-vv&quot;)" status="run" time="0.159" classname="NormalMdrunIsReproduced/MdrunRerunTest" />
-    <testcase name="WithinTolerances/6" value_param="(&quot;spc5&quot;, &quot;bd&quot;)" status="run" time="0.109" classname="NormalMdrunIsReproduced/MdrunRerunTest" />
-    <testcase name="WithinTolerances/7" value_param="(&quot;spc5&quot;, &quot;sd&quot;)" status="run" time="0.091" classname="NormalMdrunIsReproduced/MdrunRerunTest" />
-    <testcase name="WithinTolerances/8" value_param="(&quot;alanine_vsite_vacuo&quot;, &quot;md&quot;)" status="run" time="0.017" classname="NormalMdrunIsReproduced/MdrunRerunTest" />
-    <testcase name="WithinTolerances/9" value_param="(&quot;alanine_vsite_vacuo&quot;, &quot;md-vv&quot;)" status="run" time="0.021" classname="NormalMdrunIsReproduced/MdrunRerunTest" />
-    <testcase name="WithinTolerances/10" value_param="(&quot;alanine_vsite_vacuo&quot;, &quot;bd&quot;)" status="run" time="0.027" classname="NormalMdrunIsReproduced/MdrunRerunTest" />
-    <testcase name="WithinTolerances/11" value_param="(&quot;alanine_vsite_vacuo&quot;, &quot;sd&quot;)" status="run" time="0.023" classname="NormalMdrunIsReproduced/MdrunRerunTest" />
+  <testsuite name="NormalMdrunIsReproduced/MdrunRerunTest" tests="12" failures="0" disabled="0" errors="0" time="1.029">
+    <testcase name="WithinTolerances/0" value_param="(&quot;argon12&quot;, &quot;md&quot;)" status="run" time="0.02" classname="NormalMdrunIsReproduced/MdrunRerunTest" />
+    <testcase name="WithinTolerances/1" value_param="(&quot;argon12&quot;, &quot;md-vv&quot;)" status="run" time="0.023" classname="NormalMdrunIsReproduced/MdrunRerunTest" />
+    <testcase name="WithinTolerances/2" value_param="(&quot;argon12&quot;, &quot;bd&quot;)" status="run" time="0.018" classname="NormalMdrunIsReproduced/MdrunRerunTest" />
+    <testcase name="WithinTolerances/3" value_param="(&quot;argon12&quot;, &quot;sd&quot;)" status="run" time="0.018" classname="NormalMdrunIsReproduced/MdrunRerunTest" />
+    <testcase name="WithinTolerances/4" value_param="(&quot;spc5&quot;, &quot;md&quot;)" status="run" time="0.165" classname="NormalMdrunIsReproduced/MdrunRerunTest" />
+    <testcase name="WithinTolerances/5" value_param="(&quot;spc5&quot;, &quot;md-vv&quot;)" status="run" time="0.267" classname="NormalMdrunIsReproduced/MdrunRerunTest" />
+    <testcase name="WithinTolerances/6" value_param="(&quot;spc5&quot;, &quot;bd&quot;)" status="run" time="0.167" classname="NormalMdrunIsReproduced/MdrunRerunTest" />
+    <testcase name="WithinTolerances/7" value_param="(&quot;spc5&quot;, &quot;sd&quot;)" status="run" time="0.161" classname="NormalMdrunIsReproduced/MdrunRerunTest" />
+    <testcase name="WithinTolerances/8" value_param="(&quot;alanine_vsite_vacuo&quot;, &quot;md&quot;)" status="run" time="0.044" classname="NormalMdrunIsReproduced/MdrunRerunTest" />
+    <testcase name="WithinTolerances/9" value_param="(&quot;alanine_vsite_vacuo&quot;, &quot;md-vv&quot;)" status="run" time="0.039" classname="NormalMdrunIsReproduced/MdrunRerunTest" />
+    <testcase name="WithinTolerances/10" value_param="(&quot;alanine_vsite_vacuo&quot;, &quot;bd&quot;)" status="run" time="0.062" classname="NormalMdrunIsReproduced/MdrunRerunTest" />
+    <testcase name="WithinTolerances/11" value_param="(&quot;alanine_vsite_vacuo&quot;, &quot;sd&quot;)" status="run" time="0.044" classname="NormalMdrunIsReproduced/MdrunRerunTest" />
   </testsuite>
-  <testsuite name="MdrunIsReproduced/MdrunRerunFreeEnergyTest" tests="33" failures="0" disabled="0" errors="0" time="1.028">
-    <testcase name="WithinTolerances/0" value_param="(&quot;nonanol_vacuo&quot;, &quot;md&quot;, 0)" status="run" time="0.024" classname="MdrunIsReproduced/MdrunRerunFreeEnergyTest" />
-    <testcase name="WithinTolerances/1" value_param="(&quot;nonanol_vacuo&quot;, &quot;md&quot;, 1)" status="run" time="0.023" classname="MdrunIsReproduced/MdrunRerunFreeEnergyTest" />
-    <testcase name="WithinTolerances/2" value_param="(&quot;nonanol_vacuo&quot;, &quot;md&quot;, 2)" status="run" time="0.021" classname="MdrunIsReproduced/MdrunRerunFreeEnergyTest" />
-    <testcase name="WithinTolerances/3" value_param="(&quot;nonanol_vacuo&quot;, &quot;md&quot;, 3)" status="run" time="0.022" classname="MdrunIsReproduced/MdrunRerunFreeEnergyTest" />
-    <testcase name="WithinTolerances/4" value_param="(&quot;nonanol_vacuo&quot;, &quot;md&quot;, 4)" status="run" time="0.022" classname="MdrunIsReproduced/MdrunRerunFreeEnergyTest" />
-    <testcase name="WithinTolerances/5" value_param="(&quot;nonanol_vacuo&quot;, &quot;md&quot;, 5)" status="run" time="0.021" classname="MdrunIsReproduced/MdrunRerunFreeEnergyTest" />
-    <testcase name="WithinTolerances/6" value_param="(&quot;nonanol_vacuo&quot;, &quot;md&quot;, 6)" status="run" time="0.03" classname="MdrunIsReproduced/MdrunRerunFreeEnergyTest" />
-    <testcase name="WithinTolerances/7" value_param="(&quot;nonanol_vacuo&quot;, &quot;md&quot;, 7)" status="run" time="0.023" classname="MdrunIsReproduced/MdrunRerunFreeEnergyTest" />
-    <testcase name="WithinTolerances/8" value_param="(&quot;nonanol_vacuo&quot;, &quot;md&quot;, 8)" status="run" time="0.026" classname="MdrunIsReproduced/MdrunRerunFreeEnergyTest" />
-    <testcase name="WithinTolerances/9" value_param="(&quot;nonanol_vacuo&quot;, &quot;md&quot;, 9)" status="run" time="0.023" classname="MdrunIsReproduced/MdrunRerunFreeEnergyTest" />
-    <testcase name="WithinTolerances/10" value_param="(&quot;nonanol_vacuo&quot;, &quot;md&quot;, 10)" status="run" time="0.029" classname="MdrunIsReproduced/MdrunRerunFreeEnergyTest" />
-    <testcase name="WithinTolerances/11" value_param="(&quot;nonanol_vacuo&quot;, &quot;md-vv&quot;, 0)" status="run" time="0.035" classname="MdrunIsReproduced/MdrunRerunFreeEnergyTest" />
-    <testcase name="WithinTolerances/12" value_param="(&quot;nonanol_vacuo&quot;, &quot;md-vv&quot;, 1)" status="run" time="0.041" classname="MdrunIsReproduced/MdrunRerunFreeEnergyTest" />
-    <testcase name="WithinTolerances/13" value_param="(&quot;nonanol_vacuo&quot;, &quot;md-vv&quot;, 2)" status="run" time="0.038" classname="MdrunIsReproduced/MdrunRerunFreeEnergyTest" />
-    <testcase name="WithinTolerances/14" value_param="(&quot;nonanol_vacuo&quot;, &quot;md-vv&quot;, 3)" status="run" time="0.034" classname="MdrunIsReproduced/MdrunRerunFreeEnergyTest" />
-    <testcase name="WithinTolerances/15" value_param="(&quot;nonanol_vacuo&quot;, &quot;md-vv&quot;, 4)" status="run" time="0.029" classname="MdrunIsReproduced/MdrunRerunFreeEnergyTest" />
-    <testcase name="WithinTolerances/16" value_param="(&quot;nonanol_vacuo&quot;, &quot;md-vv&quot;, 5)" status="run" time="0.028" classname="MdrunIsReproduced/MdrunRerunFreeEnergyTest" />
-    <testcase name="WithinTolerances/17" value_param="(&quot;nonanol_vacuo&quot;, &quot;md-vv&quot;, 6)" status="run" time="0.033" classname="MdrunIsReproduced/MdrunRerunFreeEnergyTest" />
-    <testcase name="WithinTolerances/18" value_param="(&quot;nonanol_vacuo&quot;, &quot;md-vv&quot;, 7)" status="run" time="0.027" classname="MdrunIsReproduced/MdrunRerunFreeEnergyTest" />
-    <testcase name="WithinTolerances/19" value_param="(&quot;nonanol_vacuo&quot;, &quot;md-vv&quot;, 8)" status="run" time="0.033" classname="MdrunIsReproduced/MdrunRerunFreeEnergyTest" />
-    <testcase name="WithinTolerances/20" value_param="(&quot;nonanol_vacuo&quot;, &quot;md-vv&quot;, 9)" status="run" time="0.024" classname="MdrunIsReproduced/MdrunRerunFreeEnergyTest" />
-    <testcase name="WithinTolerances/21" value_param="(&quot;nonanol_vacuo&quot;, &quot;md-vv&quot;, 10)" status="run" time="0.03" classname="MdrunIsReproduced/MdrunRerunFreeEnergyTest" />
-    <testcase name="WithinTolerances/22" value_param="(&quot;nonanol_vacuo&quot;, &quot;sd&quot;, 0)" status="run" time="0.035" classname="MdrunIsReproduced/MdrunRerunFreeEnergyTest" />
-    <testcase name="WithinTolerances/23" value_param="(&quot;nonanol_vacuo&quot;, &quot;sd&quot;, 1)" status="run" time="0.038" classname="MdrunIsReproduced/MdrunRerunFreeEnergyTest" />
-    <testcase name="WithinTolerances/24" value_param="(&quot;nonanol_vacuo&quot;, &quot;sd&quot;, 2)" status="run" time="0.034" classname="MdrunIsReproduced/MdrunRerunFreeEnergyTest" />
-    <testcase name="WithinTolerances/25" value_param="(&quot;nonanol_vacuo&quot;, &quot;sd&quot;, 3)" status="run" time="0.04" classname="MdrunIsReproduced/MdrunRerunFreeEnergyTest" />
-    <testcase name="WithinTolerances/26" value_param="(&quot;nonanol_vacuo&quot;, &quot;sd&quot;, 4)" status="run" time="0.034" classname="MdrunIsReproduced/MdrunRerunFreeEnergyTest" />
-    <testcase name="WithinTolerances/27" value_param="(&quot;nonanol_vacuo&quot;, &quot;sd&quot;, 5)" status="run" time="0.039" classname="MdrunIsReproduced/MdrunRerunFreeEnergyTest" />
-    <testcase name="WithinTolerances/28" value_param="(&quot;nonanol_vacuo&quot;, &quot;sd&quot;, 6)" status="run" time="0.066" classname="MdrunIsReproduced/MdrunRerunFreeEnergyTest" />
-    <testcase name="WithinTolerances/29" value_param="(&quot;nonanol_vacuo&quot;, &quot;sd&quot;, 7)" status="run" time="0.03" classname="MdrunIsReproduced/MdrunRerunFreeEnergyTest" />
-    <testcase name="WithinTolerances/30" value_param="(&quot;nonanol_vacuo&quot;, &quot;sd&quot;, 8)" status="run" time="0.031" classname="MdrunIsReproduced/MdrunRerunFreeEnergyTest" />
-    <testcase name="WithinTolerances/31" value_param="(&quot;nonanol_vacuo&quot;, &quot;sd&quot;, 9)" status="run" time="0.034" classname="MdrunIsReproduced/MdrunRerunFreeEnergyTest" />
-    <testcase name="WithinTolerances/32" value_param="(&quot;nonanol_vacuo&quot;, &quot;sd&quot;, 10)" status="run" time="0.031" classname="MdrunIsReproduced/MdrunRerunFreeEnergyTest" />
+  <testsuite name="MdrunIsReproduced/MdrunRerunFreeEnergyTest" tests="33" failures="0" disabled="0" errors="0" time="1.574">
+    <testcase name="WithinTolerances/0" value_param="(&quot;nonanol_vacuo&quot;, &quot;md&quot;, 0)" status="run" time="0.034" classname="MdrunIsReproduced/MdrunRerunFreeEnergyTest" />
+    <testcase name="WithinTolerances/1" value_param="(&quot;nonanol_vacuo&quot;, &quot;md&quot;, 1)" status="run" time="0.033" classname="MdrunIsReproduced/MdrunRerunFreeEnergyTest" />
+    <testcase name="WithinTolerances/2" value_param="(&quot;nonanol_vacuo&quot;, &quot;md&quot;, 2)" status="run" time="0.055" classname="MdrunIsReproduced/MdrunRerunFreeEnergyTest" />
+    <testcase name="WithinTolerances/3" value_param="(&quot;nonanol_vacuo&quot;, &quot;md&quot;, 3)" status="run" time="0.035" classname="MdrunIsReproduced/MdrunRerunFreeEnergyTest" />
+    <testcase name="WithinTolerances/4" value_param="(&quot;nonanol_vacuo&quot;, &quot;md&quot;, 4)" status="run" time="0.035" classname="MdrunIsReproduced/MdrunRerunFreeEnergyTest" />
+    <testcase name="WithinTolerances/5" value_param="(&quot;nonanol_vacuo&quot;, &quot;md&quot;, 5)" status="run" time="0.038" classname="MdrunIsReproduced/MdrunRerunFreeEnergyTest" />
+    <testcase name="WithinTolerances/6" value_param="(&quot;nonanol_vacuo&quot;, &quot;md&quot;, 6)" status="run" time="0.037" classname="MdrunIsReproduced/MdrunRerunFreeEnergyTest" />
+    <testcase name="WithinTolerances/7" value_param="(&quot;nonanol_vacuo&quot;, &quot;md&quot;, 7)" status="run" time="0.036" classname="MdrunIsReproduced/MdrunRerunFreeEnergyTest" />
+    <testcase name="WithinTolerances/8" value_param="(&quot;nonanol_vacuo&quot;, &quot;md&quot;, 8)" status="run" time="0.031" classname="MdrunIsReproduced/MdrunRerunFreeEnergyTest" />
+    <testcase name="WithinTolerances/9" value_param="(&quot;nonanol_vacuo&quot;, &quot;md&quot;, 9)" status="run" time="0.04" classname="MdrunIsReproduced/MdrunRerunFreeEnergyTest" />
+    <testcase name="WithinTolerances/10" value_param="(&quot;nonanol_vacuo&quot;, &quot;md&quot;, 10)" status="run" time="0.053" classname="MdrunIsReproduced/MdrunRerunFreeEnergyTest" />
+    <testcase name="WithinTolerances/11" value_param="(&quot;nonanol_vacuo&quot;, &quot;md-vv&quot;, 0)" status="run" time="0.037" classname="MdrunIsReproduced/MdrunRerunFreeEnergyTest" />
+    <testcase name="WithinTolerances/12" value_param="(&quot;nonanol_vacuo&quot;, &quot;md-vv&quot;, 1)" status="run" time="0.04" classname="MdrunIsReproduced/MdrunRerunFreeEnergyTest" />
+    <testcase name="WithinTolerances/13" value_param="(&quot;nonanol_vacuo&quot;, &quot;md-vv&quot;, 2)" status="run" time="0.037" classname="MdrunIsReproduced/MdrunRerunFreeEnergyTest" />
+    <testcase name="WithinTolerances/14" value_param="(&quot;nonanol_vacuo&quot;, &quot;md-vv&quot;, 3)" status="run" time="0.037" classname="MdrunIsReproduced/MdrunRerunFreeEnergyTest" />
+    <testcase name="WithinTolerances/15" value_param="(&quot;nonanol_vacuo&quot;, &quot;md-vv&quot;, 4)" status="run" time="0.052" classname="MdrunIsReproduced/MdrunRerunFreeEnergyTest" />
+    <testcase name="WithinTolerances/16" value_param="(&quot;nonanol_vacuo&quot;, &quot;md-vv&quot;, 5)" status="run" time="0.075" classname="MdrunIsReproduced/MdrunRerunFreeEnergyTest" />
+    <testcase name="WithinTolerances/17" value_param="(&quot;nonanol_vacuo&quot;, &quot;md-vv&quot;, 6)" status="run" time="0.035" classname="MdrunIsReproduced/MdrunRerunFreeEnergyTest" />
+    <testcase name="WithinTolerances/18" value_param="(&quot;nonanol_vacuo&quot;, &quot;md-vv&quot;, 7)" status="run" time="0.03" classname="MdrunIsReproduced/MdrunRerunFreeEnergyTest" />
+    <testcase name="WithinTolerances/19" value_param="(&quot;nonanol_vacuo&quot;, &quot;md-vv&quot;, 8)" status="run" time="0.031" classname="MdrunIsReproduced/MdrunRerunFreeEnergyTest" />
+    <testcase name="WithinTolerances/20" value_param="(&quot;nonanol_vacuo&quot;, &quot;md-vv&quot;, 9)" status="run" time="0.031" classname="MdrunIsReproduced/MdrunRerunFreeEnergyTest" />
+    <testcase name="WithinTolerances/21" value_param="(&quot;nonanol_vacuo&quot;, &quot;md-vv&quot;, 10)" status="run" time="0.14" classname="MdrunIsReproduced/MdrunRerunFreeEnergyTest" />
+    <testcase name="WithinTolerances/22" value_param="(&quot;nonanol_vacuo&quot;, &quot;sd&quot;, 0)" status="run" time="0.045" classname="MdrunIsReproduced/MdrunRerunFreeEnergyTest" />
+    <testcase name="WithinTolerances/23" value_param="(&quot;nonanol_vacuo&quot;, &quot;sd&quot;, 1)" status="run" time="0.051" classname="MdrunIsReproduced/MdrunRerunFreeEnergyTest" />
+    <testcase name="WithinTolerances/24" value_param="(&quot;nonanol_vacuo&quot;, &quot;sd&quot;, 2)" status="run" time="0.053" classname="MdrunIsReproduced/MdrunRerunFreeEnergyTest" />
+    <testcase name="WithinTolerances/25" value_param="(&quot;nonanol_vacuo&quot;, &quot;sd&quot;, 3)" status="run" time="0.043" classname="MdrunIsReproduced/MdrunRerunFreeEnergyTest" />
+    <testcase name="WithinTolerances/26" value_param="(&quot;nonanol_vacuo&quot;, &quot;sd&quot;, 4)" status="run" time="0.058" classname="MdrunIsReproduced/MdrunRerunFreeEnergyTest" />
+    <testcase name="WithinTolerances/27" value_param="(&quot;nonanol_vacuo&quot;, &quot;sd&quot;, 5)" status="run" time="0.049" classname="MdrunIsReproduced/MdrunRerunFreeEnergyTest" />
+    <testcase name="WithinTolerances/28" value_param="(&quot;nonanol_vacuo&quot;, &quot;sd&quot;, 6)" status="run" time="0.057" classname="MdrunIsReproduced/MdrunRerunFreeEnergyTest" />
+    <testcase name="WithinTolerances/29" value_param="(&quot;nonanol_vacuo&quot;, &quot;sd&quot;, 7)" status="run" time="0.073" classname="MdrunIsReproduced/MdrunRerunFreeEnergyTest" />
+    <testcase name="WithinTolerances/30" value_param="(&quot;nonanol_vacuo&quot;, &quot;sd&quot;, 8)" status="run" time="0.046" classname="MdrunIsReproduced/MdrunRerunFreeEnergyTest" />
+    <testcase name="WithinTolerances/31" value_param="(&quot;nonanol_vacuo&quot;, &quot;sd&quot;, 9)" status="run" time="0.072" classname="MdrunIsReproduced/MdrunRerunFreeEnergyTest" />
+    <testcase name="WithinTolerances/32" value_param="(&quot;nonanol_vacuo&quot;, &quot;sd&quot;, 10)" status="run" time="0.055" classname="MdrunIsReproduced/MdrunRerunFreeEnergyTest" />
   </testsuite>
 </testsuites>

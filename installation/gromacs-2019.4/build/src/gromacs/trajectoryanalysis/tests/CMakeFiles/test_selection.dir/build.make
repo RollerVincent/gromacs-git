@@ -43,10 +43,10 @@ RM = /usr/local/Cellar/cmake/3.11.1/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4
+CMAKE_SOURCE_DIR = /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build
+CMAKE_BINARY_DIR = /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build
 
 # Include any dependencies generated for this target.
 include src/gromacs/trajectoryanalysis/tests/CMakeFiles/test_selection.dir/depend.make
@@ -59,16 +59,16 @@ include src/gromacs/trajectoryanalysis/tests/CMakeFiles/test_selection.dir/flags
 
 src/gromacs/trajectoryanalysis/tests/CMakeFiles/test_selection.dir/test_selection.cpp.o: src/gromacs/trajectoryanalysis/tests/CMakeFiles/test_selection.dir/flags.make
 src/gromacs/trajectoryanalysis/tests/CMakeFiles/test_selection.dir/test_selection.cpp.o: ../src/gromacs/trajectoryanalysis/tests/test_selection.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/gromacs/trajectoryanalysis/tests/CMakeFiles/test_selection.dir/test_selection.cpp.o"
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/trajectoryanalysis/tests && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_selection.dir/test_selection.cpp.o -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/trajectoryanalysis/tests/test_selection.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/gromacs/trajectoryanalysis/tests/CMakeFiles/test_selection.dir/test_selection.cpp.o"
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/trajectoryanalysis/tests && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test_selection.dir/test_selection.cpp.o -c /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/trajectoryanalysis/tests/test_selection.cpp
 
 src/gromacs/trajectoryanalysis/tests/CMakeFiles/test_selection.dir/test_selection.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_selection.dir/test_selection.cpp.i"
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/trajectoryanalysis/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/trajectoryanalysis/tests/test_selection.cpp > CMakeFiles/test_selection.dir/test_selection.cpp.i
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/trajectoryanalysis/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/trajectoryanalysis/tests/test_selection.cpp > CMakeFiles/test_selection.dir/test_selection.cpp.i
 
 src/gromacs/trajectoryanalysis/tests/CMakeFiles/test_selection.dir/test_selection.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_selection.dir/test_selection.cpp.s"
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/trajectoryanalysis/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/trajectoryanalysis/tests/test_selection.cpp -o CMakeFiles/test_selection.dir/test_selection.cpp.s
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/trajectoryanalysis/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/trajectoryanalysis/tests/test_selection.cpp -o CMakeFiles/test_selection.dir/test_selection.cpp.s
 
 # Object files for target test_selection
 test_selection_OBJECTS = \
@@ -81,8 +81,8 @@ bin/test_selection: src/gromacs/trajectoryanalysis/tests/CMakeFiles/test_selecti
 bin/test_selection: src/gromacs/trajectoryanalysis/tests/CMakeFiles/test_selection.dir/build.make
 bin/test_selection: lib/libgromacs.4.0.0.dylib
 bin/test_selection: src/gromacs/trajectoryanalysis/tests/CMakeFiles/test_selection.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../../../bin/test_selection"
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/trajectoryanalysis/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_selection.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../../../bin/test_selection"
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/trajectoryanalysis/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_selection.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/gromacs/trajectoryanalysis/tests/CMakeFiles/test_selection.dir/build: bin/test_selection
@@ -90,10 +90,10 @@ src/gromacs/trajectoryanalysis/tests/CMakeFiles/test_selection.dir/build: bin/te
 .PHONY : src/gromacs/trajectoryanalysis/tests/CMakeFiles/test_selection.dir/build
 
 src/gromacs/trajectoryanalysis/tests/CMakeFiles/test_selection.dir/clean:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/trajectoryanalysis/tests && $(CMAKE_COMMAND) -P CMakeFiles/test_selection.dir/cmake_clean.cmake
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/trajectoryanalysis/tests && $(CMAKE_COMMAND) -P CMakeFiles/test_selection.dir/cmake_clean.cmake
 .PHONY : src/gromacs/trajectoryanalysis/tests/CMakeFiles/test_selection.dir/clean
 
 src/gromacs/trajectoryanalysis/tests/CMakeFiles/test_selection.dir/depend:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4 /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/trajectoryanalysis/tests /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/trajectoryanalysis/tests /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/trajectoryanalysis/tests/CMakeFiles/test_selection.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4 /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/trajectoryanalysis/tests /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/trajectoryanalysis/tests /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/trajectoryanalysis/tests/CMakeFiles/test_selection.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/gromacs/trajectoryanalysis/tests/CMakeFiles/test_selection.dir/depend
 

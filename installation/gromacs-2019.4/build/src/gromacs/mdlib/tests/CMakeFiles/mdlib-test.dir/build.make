@@ -43,10 +43,10 @@ RM = /usr/local/Cellar/cmake/3.11.1/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4
+CMAKE_SOURCE_DIR = /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build
+CMAKE_BINARY_DIR = /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build
 
 # Include any dependencies generated for this target.
 include src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/depend.make
@@ -59,107 +59,107 @@ include src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/flags.make
 
 src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/calc_verletbuf.cpp.o: src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/flags.make
 src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/calc_verletbuf.cpp.o: ../src/gromacs/mdlib/tests/calc_verletbuf.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/calc_verletbuf.cpp.o"
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/mdlib/tests && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mdlib-test.dir/calc_verletbuf.cpp.o -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/mdlib/tests/calc_verletbuf.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/calc_verletbuf.cpp.o"
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/mdlib/tests && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mdlib-test.dir/calc_verletbuf.cpp.o -c /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/mdlib/tests/calc_verletbuf.cpp
 
 src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/calc_verletbuf.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mdlib-test.dir/calc_verletbuf.cpp.i"
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/mdlib/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/mdlib/tests/calc_verletbuf.cpp > CMakeFiles/mdlib-test.dir/calc_verletbuf.cpp.i
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/mdlib/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/mdlib/tests/calc_verletbuf.cpp > CMakeFiles/mdlib-test.dir/calc_verletbuf.cpp.i
 
 src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/calc_verletbuf.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mdlib-test.dir/calc_verletbuf.cpp.s"
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/mdlib/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/mdlib/tests/calc_verletbuf.cpp -o CMakeFiles/mdlib-test.dir/calc_verletbuf.cpp.s
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/mdlib/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/mdlib/tests/calc_verletbuf.cpp -o CMakeFiles/mdlib-test.dir/calc_verletbuf.cpp.s
 
 src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/mdebin.cpp.o: src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/flags.make
 src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/mdebin.cpp.o: ../src/gromacs/mdlib/tests/mdebin.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/mdebin.cpp.o"
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/mdlib/tests && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mdlib-test.dir/mdebin.cpp.o -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/mdlib/tests/mdebin.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/mdebin.cpp.o"
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/mdlib/tests && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mdlib-test.dir/mdebin.cpp.o -c /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/mdlib/tests/mdebin.cpp
 
 src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/mdebin.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mdlib-test.dir/mdebin.cpp.i"
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/mdlib/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/mdlib/tests/mdebin.cpp > CMakeFiles/mdlib-test.dir/mdebin.cpp.i
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/mdlib/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/mdlib/tests/mdebin.cpp > CMakeFiles/mdlib-test.dir/mdebin.cpp.i
 
 src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/mdebin.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mdlib-test.dir/mdebin.cpp.s"
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/mdlib/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/mdlib/tests/mdebin.cpp -o CMakeFiles/mdlib-test.dir/mdebin.cpp.s
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/mdlib/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/mdlib/tests/mdebin.cpp -o CMakeFiles/mdlib-test.dir/mdebin.cpp.s
 
 src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/settle.cpp.o: src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/flags.make
 src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/settle.cpp.o: ../src/gromacs/mdlib/tests/settle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/settle.cpp.o"
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/mdlib/tests && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mdlib-test.dir/settle.cpp.o -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/mdlib/tests/settle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/settle.cpp.o"
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/mdlib/tests && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mdlib-test.dir/settle.cpp.o -c /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/mdlib/tests/settle.cpp
 
 src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/settle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mdlib-test.dir/settle.cpp.i"
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/mdlib/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/mdlib/tests/settle.cpp > CMakeFiles/mdlib-test.dir/settle.cpp.i
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/mdlib/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/mdlib/tests/settle.cpp > CMakeFiles/mdlib-test.dir/settle.cpp.i
 
 src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/settle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mdlib-test.dir/settle.cpp.s"
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/mdlib/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/mdlib/tests/settle.cpp -o CMakeFiles/mdlib-test.dir/settle.cpp.s
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/mdlib/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/mdlib/tests/settle.cpp -o CMakeFiles/mdlib-test.dir/settle.cpp.s
 
 src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/shake.cpp.o: src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/flags.make
 src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/shake.cpp.o: ../src/gromacs/mdlib/tests/shake.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/shake.cpp.o"
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/mdlib/tests && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mdlib-test.dir/shake.cpp.o -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/mdlib/tests/shake.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/shake.cpp.o"
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/mdlib/tests && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mdlib-test.dir/shake.cpp.o -c /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/mdlib/tests/shake.cpp
 
 src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/shake.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mdlib-test.dir/shake.cpp.i"
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/mdlib/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/mdlib/tests/shake.cpp > CMakeFiles/mdlib-test.dir/shake.cpp.i
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/mdlib/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/mdlib/tests/shake.cpp > CMakeFiles/mdlib-test.dir/shake.cpp.i
 
 src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/shake.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mdlib-test.dir/shake.cpp.s"
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/mdlib/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/mdlib/tests/shake.cpp -o CMakeFiles/mdlib-test.dir/shake.cpp.s
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/mdlib/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/mdlib/tests/shake.cpp -o CMakeFiles/mdlib-test.dir/shake.cpp.s
 
 src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/simulationsignal.cpp.o: src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/flags.make
 src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/simulationsignal.cpp.o: ../src/gromacs/mdlib/tests/simulationsignal.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/simulationsignal.cpp.o"
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/mdlib/tests && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mdlib-test.dir/simulationsignal.cpp.o -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/mdlib/tests/simulationsignal.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/simulationsignal.cpp.o"
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/mdlib/tests && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mdlib-test.dir/simulationsignal.cpp.o -c /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/mdlib/tests/simulationsignal.cpp
 
 src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/simulationsignal.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mdlib-test.dir/simulationsignal.cpp.i"
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/mdlib/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/mdlib/tests/simulationsignal.cpp > CMakeFiles/mdlib-test.dir/simulationsignal.cpp.i
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/mdlib/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/mdlib/tests/simulationsignal.cpp > CMakeFiles/mdlib-test.dir/simulationsignal.cpp.i
 
 src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/simulationsignal.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mdlib-test.dir/simulationsignal.cpp.s"
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/mdlib/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/mdlib/tests/simulationsignal.cpp -o CMakeFiles/mdlib-test.dir/simulationsignal.cpp.s
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/mdlib/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/mdlib/tests/simulationsignal.cpp -o CMakeFiles/mdlib-test.dir/simulationsignal.cpp.s
 
 src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/updategroups.cpp.o: src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/flags.make
 src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/updategroups.cpp.o: ../src/gromacs/mdlib/tests/updategroups.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/updategroups.cpp.o"
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/mdlib/tests && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mdlib-test.dir/updategroups.cpp.o -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/mdlib/tests/updategroups.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/updategroups.cpp.o"
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/mdlib/tests && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mdlib-test.dir/updategroups.cpp.o -c /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/mdlib/tests/updategroups.cpp
 
 src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/updategroups.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mdlib-test.dir/updategroups.cpp.i"
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/mdlib/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/mdlib/tests/updategroups.cpp > CMakeFiles/mdlib-test.dir/updategroups.cpp.i
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/mdlib/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/mdlib/tests/updategroups.cpp > CMakeFiles/mdlib-test.dir/updategroups.cpp.i
 
 src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/updategroups.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mdlib-test.dir/updategroups.cpp.s"
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/mdlib/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/mdlib/tests/updategroups.cpp -o CMakeFiles/mdlib-test.dir/updategroups.cpp.s
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/mdlib/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/mdlib/tests/updategroups.cpp -o CMakeFiles/mdlib-test.dir/updategroups.cpp.s
 
 src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/updategroupscog.cpp.o: src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/flags.make
 src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/updategroupscog.cpp.o: ../src/gromacs/mdlib/tests/updategroupscog.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/updategroupscog.cpp.o"
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/mdlib/tests && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mdlib-test.dir/updategroupscog.cpp.o -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/mdlib/tests/updategroupscog.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/updategroupscog.cpp.o"
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/mdlib/tests && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mdlib-test.dir/updategroupscog.cpp.o -c /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/mdlib/tests/updategroupscog.cpp
 
 src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/updategroupscog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mdlib-test.dir/updategroupscog.cpp.i"
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/mdlib/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/mdlib/tests/updategroupscog.cpp > CMakeFiles/mdlib-test.dir/updategroupscog.cpp.i
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/mdlib/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/mdlib/tests/updategroupscog.cpp > CMakeFiles/mdlib-test.dir/updategroupscog.cpp.i
 
 src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/updategroupscog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mdlib-test.dir/updategroupscog.cpp.s"
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/mdlib/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/mdlib/tests/updategroupscog.cpp -o CMakeFiles/mdlib-test.dir/updategroupscog.cpp.s
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/mdlib/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/mdlib/tests/updategroupscog.cpp -o CMakeFiles/mdlib-test.dir/updategroupscog.cpp.s
 
 src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/__/__/__/testutils/unittest_main.cpp.o: src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/flags.make
 src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/__/__/__/testutils/unittest_main.cpp.o: ../src/testutils/unittest_main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/__/__/__/testutils/unittest_main.cpp.o"
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/mdlib/tests && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mdlib-test.dir/__/__/__/testutils/unittest_main.cpp.o -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/testutils/unittest_main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/__/__/__/testutils/unittest_main.cpp.o"
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/mdlib/tests && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mdlib-test.dir/__/__/__/testutils/unittest_main.cpp.o -c /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/testutils/unittest_main.cpp
 
 src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/__/__/__/testutils/unittest_main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mdlib-test.dir/__/__/__/testutils/unittest_main.cpp.i"
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/mdlib/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/testutils/unittest_main.cpp > CMakeFiles/mdlib-test.dir/__/__/__/testutils/unittest_main.cpp.i
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/mdlib/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/testutils/unittest_main.cpp > CMakeFiles/mdlib-test.dir/__/__/__/testutils/unittest_main.cpp.i
 
 src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/__/__/__/testutils/unittest_main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mdlib-test.dir/__/__/__/testutils/unittest_main.cpp.s"
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/mdlib/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/testutils/unittest_main.cpp -o CMakeFiles/mdlib-test.dir/__/__/__/testutils/unittest_main.cpp.s
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/mdlib/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/testutils/unittest_main.cpp -o CMakeFiles/mdlib-test.dir/__/__/__/testutils/unittest_main.cpp.s
 
 # Object files for target mdlib-test
 mdlib__test_OBJECTS = \
@@ -188,8 +188,8 @@ bin/mdlib-test: lib/libtestutils.a
 bin/mdlib-test: lib/libgromacs.4.0.0.dylib
 bin/mdlib-test: lib/libgmock.a
 bin/mdlib-test: src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable ../../../../bin/mdlib-test"
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/mdlib/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mdlib-test.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable ../../../../bin/mdlib-test"
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/mdlib/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mdlib-test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/build: bin/mdlib-test
@@ -197,10 +197,10 @@ src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/build: bin/mdlib-test
 .PHONY : src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/build
 
 src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/clean:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/mdlib/tests && $(CMAKE_COMMAND) -P CMakeFiles/mdlib-test.dir/cmake_clean.cmake
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/mdlib/tests && $(CMAKE_COMMAND) -P CMakeFiles/mdlib-test.dir/cmake_clean.cmake
 .PHONY : src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/clean
 
 src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/depend:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4 /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/mdlib/tests /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/mdlib/tests /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4 /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/mdlib/tests /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/mdlib/tests /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/gromacs/mdlib/tests/CMakeFiles/mdlib-test.dir/depend
 

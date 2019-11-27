@@ -38,4 +38,4 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/lib'
+libdir='/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/lib'

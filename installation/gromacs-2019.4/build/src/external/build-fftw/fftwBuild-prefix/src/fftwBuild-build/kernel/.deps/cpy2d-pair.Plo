@@ -1,6 +1,6 @@
 cpy2d-pair.lo: \
-  /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/kernel/cpy2d-pair.c \
-  /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/kernel/ifftw.h \
+  /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/kernel/cpy2d-pair.c \
+  /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/kernel/ifftw.h \
   ../config.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/stdlib.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/Availability.h \
@@ -122,7 +122,7 @@ cpy2d-pair.lo: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/time.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_select.h
 
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/kernel/ifftw.h:
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/kernel/ifftw.h:
 
 ../config.h:
 

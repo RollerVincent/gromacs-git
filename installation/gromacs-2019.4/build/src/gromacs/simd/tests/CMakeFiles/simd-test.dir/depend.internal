@@ -26,7 +26,7 @@ src/gromacs/simd/tests/CMakeFiles/simd-test.dir/__/__/__/testutils/unittest_main
  ../src/external/googletest/googletest/include/gtest/internal/gtest-type-util.h
  ../src/gmxpre.h
  ../src/testutils/testinit.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/testutils/unittest_main.cpp
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/testutils/unittest_main.cpp
  src/gmxpre-config.h
 src/gromacs/simd/tests/CMakeFiles/simd-test.dir/base.cpp.o
  ../src/external/googletest/googletest/include/gtest/gtest-death-test.h
@@ -66,8 +66,8 @@ src/gromacs/simd/tests/CMakeFiles/simd-test.dir/base.cpp.o
  ../src/gromacs/utility/gmxassert.h
  ../src/gromacs/utility/real.h
  ../src/testutils/testoptions.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/simd/tests/base.cpp
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/simd/tests/base.h
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/simd/tests/base.cpp
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/simd/tests/base.h
  src/config.h
  src/gmxpre-config.h
 src/gromacs/simd/tests/CMakeFiles/simd-test.dir/bootstrap_loadstore.cpp.o
@@ -226,7 +226,7 @@ src/gromacs/simd/tests/CMakeFiles/simd-test.dir/bootstrap_loadstore.cpp.o
  ../src/gromacs/utility/gmxassert.h
  ../src/gromacs/utility/real.h
  ../src/gromacs/utility/stringutil.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/simd/tests/bootstrap_loadstore.cpp
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/simd/tests/bootstrap_loadstore.cpp
  src/config.h
  src/gmxpre-config.h
 src/gromacs/simd/tests/CMakeFiles/simd-test.dir/scalar.cpp.o
@@ -387,8 +387,8 @@ src/gromacs/simd/tests/CMakeFiles/simd-test.dir/scalar.cpp.o
  ../src/gromacs/utility/real.h
  ../src/gromacs/utility/stringutil.h
  ../src/testutils/testasserts.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/simd/tests/data.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/simd/tests/scalar.cpp
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/simd/tests/data.h
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/simd/tests/scalar.cpp
  src/config.h
  src/gmxpre-config.h
 src/gromacs/simd/tests/CMakeFiles/simd-test.dir/scalar_math.cpp.o
@@ -549,8 +549,8 @@ src/gromacs/simd/tests/CMakeFiles/simd-test.dir/scalar_math.cpp.o
  ../src/gromacs/utility/real.h
  ../src/gromacs/utility/stringutil.h
  ../src/testutils/testasserts.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/simd/tests/data.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/simd/tests/scalar_math.cpp
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/simd/tests/data.h
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/simd/tests/scalar_math.cpp
  src/config.h
  src/gmxpre-config.h
 src/gromacs/simd/tests/CMakeFiles/simd-test.dir/scalar_util.cpp.o
@@ -711,8 +711,8 @@ src/gromacs/simd/tests/CMakeFiles/simd-test.dir/scalar_util.cpp.o
  ../src/gromacs/utility/real.h
  ../src/gromacs/utility/stringutil.h
  ../src/testutils/testasserts.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/simd/tests/data.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/simd/tests/scalar_util.cpp
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/simd/tests/data.h
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/simd/tests/scalar_util.cpp
  src/config.h
  src/gmxpre-config.h
 src/gromacs/simd/tests/CMakeFiles/simd-test.dir/simd.cpp.o
@@ -871,10 +871,10 @@ src/gromacs/simd/tests/CMakeFiles/simd-test.dir/simd.cpp.o
  ../src/gromacs/utility/gmxassert.h
  ../src/gromacs/utility/real.h
  ../src/gromacs/utility/stringutil.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/simd/tests/base.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/simd/tests/data.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/simd/tests/simd.cpp
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/simd/tests/simd.h
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/simd/tests/base.h
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/simd/tests/data.h
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/simd/tests/simd.cpp
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/simd/tests/simd.h
  src/config.h
  src/gmxpre-config.h
 src/gromacs/simd/tests/CMakeFiles/simd-test.dir/simd4.cpp.o
@@ -1033,10 +1033,10 @@ src/gromacs/simd/tests/CMakeFiles/simd-test.dir/simd4.cpp.o
  ../src/gromacs/utility/gmxassert.h
  ../src/gromacs/utility/real.h
  ../src/gromacs/utility/stringutil.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/simd/tests/base.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/simd/tests/data.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/simd/tests/simd4.cpp
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/simd/tests/simd4.h
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/simd/tests/base.h
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/simd/tests/data.h
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/simd/tests/simd4.cpp
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/simd/tests/simd4.h
  src/config.h
  src/gmxpre-config.h
 src/gromacs/simd/tests/CMakeFiles/simd-test.dir/simd4_floatingpoint.cpp.o
@@ -1197,10 +1197,10 @@ src/gromacs/simd/tests/CMakeFiles/simd-test.dir/simd4_floatingpoint.cpp.o
  ../src/gromacs/utility/real.h
  ../src/gromacs/utility/stringutil.h
  ../src/testutils/testasserts.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/simd/tests/base.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/simd/tests/data.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/simd/tests/simd4.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/simd/tests/simd4_floatingpoint.cpp
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/simd/tests/base.h
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/simd/tests/data.h
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/simd/tests/simd4.h
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/simd/tests/simd4_floatingpoint.cpp
  src/config.h
  src/gmxpre-config.h
 src/gromacs/simd/tests/CMakeFiles/simd-test.dir/simd4_math.cpp.o
@@ -1366,10 +1366,10 @@ src/gromacs/simd/tests/CMakeFiles/simd-test.dir/simd4_math.cpp.o
  ../src/gromacs/utility/gmxassert.h
  ../src/gromacs/utility/real.h
  ../src/gromacs/utility/stringutil.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/simd/tests/base.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/simd/tests/data.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/simd/tests/simd4.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/simd/tests/simd4_math.cpp
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/simd/tests/base.h
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/simd/tests/data.h
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/simd/tests/simd4.h
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/simd/tests/simd4_math.cpp
  src/config.h
  src/gmxpre-config.h
 src/gromacs/simd/tests/CMakeFiles/simd-test.dir/simd4_vector_operations.cpp.o
@@ -1529,10 +1529,10 @@ src/gromacs/simd/tests/CMakeFiles/simd-test.dir/simd4_vector_operations.cpp.o
  ../src/gromacs/utility/gmxassert.h
  ../src/gromacs/utility/real.h
  ../src/gromacs/utility/stringutil.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/simd/tests/base.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/simd/tests/data.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/simd/tests/simd4.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/simd/tests/simd4_vector_operations.cpp
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/simd/tests/base.h
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/simd/tests/data.h
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/simd/tests/simd4.h
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/simd/tests/simd4_vector_operations.cpp
  src/config.h
  src/gmxpre-config.h
 src/gromacs/simd/tests/CMakeFiles/simd-test.dir/simd_floatingpoint.cpp.o
@@ -1693,10 +1693,10 @@ src/gromacs/simd/tests/CMakeFiles/simd-test.dir/simd_floatingpoint.cpp.o
  ../src/gromacs/utility/real.h
  ../src/gromacs/utility/stringutil.h
  ../src/testutils/testasserts.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/simd/tests/base.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/simd/tests/data.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/simd/tests/simd.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/simd/tests/simd_floatingpoint.cpp
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/simd/tests/base.h
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/simd/tests/data.h
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/simd/tests/simd.h
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/simd/tests/simd_floatingpoint.cpp
  src/config.h
  src/gmxpre-config.h
 src/gromacs/simd/tests/CMakeFiles/simd-test.dir/simd_floatingpoint_util.cpp.o
@@ -1859,10 +1859,10 @@ src/gromacs/simd/tests/CMakeFiles/simd-test.dir/simd_floatingpoint_util.cpp.o
  ../src/gromacs/utility/real.h
  ../src/gromacs/utility/stringutil.h
  ../src/testutils/testasserts.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/simd/tests/base.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/simd/tests/data.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/simd/tests/simd.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/simd/tests/simd_floatingpoint_util.cpp
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/simd/tests/base.h
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/simd/tests/data.h
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/simd/tests/simd.h
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/simd/tests/simd_floatingpoint_util.cpp
  src/config.h
  src/gmxpre-config.h
 src/gromacs/simd/tests/CMakeFiles/simd-test.dir/simd_integer.cpp.o
@@ -2021,10 +2021,10 @@ src/gromacs/simd/tests/CMakeFiles/simd-test.dir/simd_integer.cpp.o
  ../src/gromacs/utility/gmxassert.h
  ../src/gromacs/utility/real.h
  ../src/gromacs/utility/stringutil.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/simd/tests/base.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/simd/tests/data.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/simd/tests/simd.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/simd/tests/simd_integer.cpp
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/simd/tests/base.h
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/simd/tests/data.h
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/simd/tests/simd.h
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/simd/tests/simd_integer.cpp
  src/config.h
  src/gmxpre-config.h
 src/gromacs/simd/tests/CMakeFiles/simd-test.dir/simd_math.cpp.o
@@ -2190,10 +2190,10 @@ src/gromacs/simd/tests/CMakeFiles/simd-test.dir/simd_math.cpp.o
  ../src/gromacs/utility/gmxassert.h
  ../src/gromacs/utility/real.h
  ../src/gromacs/utility/stringutil.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/simd/tests/base.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/simd/tests/data.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/simd/tests/simd.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/simd/tests/simd_math.cpp
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/simd/tests/base.h
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/simd/tests/data.h
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/simd/tests/simd.h
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/simd/tests/simd_math.cpp
  src/config.h
  src/gmxpre-config.h
 src/gromacs/simd/tests/CMakeFiles/simd-test.dir/simd_memory.cpp.o
@@ -2352,10 +2352,10 @@ src/gromacs/simd/tests/CMakeFiles/simd-test.dir/simd_memory.cpp.o
  ../src/gromacs/utility/gmxassert.h
  ../src/gromacs/utility/real.h
  ../src/gromacs/utility/stringutil.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/simd/tests/base.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/simd/tests/data.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/simd/tests/simd.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/simd/tests/simd_memory.cpp
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/simd/tests/base.h
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/simd/tests/data.h
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/simd/tests/simd.h
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/simd/tests/simd_memory.cpp
  src/config.h
  src/gmxpre-config.h
 src/gromacs/simd/tests/CMakeFiles/simd-test.dir/simd_vector_operations.cpp.o
@@ -2515,9 +2515,9 @@ src/gromacs/simd/tests/CMakeFiles/simd-test.dir/simd_vector_operations.cpp.o
  ../src/gromacs/utility/gmxassert.h
  ../src/gromacs/utility/real.h
  ../src/gromacs/utility/stringutil.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/simd/tests/base.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/simd/tests/data.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/simd/tests/simd.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/simd/tests/simd_vector_operations.cpp
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/simd/tests/base.h
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/simd/tests/data.h
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/simd/tests/simd.h
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/simd/tests/simd_vector_operations.cpp
  src/config.h
  src/gmxpre-config.h

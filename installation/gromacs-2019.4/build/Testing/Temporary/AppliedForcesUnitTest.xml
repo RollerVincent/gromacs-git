@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites tests="3" failures="0" disabled="0" errors="0" timestamp="2019-11-12T01:53:54" time="0" name="AllTests">
-  <testsuite name="ElectricFieldTest" tests="3" failures="0" disabled="0" errors="0" time="0">
-    <testcase name="Static" status="run" time="0" classname="ElectricFieldTest" />
+<testsuites tests="3" failures="0" disabled="0" errors="0" timestamp="2019-11-27T19:14:44" time="0.002" name="AllTests">
+  <testsuite name="ElectricFieldTest" tests="3" failures="0" disabled="0" errors="0" time="0.002">
+    <testcase name="Static" status="run" time="0.001" classname="ElectricFieldTest" />
     <testcase name="Oscillating" status="run" time="0" classname="ElectricFieldTest" />
-    <testcase name="Pulsed" status="run" time="0" classname="ElectricFieldTest" />
+    <testcase name="Pulsed" status="run" time="0.001" classname="ElectricFieldTest" />
   </testsuite>
 </testsuites>

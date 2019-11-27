@@ -26,7 +26,7 @@ src/gromacs/hardware/tests/CMakeFiles/hardware-test.dir/__/__/__/testutils/unitt
  ../src/external/googletest/googletest/include/gtest/internal/gtest-type-util.h
  ../src/gmxpre.h
  ../src/testutils/testinit.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/testutils/unittest_main.cpp
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/testutils/unittest_main.cpp
  src/gmxpre-config.h
 src/gromacs/hardware/tests/CMakeFiles/hardware-test.dir/cpuinfo.cpp.o
  ../src/external/googletest/googletest/include/gtest/gtest-death-test.h
@@ -53,7 +53,7 @@ src/gromacs/hardware/tests/CMakeFiles/hardware-test.dir/cpuinfo.cpp.o
  ../src/external/googletest/googletest/include/gtest/internal/gtest-type-util.h
  ../src/gmxpre.h
  ../src/gromacs/hardware/cpuinfo.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/hardware/tests/cpuinfo.cpp
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/hardware/tests/cpuinfo.cpp
  src/config.h
  src/gmxpre-config.h
 src/gromacs/hardware/tests/CMakeFiles/hardware-test.dir/hardwaretopology.cpp.o
@@ -82,6 +82,6 @@ src/gromacs/hardware/tests/CMakeFiles/hardware-test.dir/hardwaretopology.cpp.o
  ../src/gmxpre.h
  ../src/gromacs/hardware/hardwaretopology.h
  ../src/gromacs/utility/stringutil.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/hardware/tests/hardwaretopology.cpp
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/hardware/tests/hardwaretopology.cpp
  src/config.h
  src/gmxpre-config.h

@@ -48,10 +48,10 @@ RM = /usr/local/Cellar/cmake/3.11.1/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4
+CMAKE_SOURCE_DIR = /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build
+CMAKE_BINARY_DIR = /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -116,7 +116,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && /usr/local/Cellar/cmake/3.11.1/bin/cpack --config ./CPackSourceConfig.cmake /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CPackSourceConfig.cmake
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && /usr/local/Cellar/cmake/3.11.1/bin/cpack --config ./CPackSourceConfig.cmake /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -139,7 +139,7 @@ install/strip/fast: preinstall/fast
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && /usr/local/Cellar/cmake/3.11.1/bin/cpack --config ./CPackConfig.cmake
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && /usr/local/Cellar/cmake/3.11.1/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -159,14 +159,14 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/mdrunutility/tests/CMakeFiles/progress.marks
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f CMakeFiles/Makefile2 src/gromacs/mdrunutility/tests/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles 0
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/mdrunutility/tests/CMakeFiles/progress.marks
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f CMakeFiles/Makefile2 src/gromacs/mdrunutility/tests/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f CMakeFiles/Makefile2 src/gromacs/mdrunutility/tests/clean
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f CMakeFiles/Makefile2 src/gromacs/mdrunutility/tests/clean
 .PHONY : clean
 
 # The main clean target
@@ -176,22 +176,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f CMakeFiles/Makefile2 src/gromacs/mdrunutility/tests/preinstall
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f CMakeFiles/Makefile2 src/gromacs/mdrunutility/tests/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f CMakeFiles/Makefile2 src/gromacs/mdrunutility/tests/preinstall
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f CMakeFiles/Makefile2 src/gromacs/mdrunutility/tests/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-mpi-test.dir/rule:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f CMakeFiles/Makefile2 src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-mpi-test.dir/rule
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f CMakeFiles/Makefile2 src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-mpi-test.dir/rule
 .PHONY : src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-mpi-test.dir/rule
 
 # Convenience name for target.
@@ -201,12 +201,12 @@ mdrunutility-mpi-test: src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-mp
 
 # fast build rule for target.
 mdrunutility-mpi-test/fast:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-mpi-test.dir/build.make src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-mpi-test.dir/build
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-mpi-test.dir/build.make src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-mpi-test.dir/build
 .PHONY : mdrunutility-mpi-test/fast
 
 # Convenience name for target.
 src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-test.dir/rule:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f CMakeFiles/Makefile2 src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-test.dir/rule
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f CMakeFiles/Makefile2 src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-test.dir/rule
 .PHONY : src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-test.dir/rule
 
 # Convenience name for target.
@@ -216,12 +216,12 @@ mdrunutility-test: src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-test.d
 
 # fast build rule for target.
 mdrunutility-test/fast:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-test.dir/build.make src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-test.dir/build
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-test.dir/build.make src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-test.dir/build
 .PHONY : mdrunutility-test/fast
 
 # Convenience name for target.
 src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-test-shared.dir/rule:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f CMakeFiles/Makefile2 src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-test-shared.dir/rule
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f CMakeFiles/Makefile2 src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-test-shared.dir/rule
 .PHONY : src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-test-shared.dir/rule
 
 # Convenience name for target.
@@ -231,7 +231,7 @@ mdrunutility-test-shared: src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility
 
 # fast build rule for target.
 mdrunutility-test-shared/fast:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-test-shared.dir/build.make src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-test-shared.dir/build
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-test-shared.dir/build.make src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-test-shared.dir/build
 .PHONY : mdrunutility-test-shared/fast
 
 __/__/__/testutils/unittest_main.o: __/__/__/testutils/unittest_main.cpp.o
@@ -240,8 +240,8 @@ __/__/__/testutils/unittest_main.o: __/__/__/testutils/unittest_main.cpp.o
 
 # target to build an object file
 __/__/__/testutils/unittest_main.cpp.o:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-mpi-test.dir/build.make src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-mpi-test.dir/__/__/__/testutils/unittest_main.cpp.o
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-test.dir/build.make src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-test.dir/__/__/__/testutils/unittest_main.cpp.o
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-mpi-test.dir/build.make src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-mpi-test.dir/__/__/__/testutils/unittest_main.cpp.o
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-test.dir/build.make src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-test.dir/__/__/__/testutils/unittest_main.cpp.o
 .PHONY : __/__/__/testutils/unittest_main.cpp.o
 
 __/__/__/testutils/unittest_main.i: __/__/__/testutils/unittest_main.cpp.i
@@ -250,8 +250,8 @@ __/__/__/testutils/unittest_main.i: __/__/__/testutils/unittest_main.cpp.i
 
 # target to preprocess a source file
 __/__/__/testutils/unittest_main.cpp.i:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-mpi-test.dir/build.make src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-mpi-test.dir/__/__/__/testutils/unittest_main.cpp.i
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-test.dir/build.make src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-test.dir/__/__/__/testutils/unittest_main.cpp.i
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-mpi-test.dir/build.make src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-mpi-test.dir/__/__/__/testutils/unittest_main.cpp.i
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-test.dir/build.make src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-test.dir/__/__/__/testutils/unittest_main.cpp.i
 .PHONY : __/__/__/testutils/unittest_main.cpp.i
 
 __/__/__/testutils/unittest_main.s: __/__/__/testutils/unittest_main.cpp.s
@@ -260,8 +260,8 @@ __/__/__/testutils/unittest_main.s: __/__/__/testutils/unittest_main.cpp.s
 
 # target to generate assembly for a file
 __/__/__/testutils/unittest_main.cpp.s:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-mpi-test.dir/build.make src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-mpi-test.dir/__/__/__/testutils/unittest_main.cpp.s
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-test.dir/build.make src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-test.dir/__/__/__/testutils/unittest_main.cpp.s
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-mpi-test.dir/build.make src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-mpi-test.dir/__/__/__/testutils/unittest_main.cpp.s
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-test.dir/build.make src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-test.dir/__/__/__/testutils/unittest_main.cpp.s
 .PHONY : __/__/__/testutils/unittest_main.cpp.s
 
 threadaffinity-mpi.o: threadaffinity-mpi.cpp.o
@@ -270,7 +270,7 @@ threadaffinity-mpi.o: threadaffinity-mpi.cpp.o
 
 # target to build an object file
 threadaffinity-mpi.cpp.o:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-mpi-test.dir/build.make src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-mpi-test.dir/threadaffinity-mpi.cpp.o
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-mpi-test.dir/build.make src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-mpi-test.dir/threadaffinity-mpi.cpp.o
 .PHONY : threadaffinity-mpi.cpp.o
 
 threadaffinity-mpi.i: threadaffinity-mpi.cpp.i
@@ -279,7 +279,7 @@ threadaffinity-mpi.i: threadaffinity-mpi.cpp.i
 
 # target to preprocess a source file
 threadaffinity-mpi.cpp.i:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-mpi-test.dir/build.make src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-mpi-test.dir/threadaffinity-mpi.cpp.i
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-mpi-test.dir/build.make src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-mpi-test.dir/threadaffinity-mpi.cpp.i
 .PHONY : threadaffinity-mpi.cpp.i
 
 threadaffinity-mpi.s: threadaffinity-mpi.cpp.s
@@ -288,7 +288,7 @@ threadaffinity-mpi.s: threadaffinity-mpi.cpp.s
 
 # target to generate assembly for a file
 threadaffinity-mpi.cpp.s:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-mpi-test.dir/build.make src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-mpi-test.dir/threadaffinity-mpi.cpp.s
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-mpi-test.dir/build.make src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-mpi-test.dir/threadaffinity-mpi.cpp.s
 .PHONY : threadaffinity-mpi.cpp.s
 
 threadaffinity.o: threadaffinity.cpp.o
@@ -297,7 +297,7 @@ threadaffinity.o: threadaffinity.cpp.o
 
 # target to build an object file
 threadaffinity.cpp.o:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-test.dir/build.make src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-test.dir/threadaffinity.cpp.o
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-test.dir/build.make src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-test.dir/threadaffinity.cpp.o
 .PHONY : threadaffinity.cpp.o
 
 threadaffinity.i: threadaffinity.cpp.i
@@ -306,7 +306,7 @@ threadaffinity.i: threadaffinity.cpp.i
 
 # target to preprocess a source file
 threadaffinity.cpp.i:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-test.dir/build.make src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-test.dir/threadaffinity.cpp.i
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-test.dir/build.make src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-test.dir/threadaffinity.cpp.i
 .PHONY : threadaffinity.cpp.i
 
 threadaffinity.s: threadaffinity.cpp.s
@@ -315,7 +315,7 @@ threadaffinity.s: threadaffinity.cpp.s
 
 # target to generate assembly for a file
 threadaffinity.cpp.s:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-test.dir/build.make src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-test.dir/threadaffinity.cpp.s
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-test.dir/build.make src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-test.dir/threadaffinity.cpp.s
 .PHONY : threadaffinity.cpp.s
 
 threadaffinitytest.o: threadaffinitytest.cpp.o
@@ -324,7 +324,7 @@ threadaffinitytest.o: threadaffinitytest.cpp.o
 
 # target to build an object file
 threadaffinitytest.cpp.o:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-test-shared.dir/build.make src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-test-shared.dir/threadaffinitytest.cpp.o
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-test-shared.dir/build.make src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-test-shared.dir/threadaffinitytest.cpp.o
 .PHONY : threadaffinitytest.cpp.o
 
 threadaffinitytest.i: threadaffinitytest.cpp.i
@@ -333,7 +333,7 @@ threadaffinitytest.i: threadaffinitytest.cpp.i
 
 # target to preprocess a source file
 threadaffinitytest.cpp.i:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-test-shared.dir/build.make src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-test-shared.dir/threadaffinitytest.cpp.i
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-test-shared.dir/build.make src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-test-shared.dir/threadaffinitytest.cpp.i
 .PHONY : threadaffinitytest.cpp.i
 
 threadaffinitytest.s: threadaffinitytest.cpp.s
@@ -342,7 +342,7 @@ threadaffinitytest.s: threadaffinitytest.cpp.s
 
 # target to generate assembly for a file
 threadaffinitytest.cpp.s:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-test-shared.dir/build.make src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-test-shared.dir/threadaffinitytest.cpp.s
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-test-shared.dir/build.make src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-test-shared.dir/threadaffinitytest.cpp.s
 .PHONY : threadaffinitytest.cpp.s
 
 # Help Target
@@ -386,6 +386,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

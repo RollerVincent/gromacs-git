@@ -1,8 +1,8 @@
-# Install script for directory: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/share
+# Install script for directory: /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/share
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/usr/local/gromacs")
+  set(CMAKE_INSTALL_PREFIX "/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/gromacs")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,18 +34,18 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdatax" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gromacs" TYPE FILE FILES
-    "/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/share/README.tutor"
-    "/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/share/README_FreeEnergyModifications.txt"
+    "/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/share/README.tutor"
+    "/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/share/README_FreeEnergyModifications.txt"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdatax" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gromacs" TYPE DIRECTORY FILES "/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/share/top" REGEX "/[^/]*\\~$" EXCLUDE)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gromacs" TYPE DIRECTORY FILES "/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/share/top" REGEX "/[^/]*\\~$" EXCLUDE)
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/share/template/cmake_install.cmake")
+  include("/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/share/template/cmake_install.cmake")
 
 endif()
 

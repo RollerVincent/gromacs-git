@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites tests="50" failures="0" disabled="0" errors="0" timestamp="2019-11-12T01:53:53" time="0.005" name="AllTests">
+<testsuites tests="50" failures="0" disabled="0" errors="0" timestamp="2019-11-27T19:14:44" time="0.013" name="AllTests">
   <testsuite name="VerletBufferConstraintTest" tests="1" failures="0" disabled="0" errors="0" time="0">
     <testcase name="EqualMasses" status="run" time="0" classname="VerletBufferConstraintTest" />
   </testsuite>
-  <testsuite name="PrintEbin" tests="3" failures="0" disabled="0" errors="0" time="0.002">
-    <testcase name="print_ebin_HandlesEmptyAverages" status="run" time="0.001" classname="PrintEbin" />
-    <testcase name="pr_ebin_HandlesAverages" status="run" time="0.001" classname="PrintEbin" />
-    <testcase name="pr_ebin_HandlesEmptyAverages" status="run" time="0" classname="PrintEbin" />
+  <testsuite name="PrintEbin" tests="3" failures="0" disabled="0" errors="0" time="0.009">
+    <testcase name="print_ebin_HandlesEmptyAverages" status="run" time="0.004" classname="PrintEbin" />
+    <testcase name="pr_ebin_HandlesAverages" status="run" time="0.004" classname="PrintEbin" />
+    <testcase name="pr_ebin_HandlesEmptyAverages" status="run" time="0.001" classname="PrintEbin" />
   </testsuite>
-  <testsuite name="ShakeTest" tests="4" failures="0" disabled="0" errors="0" time="0">
+  <testsuite name="ShakeTest" tests="4" failures="0" disabled="0" errors="0" time="0.001">
     <testcase name="ConstrainsOneBond" status="run" time="0" classname="ShakeTest" />
-    <testcase name="ConstrainsTwoDisjointBonds" status="run" time="0" classname="ShakeTest" />
+    <testcase name="ConstrainsTwoDisjointBonds" status="run" time="0.001" classname="ShakeTest" />
     <testcase name="ConstrainsTwoBondsWithACommonAtom" status="run" time="0" classname="ShakeTest" />
     <testcase name="ConstrainsThreeBondsWithCommonAtoms" status="run" time="0" classname="ShakeTest" />
   </testsuite>
-  <testsuite name="NullSignalTest" tests="1" failures="0" disabled="0" errors="0" time="0.001">
+  <testsuite name="NullSignalTest" tests="1" failures="0" disabled="0" errors="0" time="0">
     <testcase name="NullSignallerWorks" status="run" time="0" classname="NullSignalTest" />
   </testsuite>
   <testsuite name="SignalTest" tests="7" failures="0" disabled="0" errors="0" time="0">
@@ -45,8 +45,8 @@
     <testcase name="SatisfiesConstraints/1" value_param="(1, false, false, true)" status="run" time="0" classname="WithParameters/SettleTest" />
     <testcase name="SatisfiesConstraints/2" value_param="(1, false, true, false)" status="run" time="0" classname="WithParameters/SettleTest" />
     <testcase name="SatisfiesConstraints/3" value_param="(1, false, true, true)" status="run" time="0" classname="WithParameters/SettleTest" />
-    <testcase name="SatisfiesConstraints/4" value_param="(1, true, false, false)" status="run" time="0" classname="WithParameters/SettleTest" />
-    <testcase name="SatisfiesConstraints/5" value_param="(1, true, false, true)" status="run" time="0.001" classname="WithParameters/SettleTest" />
+    <testcase name="SatisfiesConstraints/4" value_param="(1, true, false, false)" status="run" time="0.001" classname="WithParameters/SettleTest" />
+    <testcase name="SatisfiesConstraints/5" value_param="(1, true, false, true)" status="run" time="0" classname="WithParameters/SettleTest" />
     <testcase name="SatisfiesConstraints/6" value_param="(1, true, true, false)" status="run" time="0" classname="WithParameters/SettleTest" />
     <testcase name="SatisfiesConstraints/7" value_param="(1, true, true, true)" status="run" time="0" classname="WithParameters/SettleTest" />
     <testcase name="SatisfiesConstraints/8" value_param="(4, false, false, false)" status="run" time="0" classname="WithParameters/SettleTest" />

@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites tests="7" failures="0" disabled="0" errors="0" timestamp="2019-11-12T01:54:13" time="0.06" name="AllTests">
-  <testsuite name="DhdlTest" tests="1" failures="0" disabled="0" errors="0" time="0.013">
-    <testcase name="ExtractDhdl" status="run" time="0.013" classname="DhdlTest" />
+<testsuites tests="7" failures="0" disabled="0" errors="0" timestamp="2019-11-27T19:15:32" time="0.075" name="AllTests">
+  <testsuite name="DhdlTest" tests="1" failures="0" disabled="0" errors="0" time="0.017">
+    <testcase name="ExtractDhdl" status="run" time="0.016" classname="DhdlTest" />
   </testsuite>
-  <testsuite name="OriresTest" tests="1" failures="0" disabled="0" errors="0" time="0.014">
-    <testcase name="ExtractOrires" status="run" time="0.014" classname="OriresTest" />
+  <testsuite name="OriresTest" tests="1" failures="0" disabled="0" errors="0" time="0.021">
+    <testcase name="ExtractOrires" status="run" time="0.02" classname="OriresTest" />
   </testsuite>
-  <testsuite name="EnergyTest" tests="3" failures="0" disabled="0" errors="0" time="0.018">
-    <testcase name="ExtractEnergy" status="run" time="0.006" classname="EnergyTest" />
-    <testcase name="ExtractEnergyByNumber" status="run" time="0.008" classname="EnergyTest" />
-    <testcase name="ExtractEnergyMixed" status="run" time="0.004" classname="EnergyTest" />
+  <testsuite name="EnergyTest" tests="3" failures="0" disabled="0" errors="0" time="0.02">
+    <testcase name="ExtractEnergy" status="run" time="0.009" classname="EnergyTest" />
+    <testcase name="ExtractEnergyByNumber" status="run" time="0.005" classname="EnergyTest" />
+    <testcase name="ExtractEnergyMixed" status="run" time="0.005" classname="EnergyTest" />
   </testsuite>
-  <testsuite name="ViscosityTest" tests="2" failures="0" disabled="0" errors="0" time="0.015">
-    <testcase name="EinsteinViscosity" status="run" time="0.008" classname="ViscosityTest" />
-    <testcase name="EinsteinViscosityIntegral" status="run" time="0.007" classname="ViscosityTest" />
+  <testsuite name="ViscosityTest" tests="2" failures="0" disabled="0" errors="0" time="0.017">
+    <testcase name="EinsteinViscosity" status="run" time="0.009" classname="ViscosityTest" />
+    <testcase name="EinsteinViscosityIntegral" status="run" time="0.008" classname="ViscosityTest" />
   </testsuite>
 </testsuites>

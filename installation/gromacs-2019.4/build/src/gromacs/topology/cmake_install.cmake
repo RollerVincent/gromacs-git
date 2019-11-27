@@ -1,8 +1,8 @@
-# Install script for directory: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/topology
+# Install script for directory: /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/topology
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/usr/local/gromacs")
+  set(CMAKE_INSTALL_PREFIX "/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/gromacs")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,16 +34,16 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevelopmentx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/gromacs/topology" TYPE FILE FILES
-    "/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/topology/atomprop.h"
-    "/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/topology/atoms.h"
-    "/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/topology/block.h"
-    "/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/topology/forcefieldparameters.h"
-    "/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/topology/idef.h"
-    "/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/topology/ifunc.h"
-    "/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/topology/index.h"
-    "/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/topology/mtop_util.h"
-    "/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/topology/symtab.h"
-    "/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/topology/topology.h"
+    "/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/topology/atomprop.h"
+    "/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/topology/atoms.h"
+    "/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/topology/block.h"
+    "/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/topology/forcefieldparameters.h"
+    "/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/topology/idef.h"
+    "/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/topology/ifunc.h"
+    "/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/topology/index.h"
+    "/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/topology/mtop_util.h"
+    "/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/topology/symtab.h"
+    "/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/topology/topology.h"
     )
 endif()
 

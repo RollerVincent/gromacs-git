@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites tests="286" failures="0" disabled="0" errors="0" timestamp="2019-11-12T01:53:54" time="0.022" name="AllTests">
+<testsuites tests="286" failures="0" disabled="0" errors="0" timestamp="2019-11-27T19:14:45" time="0.038" name="AllTests">
   <testsuite name="SimdBootstrapTest" tests="9" failures="0" disabled="0" errors="0" time="0">
     <testcase name="loadStore" status="run" time="0" classname="SimdBootstrapTest" />
     <testcase name="loadU" status="run" time="0" classname="SimdBootstrapTest" />
@@ -59,7 +59,7 @@
     <testcase name="cvtDouble2Float" status="run" time="0" classname="SimdFloatingpointTest" />
   </testsuite>
   <testsuite name="SimdFloatingpointUtilTest" tests="25" failures="0" disabled="0" errors="0" time="0.001">
-    <testcase name="gatherLoadTranspose4" status="run" time="0" classname="SimdFloatingpointUtilTest" />
+    <testcase name="gatherLoadTranspose4" status="run" time="0.001" classname="SimdFloatingpointUtilTest" />
     <testcase name="gatherLoadTranspose2" status="run" time="0" classname="SimdFloatingpointUtilTest" />
     <testcase name="gatherLoadUTranspose3" status="run" time="0" classname="SimdFloatingpointUtilTest" />
     <testcase name="transposeScatterStoreU3" status="run" time="0" classname="SimdFloatingpointUtilTest" />
@@ -90,52 +90,52 @@
     <testcase name="norm2" status="run" time="0" classname="SimdVectorOperationsTest" />
     <testcase name="cprod" status="run" time="0" classname="SimdVectorOperationsTest" />
   </testsuite>
-  <testsuite name="SimdMathTest" tests="45" failures="0" disabled="0" errors="0" time="0.019">
+  <testsuite name="SimdMathTest" tests="45" failures="0" disabled="0" errors="0" time="0.035">
     <testcase name="copysign" status="run" time="0" classname="SimdMathTest" />
     <testcase name="invsqrt" status="run" time="0" classname="SimdMathTest" />
     <testcase name="maskzInvsqrt" status="run" time="0" classname="SimdMathTest" />
     <testcase name="invsqrtPair" status="run" time="0.001" classname="SimdMathTest" />
     <testcase name="sqrt" status="run" time="0" classname="SimdMathTest" />
-    <testcase name="sqrtUnsafe" status="run" time="0" classname="SimdMathTest" />
+    <testcase name="sqrtUnsafe" status="run" time="0.001" classname="SimdMathTest" />
     <testcase name="inv" status="run" time="0.001" classname="SimdMathTest" />
     <testcase name="maskzInv" status="run" time="0" classname="SimdMathTest" />
-    <testcase name="log" status="run" time="0.001" classname="SimdMathTest" />
-    <testcase name="exp2" status="run" time="0.001" classname="SimdMathTest" />
+    <testcase name="log" status="run" time="0" classname="SimdMathTest" />
+    <testcase name="exp2" status="run" time="0.002" classname="SimdMathTest" />
     <testcase name="exp2Unsafe" status="run" time="0" classname="SimdMathTest" />
-    <testcase name="exp" status="run" time="0.001" classname="SimdMathTest" />
-    <testcase name="expUnsafe" status="run" time="0" classname="SimdMathTest" />
+    <testcase name="exp" status="run" time="0.002" classname="SimdMathTest" />
+    <testcase name="expUnsafe" status="run" time="0.001" classname="SimdMathTest" />
     <testcase name="erf" status="run" time="0.001" classname="SimdMathTest" />
     <testcase name="erfc" status="run" time="0.001" classname="SimdMathTest" />
-    <testcase name="sin" status="run" time="0" classname="SimdMathTest" />
+    <testcase name="sin" status="run" time="0.001" classname="SimdMathTest" />
     <testcase name="cos" status="run" time="0.001" classname="SimdMathTest" />
-    <testcase name="tan" status="run" time="0" classname="SimdMathTest" />
-    <testcase name="asin" status="run" time="0.001" classname="SimdMathTest" />
-    <testcase name="acos" status="run" time="0" classname="SimdMathTest" />
+    <testcase name="tan" status="run" time="0.001" classname="SimdMathTest" />
+    <testcase name="asin" status="run" time="0" classname="SimdMathTest" />
+    <testcase name="acos" status="run" time="0.001" classname="SimdMathTest" />
     <testcase name="atan" status="run" time="0" classname="SimdMathTest" />
     <testcase name="atan2" status="run" time="0" classname="SimdMathTest" />
     <testcase name="pmeForceCorrection" status="run" time="0.001" classname="SimdMathTest" />
     <testcase name="pmePotentialCorrection" status="run" time="0.001" classname="SimdMathTest" />
-    <testcase name="invsqrtSingleAccuracy" status="run" time="0" classname="SimdMathTest" />
-    <testcase name="invsqrtPairSingleAccuracy" status="run" time="0" classname="SimdMathTest" />
+    <testcase name="invsqrtSingleAccuracy" status="run" time="0.003" classname="SimdMathTest" />
+    <testcase name="invsqrtPairSingleAccuracy" status="run" time="0.001" classname="SimdMathTest" />
     <testcase name="sqrtSingleAccuracy" status="run" time="0" classname="SimdMathTest" />
-    <testcase name="sqrtSingleAccuracyUnsafe" status="run" time="0.001" classname="SimdMathTest" />
-    <testcase name="invSingleAccuracy" status="run" time="0" classname="SimdMathTest" />
+    <testcase name="sqrtSingleAccuracyUnsafe" status="run" time="0" classname="SimdMathTest" />
+    <testcase name="invSingleAccuracy" status="run" time="0.001" classname="SimdMathTest" />
     <testcase name="logSingleAccuracy" status="run" time="0" classname="SimdMathTest" />
     <testcase name="exp2SingleAccuracy" status="run" time="0.001" classname="SimdMathTest" />
-    <testcase name="exp2SingleAccuracyUnsafe" status="run" time="0" classname="SimdMathTest" />
+    <testcase name="exp2SingleAccuracyUnsafe" status="run" time="0.001" classname="SimdMathTest" />
     <testcase name="expSingleAccuracy" status="run" time="0.001" classname="SimdMathTest" />
     <testcase name="expSingleAccuracyUnsafe" status="run" time="0" classname="SimdMathTest" />
     <testcase name="erfSingleAccuracy" status="run" time="0.001" classname="SimdMathTest" />
-    <testcase name="erfcSingleAccuracy" status="run" time="0" classname="SimdMathTest" />
+    <testcase name="erfcSingleAccuracy" status="run" time="0.001" classname="SimdMathTest" />
     <testcase name="sinSingleAccuracy" status="run" time="0.001" classname="SimdMathTest" />
-    <testcase name="cosSingleAccuracy" status="run" time="0" classname="SimdMathTest" />
+    <testcase name="cosSingleAccuracy" status="run" time="0.001" classname="SimdMathTest" />
     <testcase name="tanSingleAccuracy" status="run" time="0.001" classname="SimdMathTest" />
-    <testcase name="asinSingleAccuracy" status="run" time="0" classname="SimdMathTest" />
-    <testcase name="acosSingleAccuracy" status="run" time="0.001" classname="SimdMathTest" />
-    <testcase name="atanSingleAccuracy" status="run" time="0" classname="SimdMathTest" />
+    <testcase name="asinSingleAccuracy" status="run" time="0.001" classname="SimdMathTest" />
+    <testcase name="acosSingleAccuracy" status="run" time="0" classname="SimdMathTest" />
+    <testcase name="atanSingleAccuracy" status="run" time="0.001" classname="SimdMathTest" />
     <testcase name="atan2SingleAccuracy" status="run" time="0" classname="SimdMathTest" />
     <testcase name="pmeForceCorrectionSingleAccuracy" status="run" time="0.001" classname="SimdMathTest" />
-    <testcase name="pmePotentialCorrectionSingleAccuracy" status="run" time="0" classname="SimdMathTest" />
+    <testcase name="pmePotentialCorrectionSingleAccuracy" status="run" time="0.001" classname="SimdMathTest" />
   </testsuite>
   <testsuite name="EmptyArrayRefTest" tests="1" failures="0" disabled="0" errors="0" time="0">
     <testcase name="IsEmpty" status="run" time="0" classname="EmptyArrayRefTest" />
@@ -172,7 +172,7 @@
   <testsuite name="ArrayRefArithmeticTest/1" tests="1" failures="0" disabled="0" errors="0" time="0">
     <testcase name="Basic" type_param="gmx::ArrayRef&lt;gmx::SimdFInt32&gt;" status="run" time="0" classname="ArrayRefArithmeticTest/1" />
   </testsuite>
-  <testsuite name="SimdIntegerTest" tests="23" failures="0" disabled="0" errors="0" time="0.001">
+  <testsuite name="SimdIntegerTest" tests="23" failures="0" disabled="0" errors="0" time="0">
     <testcase name="setZero" status="run" time="0" classname="SimdIntegerTest" />
     <testcase name="set" status="run" time="0" classname="SimdIntegerTest" />
     <testcase name="add" status="run" time="0" classname="SimdIntegerTest" />
@@ -197,7 +197,7 @@
     <testcase name="cvtB2IB" status="run" time="0" classname="SimdIntegerTest" />
     <testcase name="cvtIB2B" status="run" time="0" classname="SimdIntegerTest" />
   </testsuite>
-  <testsuite name="Simd4FloatingpointTest" tests="32" failures="0" disabled="0" errors="0" time="0">
+  <testsuite name="Simd4FloatingpointTest" tests="32" failures="0" disabled="0" errors="0" time="0.001">
     <testcase name="setZero" status="run" time="0" classname="Simd4FloatingpointTest" />
     <testcase name="set" status="run" time="0" classname="Simd4FloatingpointTest" />
     <testcase name="add" status="run" time="0" classname="Simd4FloatingpointTest" />
@@ -234,11 +234,11 @@
   <testsuite name="Simd4VectorOperationsTest" tests="1" failures="0" disabled="0" errors="0" time="0">
     <testcase name="norm2" status="run" time="0" classname="Simd4VectorOperationsTest" />
   </testsuite>
-  <testsuite name="Simd4MathTest" tests="2" failures="0" disabled="0" errors="0" time="0">
+  <testsuite name="Simd4MathTest" tests="2" failures="0" disabled="0" errors="0" time="0.001">
     <testcase name="invsqrt" status="run" time="0" classname="Simd4MathTest" />
-    <testcase name="invsqrtSingleaccuracy" status="run" time="0" classname="Simd4MathTest" />
+    <testcase name="invsqrtSingleaccuracy" status="run" time="0.001" classname="Simd4MathTest" />
   </testsuite>
-  <testsuite name="SimdScalarTest" tests="41" failures="0" disabled="0" errors="0" time="0.001">
+  <testsuite name="SimdScalarTest" tests="41" failures="0" disabled="0" errors="0" time="0">
     <testcase name="load" status="run" time="0" classname="SimdScalarTest" />
     <testcase name="loadU" status="run" time="0" classname="SimdScalarTest" />
     <testcase name="store" status="run" time="0" classname="SimdScalarTest" />
@@ -269,7 +269,7 @@
     <testcase name="cvtF2D" status="run" time="0" classname="SimdScalarTest" />
     <testcase name="cvtD2D" status="run" time="0" classname="SimdScalarTest" />
     <testcase name="loadI" status="run" time="0" classname="SimdScalarTest" />
-    <testcase name="loadUI" status="run" time="0.001" classname="SimdScalarTest" />
+    <testcase name="loadUI" status="run" time="0" classname="SimdScalarTest" />
     <testcase name="storeI" status="run" time="0" classname="SimdScalarTest" />
     <testcase name="storeUI" status="run" time="0" classname="SimdScalarTest" />
     <testcase name="andNotI" status="run" time="0" classname="SimdScalarTest" />

@@ -2,16 +2,16 @@
 ;	File 'mdout.mdp' was generated
 ;	By user: vincentroller (501)
 ;	On host: Vincents-MacBook-Pro.local
-;	At date: Tue Nov 12 01:54:14 2019
+;	At date: Wed Nov 27 19:15:32 2019
 ;
 ;	Created by:
 ;	                     :-) GROMACS - tool-test, 2019.4 (-:
 ;	
-;	Executable:   /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/bin/tool-test
-;	Data prefix:  /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4 (source tree)
-;	Working dir:  /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/tools/tests
+;	Executable:   /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/bin/tool-test
+;	Data prefix:  /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4 (source tree)
+;	Working dir:  /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/tools/tests
 ;	Command line:
-;	  tool-test --gtest_output=xml:/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/Testing/Temporary/ToolUnitTests.xml
+;	  tool-test --gtest_output=xml:/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/Testing/Temporary/ToolUnitTests.xml
 
 ; VARIOUS PREPROCESSING OPTIONS
 ; Preprocessor information: use cpp syntax.

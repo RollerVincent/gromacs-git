@@ -1,8 +1,8 @@
-# Install script for directory: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/docs
+# Install script for directory: /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/docs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/usr/local/gromacs")
+  set(CMAKE_INSTALL_PREFIX "/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/gromacs")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,12 +33,12 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xmanx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/man/man1" TYPE DIRECTORY OPTIONAL FILES "/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/docs/man/" FILES_MATCHING REGEX "/[^/]*\\.1$")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/man/man1" TYPE DIRECTORY OPTIONAL FILES "/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/docs/man/" FILES_MATCHING REGEX "/[^/]*\\.1$")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/docs/doxygen/cmake_install.cmake")
+  include("/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/docs/doxygen/cmake_install.cmake")
 
 endif()
 

@@ -1,5 +1,5 @@
 bench-hook.o: \
-  /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/tests/hook.c \
+  /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/tests/hook.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/cdefs.h \
@@ -32,7 +32,7 @@ bench-hook.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_types/_ssize_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/secure/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/secure/_common.h \
-  /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/libbench2/bench-user.h \
+  /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/libbench2/bench-user.h \
   ../config.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/limits.h \
@@ -81,9 +81,9 @@ bench-hook.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/malloc/_malloc.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_types/_dev_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_types/_mode_t.h \
-  /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/api/api.h \
-  /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/api/fftw3.h \
-  /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/kernel/ifftw.h \
+  /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/api/api.h \
+  /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/api/fftw3.h \
+  /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/kernel/ifftw.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include/stdarg.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_types/_u_char.h \
@@ -130,10 +130,10 @@ bench-hook.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_types/_timeval64.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/time.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_select.h \
-  /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/rdft/rdft.h \
-  /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/rdft/codelet-rdft.h \
-  /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/dft/dft.h \
-  /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/dft/codelet-dft.h
+  /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/rdft/rdft.h \
+  /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/rdft/codelet-rdft.h \
+  /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/dft/dft.h \
+  /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/dft/codelet-dft.h
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/stdio.h:
 
@@ -199,7 +199,7 @@ bench-hook.o: \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/secure/_common.h:
 
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/libbench2/bench-user.h:
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/libbench2/bench-user.h:
 
 ../config.h:
 
@@ -297,11 +297,11 @@ bench-hook.o: \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_types/_mode_t.h:
 
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/api/api.h:
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/api/api.h:
 
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/api/fftw3.h:
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/api/fftw3.h:
 
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/kernel/ifftw.h:
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/kernel/ifftw.h:
 
 /Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include/stdarg.h:
 
@@ -395,10 +395,10 @@ bench-hook.o: \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_select.h:
 
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/rdft/rdft.h:
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/rdft/rdft.h:
 
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/rdft/codelet-rdft.h:
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/rdft/codelet-rdft.h:
 
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/dft/dft.h:
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/dft/dft.h:
 
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/dft/codelet-dft.h:
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/dft/codelet-dft.h:

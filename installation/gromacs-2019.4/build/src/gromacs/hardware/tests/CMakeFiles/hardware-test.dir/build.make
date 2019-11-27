@@ -43,10 +43,10 @@ RM = /usr/local/Cellar/cmake/3.11.1/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4
+CMAKE_SOURCE_DIR = /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build
+CMAKE_BINARY_DIR = /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build
 
 # Include any dependencies generated for this target.
 include src/gromacs/hardware/tests/CMakeFiles/hardware-test.dir/depend.make
@@ -59,42 +59,42 @@ include src/gromacs/hardware/tests/CMakeFiles/hardware-test.dir/flags.make
 
 src/gromacs/hardware/tests/CMakeFiles/hardware-test.dir/cpuinfo.cpp.o: src/gromacs/hardware/tests/CMakeFiles/hardware-test.dir/flags.make
 src/gromacs/hardware/tests/CMakeFiles/hardware-test.dir/cpuinfo.cpp.o: ../src/gromacs/hardware/tests/cpuinfo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/gromacs/hardware/tests/CMakeFiles/hardware-test.dir/cpuinfo.cpp.o"
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/hardware/tests && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hardware-test.dir/cpuinfo.cpp.o -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/hardware/tests/cpuinfo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/gromacs/hardware/tests/CMakeFiles/hardware-test.dir/cpuinfo.cpp.o"
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/hardware/tests && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hardware-test.dir/cpuinfo.cpp.o -c /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/hardware/tests/cpuinfo.cpp
 
 src/gromacs/hardware/tests/CMakeFiles/hardware-test.dir/cpuinfo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hardware-test.dir/cpuinfo.cpp.i"
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/hardware/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/hardware/tests/cpuinfo.cpp > CMakeFiles/hardware-test.dir/cpuinfo.cpp.i
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/hardware/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/hardware/tests/cpuinfo.cpp > CMakeFiles/hardware-test.dir/cpuinfo.cpp.i
 
 src/gromacs/hardware/tests/CMakeFiles/hardware-test.dir/cpuinfo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hardware-test.dir/cpuinfo.cpp.s"
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/hardware/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/hardware/tests/cpuinfo.cpp -o CMakeFiles/hardware-test.dir/cpuinfo.cpp.s
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/hardware/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/hardware/tests/cpuinfo.cpp -o CMakeFiles/hardware-test.dir/cpuinfo.cpp.s
 
 src/gromacs/hardware/tests/CMakeFiles/hardware-test.dir/hardwaretopology.cpp.o: src/gromacs/hardware/tests/CMakeFiles/hardware-test.dir/flags.make
 src/gromacs/hardware/tests/CMakeFiles/hardware-test.dir/hardwaretopology.cpp.o: ../src/gromacs/hardware/tests/hardwaretopology.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/gromacs/hardware/tests/CMakeFiles/hardware-test.dir/hardwaretopology.cpp.o"
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/hardware/tests && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hardware-test.dir/hardwaretopology.cpp.o -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/hardware/tests/hardwaretopology.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/gromacs/hardware/tests/CMakeFiles/hardware-test.dir/hardwaretopology.cpp.o"
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/hardware/tests && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hardware-test.dir/hardwaretopology.cpp.o -c /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/hardware/tests/hardwaretopology.cpp
 
 src/gromacs/hardware/tests/CMakeFiles/hardware-test.dir/hardwaretopology.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hardware-test.dir/hardwaretopology.cpp.i"
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/hardware/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/hardware/tests/hardwaretopology.cpp > CMakeFiles/hardware-test.dir/hardwaretopology.cpp.i
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/hardware/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/hardware/tests/hardwaretopology.cpp > CMakeFiles/hardware-test.dir/hardwaretopology.cpp.i
 
 src/gromacs/hardware/tests/CMakeFiles/hardware-test.dir/hardwaretopology.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hardware-test.dir/hardwaretopology.cpp.s"
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/hardware/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/hardware/tests/hardwaretopology.cpp -o CMakeFiles/hardware-test.dir/hardwaretopology.cpp.s
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/hardware/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/hardware/tests/hardwaretopology.cpp -o CMakeFiles/hardware-test.dir/hardwaretopology.cpp.s
 
 src/gromacs/hardware/tests/CMakeFiles/hardware-test.dir/__/__/__/testutils/unittest_main.cpp.o: src/gromacs/hardware/tests/CMakeFiles/hardware-test.dir/flags.make
 src/gromacs/hardware/tests/CMakeFiles/hardware-test.dir/__/__/__/testutils/unittest_main.cpp.o: ../src/testutils/unittest_main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/gromacs/hardware/tests/CMakeFiles/hardware-test.dir/__/__/__/testutils/unittest_main.cpp.o"
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/hardware/tests && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hardware-test.dir/__/__/__/testutils/unittest_main.cpp.o -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/testutils/unittest_main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/gromacs/hardware/tests/CMakeFiles/hardware-test.dir/__/__/__/testutils/unittest_main.cpp.o"
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/hardware/tests && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hardware-test.dir/__/__/__/testutils/unittest_main.cpp.o -c /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/testutils/unittest_main.cpp
 
 src/gromacs/hardware/tests/CMakeFiles/hardware-test.dir/__/__/__/testutils/unittest_main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hardware-test.dir/__/__/__/testutils/unittest_main.cpp.i"
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/hardware/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/testutils/unittest_main.cpp > CMakeFiles/hardware-test.dir/__/__/__/testutils/unittest_main.cpp.i
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/hardware/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/testutils/unittest_main.cpp > CMakeFiles/hardware-test.dir/__/__/__/testutils/unittest_main.cpp.i
 
 src/gromacs/hardware/tests/CMakeFiles/hardware-test.dir/__/__/__/testutils/unittest_main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hardware-test.dir/__/__/__/testutils/unittest_main.cpp.s"
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/hardware/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/testutils/unittest_main.cpp -o CMakeFiles/hardware-test.dir/__/__/__/testutils/unittest_main.cpp.s
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/hardware/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/testutils/unittest_main.cpp -o CMakeFiles/hardware-test.dir/__/__/__/testutils/unittest_main.cpp.s
 
 # Object files for target hardware-test
 hardware__test_OBJECTS = \
@@ -113,8 +113,8 @@ bin/hardware-test: lib/libtestutils.a
 bin/hardware-test: lib/libgromacs.4.0.0.dylib
 bin/hardware-test: lib/libgmock.a
 bin/hardware-test: src/gromacs/hardware/tests/CMakeFiles/hardware-test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ../../../../bin/hardware-test"
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/hardware/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hardware-test.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ../../../../bin/hardware-test"
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/hardware/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hardware-test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/gromacs/hardware/tests/CMakeFiles/hardware-test.dir/build: bin/hardware-test
@@ -122,10 +122,10 @@ src/gromacs/hardware/tests/CMakeFiles/hardware-test.dir/build: bin/hardware-test
 .PHONY : src/gromacs/hardware/tests/CMakeFiles/hardware-test.dir/build
 
 src/gromacs/hardware/tests/CMakeFiles/hardware-test.dir/clean:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/hardware/tests && $(CMAKE_COMMAND) -P CMakeFiles/hardware-test.dir/cmake_clean.cmake
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/hardware/tests && $(CMAKE_COMMAND) -P CMakeFiles/hardware-test.dir/cmake_clean.cmake
 .PHONY : src/gromacs/hardware/tests/CMakeFiles/hardware-test.dir/clean
 
 src/gromacs/hardware/tests/CMakeFiles/hardware-test.dir/depend:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4 /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/hardware/tests /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/hardware/tests /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/hardware/tests/CMakeFiles/hardware-test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4 /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/hardware/tests /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/hardware/tests /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/hardware/tests/CMakeFiles/hardware-test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/gromacs/hardware/tests/CMakeFiles/hardware-test.dir/depend
 

@@ -26,7 +26,7 @@ src/gromacs/taskassignment/tests/CMakeFiles/taskassignment-test.dir/__/__/__/tes
  ../src/external/googletest/googletest/include/gtest/internal/gtest-type-util.h
  ../src/gmxpre.h
  ../src/testutils/testinit.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/testutils/unittest_main.cpp
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/testutils/unittest_main.cpp
  src/gmxpre-config.h
 src/gromacs/taskassignment/tests/CMakeFiles/taskassignment-test.dir/usergpuids.cpp.o
  ../src/external/googletest/googlemock/include/gmock/gmock-actions.h
@@ -76,5 +76,5 @@ src/gromacs/taskassignment/tests/CMakeFiles/taskassignment-test.dir/usergpuids.c
  ../src/gromacs/utility/current_function.h
  ../src/gromacs/utility/exceptions.h
  ../src/gromacs/utility/gmxassert.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/taskassignment/tests/usergpuids.cpp
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/taskassignment/tests/usergpuids.cpp
  src/gmxpre-config.h

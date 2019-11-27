@@ -48,10 +48,10 @@ RM = /usr/local/Cellar/cmake/3.11.1/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4
+CMAKE_SOURCE_DIR = /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build
+CMAKE_BINARY_DIR = /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -138,7 +138,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && /usr/local/Cellar/cmake/3.11.1/bin/cpack --config ./CPackSourceConfig.cmake /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CPackSourceConfig.cmake
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && /usr/local/Cellar/cmake/3.11.1/bin/cpack --config ./CPackSourceConfig.cmake /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -149,7 +149,7 @@ package_source/fast: package_source
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && /usr/local/Cellar/cmake/3.11.1/bin/cpack --config ./CPackConfig.cmake
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && /usr/local/Cellar/cmake/3.11.1/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -159,14 +159,14 @@ package/fast: package
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/testutils/tests/CMakeFiles/progress.marks
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f CMakeFiles/Makefile2 src/testutils/tests/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles 0
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/testutils/tests/CMakeFiles/progress.marks
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f CMakeFiles/Makefile2 src/testutils/tests/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f CMakeFiles/Makefile2 src/testutils/tests/clean
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f CMakeFiles/Makefile2 src/testutils/tests/clean
 .PHONY : clean
 
 # The main clean target
@@ -176,22 +176,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f CMakeFiles/Makefile2 src/testutils/tests/preinstall
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f CMakeFiles/Makefile2 src/testutils/tests/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f CMakeFiles/Makefile2 src/testutils/tests/preinstall
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f CMakeFiles/Makefile2 src/testutils/tests/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/testutils/tests/CMakeFiles/testutils-test.dir/rule:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f CMakeFiles/Makefile2 src/testutils/tests/CMakeFiles/testutils-test.dir/rule
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f CMakeFiles/Makefile2 src/testutils/tests/CMakeFiles/testutils-test.dir/rule
 .PHONY : src/testutils/tests/CMakeFiles/testutils-test.dir/rule
 
 # Convenience name for target.
@@ -201,12 +201,12 @@ testutils-test: src/testutils/tests/CMakeFiles/testutils-test.dir/rule
 
 # fast build rule for target.
 testutils-test/fast:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/testutils/tests/CMakeFiles/testutils-test.dir/build.make src/testutils/tests/CMakeFiles/testutils-test.dir/build
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/testutils/tests/CMakeFiles/testutils-test.dir/build.make src/testutils/tests/CMakeFiles/testutils-test.dir/build
 .PHONY : testutils-test/fast
 
 # Convenience name for target.
 src/testutils/tests/CMakeFiles/testutils-mpi-test.dir/rule:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f CMakeFiles/Makefile2 src/testutils/tests/CMakeFiles/testutils-mpi-test.dir/rule
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f CMakeFiles/Makefile2 src/testutils/tests/CMakeFiles/testutils-mpi-test.dir/rule
 .PHONY : src/testutils/tests/CMakeFiles/testutils-mpi-test.dir/rule
 
 # Convenience name for target.
@@ -216,7 +216,7 @@ testutils-mpi-test: src/testutils/tests/CMakeFiles/testutils-mpi-test.dir/rule
 
 # fast build rule for target.
 testutils-mpi-test/fast:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/testutils/tests/CMakeFiles/testutils-mpi-test.dir/build.make src/testutils/tests/CMakeFiles/testutils-mpi-test.dir/build
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/testutils/tests/CMakeFiles/testutils-mpi-test.dir/build.make src/testutils/tests/CMakeFiles/testutils-mpi-test.dir/build
 .PHONY : testutils-mpi-test/fast
 
 __/unittest_main.o: __/unittest_main.cpp.o
@@ -225,8 +225,8 @@ __/unittest_main.o: __/unittest_main.cpp.o
 
 # target to build an object file
 __/unittest_main.cpp.o:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/testutils/tests/CMakeFiles/testutils-test.dir/build.make src/testutils/tests/CMakeFiles/testutils-test.dir/__/unittest_main.cpp.o
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/testutils/tests/CMakeFiles/testutils-mpi-test.dir/build.make src/testutils/tests/CMakeFiles/testutils-mpi-test.dir/__/unittest_main.cpp.o
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/testutils/tests/CMakeFiles/testutils-test.dir/build.make src/testutils/tests/CMakeFiles/testutils-test.dir/__/unittest_main.cpp.o
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/testutils/tests/CMakeFiles/testutils-mpi-test.dir/build.make src/testutils/tests/CMakeFiles/testutils-mpi-test.dir/__/unittest_main.cpp.o
 .PHONY : __/unittest_main.cpp.o
 
 __/unittest_main.i: __/unittest_main.cpp.i
@@ -235,8 +235,8 @@ __/unittest_main.i: __/unittest_main.cpp.i
 
 # target to preprocess a source file
 __/unittest_main.cpp.i:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/testutils/tests/CMakeFiles/testutils-test.dir/build.make src/testutils/tests/CMakeFiles/testutils-test.dir/__/unittest_main.cpp.i
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/testutils/tests/CMakeFiles/testutils-mpi-test.dir/build.make src/testutils/tests/CMakeFiles/testutils-mpi-test.dir/__/unittest_main.cpp.i
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/testutils/tests/CMakeFiles/testutils-test.dir/build.make src/testutils/tests/CMakeFiles/testutils-test.dir/__/unittest_main.cpp.i
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/testutils/tests/CMakeFiles/testutils-mpi-test.dir/build.make src/testutils/tests/CMakeFiles/testutils-mpi-test.dir/__/unittest_main.cpp.i
 .PHONY : __/unittest_main.cpp.i
 
 __/unittest_main.s: __/unittest_main.cpp.s
@@ -245,8 +245,8 @@ __/unittest_main.s: __/unittest_main.cpp.s
 
 # target to generate assembly for a file
 __/unittest_main.cpp.s:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/testutils/tests/CMakeFiles/testutils-test.dir/build.make src/testutils/tests/CMakeFiles/testutils-test.dir/__/unittest_main.cpp.s
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/testutils/tests/CMakeFiles/testutils-mpi-test.dir/build.make src/testutils/tests/CMakeFiles/testutils-mpi-test.dir/__/unittest_main.cpp.s
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/testutils/tests/CMakeFiles/testutils-test.dir/build.make src/testutils/tests/CMakeFiles/testutils-test.dir/__/unittest_main.cpp.s
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/testutils/tests/CMakeFiles/testutils-mpi-test.dir/build.make src/testutils/tests/CMakeFiles/testutils-mpi-test.dir/__/unittest_main.cpp.s
 .PHONY : __/unittest_main.cpp.s
 
 interactivetest.o: interactivetest.cpp.o
@@ -255,7 +255,7 @@ interactivetest.o: interactivetest.cpp.o
 
 # target to build an object file
 interactivetest.cpp.o:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/testutils/tests/CMakeFiles/testutils-test.dir/build.make src/testutils/tests/CMakeFiles/testutils-test.dir/interactivetest.cpp.o
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/testutils/tests/CMakeFiles/testutils-test.dir/build.make src/testutils/tests/CMakeFiles/testutils-test.dir/interactivetest.cpp.o
 .PHONY : interactivetest.cpp.o
 
 interactivetest.i: interactivetest.cpp.i
@@ -264,7 +264,7 @@ interactivetest.i: interactivetest.cpp.i
 
 # target to preprocess a source file
 interactivetest.cpp.i:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/testutils/tests/CMakeFiles/testutils-test.dir/build.make src/testutils/tests/CMakeFiles/testutils-test.dir/interactivetest.cpp.i
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/testutils/tests/CMakeFiles/testutils-test.dir/build.make src/testutils/tests/CMakeFiles/testutils-test.dir/interactivetest.cpp.i
 .PHONY : interactivetest.cpp.i
 
 interactivetest.s: interactivetest.cpp.s
@@ -273,7 +273,7 @@ interactivetest.s: interactivetest.cpp.s
 
 # target to generate assembly for a file
 interactivetest.cpp.s:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/testutils/tests/CMakeFiles/testutils-test.dir/build.make src/testutils/tests/CMakeFiles/testutils-test.dir/interactivetest.cpp.s
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/testutils/tests/CMakeFiles/testutils-test.dir/build.make src/testutils/tests/CMakeFiles/testutils-test.dir/interactivetest.cpp.s
 .PHONY : interactivetest.cpp.s
 
 mpitest.o: mpitest.cpp.o
@@ -282,7 +282,7 @@ mpitest.o: mpitest.cpp.o
 
 # target to build an object file
 mpitest.cpp.o:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/testutils/tests/CMakeFiles/testutils-mpi-test.dir/build.make src/testutils/tests/CMakeFiles/testutils-mpi-test.dir/mpitest.cpp.o
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/testutils/tests/CMakeFiles/testutils-mpi-test.dir/build.make src/testutils/tests/CMakeFiles/testutils-mpi-test.dir/mpitest.cpp.o
 .PHONY : mpitest.cpp.o
 
 mpitest.i: mpitest.cpp.i
@@ -291,7 +291,7 @@ mpitest.i: mpitest.cpp.i
 
 # target to preprocess a source file
 mpitest.cpp.i:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/testutils/tests/CMakeFiles/testutils-mpi-test.dir/build.make src/testutils/tests/CMakeFiles/testutils-mpi-test.dir/mpitest.cpp.i
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/testutils/tests/CMakeFiles/testutils-mpi-test.dir/build.make src/testutils/tests/CMakeFiles/testutils-mpi-test.dir/mpitest.cpp.i
 .PHONY : mpitest.cpp.i
 
 mpitest.s: mpitest.cpp.s
@@ -300,7 +300,7 @@ mpitest.s: mpitest.cpp.s
 
 # target to generate assembly for a file
 mpitest.cpp.s:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/testutils/tests/CMakeFiles/testutils-mpi-test.dir/build.make src/testutils/tests/CMakeFiles/testutils-mpi-test.dir/mpitest.cpp.s
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/testutils/tests/CMakeFiles/testutils-mpi-test.dir/build.make src/testutils/tests/CMakeFiles/testutils-mpi-test.dir/mpitest.cpp.s
 .PHONY : mpitest.cpp.s
 
 refdata_tests.o: refdata_tests.cpp.o
@@ -309,7 +309,7 @@ refdata_tests.o: refdata_tests.cpp.o
 
 # target to build an object file
 refdata_tests.cpp.o:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/testutils/tests/CMakeFiles/testutils-test.dir/build.make src/testutils/tests/CMakeFiles/testutils-test.dir/refdata_tests.cpp.o
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/testutils/tests/CMakeFiles/testutils-test.dir/build.make src/testutils/tests/CMakeFiles/testutils-test.dir/refdata_tests.cpp.o
 .PHONY : refdata_tests.cpp.o
 
 refdata_tests.i: refdata_tests.cpp.i
@@ -318,7 +318,7 @@ refdata_tests.i: refdata_tests.cpp.i
 
 # target to preprocess a source file
 refdata_tests.cpp.i:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/testutils/tests/CMakeFiles/testutils-test.dir/build.make src/testutils/tests/CMakeFiles/testutils-test.dir/refdata_tests.cpp.i
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/testutils/tests/CMakeFiles/testutils-test.dir/build.make src/testutils/tests/CMakeFiles/testutils-test.dir/refdata_tests.cpp.i
 .PHONY : refdata_tests.cpp.i
 
 refdata_tests.s: refdata_tests.cpp.s
@@ -327,7 +327,7 @@ refdata_tests.s: refdata_tests.cpp.s
 
 # target to generate assembly for a file
 refdata_tests.cpp.s:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/testutils/tests/CMakeFiles/testutils-test.dir/build.make src/testutils/tests/CMakeFiles/testutils-test.dir/refdata_tests.cpp.s
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/testutils/tests/CMakeFiles/testutils-test.dir/build.make src/testutils/tests/CMakeFiles/testutils-test.dir/refdata_tests.cpp.s
 .PHONY : refdata_tests.cpp.s
 
 testasserts_tests.o: testasserts_tests.cpp.o
@@ -336,7 +336,7 @@ testasserts_tests.o: testasserts_tests.cpp.o
 
 # target to build an object file
 testasserts_tests.cpp.o:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/testutils/tests/CMakeFiles/testutils-test.dir/build.make src/testutils/tests/CMakeFiles/testutils-test.dir/testasserts_tests.cpp.o
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/testutils/tests/CMakeFiles/testutils-test.dir/build.make src/testutils/tests/CMakeFiles/testutils-test.dir/testasserts_tests.cpp.o
 .PHONY : testasserts_tests.cpp.o
 
 testasserts_tests.i: testasserts_tests.cpp.i
@@ -345,7 +345,7 @@ testasserts_tests.i: testasserts_tests.cpp.i
 
 # target to preprocess a source file
 testasserts_tests.cpp.i:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/testutils/tests/CMakeFiles/testutils-test.dir/build.make src/testutils/tests/CMakeFiles/testutils-test.dir/testasserts_tests.cpp.i
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/testutils/tests/CMakeFiles/testutils-test.dir/build.make src/testutils/tests/CMakeFiles/testutils-test.dir/testasserts_tests.cpp.i
 .PHONY : testasserts_tests.cpp.i
 
 testasserts_tests.s: testasserts_tests.cpp.s
@@ -354,7 +354,7 @@ testasserts_tests.s: testasserts_tests.cpp.s
 
 # target to generate assembly for a file
 testasserts_tests.cpp.s:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/testutils/tests/CMakeFiles/testutils-test.dir/build.make src/testutils/tests/CMakeFiles/testutils-test.dir/testasserts_tests.cpp.s
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/testutils/tests/CMakeFiles/testutils-test.dir/build.make src/testutils/tests/CMakeFiles/testutils-test.dir/testasserts_tests.cpp.s
 .PHONY : testasserts_tests.cpp.s
 
 xvgtest_tests.o: xvgtest_tests.cpp.o
@@ -363,7 +363,7 @@ xvgtest_tests.o: xvgtest_tests.cpp.o
 
 # target to build an object file
 xvgtest_tests.cpp.o:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/testutils/tests/CMakeFiles/testutils-test.dir/build.make src/testutils/tests/CMakeFiles/testutils-test.dir/xvgtest_tests.cpp.o
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/testutils/tests/CMakeFiles/testutils-test.dir/build.make src/testutils/tests/CMakeFiles/testutils-test.dir/xvgtest_tests.cpp.o
 .PHONY : xvgtest_tests.cpp.o
 
 xvgtest_tests.i: xvgtest_tests.cpp.i
@@ -372,7 +372,7 @@ xvgtest_tests.i: xvgtest_tests.cpp.i
 
 # target to preprocess a source file
 xvgtest_tests.cpp.i:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/testutils/tests/CMakeFiles/testutils-test.dir/build.make src/testutils/tests/CMakeFiles/testutils-test.dir/xvgtest_tests.cpp.i
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/testutils/tests/CMakeFiles/testutils-test.dir/build.make src/testutils/tests/CMakeFiles/testutils-test.dir/xvgtest_tests.cpp.i
 .PHONY : xvgtest_tests.cpp.i
 
 xvgtest_tests.s: xvgtest_tests.cpp.s
@@ -381,7 +381,7 @@ xvgtest_tests.s: xvgtest_tests.cpp.s
 
 # target to generate assembly for a file
 xvgtest_tests.cpp.s:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/testutils/tests/CMakeFiles/testutils-test.dir/build.make src/testutils/tests/CMakeFiles/testutils-test.dir/xvgtest_tests.cpp.s
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/testutils/tests/CMakeFiles/testutils-test.dir/build.make src/testutils/tests/CMakeFiles/testutils-test.dir/xvgtest_tests.cpp.s
 .PHONY : xvgtest_tests.cpp.s
 
 # Help Target
@@ -430,6 +430,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

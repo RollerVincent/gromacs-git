@@ -43,10 +43,10 @@ RM = /usr/local/Cellar/cmake/3.11.1/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4
+CMAKE_SOURCE_DIR = /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build
+CMAKE_BINARY_DIR = /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build
 
 # Utility rule file for man.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /Users/vincentroller/Home/Development/gromacs/installation/gr
 include docs/CMakeFiles/man.dir/progress.make
 
 docs/CMakeFiles/man:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/docs && /usr/local/Cellar/cmake/3.11.1/bin/cmake -E echo "man pages cannot be built because Sphinx expected minimum version 1.6.1 is not available"
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/docs && /usr/local/Cellar/cmake/3.11.1/bin/cmake -E echo "man pages cannot be built because Sphinx expected minimum version 1.6.1 is not available"
 
 man: docs/CMakeFiles/man
 man: docs/CMakeFiles/man.dir/build.make
@@ -67,10 +67,10 @@ docs/CMakeFiles/man.dir/build: man
 .PHONY : docs/CMakeFiles/man.dir/build
 
 docs/CMakeFiles/man.dir/clean:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/docs && $(CMAKE_COMMAND) -P CMakeFiles/man.dir/cmake_clean.cmake
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/docs && $(CMAKE_COMMAND) -P CMakeFiles/man.dir/cmake_clean.cmake
 .PHONY : docs/CMakeFiles/man.dir/clean
 
 docs/CMakeFiles/man.dir/depend:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4 /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/docs /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/docs /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/docs/CMakeFiles/man.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4 /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/docs /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/docs /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/docs/CMakeFiles/man.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : docs/CMakeFiles/man.dir/depend
 

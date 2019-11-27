@@ -1,19 +1,19 @@
 ;
-;	File '/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/gmxpreprocess/tests/Testing/Temporary/ChainSep_Pdb2gmxTest_ProducesMatchingTopology_5_topol_Protein_chain_C.itp' was generated
+;	File '/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/gmxpreprocess/tests/Testing/Temporary/ChainSep_Pdb2gmxTest_ProducesMatchingTopology_5_topol_Protein_chain_C.itp' was generated
 ;	By user: vincentroller (501)
 ;	On host: Vincents-MacBook-Pro.local
-;	At date: Tue Nov 12 01:54:12 2019
+;	At date: Wed Nov 27 19:15:29 2019
 ;
 ;	This is a include topology file
 ;
 ;	Created by:
 ;	                    :-) GROMACS - pdb2gmx-test, 2019.4 (-:
 ;	
-;	Executable:   /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/bin/pdb2gmx-test
-;	Data prefix:  /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4 (source tree)
-;	Working dir:  /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/gmxpreprocess/tests
+;	Executable:   /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/bin/pdb2gmx-test
+;	Data prefix:  /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4 (source tree)
+;	Working dir:  /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/gmxpreprocess/tests
 ;	Command line:
-;	  pdb2gmx-test --gtest_output=xml:/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/Testing/Temporary/Pdb2gmxTest.xml
+;	  pdb2gmx-test --gtest_output=xml:/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/Testing/Temporary/Pdb2gmxTest.xml
 ;	Force field was read from the standard GROMACS share directory.
 ;
 

@@ -7,8 +7,8 @@ endif ()
 set (FFTW3_CONFIG_FILE "${CMAKE_CURRENT_LIST_FILE}")
 
 set (FFTW3f_LIBRARIES fftw3f)
-set (FFTW3f_LIBRARY_DIRS /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/lib)
-set (FFTW3f_INCLUDE_DIRS /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/include)
+set (FFTW3f_LIBRARY_DIRS /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/lib)
+set (FFTW3f_INCLUDE_DIRS /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/include)
 
 include ("${CMAKE_CURRENT_LIST_DIR}/FFTW3LibraryDepends.cmake")
 

@@ -26,7 +26,7 @@ src/gromacs/energyanalysis/tests/CMakeFiles/energyanalysis-test.dir/__/__/__/tes
  ../src/external/googletest/googletest/include/gtest/internal/gtest-type-util.h
  ../src/gmxpre.h
  ../src/testutils/testinit.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/testutils/unittest_main.cpp
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/testutils/unittest_main.cpp
  src/gmxpre-config.h
 src/gromacs/energyanalysis/tests/CMakeFiles/energyanalysis-test.dir/legacyenergy.cpp.o
  ../src/external/googletest/googletest/include/gtest/gtest-death-test.h
@@ -65,5 +65,5 @@ src/gromacs/energyanalysis/tests/CMakeFiles/energyanalysis-test.dir/legacyenergy
  ../src/testutils/testasserts.h
  ../src/testutils/textblockmatchers.h
  ../src/testutils/xvgtest.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/energyanalysis/tests/legacyenergy.cpp
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/energyanalysis/tests/legacyenergy.cpp
  src/gmxpre-config.h

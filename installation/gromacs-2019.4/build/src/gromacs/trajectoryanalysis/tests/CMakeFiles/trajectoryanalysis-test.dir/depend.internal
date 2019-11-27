@@ -26,7 +26,7 @@ src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/__/_
  ../src/external/googletest/googletest/include/gtest/internal/gtest-type-util.h
  ../src/gmxpre.h
  ../src/testutils/testinit.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/testutils/unittest_main.cpp
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/testutils/unittest_main.cpp
  src/gmxpre-config.h
 src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/angle.cpp.o
  ../src/external/googletest/googletest/include/gtest/gtest-death-test.h
@@ -68,8 +68,8 @@ src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/angl
  ../src/gromacs/utility/gmxassert.h
  ../src/gromacs/utility/real.h
  ../src/testutils/cmdlinetest.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/trajectoryanalysis/tests/angle.cpp
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/trajectoryanalysis/tests/moduletest.h
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/trajectoryanalysis/tests/angle.cpp
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/trajectoryanalysis/tests/moduletest.h
  src/gmxpre-config.h
 src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/clustsize.cpp.o
  ../src/external/googletest/googletest/include/gtest/gtest-death-test.h
@@ -108,7 +108,7 @@ src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/clus
  ../src/testutils/testasserts.h
  ../src/testutils/textblockmatchers.h
  ../src/testutils/xvgtest.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/trajectoryanalysis/tests/clustsize.cpp
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/trajectoryanalysis/tests/clustsize.cpp
  src/gmxpre-config.h
 src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/cmdlinerunner.cpp.o
  ../src/external/googletest/googlemock/include/gmock/gmock-actions.h
@@ -190,7 +190,7 @@ src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/cmdl
  ../src/gromacs/utility/unique_cptr.h
  ../src/testutils/cmdlinetest.h
  ../src/testutils/testasserts.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/trajectoryanalysis/tests/cmdlinerunner.cpp
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/trajectoryanalysis/tests/cmdlinerunner.cpp
  src/gmxpre-config.h
 src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/distance.cpp.o
  ../src/external/googletest/googletest/include/gtest/gtest-death-test.h
@@ -232,8 +232,8 @@ src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/dist
  ../src/gromacs/utility/gmxassert.h
  ../src/gromacs/utility/real.h
  ../src/testutils/cmdlinetest.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/trajectoryanalysis/tests/distance.cpp
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/trajectoryanalysis/tests/moduletest.h
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/trajectoryanalysis/tests/distance.cpp
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/trajectoryanalysis/tests/moduletest.h
  src/gmxpre-config.h
 src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/freevolume.cpp.o
  ../src/external/googletest/googletest/include/gtest/gtest-death-test.h
@@ -275,8 +275,8 @@ src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/free
  ../src/gromacs/utility/gmxassert.h
  ../src/gromacs/utility/real.h
  ../src/testutils/cmdlinetest.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/trajectoryanalysis/tests/freevolume.cpp
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/trajectoryanalysis/tests/moduletest.h
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/trajectoryanalysis/tests/freevolume.cpp
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/trajectoryanalysis/tests/moduletest.h
  src/gmxpre-config.h
 src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/moduletest.cpp.o
  ../src/external/googletest/googletest/include/gtest/gtest-death-test.h
@@ -325,8 +325,8 @@ src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/modu
  ../src/testutils/cmdlinetest.h
  ../src/testutils/refdata.h
  ../src/testutils/testasserts.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/trajectoryanalysis/tests/moduletest.cpp
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/trajectoryanalysis/tests/moduletest.h
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/trajectoryanalysis/tests/moduletest.cpp
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/trajectoryanalysis/tests/moduletest.h
  src/gmxpre-config.h
 src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/pairdist.cpp.o
  ../src/external/googletest/googletest/include/gtest/gtest-death-test.h
@@ -371,8 +371,8 @@ src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/pair
  ../src/testutils/cmdlinetest.h
  ../src/testutils/testasserts.h
  ../src/testutils/textblockmatchers.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/trajectoryanalysis/tests/moduletest.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/trajectoryanalysis/tests/pairdist.cpp
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/trajectoryanalysis/tests/moduletest.h
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/trajectoryanalysis/tests/pairdist.cpp
  src/gmxpre-config.h
 src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/rdf.cpp.o
  ../src/external/googletest/googletest/include/gtest/gtest-death-test.h
@@ -417,8 +417,8 @@ src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/rdf.
  ../src/testutils/cmdlinetest.h
  ../src/testutils/testasserts.h
  ../src/testutils/textblockmatchers.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/trajectoryanalysis/tests/moduletest.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/trajectoryanalysis/tests/rdf.cpp
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/trajectoryanalysis/tests/moduletest.h
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/trajectoryanalysis/tests/rdf.cpp
  src/gmxpre-config.h
 src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/sasa.cpp.o
  ../src/external/googletest/googletest/include/gtest/gtest-death-test.h
@@ -464,8 +464,8 @@ src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/sasa
  ../src/testutils/testasserts.h
  ../src/testutils/textblockmatchers.h
  ../src/testutils/xvgtest.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/trajectoryanalysis/tests/moduletest.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/trajectoryanalysis/tests/sasa.cpp
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/trajectoryanalysis/tests/moduletest.h
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/trajectoryanalysis/tests/sasa.cpp
  src/gmxpre-config.h
 src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/select.cpp.o
  ../src/external/googletest/googletest/include/gtest/gtest-death-test.h
@@ -508,8 +508,8 @@ src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/sele
  ../src/gromacs/utility/real.h
  ../src/testutils/cmdlinetest.h
  ../src/testutils/textblockmatchers.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/trajectoryanalysis/tests/moduletest.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/trajectoryanalysis/tests/select.cpp
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/trajectoryanalysis/tests/moduletest.h
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/trajectoryanalysis/tests/select.cpp
  src/gmxpre-config.h
 src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/surfacearea.cpp.o
  ../src/external/googletest/googletest/include/gtest/gtest-death-test.h
@@ -554,7 +554,7 @@ src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/surf
  ../src/gromacs/utility/smalloc.h
  ../src/testutils/refdata.h
  ../src/testutils/testasserts.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/trajectoryanalysis/tests/surfacearea.cpp
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/trajectoryanalysis/tests/surfacearea.cpp
  src/gmxpre-config.h
 src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/topologyinformation.cpp.o
  ../src/external/googletest/googletest/include/gtest/gtest-death-test.h
@@ -609,8 +609,8 @@ src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/topo
  ../src/gromacs/utility/unique_cptr.h
  ../src/testutils/cmdlinetest.h
  ../src/testutils/testfilemanager.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/trajectoryanalysis/tests/moduletest.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/trajectoryanalysis/tests/topologyinformation.cpp
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/trajectoryanalysis/tests/moduletest.h
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/trajectoryanalysis/tests/topologyinformation.cpp
  src/gmxpre-config.h
 src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/trajectory.cpp.o
  ../src/external/googletest/googletest/include/gtest/gtest-death-test.h
@@ -653,8 +653,8 @@ src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/traj
  ../src/gromacs/utility/real.h
  ../src/testutils/cmdlinetest.h
  ../src/testutils/textblockmatchers.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/trajectoryanalysis/tests/moduletest.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/trajectoryanalysis/tests/trajectory.cpp
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/trajectoryanalysis/tests/moduletest.h
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/trajectoryanalysis/tests/trajectory.cpp
  src/gmxpre-config.h
 src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/unionfind.cpp.o
  ../src/external/googletest/googlemock/include/gmock/gmock-actions.h
@@ -702,5 +702,5 @@ src/gromacs/trajectoryanalysis/tests/CMakeFiles/trajectoryanalysis-test.dir/unio
  ../src/gromacs/utility/basedefinitions.h
  ../src/gromacs/utility/current_function.h
  ../src/gromacs/utility/gmxassert.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/trajectoryanalysis/tests/unionfind.cpp
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/trajectoryanalysis/tests/unionfind.cpp
  src/gmxpre-config.h

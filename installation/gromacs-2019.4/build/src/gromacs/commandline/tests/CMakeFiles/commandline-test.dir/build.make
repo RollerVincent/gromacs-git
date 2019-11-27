@@ -43,10 +43,10 @@ RM = /usr/local/Cellar/cmake/3.11.1/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4
+CMAKE_SOURCE_DIR = /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build
+CMAKE_BINARY_DIR = /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build
 
 # Include any dependencies generated for this target.
 include src/gromacs/commandline/tests/CMakeFiles/commandline-test.dir/depend.make
@@ -59,107 +59,107 @@ include src/gromacs/commandline/tests/CMakeFiles/commandline-test.dir/flags.make
 
 src/gromacs/commandline/tests/CMakeFiles/commandline-test.dir/cmdlinehelpmodule.cpp.o: src/gromacs/commandline/tests/CMakeFiles/commandline-test.dir/flags.make
 src/gromacs/commandline/tests/CMakeFiles/commandline-test.dir/cmdlinehelpmodule.cpp.o: ../src/gromacs/commandline/tests/cmdlinehelpmodule.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/gromacs/commandline/tests/CMakeFiles/commandline-test.dir/cmdlinehelpmodule.cpp.o"
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/commandline/tests && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/commandline-test.dir/cmdlinehelpmodule.cpp.o -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/commandline/tests/cmdlinehelpmodule.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/gromacs/commandline/tests/CMakeFiles/commandline-test.dir/cmdlinehelpmodule.cpp.o"
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/commandline/tests && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/commandline-test.dir/cmdlinehelpmodule.cpp.o -c /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/commandline/tests/cmdlinehelpmodule.cpp
 
 src/gromacs/commandline/tests/CMakeFiles/commandline-test.dir/cmdlinehelpmodule.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/commandline-test.dir/cmdlinehelpmodule.cpp.i"
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/commandline/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/commandline/tests/cmdlinehelpmodule.cpp > CMakeFiles/commandline-test.dir/cmdlinehelpmodule.cpp.i
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/commandline/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/commandline/tests/cmdlinehelpmodule.cpp > CMakeFiles/commandline-test.dir/cmdlinehelpmodule.cpp.i
 
 src/gromacs/commandline/tests/CMakeFiles/commandline-test.dir/cmdlinehelpmodule.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/commandline-test.dir/cmdlinehelpmodule.cpp.s"
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/commandline/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/commandline/tests/cmdlinehelpmodule.cpp -o CMakeFiles/commandline-test.dir/cmdlinehelpmodule.cpp.s
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/commandline/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/commandline/tests/cmdlinehelpmodule.cpp -o CMakeFiles/commandline-test.dir/cmdlinehelpmodule.cpp.s
 
 src/gromacs/commandline/tests/CMakeFiles/commandline-test.dir/cmdlinehelpwriter.cpp.o: src/gromacs/commandline/tests/CMakeFiles/commandline-test.dir/flags.make
 src/gromacs/commandline/tests/CMakeFiles/commandline-test.dir/cmdlinehelpwriter.cpp.o: ../src/gromacs/commandline/tests/cmdlinehelpwriter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/gromacs/commandline/tests/CMakeFiles/commandline-test.dir/cmdlinehelpwriter.cpp.o"
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/commandline/tests && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/commandline-test.dir/cmdlinehelpwriter.cpp.o -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/commandline/tests/cmdlinehelpwriter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/gromacs/commandline/tests/CMakeFiles/commandline-test.dir/cmdlinehelpwriter.cpp.o"
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/commandline/tests && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/commandline-test.dir/cmdlinehelpwriter.cpp.o -c /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/commandline/tests/cmdlinehelpwriter.cpp
 
 src/gromacs/commandline/tests/CMakeFiles/commandline-test.dir/cmdlinehelpwriter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/commandline-test.dir/cmdlinehelpwriter.cpp.i"
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/commandline/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/commandline/tests/cmdlinehelpwriter.cpp > CMakeFiles/commandline-test.dir/cmdlinehelpwriter.cpp.i
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/commandline/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/commandline/tests/cmdlinehelpwriter.cpp > CMakeFiles/commandline-test.dir/cmdlinehelpwriter.cpp.i
 
 src/gromacs/commandline/tests/CMakeFiles/commandline-test.dir/cmdlinehelpwriter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/commandline-test.dir/cmdlinehelpwriter.cpp.s"
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/commandline/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/commandline/tests/cmdlinehelpwriter.cpp -o CMakeFiles/commandline-test.dir/cmdlinehelpwriter.cpp.s
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/commandline/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/commandline/tests/cmdlinehelpwriter.cpp -o CMakeFiles/commandline-test.dir/cmdlinehelpwriter.cpp.s
 
 src/gromacs/commandline/tests/CMakeFiles/commandline-test.dir/cmdlinemodulemanager.cpp.o: src/gromacs/commandline/tests/CMakeFiles/commandline-test.dir/flags.make
 src/gromacs/commandline/tests/CMakeFiles/commandline-test.dir/cmdlinemodulemanager.cpp.o: ../src/gromacs/commandline/tests/cmdlinemodulemanager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/gromacs/commandline/tests/CMakeFiles/commandline-test.dir/cmdlinemodulemanager.cpp.o"
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/commandline/tests && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/commandline-test.dir/cmdlinemodulemanager.cpp.o -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/commandline/tests/cmdlinemodulemanager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/gromacs/commandline/tests/CMakeFiles/commandline-test.dir/cmdlinemodulemanager.cpp.o"
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/commandline/tests && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/commandline-test.dir/cmdlinemodulemanager.cpp.o -c /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/commandline/tests/cmdlinemodulemanager.cpp
 
 src/gromacs/commandline/tests/CMakeFiles/commandline-test.dir/cmdlinemodulemanager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/commandline-test.dir/cmdlinemodulemanager.cpp.i"
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/commandline/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/commandline/tests/cmdlinemodulemanager.cpp > CMakeFiles/commandline-test.dir/cmdlinemodulemanager.cpp.i
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/commandline/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/commandline/tests/cmdlinemodulemanager.cpp > CMakeFiles/commandline-test.dir/cmdlinemodulemanager.cpp.i
 
 src/gromacs/commandline/tests/CMakeFiles/commandline-test.dir/cmdlinemodulemanager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/commandline-test.dir/cmdlinemodulemanager.cpp.s"
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/commandline/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/commandline/tests/cmdlinemodulemanager.cpp -o CMakeFiles/commandline-test.dir/cmdlinemodulemanager.cpp.s
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/commandline/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/commandline/tests/cmdlinemodulemanager.cpp -o CMakeFiles/commandline-test.dir/cmdlinemodulemanager.cpp.s
 
 src/gromacs/commandline/tests/CMakeFiles/commandline-test.dir/cmdlinemodulemanagertest.cpp.o: src/gromacs/commandline/tests/CMakeFiles/commandline-test.dir/flags.make
 src/gromacs/commandline/tests/CMakeFiles/commandline-test.dir/cmdlinemodulemanagertest.cpp.o: ../src/gromacs/commandline/tests/cmdlinemodulemanagertest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/gromacs/commandline/tests/CMakeFiles/commandline-test.dir/cmdlinemodulemanagertest.cpp.o"
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/commandline/tests && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/commandline-test.dir/cmdlinemodulemanagertest.cpp.o -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/commandline/tests/cmdlinemodulemanagertest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/gromacs/commandline/tests/CMakeFiles/commandline-test.dir/cmdlinemodulemanagertest.cpp.o"
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/commandline/tests && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/commandline-test.dir/cmdlinemodulemanagertest.cpp.o -c /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/commandline/tests/cmdlinemodulemanagertest.cpp
 
 src/gromacs/commandline/tests/CMakeFiles/commandline-test.dir/cmdlinemodulemanagertest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/commandline-test.dir/cmdlinemodulemanagertest.cpp.i"
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/commandline/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/commandline/tests/cmdlinemodulemanagertest.cpp > CMakeFiles/commandline-test.dir/cmdlinemodulemanagertest.cpp.i
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/commandline/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/commandline/tests/cmdlinemodulemanagertest.cpp > CMakeFiles/commandline-test.dir/cmdlinemodulemanagertest.cpp.i
 
 src/gromacs/commandline/tests/CMakeFiles/commandline-test.dir/cmdlinemodulemanagertest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/commandline-test.dir/cmdlinemodulemanagertest.cpp.s"
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/commandline/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/commandline/tests/cmdlinemodulemanagertest.cpp -o CMakeFiles/commandline-test.dir/cmdlinemodulemanagertest.cpp.s
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/commandline/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/commandline/tests/cmdlinemodulemanagertest.cpp -o CMakeFiles/commandline-test.dir/cmdlinemodulemanagertest.cpp.s
 
 src/gromacs/commandline/tests/CMakeFiles/commandline-test.dir/cmdlineparser.cpp.o: src/gromacs/commandline/tests/CMakeFiles/commandline-test.dir/flags.make
 src/gromacs/commandline/tests/CMakeFiles/commandline-test.dir/cmdlineparser.cpp.o: ../src/gromacs/commandline/tests/cmdlineparser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/gromacs/commandline/tests/CMakeFiles/commandline-test.dir/cmdlineparser.cpp.o"
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/commandline/tests && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/commandline-test.dir/cmdlineparser.cpp.o -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/commandline/tests/cmdlineparser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/gromacs/commandline/tests/CMakeFiles/commandline-test.dir/cmdlineparser.cpp.o"
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/commandline/tests && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/commandline-test.dir/cmdlineparser.cpp.o -c /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/commandline/tests/cmdlineparser.cpp
 
 src/gromacs/commandline/tests/CMakeFiles/commandline-test.dir/cmdlineparser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/commandline-test.dir/cmdlineparser.cpp.i"
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/commandline/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/commandline/tests/cmdlineparser.cpp > CMakeFiles/commandline-test.dir/cmdlineparser.cpp.i
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/commandline/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/commandline/tests/cmdlineparser.cpp > CMakeFiles/commandline-test.dir/cmdlineparser.cpp.i
 
 src/gromacs/commandline/tests/CMakeFiles/commandline-test.dir/cmdlineparser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/commandline-test.dir/cmdlineparser.cpp.s"
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/commandline/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/commandline/tests/cmdlineparser.cpp -o CMakeFiles/commandline-test.dir/cmdlineparser.cpp.s
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/commandline/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/commandline/tests/cmdlineparser.cpp -o CMakeFiles/commandline-test.dir/cmdlineparser.cpp.s
 
 src/gromacs/commandline/tests/CMakeFiles/commandline-test.dir/cmdlineprogramcontext.cpp.o: src/gromacs/commandline/tests/CMakeFiles/commandline-test.dir/flags.make
 src/gromacs/commandline/tests/CMakeFiles/commandline-test.dir/cmdlineprogramcontext.cpp.o: ../src/gromacs/commandline/tests/cmdlineprogramcontext.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/gromacs/commandline/tests/CMakeFiles/commandline-test.dir/cmdlineprogramcontext.cpp.o"
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/commandline/tests && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/commandline-test.dir/cmdlineprogramcontext.cpp.o -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/commandline/tests/cmdlineprogramcontext.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/gromacs/commandline/tests/CMakeFiles/commandline-test.dir/cmdlineprogramcontext.cpp.o"
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/commandline/tests && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/commandline-test.dir/cmdlineprogramcontext.cpp.o -c /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/commandline/tests/cmdlineprogramcontext.cpp
 
 src/gromacs/commandline/tests/CMakeFiles/commandline-test.dir/cmdlineprogramcontext.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/commandline-test.dir/cmdlineprogramcontext.cpp.i"
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/commandline/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/commandline/tests/cmdlineprogramcontext.cpp > CMakeFiles/commandline-test.dir/cmdlineprogramcontext.cpp.i
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/commandline/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/commandline/tests/cmdlineprogramcontext.cpp > CMakeFiles/commandline-test.dir/cmdlineprogramcontext.cpp.i
 
 src/gromacs/commandline/tests/CMakeFiles/commandline-test.dir/cmdlineprogramcontext.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/commandline-test.dir/cmdlineprogramcontext.cpp.s"
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/commandline/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/commandline/tests/cmdlineprogramcontext.cpp -o CMakeFiles/commandline-test.dir/cmdlineprogramcontext.cpp.s
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/commandline/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/commandline/tests/cmdlineprogramcontext.cpp -o CMakeFiles/commandline-test.dir/cmdlineprogramcontext.cpp.s
 
 src/gromacs/commandline/tests/CMakeFiles/commandline-test.dir/pargs.cpp.o: src/gromacs/commandline/tests/CMakeFiles/commandline-test.dir/flags.make
 src/gromacs/commandline/tests/CMakeFiles/commandline-test.dir/pargs.cpp.o: ../src/gromacs/commandline/tests/pargs.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/gromacs/commandline/tests/CMakeFiles/commandline-test.dir/pargs.cpp.o"
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/commandline/tests && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/commandline-test.dir/pargs.cpp.o -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/commandline/tests/pargs.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/gromacs/commandline/tests/CMakeFiles/commandline-test.dir/pargs.cpp.o"
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/commandline/tests && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/commandline-test.dir/pargs.cpp.o -c /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/commandline/tests/pargs.cpp
 
 src/gromacs/commandline/tests/CMakeFiles/commandline-test.dir/pargs.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/commandline-test.dir/pargs.cpp.i"
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/commandline/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/commandline/tests/pargs.cpp > CMakeFiles/commandline-test.dir/pargs.cpp.i
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/commandline/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/commandline/tests/pargs.cpp > CMakeFiles/commandline-test.dir/pargs.cpp.i
 
 src/gromacs/commandline/tests/CMakeFiles/commandline-test.dir/pargs.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/commandline-test.dir/pargs.cpp.s"
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/commandline/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/commandline/tests/pargs.cpp -o CMakeFiles/commandline-test.dir/pargs.cpp.s
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/commandline/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/commandline/tests/pargs.cpp -o CMakeFiles/commandline-test.dir/pargs.cpp.s
 
 src/gromacs/commandline/tests/CMakeFiles/commandline-test.dir/__/__/__/testutils/unittest_main.cpp.o: src/gromacs/commandline/tests/CMakeFiles/commandline-test.dir/flags.make
 src/gromacs/commandline/tests/CMakeFiles/commandline-test.dir/__/__/__/testutils/unittest_main.cpp.o: ../src/testutils/unittest_main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/gromacs/commandline/tests/CMakeFiles/commandline-test.dir/__/__/__/testutils/unittest_main.cpp.o"
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/commandline/tests && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/commandline-test.dir/__/__/__/testutils/unittest_main.cpp.o -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/testutils/unittest_main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/gromacs/commandline/tests/CMakeFiles/commandline-test.dir/__/__/__/testutils/unittest_main.cpp.o"
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/commandline/tests && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/commandline-test.dir/__/__/__/testutils/unittest_main.cpp.o -c /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/testutils/unittest_main.cpp
 
 src/gromacs/commandline/tests/CMakeFiles/commandline-test.dir/__/__/__/testutils/unittest_main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/commandline-test.dir/__/__/__/testutils/unittest_main.cpp.i"
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/commandline/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/testutils/unittest_main.cpp > CMakeFiles/commandline-test.dir/__/__/__/testutils/unittest_main.cpp.i
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/commandline/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/testutils/unittest_main.cpp > CMakeFiles/commandline-test.dir/__/__/__/testutils/unittest_main.cpp.i
 
 src/gromacs/commandline/tests/CMakeFiles/commandline-test.dir/__/__/__/testutils/unittest_main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/commandline-test.dir/__/__/__/testutils/unittest_main.cpp.s"
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/commandline/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/testutils/unittest_main.cpp -o CMakeFiles/commandline-test.dir/__/__/__/testutils/unittest_main.cpp.s
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/commandline/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/testutils/unittest_main.cpp -o CMakeFiles/commandline-test.dir/__/__/__/testutils/unittest_main.cpp.s
 
 # Object files for target commandline-test
 commandline__test_OBJECTS = \
@@ -174,7 +174,7 @@ commandline__test_OBJECTS = \
 
 # External object files for target commandline-test
 commandline__test_EXTERNAL_OBJECTS = \
-"/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/onlinehelp/tests/CMakeFiles/onlinehelp-test-shared.dir/mock_helptopic.cpp.o"
+"/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/onlinehelp/tests/CMakeFiles/onlinehelp-test-shared.dir/mock_helptopic.cpp.o"
 
 bin/commandline-test: src/gromacs/commandline/tests/CMakeFiles/commandline-test.dir/cmdlinehelpmodule.cpp.o
 bin/commandline-test: src/gromacs/commandline/tests/CMakeFiles/commandline-test.dir/cmdlinehelpwriter.cpp.o
@@ -190,8 +190,8 @@ bin/commandline-test: lib/libtestutils.a
 bin/commandline-test: lib/libgromacs.4.0.0.dylib
 bin/commandline-test: lib/libgmock.a
 bin/commandline-test: src/gromacs/commandline/tests/CMakeFiles/commandline-test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable ../../../../bin/commandline-test"
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/commandline/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/commandline-test.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable ../../../../bin/commandline-test"
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/commandline/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/commandline-test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/gromacs/commandline/tests/CMakeFiles/commandline-test.dir/build: bin/commandline-test
@@ -199,10 +199,10 @@ src/gromacs/commandline/tests/CMakeFiles/commandline-test.dir/build: bin/command
 .PHONY : src/gromacs/commandline/tests/CMakeFiles/commandline-test.dir/build
 
 src/gromacs/commandline/tests/CMakeFiles/commandline-test.dir/clean:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/commandline/tests && $(CMAKE_COMMAND) -P CMakeFiles/commandline-test.dir/cmake_clean.cmake
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/commandline/tests && $(CMAKE_COMMAND) -P CMakeFiles/commandline-test.dir/cmake_clean.cmake
 .PHONY : src/gromacs/commandline/tests/CMakeFiles/commandline-test.dir/clean
 
 src/gromacs/commandline/tests/CMakeFiles/commandline-test.dir/depend:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4 /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/commandline/tests /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/commandline/tests /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/commandline/tests/CMakeFiles/commandline-test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4 /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/commandline/tests /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/commandline/tests /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/commandline/tests/CMakeFiles/commandline-test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/gromacs/commandline/tests/CMakeFiles/commandline-test.dir/depend
 

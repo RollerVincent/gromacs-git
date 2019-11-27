@@ -1,8 +1,8 @@
-# Install script for directory: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/selection
+# Install script for directory: /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/selection
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/usr/local/gromacs")
+  set(CMAKE_INSTALL_PREFIX "/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/gromacs")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,21 +34,21 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevelopmentx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/gromacs/selection" TYPE FILE FILES
-    "/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/selection/nbsearch.h"
-    "/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/selection/indexutil.h"
-    "/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/selection/position.h"
-    "/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/selection/selection.h"
-    "/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/selection/selectioncollection.h"
-    "/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/selection/selectionenums.h"
-    "/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/selection/selectionoption.h"
-    "/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/selection/selectionoptionbehavior.h"
-    "/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/selection/selectionoptionmanager.h"
+    "/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/selection/nbsearch.h"
+    "/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/selection/indexutil.h"
+    "/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/selection/position.h"
+    "/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/selection/selection.h"
+    "/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/selection/selectioncollection.h"
+    "/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/selection/selectionenums.h"
+    "/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/selection/selectionoption.h"
+    "/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/selection/selectionoptionbehavior.h"
+    "/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/selection/selectionoptionmanager.h"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/selection/tests/cmake_install.cmake")
+  include("/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/selection/tests/cmake_install.cmake")
 
 endif()
 

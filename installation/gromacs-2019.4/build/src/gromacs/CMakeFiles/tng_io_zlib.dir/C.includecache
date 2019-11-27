@@ -6,87 +6,87 @@
 
 #IncludeRegexTransform: 
 
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/external/tng_io/external/zlib/adler32.c
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/external/tng_io/external/zlib/adler32.c
 zutil.h
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/external/tng_io/external/zlib/zutil.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/external/tng_io/external/zlib/zutil.h
 
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/external/tng_io/external/zlib/compress.c
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/external/tng_io/external/zlib/compress.c
 zlib.h
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/external/tng_io/external/zlib/zlib.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/external/tng_io/external/zlib/zlib.h
 
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/external/tng_io/external/zlib/crc32.c
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/external/tng_io/external/zlib/crc32.c
 stdio.h
 -
 zutil.h
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/external/tng_io/external/zlib/zutil.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/external/tng_io/external/zlib/zutil.h
 crc32.h
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/external/tng_io/external/zlib/crc32.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/external/tng_io/external/zlib/crc32.h
 
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/external/tng_io/external/zlib/crc32.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/external/tng_io/external/zlib/crc32.h
 
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/external/tng_io/external/zlib/deflate.c
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/external/tng_io/external/zlib/deflate.c
 deflate.h
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/external/tng_io/external/zlib/deflate.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/external/tng_io/external/zlib/deflate.h
 
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/external/tng_io/external/zlib/deflate.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/external/tng_io/external/zlib/deflate.h
 zutil.h
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/external/tng_io/external/zlib/zutil.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/external/tng_io/external/zlib/zutil.h
 
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/external/tng_io/external/zlib/inffast.c
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/external/tng_io/external/zlib/inffast.c
 zutil.h
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/external/tng_io/external/zlib/zutil.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/external/tng_io/external/zlib/zutil.h
 inftrees.h
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/external/tng_io/external/zlib/inftrees.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/external/tng_io/external/zlib/inftrees.h
 inflate.h
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/external/tng_io/external/zlib/inflate.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/external/tng_io/external/zlib/inflate.h
 inffast.h
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/external/tng_io/external/zlib/inffast.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/external/tng_io/external/zlib/inffast.h
 
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/external/tng_io/external/zlib/inffast.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/external/tng_io/external/zlib/inffast.h
 
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/external/tng_io/external/zlib/inffixed.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/external/tng_io/external/zlib/inffixed.h
 
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/external/tng_io/external/zlib/inflate.c
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/external/tng_io/external/zlib/inflate.c
 zutil.h
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/external/tng_io/external/zlib/zutil.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/external/tng_io/external/zlib/zutil.h
 inftrees.h
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/external/tng_io/external/zlib/inftrees.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/external/tng_io/external/zlib/inftrees.h
 inflate.h
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/external/tng_io/external/zlib/inflate.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/external/tng_io/external/zlib/inflate.h
 inffast.h
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/external/tng_io/external/zlib/inffast.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/external/tng_io/external/zlib/inffast.h
 inffixed.h
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/external/tng_io/external/zlib/inffixed.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/external/tng_io/external/zlib/inffixed.h
 stdio.h
 -
 
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/external/tng_io/external/zlib/inflate.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/external/tng_io/external/zlib/inflate.h
 
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/external/tng_io/external/zlib/inftrees.c
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/external/tng_io/external/zlib/inftrees.c
 zutil.h
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/external/tng_io/external/zlib/zutil.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/external/tng_io/external/zlib/zutil.h
 inftrees.h
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/external/tng_io/external/zlib/inftrees.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/external/tng_io/external/zlib/inftrees.h
 
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/external/tng_io/external/zlib/inftrees.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/external/tng_io/external/zlib/inftrees.h
 
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/external/tng_io/external/zlib/trees.c
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/external/tng_io/external/zlib/trees.c
 deflate.h
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/external/tng_io/external/zlib/deflate.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/external/tng_io/external/zlib/deflate.h
 ctype.h
 -
 trees.h
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/external/tng_io/external/zlib/trees.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/external/tng_io/external/zlib/trees.h
 stdio.h
 -
 
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/external/tng_io/external/zlib/trees.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/external/tng_io/external/zlib/trees.h
 
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/external/tng_io/external/zlib/uncompr.c
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/external/tng_io/external/zlib/uncompr.c
 zlib.h
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/external/tng_io/external/zlib/zlib.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/external/tng_io/external/zlib/zlib.h
 
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/external/tng_io/external/zlib/zconf.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/external/tng_io/external/zlib/zconf.h
 windows.h
 -
 limits.h
@@ -102,17 +102,17 @@ unistd.h
 unixio.h
 -
 
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/external/tng_io/external/zlib/zlib.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/external/tng_io/external/zlib/zlib.h
 zconf.h
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/external/tng_io/external/zlib/zconf.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/external/tng_io/external/zlib/zconf.h
 
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/external/tng_io/external/zlib/zutil.c
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/external/tng_io/external/zlib/zutil.c
 zutil.h
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/external/tng_io/external/zlib/zutil.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/external/tng_io/external/zlib/zutil.h
 
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/external/tng_io/external/zlib/zutil.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/external/tng_io/external/zlib/zutil.h
 zlib.h
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/external/tng_io/external/zlib/zlib.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/external/tng_io/external/zlib/zlib.h
 stddef.h
 -
 string.h

@@ -2,8 +2,8 @@ tar xfz gromacs-2019.4.tar.gz
 cd gromacs-2019.4
 mkdir build
 cd build
-cmake .. -DGMX_BUILD_OWN_FFTW=ON -DREGRESSIONTEST_DOWNLOAD=ON
+cmake .. -DGMX_BUILD_OWN_FFTW=ON -DREGRESSIONTEST_DOWNLOAD=ON -DCMAKE_INSTALL_PREFIX=./gromacs
 make
 make check
-sudo make install
-source /usr/local/gromacs/bin/GMXRC
+make install
+source ./gromacs/bin/GMXRC

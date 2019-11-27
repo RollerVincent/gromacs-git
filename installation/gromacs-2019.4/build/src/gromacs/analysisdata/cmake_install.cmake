@@ -1,8 +1,8 @@
-# Install script for directory: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/analysisdata
+# Install script for directory: /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/analysisdata
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/usr/local/gromacs")
+  set(CMAKE_INSTALL_PREFIX "/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/gromacs")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,18 +34,18 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevelopmentx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/gromacs/analysisdata" TYPE FILE FILES
-    "/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/analysisdata/abstractdata.h"
-    "/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/analysisdata/analysisdata.h"
-    "/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/analysisdata/arraydata.h"
-    "/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/analysisdata/dataframe.h"
-    "/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/analysisdata/datamodule.h"
+    "/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/analysisdata/abstractdata.h"
+    "/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/analysisdata/analysisdata.h"
+    "/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/analysisdata/arraydata.h"
+    "/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/analysisdata/dataframe.h"
+    "/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/analysisdata/datamodule.h"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/analysisdata/modules/cmake_install.cmake")
-  include("/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/analysisdata/tests/cmake_install.cmake")
+  include("/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/analysisdata/modules/cmake_install.cmake")
+  include("/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/analysisdata/tests/cmake_install.cmake")
 
 endif()
 

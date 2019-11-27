@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites tests="110" failures="0" disabled="0" errors="0" timestamp="2019-11-12T01:53:54" time="0.006" name="AllTests">
+<testsuites tests="110" failures="0" disabled="0" errors="0" timestamp="2019-11-27T19:14:44" time="0.013" name="AllTests">
   <testsuite name="AbstractOptionStorageTest" tests="5" failures="0" disabled="0" errors="0" time="0.001">
-    <testcase name="HandlesSetInFinish" status="run" time="0.001" classname="AbstractOptionStorageTest" />
+    <testcase name="HandlesSetInFinish" status="run" time="0" classname="AbstractOptionStorageTest" />
     <testcase name="HandlesValueRemoval" status="run" time="0" classname="AbstractOptionStorageTest" />
     <testcase name="HandlesValueAddition" status="run" time="0" classname="AbstractOptionStorageTest" />
     <testcase name="HandlesTooManyValueAddition" status="run" time="0" classname="AbstractOptionStorageTest" />
-    <testcase name="AllowsEmptyValues" status="run" time="0" classname="AbstractOptionStorageTest" />
+    <testcase name="AllowsEmptyValues" status="run" time="0.001" classname="AbstractOptionStorageTest" />
   </testsuite>
   <testsuite name="FileNameOptionTest" tests="8" failures="0" disabled="0" errors="0" time="0">
     <testcase name="HandlesRequiredDefaultValueWithoutExtension" status="run" time="0" classname="FileNameOptionTest" />
@@ -37,12 +37,12 @@
   <testsuite name="OptionsTest" tests="1" failures="0" disabled="0" errors="0" time="0">
     <testcase name="FailsOnNonsafeStorage" status="run" time="0" classname="OptionsTest" />
   </testsuite>
-  <testsuite name="OptionsAssignerTest" tests="9" failures="0" disabled="0" errors="0" time="0">
+  <testsuite name="OptionsAssignerTest" tests="9" failures="0" disabled="0" errors="0" time="0.001">
     <testcase name="HandlesMissingRequiredParameter" status="run" time="0" classname="OptionsAssignerTest" />
     <testcase name="HandlesRequiredParameterWithDefaultValue" status="run" time="0" classname="OptionsAssignerTest" />
     <testcase name="HandlesInvalidMultipleParameter" status="run" time="0" classname="OptionsAssignerTest" />
     <testcase name="HandlesMultipleParameter" status="run" time="0" classname="OptionsAssignerTest" />
-    <testcase name="HandlesMissingValue" status="run" time="0" classname="OptionsAssignerTest" />
+    <testcase name="HandlesMissingValue" status="run" time="0.001" classname="OptionsAssignerTest" />
     <testcase name="HandlesExtraValue" status="run" time="0" classname="OptionsAssignerTest" />
     <testcase name="HandlesGroups" status="run" time="0" classname="OptionsAssignerTest" />
     <testcase name="HandlesSections" status="run" time="0" classname="OptionsAssignerTest" />
@@ -95,8 +95,8 @@
     <testcase name="HandlesEnumDefaultValueFromVariable" status="run" time="0" classname="OptionsAssignerEnumTest" />
     <testcase name="HandlesEnumDefaultValueFromVector" status="run" time="0" classname="OptionsAssignerEnumTest" />
   </testsuite>
-  <testsuite name="RepeatingOptionSectionTest" tests="8" failures="0" disabled="0" errors="0" time="0">
-    <testcase name="HandlesNoInstance" status="run" time="0" classname="RepeatingOptionSectionTest" />
+  <testsuite name="RepeatingOptionSectionTest" tests="8" failures="0" disabled="0" errors="0" time="0.001">
+    <testcase name="HandlesNoInstance" status="run" time="0.001" classname="RepeatingOptionSectionTest" />
     <testcase name="HandlesNoInstanceWithRequiredOption" status="run" time="0" classname="RepeatingOptionSectionTest" />
     <testcase name="HandlesSingleInstance" status="run" time="0" classname="RepeatingOptionSectionTest" />
     <testcase name="HandlesDefaultValue" status="run" time="0" classname="RepeatingOptionSectionTest" />
@@ -128,22 +128,22 @@
     <testcase name="HandlesSmallerTree2" status="run" time="0" classname="TreeValueSupportCheckTest" />
     <testcase name="DetectsExtraValue" status="run" time="0" classname="TreeValueSupportCheckTest" />
   </testsuite>
-  <testsuite name="TreeValueSupportAdjustTest" tests="6" failures="0" disabled="0" errors="0" time="0.002">
+  <testsuite name="TreeValueSupportAdjustTest" tests="6" failures="0" disabled="0" errors="0" time="0.007">
     <testcase name="FillsDefaultValues" status="run" time="0.001" classname="TreeValueSupportAdjustTest" />
-    <testcase name="FillsDefaultVectorValues" status="run" time="0" classname="TreeValueSupportAdjustTest" />
-    <testcase name="FillsDefaultObjectValues" status="run" time="0" classname="TreeValueSupportAdjustTest" />
-    <testcase name="NormalizesValues" status="run" time="0" classname="TreeValueSupportAdjustTest" />
-    <testcase name="MergesDefaultValues" status="run" time="0.001" classname="TreeValueSupportAdjustTest" />
-    <testcase name="OrdersValues" status="run" time="0" classname="TreeValueSupportAdjustTest" />
+    <testcase name="FillsDefaultVectorValues" status="run" time="0.002" classname="TreeValueSupportAdjustTest" />
+    <testcase name="FillsDefaultObjectValues" status="run" time="0.001" classname="TreeValueSupportAdjustTest" />
+    <testcase name="NormalizesValues" status="run" time="0.002" classname="TreeValueSupportAdjustTest" />
+    <testcase name="MergesDefaultValues" status="run" time="0" classname="TreeValueSupportAdjustTest" />
+    <testcase name="OrdersValues" status="run" time="0.001" classname="TreeValueSupportAdjustTest" />
   </testsuite>
-  <testsuite name="TreeValueSupportTest" tests="8" failures="0" disabled="0" errors="0" time="0.002">
+  <testsuite name="TreeValueSupportTest" tests="8" failures="0" disabled="0" errors="0" time="0.003">
     <testcase name="SupportsBooleanOption" status="run" time="0" classname="TreeValueSupportTest" />
-    <testcase name="SupportsIntegerOption" status="run" time="0" classname="TreeValueSupportTest" />
+    <testcase name="SupportsIntegerOption" status="run" time="0.001" classname="TreeValueSupportTest" />
     <testcase name="SupportsInt64Option" status="run" time="0.001" classname="TreeValueSupportTest" />
     <testcase name="SupportsStringOption" status="run" time="0" classname="TreeValueSupportTest" />
     <testcase name="SupportsFloatOption" status="run" time="0" classname="TreeValueSupportTest" />
-    <testcase name="SupportsDoubleOption" status="run" time="0" classname="TreeValueSupportTest" />
+    <testcase name="SupportsDoubleOption" status="run" time="0.001" classname="TreeValueSupportTest" />
     <testcase name="SupportsEnumIntOption" status="run" time="0" classname="TreeValueSupportTest" />
-    <testcase name="SupportsEnumOption" status="run" time="0.001" classname="TreeValueSupportTest" />
+    <testcase name="SupportsEnumOption" status="run" time="0" classname="TreeValueSupportTest" />
   </testsuite>
 </testsuites>

@@ -30,7 +30,7 @@
 # This file contains special make rules to generate codelets.
 # Most of this file requires GNU make .
 
-VPATH = /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/rdft/scalar/r2cb
+VPATH = /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/rdft/scalar/r2cb
 am__is_gnu_make = { \
   if test -z '$(MAKELEVEL)'; then \
     false; \
@@ -222,16 +222,16 @@ CTAGS = ctags
 am__DIST_COMMON = $(srcdir)/Makefile.in $(top_srcdir)/depcomp \
 	$(top_srcdir)/support/Makefile.codelets
 DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)
-ACLOCAL = ${SHELL} /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/missing aclocal-1.15
+ACLOCAL = ${SHELL} /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/missing aclocal-1.15
 ALLOCA = 
 ALTIVEC_CFLAGS = 
 AMTAR = $${TAR-tar}
 AM_DEFAULT_VERBOSITY = 1
 AR = ar
 AS = as
-AUTOCONF = ${SHELL} /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/missing autoconf
-AUTOHEADER = ${SHELL} /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/missing autoheader
-AUTOMAKE = ${SHELL} /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/missing automake-1.15
+AUTOCONF = ${SHELL} /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/missing autoconf
+AUTOHEADER = ${SHELL} /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/missing autoheader
+AUTOMAKE = ${SHELL} /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/missing automake-1.15
 AVX2_CFLAGS = 
 AVX512_CFLAGS = 
 AVX_128_FMA_CFLAGS = 
@@ -279,9 +279,9 @@ LN_S = ln -s
 LTLIBOBJS = 
 LT_SYS_LIBRARY_PATH = 
 MAINT = #
-MAKEINFO = ${SHELL} /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/missing makeinfo
+MAKEINFO = ${SHELL} /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/missing makeinfo
 MANIFEST_TOOL = :
-MKDIR_P = /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/install-sh -c -d
+MKDIR_P = /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/install-sh -c -d
 MPICC = 
 MPILIBS = 
 MPIRUN = 
@@ -319,10 +319,10 @@ STRIP = strip
 THREADLIBS = 
 VERSION = 3.3.8
 VSX_CFLAGS = 
-abs_builddir = /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild-build/rdft/scalar/r2cb
-abs_srcdir = /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/rdft/scalar/r2cb
-abs_top_builddir = /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild-build
-abs_top_srcdir = /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild
+abs_builddir = /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild-build/rdft/scalar/r2cb
+abs_srcdir = /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/rdft/scalar/r2cb
+abs_top_builddir = /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild-build
+abs_top_srcdir = /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild
 ac_ct_AR = ar
 ac_ct_CC = gcc
 ac_ct_DUMPBIN = 
@@ -353,8 +353,8 @@ host_vendor = apple
 htmldir = ${docdir}
 includedir = ${prefix}/include
 infodir = ${datarootdir}/info
-install_sh = ${SHELL} /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/install-sh
-libdir = /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/lib
+install_sh = ${SHELL} /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/install-sh
+libdir = /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/lib
 libexecdir = ${exec_prefix}/libexec
 localedir = ${datarootdir}/locale
 localstatedir = ${prefix}/var
@@ -362,18 +362,18 @@ mandir = ${datarootdir}/man
 mkdir_p = $(MKDIR_P)
 oldincludedir = /usr/include
 pdfdir = ${docdir}
-prefix = /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix
+prefix = /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix
 program_transform_name = s,x,x,
 psdir = ${docdir}
 runstatedir = ${localstatedir}/run
 sbindir = ${exec_prefix}/sbin
 sharedstatedir = ${prefix}/com
-srcdir = /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/rdft/scalar/r2cb
+srcdir = /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/rdft/scalar/r2cb
 sysconfdir = ${prefix}/etc
 target_alias = 
 top_build_prefix = ../../../
 top_builddir = ../../..
-top_srcdir = /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild
+top_srcdir = /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild
 
 ###########################################################################
 AM_CPPFLAGS = -I $(top_srcdir)

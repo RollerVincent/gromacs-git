@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is AppleClang, found in "/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/3.11.1/CompilerIdC/a.out"
+The C compiler identification is AppleClang, found in "/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/3.11.1/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /Library/Developer/CommandLineTools/usr/bin/c++ 
@@ -23,35 +23,35 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is AppleClang, found in "/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/3.11.1/CompilerIdCXX/a.out"
+The CXX compiler identification is AppleClang, found in "/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/3.11.1/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_71c32/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_71c32.dir/build.make CMakeFiles/cmTC_71c32.dir/build
-Building C object CMakeFiles/cmTC_71c32.dir/testCCompiler.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_71c32.dir/testCCompiler.c.o   -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_71c32
-/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_71c32.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_71c32.dir/testCCompiler.c.o  -o cmTC_71c32 
+Run Build Command:"/usr/bin/make" "cmTC_2b297/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_2b297.dir/build.make CMakeFiles/cmTC_2b297.dir/build
+Building C object CMakeFiles/cmTC_2b297.dir/testCCompiler.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_2b297.dir/testCCompiler.c.o   -c /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_2b297
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2b297.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_2b297.dir/testCCompiler.c.o  -o cmTC_2b297 
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_df2e2/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_df2e2.dir/build.make CMakeFiles/cmTC_df2e2.dir/build
-Building C object CMakeFiles/cmTC_df2e2.dir/CMakeCCompilerABI.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_df2e2.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.11.1/share/cmake/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_df2e2
-/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df2e2.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_df2e2.dir/CMakeCCompilerABI.c.o  -o cmTC_df2e2 
+Run Build Command:"/usr/bin/make" "cmTC_88a64/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_88a64.dir/build.make CMakeFiles/cmTC_88a64.dir/build
+Building C object CMakeFiles/cmTC_88a64.dir/CMakeCCompilerABI.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_88a64.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.11.1/share/cmake/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_88a64
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88a64.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_88a64.dir/CMakeCCompilerABI.c.o  -o cmTC_88a64 
 Apple LLVM version 10.0.0 (clang-1000.10.44.2)
 Target: x86_64-apple-darwin18.6.0
 Thread model: posix
 InstalledDir: /Library/Developer/CommandLineTools/usr/bin
- "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.14.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -o cmTC_df2e2 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_df2e2.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a
+ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.14.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -o cmTC_88a64 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_88a64.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a
 @(#)PROGRAM:ld  PROJECT:ld64-409.12
 BUILD 02:04:28 Aug 14 2018
 configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
@@ -63,20 +63,20 @@ Framework search paths:
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_df2e2/fast"]
-  ignore line: [/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_df2e2.dir/build.make CMakeFiles/cmTC_df2e2.dir/build]
-  ignore line: [Building C object CMakeFiles/cmTC_df2e2.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_df2e2.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.11.1/share/cmake/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_df2e2]
-  ignore line: [/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df2e2.dir/link.txt --verbose=1]
-  ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_df2e2.dir/CMakeCCompilerABI.c.o  -o cmTC_df2e2 ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_88a64/fast"]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_88a64.dir/build.make CMakeFiles/cmTC_88a64.dir/build]
+  ignore line: [Building C object CMakeFiles/cmTC_88a64.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_88a64.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.11.1/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_88a64]
+  ignore line: [/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88a64.dir/link.txt --verbose=1]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_88a64.dir/CMakeCCompilerABI.c.o  -o cmTC_88a64 ]
   ignore line: [Apple LLVM version 10.0.0 (clang-1000.10.44.2)]
   ignore line: [Target: x86_64-apple-darwin18.6.0]
   ignore line: [Thread model: posix]
   ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
-  link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.14.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -o cmTC_df2e2 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_df2e2.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a]
+  link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.14.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -o cmTC_88a64 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_88a64.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a]
     arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
     arg [-demangle] ==> ignore
     arg [-lto_library] ==> ignore, skip following value
@@ -89,11 +89,11 @@ Parsed C implicit link information from above output:
     arg [-syslibroot] ==> ignore
     arg [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_df2e2] ==> ignore
+    arg [cmTC_88a64] ==> ignore
     arg [-search_paths_first] ==> ignore
     arg [-headerpad_max_install_names] ==> ignore
     arg [-v] ==> ignore
-    arg [CMakeFiles/cmTC_df2e2.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_88a64.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lSystem] ==> lib [System]
     arg [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a]
   Library search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/lib]
@@ -110,15 +110,15 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_4d85c/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_4d85c.dir/build.make CMakeFiles/cmTC_4d85c.dir/build
-Building C object CMakeFiles/cmTC_4d85c.dir/feature_tests.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=c11 -o CMakeFiles/cmTC_4d85c.dir/feature_tests.c.o   -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_4d85c
-/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4d85c.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_4d85c.dir/feature_tests.c.o  -o cmTC_4d85c 
+Run Build Command:"/usr/bin/make" "cmTC_aecbb/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_aecbb.dir/build.make CMakeFiles/cmTC_aecbb.dir/build
+Building C object CMakeFiles/cmTC_aecbb.dir/feature_tests.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=c11 -o CMakeFiles/cmTC_aecbb.dir/feature_tests.c.o   -c /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_aecbb
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aecbb.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_aecbb.dir/feature_tests.c.o  -o cmTC_aecbb 
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -128,15 +128,15 @@ Linking C executable cmTC_4d85c
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b8e10/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_b8e10.dir/build.make CMakeFiles/cmTC_b8e10.dir/build
-Building C object CMakeFiles/cmTC_b8e10.dir/feature_tests.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=c99 -o CMakeFiles/cmTC_b8e10.dir/feature_tests.c.o   -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_b8e10
-/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8e10.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b8e10.dir/feature_tests.c.o  -o cmTC_b8e10 
+Run Build Command:"/usr/bin/make" "cmTC_4aec7/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_4aec7.dir/build.make CMakeFiles/cmTC_4aec7.dir/build
+Building C object CMakeFiles/cmTC_4aec7.dir/feature_tests.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=c99 -o CMakeFiles/cmTC_4aec7.dir/feature_tests.c.o   -c /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_4aec7
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4aec7.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_4aec7.dir/feature_tests.c.o  -o cmTC_4aec7 
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -146,15 +146,15 @@ Linking C executable cmTC_b8e10
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_48a86/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_48a86.dir/build.make CMakeFiles/cmTC_48a86.dir/build
-Building C object CMakeFiles/cmTC_48a86.dir/feature_tests.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=c90 -o CMakeFiles/cmTC_48a86.dir/feature_tests.c.o   -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_48a86
-/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48a86.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_48a86.dir/feature_tests.c.o  -o cmTC_48a86 
+Run Build Command:"/usr/bin/make" "cmTC_920f8/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_920f8.dir/build.make CMakeFiles/cmTC_920f8.dir/build
+Building C object CMakeFiles/cmTC_920f8.dir/feature_tests.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=c90 -o CMakeFiles/cmTC_920f8.dir/feature_tests.c.o   -c /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_920f8
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_920f8.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_920f8.dir/feature_tests.c.o  -o cmTC_920f8 
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -162,32 +162,32 @@ Linking C executable cmTC_48a86
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_6d003/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_6d003.dir/build.make CMakeFiles/cmTC_6d003.dir/build
-Building CXX object CMakeFiles/cmTC_6d003.dir/testCXXCompiler.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_6d003.dir/testCXXCompiler.cxx.o -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_6d003
-/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6d003.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_6d003.dir/testCXXCompiler.cxx.o  -o cmTC_6d003 
+Run Build Command:"/usr/bin/make" "cmTC_e1ad4/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_e1ad4.dir/build.make CMakeFiles/cmTC_e1ad4.dir/build
+Building CXX object CMakeFiles/cmTC_e1ad4.dir/testCXXCompiler.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_e1ad4.dir/testCXXCompiler.cxx.o -c /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_e1ad4
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e1ad4.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e1ad4.dir/testCXXCompiler.cxx.o  -o cmTC_e1ad4 
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_09b19/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_09b19.dir/build.make CMakeFiles/cmTC_09b19.dir/build
-Building CXX object CMakeFiles/cmTC_09b19.dir/CMakeCXXCompilerABI.cpp.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_09b19.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.11.1/share/cmake/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_09b19
-/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_09b19.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_09b19.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_09b19 
+Run Build Command:"/usr/bin/make" "cmTC_40587/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_40587.dir/build.make CMakeFiles/cmTC_40587.dir/build
+Building CXX object CMakeFiles/cmTC_40587.dir/CMakeCXXCompilerABI.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_40587.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.11.1/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_40587
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_40587.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_40587.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_40587 
 Apple LLVM version 10.0.0 (clang-1000.10.44.2)
 Target: x86_64-apple-darwin18.6.0
 Thread model: posix
 InstalledDir: /Library/Developer/CommandLineTools/usr/bin
- "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.14.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -o cmTC_09b19 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_09b19.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a
+ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.14.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -o cmTC_40587 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_40587.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a
 @(#)PROGRAM:ld  PROJECT:ld64-409.12
 BUILD 02:04:28 Aug 14 2018
 configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em
@@ -199,20 +199,20 @@ Framework search paths:
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_09b19/fast"]
-  ignore line: [/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_09b19.dir/build.make CMakeFiles/cmTC_09b19.dir/build]
-  ignore line: [Building CXX object CMakeFiles/cmTC_09b19.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_09b19.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.11.1/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_09b19]
-  ignore line: [/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_09b19.dir/link.txt --verbose=1]
-  ignore line: [/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_09b19.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_09b19 ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_40587/fast"]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_40587.dir/build.make CMakeFiles/cmTC_40587.dir/build]
+  ignore line: [Building CXX object CMakeFiles/cmTC_40587.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_40587.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.11.1/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_40587]
+  ignore line: [/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_40587.dir/link.txt --verbose=1]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_40587.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_40587 ]
   ignore line: [Apple LLVM version 10.0.0 (clang-1000.10.44.2)]
   ignore line: [Target: x86_64-apple-darwin18.6.0]
   ignore line: [Thread model: posix]
   ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
-  link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.14.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -o cmTC_09b19 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_09b19.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a]
+  link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.14.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -o cmTC_40587 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_40587.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a]
     arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
     arg [-demangle] ==> ignore
     arg [-lto_library] ==> ignore, skip following value
@@ -225,11 +225,11 @@ Parsed CXX implicit link information from above output:
     arg [-syslibroot] ==> ignore
     arg [/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_09b19] ==> ignore
+    arg [cmTC_40587] ==> ignore
     arg [-search_paths_first] ==> ignore
     arg [-headerpad_max_install_names] ==> ignore
     arg [-v] ==> ignore
-    arg [CMakeFiles/cmTC_09b19.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_40587.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lc++] ==> lib [c++]
     arg [-lSystem] ==> lib [System]
     arg [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/lib/darwin/libclang_rt.osx.a]
@@ -247,15 +247,15 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
-Change Dir: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d4503/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_d4503.dir/build.make CMakeFiles/cmTC_d4503.dir/build
-Building CXX object CMakeFiles/cmTC_d4503.dir/feature_tests.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=c++1z -o CMakeFiles/cmTC_d4503.dir/feature_tests.cxx.o -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_d4503
-/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4503.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d4503.dir/feature_tests.cxx.o  -o cmTC_d4503 
+Run Build Command:"/usr/bin/make" "cmTC_84043/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_84043.dir/build.make CMakeFiles/cmTC_84043.dir/build
+Building CXX object CMakeFiles/cmTC_84043.dir/feature_tests.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=c++1z -o CMakeFiles/cmTC_84043.dir/feature_tests.cxx.o -c /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_84043
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_84043.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_84043.dir/feature_tests.cxx.o  -o cmTC_84043 
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -318,15 +318,15 @@ Linking CXX executable cmTC_d4503
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_cb937/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_cb937.dir/build.make CMakeFiles/cmTC_cb937.dir/build
-Building CXX object CMakeFiles/cmTC_cb937.dir/feature_tests.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=c++14 -o CMakeFiles/cmTC_cb937.dir/feature_tests.cxx.o -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_cb937
-/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cb937.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_cb937.dir/feature_tests.cxx.o  -o cmTC_cb937 
+Run Build Command:"/usr/bin/make" "cmTC_8b65e/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_8b65e.dir/build.make CMakeFiles/cmTC_8b65e.dir/build
+Building CXX object CMakeFiles/cmTC_8b65e.dir/feature_tests.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=c++14 -o CMakeFiles/cmTC_8b65e.dir/feature_tests.cxx.o -c /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_8b65e
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b65e.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_8b65e.dir/feature_tests.cxx.o  -o cmTC_8b65e 
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -389,15 +389,15 @@ Linking CXX executable cmTC_cb937
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c06f1/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_c06f1.dir/build.make CMakeFiles/cmTC_c06f1.dir/build
-Building CXX object CMakeFiles/cmTC_c06f1.dir/feature_tests.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=c++11 -o CMakeFiles/cmTC_c06f1.dir/feature_tests.cxx.o -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_c06f1
-/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c06f1.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c06f1.dir/feature_tests.cxx.o  -o cmTC_c06f1 
+Run Build Command:"/usr/bin/make" "cmTC_e2d35/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_e2d35.dir/build.make CMakeFiles/cmTC_e2d35.dir/build
+Building CXX object CMakeFiles/cmTC_e2d35.dir/feature_tests.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=c++11 -o CMakeFiles/cmTC_e2d35.dir/feature_tests.cxx.o -c /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_e2d35
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2d35.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e2d35.dir/feature_tests.cxx.o  -o cmTC_e2d35 
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -460,15 +460,15 @@ Linking CXX executable cmTC_c06f1
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_233d9/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_233d9.dir/build.make CMakeFiles/cmTC_233d9.dir/build
-Building CXX object CMakeFiles/cmTC_233d9.dir/feature_tests.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=c++98 -o CMakeFiles/cmTC_233d9.dir/feature_tests.cxx.o -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_233d9
-/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_233d9.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_233d9.dir/feature_tests.cxx.o  -o cmTC_233d9 
+Run Build Command:"/usr/bin/make" "cmTC_a9317/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_a9317.dir/build.make CMakeFiles/cmTC_a9317.dir/build
+Building CXX object CMakeFiles/cmTC_a9317.dir/feature_tests.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=c++98 -o CMakeFiles/cmTC_a9317.dir/feature_tests.cxx.o -c /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_a9317
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a9317.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++    -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a9317.dir/feature_tests.cxx.o  -o cmTC_a9317 
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -529,29 +529,29 @@ Linking CXX executable cmTC_233d9
     Feature record: CXX_FEATURE:0cxx_variadic_macros
     Feature record: CXX_FEATURE:0cxx_variadic_templates
 Determining if the include file pthread.h exists passed with the following output:
-Change Dir: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_943cc/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_943cc.dir/build.make CMakeFiles/cmTC_943cc.dir/build
-Building C object CMakeFiles/cmTC_943cc.dir/CheckIncludeFile.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_943cc.dir/CheckIncludeFile.c.o   -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_943cc
-/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_943cc.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_943cc.dir/CheckIncludeFile.c.o  -o cmTC_943cc 
+Run Build Command:"/usr/bin/make" "cmTC_1f932/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_1f932.dir/build.make CMakeFiles/cmTC_1f932.dir/build
+Building C object CMakeFiles/cmTC_1f932.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_1f932.dir/CheckIncludeFile.c.o   -c /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_1f932
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1f932.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_1f932.dir/CheckIncludeFile.c.o  -o cmTC_1f932 
 
 
 Determining if the pthread_create exist passed with the following output:
-Change Dir: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e343d/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_e343d.dir/build.make CMakeFiles/cmTC_e343d.dir/build
-Building C object CMakeFiles/cmTC_e343d.dir/CheckSymbolExists.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_e343d.dir/CheckSymbolExists.c.o   -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_e343d
-/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e343d.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e343d.dir/CheckSymbolExists.c.o  -o cmTC_e343d 
+Run Build Command:"/usr/bin/make" "cmTC_e9900/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_e9900.dir/build.make CMakeFiles/cmTC_e9900.dir/build
+Building C object CMakeFiles/cmTC_e9900.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_e9900.dir/CheckSymbolExists.c.o   -c /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_e9900
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e9900.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e9900.dir/CheckSymbolExists.c.o  -o cmTC_e9900 
 
-File /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -567,32 +567,32 @@ int main(int argc, char** argv)
 }
 
 Performing C++ SOURCE FILE Test CXXFLAG_STD_CXX0X succeeded with the following output:
-Change Dir: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_130cb/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_130cb.dir/build.make CMakeFiles/cmTC_130cb.dir/build
-Building CXX object CMakeFiles/cmTC_130cb.dir/src.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -DCXXFLAG_STD_CXX0X -std=c++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_130cb.dir/src.cxx.o -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_130cb
-/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_130cb.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++   -DCXXFLAG_STD_CXX0X -std=c++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_130cb.dir/src.cxx.o  -o cmTC_130cb 
+Run Build Command:"/usr/bin/make" "cmTC_2524b/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_2524b.dir/build.make CMakeFiles/cmTC_2524b.dir/build
+Building CXX object CMakeFiles/cmTC_2524b.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -DCXXFLAG_STD_CXX0X -std=c++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_2524b.dir/src.cxx.o -c /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_2524b
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2524b.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -DCXXFLAG_STD_CXX0X -std=c++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_2524b.dir/src.cxx.o  -o cmTC_2524b 
 
 Source file was:
 int main() { return 0;}
 Performing C++ SOURCE FILE Test CXX11_SUPPORTED succeeded with the following output:
-Change Dir: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_91fa3/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_91fa3.dir/build.make CMakeFiles/cmTC_91fa3.dir/build
-Building CXX object CMakeFiles/cmTC_91fa3.dir/src.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -DCXX11_SUPPORTED -std=c++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_91fa3.dir/src.cxx.o -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/src.cxx
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/src.cxx:79:3: warning: expression result unused [-Wunused-value]
+Run Build Command:"/usr/bin/make" "cmTC_f168b/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_f168b.dir/build.make CMakeFiles/cmTC_f168b.dir/build
+Building CXX object CMakeFiles/cmTC_f168b.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -DCXX11_SUPPORTED -std=c++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_f168b.dir/src.cxx.o -c /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/src.cxx
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/src.cxx:79:3: warning: expression result unused [-Wunused-value]
   [=]{};
   ^~~~~
 1 warning generated.
-Linking CXX executable cmTC_91fa3
-/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_91fa3.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++   -DCXX11_SUPPORTED -std=c++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_91fa3.dir/src.cxx.o  -o cmTC_91fa3 
+Linking CXX executable cmTC_f168b
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f168b.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -DCXX11_SUPPORTED -std=c++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f168b.dir/src.cxx.o  -o cmTC_f168b 
 
 Source file was:
 // Permit testing typeid keyword
@@ -676,15 +676,15 @@ int main() {
   [=]{};
 }
 Performing C++ SOURCE FILE Test CXX11_STDLIB_PRESENT succeeded with the following output:
-Change Dir: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_bd1ae/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_bd1ae.dir/build.make CMakeFiles/cmTC_bd1ae.dir/build
-Building CXX object CMakeFiles/cmTC_bd1ae.dir/src.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -DCXX11_STDLIB_PRESENT -std=c++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_bd1ae.dir/src.cxx.o -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_bd1ae
-/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bd1ae.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++   -DCXX11_STDLIB_PRESENT -std=c++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_bd1ae.dir/src.cxx.o  -o cmTC_bd1ae 
+Run Build Command:"/usr/bin/make" "cmTC_910e4/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_910e4.dir/build.make CMakeFiles/cmTC_910e4.dir/build
+Building CXX object CMakeFiles/cmTC_910e4.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -DCXX11_STDLIB_PRESENT -std=c++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_910e4.dir/src.cxx.o -c /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_910e4
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_910e4.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -DCXX11_STDLIB_PRESENT -std=c++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_910e4.dir/src.cxx.o  -o cmTC_910e4 
 
 Source file was:
 #include <algorithm>
@@ -733,127 +733,127 @@ int main() {
   std::string message("hello");
 }
 Performing C SOURCE FILE Test CFLAGS_PRAGMA succeeded with the following output:
-Change Dir: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d6514/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_d6514.dir/build.make CMakeFiles/cmTC_d6514.dir/build
-Building C object CMakeFiles/cmTC_d6514.dir/src.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc   -DCFLAGS_PRAGMA -Wno-unknown-pragmas -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_d6514.dir/src.c.o   -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_d6514
-/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6514.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc  -DCFLAGS_PRAGMA -Wno-unknown-pragmas -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d6514.dir/src.c.o  -o cmTC_d6514 
+Run Build Command:"/usr/bin/make" "cmTC_a8816/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_a8816.dir/build.make CMakeFiles/cmTC_a8816.dir/build
+Building C object CMakeFiles/cmTC_a8816.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCFLAGS_PRAGMA -Wno-unknown-pragmas -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_a8816.dir/src.c.o   -c /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_a8816
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a8816.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCFLAGS_PRAGMA -Wno-unknown-pragmas -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a8816.dir/src.c.o  -o cmTC_a8816 
 
 Source file was:
 int main(void) { return 0; }
 Performing C++ SOURCE FILE Test CXXFLAGS_PRAGMA succeeded with the following output:
-Change Dir: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c75d2/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_c75d2.dir/build.make CMakeFiles/cmTC_c75d2.dir/build
-Building CXX object CMakeFiles/cmTC_c75d2.dir/src.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11  -DCXXFLAGS_PRAGMA -Wno-unknown-pragmas -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_c75d2.dir/src.cxx.o -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_c75d2
-/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c75d2.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11  -DCXXFLAGS_PRAGMA -Wno-unknown-pragmas -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c75d2.dir/src.cxx.o  -o cmTC_c75d2 
+Run Build Command:"/usr/bin/make" "cmTC_46807/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_46807.dir/build.make CMakeFiles/cmTC_46807.dir/build
+Building CXX object CMakeFiles/cmTC_46807.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11  -DCXXFLAGS_PRAGMA -Wno-unknown-pragmas -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_46807.dir/src.cxx.o -c /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_46807
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46807.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11  -DCXXFLAGS_PRAGMA -Wno-unknown-pragmas -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_46807.dir/src.cxx.o  -o cmTC_46807 
 
 Source file was:
 int main() { return 0;}
 Determining if files unistd.h exist passed with the following output:
-Change Dir: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e75c1/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_e75c1.dir/build.make CMakeFiles/cmTC_e75c1.dir/build
-Building C object CMakeFiles/cmTC_e75c1.dir/HAVE_UNISTD_H.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_e75c1.dir/HAVE_UNISTD_H.c.o   -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CheckIncludeFiles/HAVE_UNISTD_H.c
-Linking C executable cmTC_e75c1
-/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e75c1.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc  -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e75c1.dir/HAVE_UNISTD_H.c.o  -o cmTC_e75c1 
+Run Build Command:"/usr/bin/make" "cmTC_3736d/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_3736d.dir/build.make CMakeFiles/cmTC_3736d.dir/build
+Building C object CMakeFiles/cmTC_3736d.dir/HAVE_UNISTD_H.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_3736d.dir/HAVE_UNISTD_H.c.o   -c /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CheckIncludeFiles/HAVE_UNISTD_H.c
+Linking C executable cmTC_3736d
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3736d.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_3736d.dir/HAVE_UNISTD_H.c.o  -o cmTC_3736d 
 
 
 Determining if files pwd.h exist passed with the following output:
-Change Dir: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_32c5e/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_32c5e.dir/build.make CMakeFiles/cmTC_32c5e.dir/build
-Building C object CMakeFiles/cmTC_32c5e.dir/HAVE_PWD_H.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_32c5e.dir/HAVE_PWD_H.c.o   -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CheckIncludeFiles/HAVE_PWD_H.c
-Linking C executable cmTC_32c5e
-/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_32c5e.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc  -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_32c5e.dir/HAVE_PWD_H.c.o  -o cmTC_32c5e 
+Run Build Command:"/usr/bin/make" "cmTC_4228a/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_4228a.dir/build.make CMakeFiles/cmTC_4228a.dir/build
+Building C object CMakeFiles/cmTC_4228a.dir/HAVE_PWD_H.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_4228a.dir/HAVE_PWD_H.c.o   -c /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CheckIncludeFiles/HAVE_PWD_H.c
+Linking C executable cmTC_4228a
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4228a.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_4228a.dir/HAVE_PWD_H.c.o  -o cmTC_4228a 
 
 
 Determining if files dirent.h exist passed with the following output:
-Change Dir: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c67a7/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_c67a7.dir/build.make CMakeFiles/cmTC_c67a7.dir/build
-Building C object CMakeFiles/cmTC_c67a7.dir/HAVE_DIRENT_H.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_c67a7.dir/HAVE_DIRENT_H.c.o   -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CheckIncludeFiles/HAVE_DIRENT_H.c
-Linking C executable cmTC_c67a7
-/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c67a7.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc  -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c67a7.dir/HAVE_DIRENT_H.c.o  -o cmTC_c67a7 
+Run Build Command:"/usr/bin/make" "cmTC_37f52/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_37f52.dir/build.make CMakeFiles/cmTC_37f52.dir/build
+Building C object CMakeFiles/cmTC_37f52.dir/HAVE_DIRENT_H.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_37f52.dir/HAVE_DIRENT_H.c.o   -c /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CheckIncludeFiles/HAVE_DIRENT_H.c
+Linking C executable cmTC_37f52
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_37f52.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_37f52.dir/HAVE_DIRENT_H.c.o  -o cmTC_37f52 
 
 
 Determining if files time.h exist passed with the following output:
-Change Dir: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1c780/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_1c780.dir/build.make CMakeFiles/cmTC_1c780.dir/build
-Building C object CMakeFiles/cmTC_1c780.dir/HAVE_TIME_H.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_1c780.dir/HAVE_TIME_H.c.o   -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CheckIncludeFiles/HAVE_TIME_H.c
-Linking C executable cmTC_1c780
-/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1c780.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc  -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_1c780.dir/HAVE_TIME_H.c.o  -o cmTC_1c780 
+Run Build Command:"/usr/bin/make" "cmTC_3d622/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_3d622.dir/build.make CMakeFiles/cmTC_3d622.dir/build
+Building C object CMakeFiles/cmTC_3d622.dir/HAVE_TIME_H.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_3d622.dir/HAVE_TIME_H.c.o   -c /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CheckIncludeFiles/HAVE_TIME_H.c
+Linking C executable cmTC_3d622
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3d622.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_3d622.dir/HAVE_TIME_H.c.o  -o cmTC_3d622 
 
 
 Determining if files sys/time.h exist passed with the following output:
-Change Dir: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_65045/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_65045.dir/build.make CMakeFiles/cmTC_65045.dir/build
-Building C object CMakeFiles/cmTC_65045.dir/HAVE_SYS_TIME_H.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_65045.dir/HAVE_SYS_TIME_H.c.o   -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_TIME_H.c
-Linking C executable cmTC_65045
-/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_65045.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc  -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_65045.dir/HAVE_SYS_TIME_H.c.o  -o cmTC_65045 
+Run Build Command:"/usr/bin/make" "cmTC_16d2d/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_16d2d.dir/build.make CMakeFiles/cmTC_16d2d.dir/build
+Building C object CMakeFiles/cmTC_16d2d.dir/HAVE_SYS_TIME_H.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_16d2d.dir/HAVE_SYS_TIME_H.c.o   -c /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_TIME_H.c
+Linking C executable cmTC_16d2d
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_16d2d.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_16d2d.dir/HAVE_SYS_TIME_H.c.o  -o cmTC_16d2d 
 
 
 Determining if files sched.h exist passed with the following output:
-Change Dir: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f89ac/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_f89ac.dir/build.make CMakeFiles/cmTC_f89ac.dir/build
-Building C object CMakeFiles/cmTC_f89ac.dir/HAVE_SCHED_H.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_f89ac.dir/HAVE_SCHED_H.c.o   -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CheckIncludeFiles/HAVE_SCHED_H.c
-Linking C executable cmTC_f89ac
-/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f89ac.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc  -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f89ac.dir/HAVE_SCHED_H.c.o  -o cmTC_f89ac 
+Run Build Command:"/usr/bin/make" "cmTC_9ecbe/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_9ecbe.dir/build.make CMakeFiles/cmTC_9ecbe.dir/build
+Building C object CMakeFiles/cmTC_9ecbe.dir/HAVE_SCHED_H.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_9ecbe.dir/HAVE_SCHED_H.c.o   -c /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CheckIncludeFiles/HAVE_SCHED_H.c
+Linking C executable cmTC_9ecbe
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9ecbe.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_9ecbe.dir/HAVE_SCHED_H.c.o  -o cmTC_9ecbe 
 
 
 Determining if files regex.h exist passed with the following output:
-Change Dir: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8087f/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_8087f.dir/build.make CMakeFiles/cmTC_8087f.dir/build
-Building C object CMakeFiles/cmTC_8087f.dir/HAVE_POSIX_REGEX.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_8087f.dir/HAVE_POSIX_REGEX.c.o   -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CheckIncludeFiles/HAVE_POSIX_REGEX.c
-Linking C executable cmTC_8087f
-/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8087f.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc  -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_8087f.dir/HAVE_POSIX_REGEX.c.o  -o cmTC_8087f 
+Run Build Command:"/usr/bin/make" "cmTC_c3e1b/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_c3e1b.dir/build.make CMakeFiles/cmTC_c3e1b.dir/build
+Building C object CMakeFiles/cmTC_c3e1b.dir/HAVE_POSIX_REGEX.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_c3e1b.dir/HAVE_POSIX_REGEX.c.o   -c /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CheckIncludeFiles/HAVE_POSIX_REGEX.c
+Linking C executable cmTC_c3e1b
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c3e1b.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c3e1b.dir/HAVE_POSIX_REGEX.c.o  -o cmTC_c3e1b 
 
 
 Determining if the gettimeofday exist passed with the following output:
-Change Dir: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ff020/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_ff020.dir/build.make CMakeFiles/cmTC_ff020.dir/build
-Building CXX object CMakeFiles/cmTC_ff020.dir/CheckSymbolExists.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11  -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_ff020.dir/CheckSymbolExists.cxx.o -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
-Linking CXX executable cmTC_ff020
-/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ff020.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11  -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ff020.dir/CheckSymbolExists.cxx.o  -o cmTC_ff020 
+Run Build Command:"/usr/bin/make" "cmTC_d29fe/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_d29fe.dir/build.make CMakeFiles/cmTC_d29fe.dir/build
+Building CXX object CMakeFiles/cmTC_d29fe.dir/CheckSymbolExists.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11  -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_d29fe.dir/CheckSymbolExists.cxx.o -c /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_d29fe
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d29fe.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11  -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d29fe.dir/CheckSymbolExists.cxx.o  -o cmTC_d29fe 
 
-File /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+File /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
 /* */
 #include <sys/time.h>
 
@@ -869,17 +869,17 @@ int main(int argc, char** argv)
 }
 
 Determining if the sysconf exist passed with the following output:
-Change Dir: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_4062d/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_4062d.dir/build.make CMakeFiles/cmTC_4062d.dir/build
-Building CXX object CMakeFiles/cmTC_4062d.dir/CheckSymbolExists.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11  -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_4062d.dir/CheckSymbolExists.cxx.o -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
-Linking CXX executable cmTC_4062d
-/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4062d.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11  -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_4062d.dir/CheckSymbolExists.cxx.o  -o cmTC_4062d 
+Run Build Command:"/usr/bin/make" "cmTC_0d800/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_0d800.dir/build.make CMakeFiles/cmTC_0d800.dir/build
+Building CXX object CMakeFiles/cmTC_0d800.dir/CheckSymbolExists.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11  -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_0d800.dir/CheckSymbolExists.cxx.o -c /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_0d800
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0d800.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11  -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_0d800.dir/CheckSymbolExists.cxx.o  -o cmTC_0d800 
 
-File /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+File /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
 /* */
 #include <unistd.h>
 
@@ -895,17 +895,17 @@ int main(int argc, char** argv)
 }
 
 Determining if the nice exist passed with the following output:
-Change Dir: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_973ce/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_973ce.dir/build.make CMakeFiles/cmTC_973ce.dir/build
-Building CXX object CMakeFiles/cmTC_973ce.dir/CheckSymbolExists.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11  -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_973ce.dir/CheckSymbolExists.cxx.o -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
-Linking CXX executable cmTC_973ce
-/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_973ce.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11  -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_973ce.dir/CheckSymbolExists.cxx.o  -o cmTC_973ce 
+Run Build Command:"/usr/bin/make" "cmTC_6e07e/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_6e07e.dir/build.make CMakeFiles/cmTC_6e07e.dir/build
+Building CXX object CMakeFiles/cmTC_6e07e.dir/CheckSymbolExists.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11  -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_6e07e.dir/CheckSymbolExists.cxx.o -c /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_6e07e
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6e07e.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11  -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_6e07e.dir/CheckSymbolExists.cxx.o  -o cmTC_6e07e 
 
-File /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+File /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
 /* */
 #include <unistd.h>
 
@@ -921,17 +921,17 @@ int main(int argc, char** argv)
 }
 
 Determining if the fsync exist passed with the following output:
-Change Dir: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c783d/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_c783d.dir/build.make CMakeFiles/cmTC_c783d.dir/build
-Building CXX object CMakeFiles/cmTC_c783d.dir/CheckSymbolExists.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11  -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_c783d.dir/CheckSymbolExists.cxx.o -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
-Linking CXX executable cmTC_c783d
-/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c783d.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11  -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c783d.dir/CheckSymbolExists.cxx.o  -o cmTC_c783d 
+Run Build Command:"/usr/bin/make" "cmTC_b977e/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_b977e.dir/build.make CMakeFiles/cmTC_b977e.dir/build
+Building CXX object CMakeFiles/cmTC_b977e.dir/CheckSymbolExists.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11  -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_b977e.dir/CheckSymbolExists.cxx.o -c /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_b977e
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b977e.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11  -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b977e.dir/CheckSymbolExists.cxx.o  -o cmTC_b977e 
 
-File /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+File /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
 /* */
 #include <unistd.h>
 
@@ -947,17 +947,17 @@ int main(int argc, char** argv)
 }
 
 Determining if the fileno exist passed with the following output:
-Change Dir: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a1107/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_a1107.dir/build.make CMakeFiles/cmTC_a1107.dir/build
-Building CXX object CMakeFiles/cmTC_a1107.dir/CheckSymbolExists.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11  -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_a1107.dir/CheckSymbolExists.cxx.o -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
-Linking CXX executable cmTC_a1107
-/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a1107.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11  -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a1107.dir/CheckSymbolExists.cxx.o  -o cmTC_a1107 
+Run Build Command:"/usr/bin/make" "cmTC_35156/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_35156.dir/build.make CMakeFiles/cmTC_35156.dir/build
+Building CXX object CMakeFiles/cmTC_35156.dir/CheckSymbolExists.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11  -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_35156.dir/CheckSymbolExists.cxx.o -c /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_35156
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_35156.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11  -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_35156.dir/CheckSymbolExists.cxx.o  -o cmTC_35156 
 
-File /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+File /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
 /* */
 #include <stdio.h>
 
@@ -973,17 +973,17 @@ int main(int argc, char** argv)
 }
 
 Determining if the sigaction exist passed with the following output:
-Change Dir: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_74995/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_74995.dir/build.make CMakeFiles/cmTC_74995.dir/build
-Building CXX object CMakeFiles/cmTC_74995.dir/CheckSymbolExists.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11  -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_74995.dir/CheckSymbolExists.cxx.o -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
-Linking CXX executable cmTC_74995
-/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_74995.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11  -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_74995.dir/CheckSymbolExists.cxx.o  -o cmTC_74995 
+Run Build Command:"/usr/bin/make" "cmTC_9c1d5/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_9c1d5.dir/build.make CMakeFiles/cmTC_9c1d5.dir/build
+Building CXX object CMakeFiles/cmTC_9c1d5.dir/CheckSymbolExists.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11  -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_9c1d5.dir/CheckSymbolExists.cxx.o -c /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_9c1d5
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9c1d5.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11  -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_9c1d5.dir/CheckSymbolExists.cxx.o  -o cmTC_9c1d5 
 
-File /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+File /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
 /* */
 #include <signal.h>
 
@@ -999,67 +999,67 @@ int main(int argc, char** argv)
 }
 
 Performing C++ SOURCE FILE Test HAVE_BUILTIN_CLZ succeeded with the following output:
-Change Dir: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_2de4b/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_2de4b.dir/build.make CMakeFiles/cmTC_2de4b.dir/build
-Building CXX object CMakeFiles/cmTC_2de4b.dir/src.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11  -Wno-unknown-pragmas  -DHAVE_BUILTIN_CLZ -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_2de4b.dir/src.cxx.o -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_2de4b
-/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2de4b.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11  -Wno-unknown-pragmas  -DHAVE_BUILTIN_CLZ -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_2de4b.dir/src.cxx.o  -o cmTC_2de4b 
+Run Build Command:"/usr/bin/make" "cmTC_ccb89/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_ccb89.dir/build.make CMakeFiles/cmTC_ccb89.dir/build
+Building CXX object CMakeFiles/cmTC_ccb89.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11  -Wno-unknown-pragmas  -DHAVE_BUILTIN_CLZ -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_ccb89.dir/src.cxx.o -c /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_ccb89
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ccb89.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11  -Wno-unknown-pragmas  -DHAVE_BUILTIN_CLZ -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ccb89.dir/src.cxx.o  -o cmTC_ccb89 
 
 Source file was:
 int main(){ return __builtin_clz(1);}
 Performing C++ SOURCE FILE Test HAVE_BUILTIN_CLZLL succeeded with the following output:
-Change Dir: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_88d87/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_88d87.dir/build.make CMakeFiles/cmTC_88d87.dir/build
-Building CXX object CMakeFiles/cmTC_88d87.dir/src.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11  -Wno-unknown-pragmas  -DHAVE_BUILTIN_CLZLL -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_88d87.dir/src.cxx.o -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_88d87
-/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88d87.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11  -Wno-unknown-pragmas  -DHAVE_BUILTIN_CLZLL -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_88d87.dir/src.cxx.o  -o cmTC_88d87 
+Run Build Command:"/usr/bin/make" "cmTC_56ad0/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_56ad0.dir/build.make CMakeFiles/cmTC_56ad0.dir/build
+Building CXX object CMakeFiles/cmTC_56ad0.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11  -Wno-unknown-pragmas  -DHAVE_BUILTIN_CLZLL -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_56ad0.dir/src.cxx.o -c /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_56ad0
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56ad0.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11  -Wno-unknown-pragmas  -DHAVE_BUILTIN_CLZLL -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_56ad0.dir/src.cxx.o  -o cmTC_56ad0 
 
 Source file was:
 int main(){ return __builtin_clzll(1);}
 Determining if files mm_malloc.h exist passed with the following output:
-Change Dir: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b8193/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_b8193.dir/build.make CMakeFiles/cmTC_b8193.dir/build
-Building C object CMakeFiles/cmTC_b8193.dir/HAVE_MM_MALLOC_H.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_b8193.dir/HAVE_MM_MALLOC_H.c.o   -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CheckIncludeFiles/HAVE_MM_MALLOC_H.c
-Linking C executable cmTC_b8193
-/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8193.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc  -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b8193.dir/HAVE_MM_MALLOC_H.c.o  -o cmTC_b8193 
+Run Build Command:"/usr/bin/make" "cmTC_6482f/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_6482f.dir/build.make CMakeFiles/cmTC_6482f.dir/build
+Building C object CMakeFiles/cmTC_6482f.dir/HAVE_MM_MALLOC_H.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_6482f.dir/HAVE_MM_MALLOC_H.c.o   -c /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CheckIncludeFiles/HAVE_MM_MALLOC_H.c
+Linking C executable cmTC_6482f
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6482f.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_6482f.dir/HAVE_MM_MALLOC_H.c.o  -o cmTC_6482f 
 
 
 Determining if files xmmintrin.h exist passed with the following output:
-Change Dir: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ba007/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_ba007.dir/build.make CMakeFiles/cmTC_ba007.dir/build
-Building C object CMakeFiles/cmTC_ba007.dir/HAVE_XMMINTRIN_H.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_ba007.dir/HAVE_XMMINTRIN_H.c.o   -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CheckIncludeFiles/HAVE_XMMINTRIN_H.c
-Linking C executable cmTC_ba007
-/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba007.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc  -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ba007.dir/HAVE_XMMINTRIN_H.c.o  -o cmTC_ba007 
+Run Build Command:"/usr/bin/make" "cmTC_0c44f/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_0c44f.dir/build.make CMakeFiles/cmTC_0c44f.dir/build
+Building C object CMakeFiles/cmTC_0c44f.dir/HAVE_XMMINTRIN_H.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_0c44f.dir/HAVE_XMMINTRIN_H.c.o   -c /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CheckIncludeFiles/HAVE_XMMINTRIN_H.c
+Linking C executable cmTC_0c44f
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0c44f.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_0c44f.dir/HAVE_XMMINTRIN_H.c.o  -o cmTC_0c44f 
 
 
 Determining if the posix_memalign exist passed with the following output:
-Change Dir: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ff98e/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_ff98e.dir/build.make CMakeFiles/cmTC_ff98e.dir/build
-Building CXX object CMakeFiles/cmTC_ff98e.dir/CheckSymbolExists.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11  -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_ff98e.dir/CheckSymbolExists.cxx.o -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
-Linking CXX executable cmTC_ff98e
-/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ff98e.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11  -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ff98e.dir/CheckSymbolExists.cxx.o  -o cmTC_ff98e 
+Run Build Command:"/usr/bin/make" "cmTC_72409/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_72409.dir/build.make CMakeFiles/cmTC_72409.dir/build
+Building CXX object CMakeFiles/cmTC_72409.dir/CheckSymbolExists.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11  -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_72409.dir/CheckSymbolExists.cxx.o -c /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_72409
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_72409.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11  -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_72409.dir/CheckSymbolExists.cxx.o  -o cmTC_72409 
 
-File /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+File /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
 /* */
 #include <stdlib.h>
 
@@ -1075,63 +1075,63 @@ int main(int argc, char** argv)
 }
 
 Determining if the include file sys/types.h exists passed with the following output:
-Change Dir: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f0c9d/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_f0c9d.dir/build.make CMakeFiles/cmTC_f0c9d.dir/build
-Building C object CMakeFiles/cmTC_f0c9d.dir/CheckIncludeFile.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_f0c9d.dir/CheckIncludeFile.c.o   -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_f0c9d
-/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0c9d.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc  -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f0c9d.dir/CheckIncludeFile.c.o  -o cmTC_f0c9d 
+Run Build Command:"/usr/bin/make" "cmTC_860c9/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_860c9.dir/build.make CMakeFiles/cmTC_860c9.dir/build
+Building C object CMakeFiles/cmTC_860c9.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_860c9.dir/CheckIncludeFile.c.o   -c /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_860c9
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_860c9.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_860c9.dir/CheckIncludeFile.c.o  -o cmTC_860c9 
 
 
 Determining if the include file stdint.h exists passed with the following output:
-Change Dir: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_96d26/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_96d26.dir/build.make CMakeFiles/cmTC_96d26.dir/build
-Building C object CMakeFiles/cmTC_96d26.dir/CheckIncludeFile.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_96d26.dir/CheckIncludeFile.c.o   -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_96d26
-/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_96d26.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc  -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_96d26.dir/CheckIncludeFile.c.o  -o cmTC_96d26 
+Run Build Command:"/usr/bin/make" "cmTC_10e41/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_10e41.dir/build.make CMakeFiles/cmTC_10e41.dir/build
+Building C object CMakeFiles/cmTC_10e41.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_10e41.dir/CheckIncludeFile.c.o   -c /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_10e41
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_10e41.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_10e41.dir/CheckIncludeFile.c.o  -o cmTC_10e41 
 
 
 Determining if the include file stddef.h exists passed with the following output:
-Change Dir: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_90d42/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_90d42.dir/build.make CMakeFiles/cmTC_90d42.dir/build
-Building C object CMakeFiles/cmTC_90d42.dir/CheckIncludeFile.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_90d42.dir/CheckIncludeFile.c.o   -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_90d42
-/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_90d42.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc  -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_90d42.dir/CheckIncludeFile.c.o  -o cmTC_90d42 
+Run Build Command:"/usr/bin/make" "cmTC_dc0fd/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_dc0fd.dir/build.make CMakeFiles/cmTC_dc0fd.dir/build
+Building C object CMakeFiles/cmTC_dc0fd.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_dc0fd.dir/CheckIncludeFile.c.o   -c /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_dc0fd
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc0fd.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_dc0fd.dir/CheckIncludeFile.c.o  -o cmTC_dc0fd 
 
 
 Determining size of unsigned short passed with the following output:
-Change Dir: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_11323/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_11323.dir/build.make CMakeFiles/cmTC_11323.dir/build
-Building C object CMakeFiles/cmTC_11323.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_11323.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o   -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_UNSIGNED_SHORT.c
-Linking C executable cmTC_11323
-/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_11323.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc  -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_11323.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o  -o cmTC_11323 
+Run Build Command:"/usr/bin/make" "cmTC_c431a/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_c431a.dir/build.make CMakeFiles/cmTC_c431a.dir/build
+Building C object CMakeFiles/cmTC_c431a.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_c431a.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o   -c /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_UNSIGNED_SHORT.c
+Linking C executable cmTC_c431a
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c431a.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c431a.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o  -o cmTC_c431a 
 
 
 Determining if the system is big endian passed with the following output:
-Change Dir: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_35cb1/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_35cb1.dir/build.make CMakeFiles/cmTC_35cb1.dir/build
-Building C object CMakeFiles/cmTC_35cb1.dir/TestEndianess.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_35cb1.dir/TestEndianess.c.o   -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/TestEndianess.c
-Linking C executable cmTC_35cb1
-/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_35cb1.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc  -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_35cb1.dir/TestEndianess.c.o  -o cmTC_35cb1 
+Run Build Command:"/usr/bin/make" "cmTC_a3c9f/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_a3c9f.dir/build.make CMakeFiles/cmTC_a3c9f.dir/build
+Building C object CMakeFiles/cmTC_a3c9f.dir/TestEndianess.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_a3c9f.dir/TestEndianess.c.o   -c /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTC_a3c9f
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a3c9f.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a3c9f.dir/TestEndianess.c.o  -o cmTC_a3c9f 
 
 TestEndianess.c:
 /* A 16 bit integer is required. */
@@ -1160,106 +1160,106 @@ int main(int argc, char *argv[])
 
 
 Determining if the include file pthread.h exists passed with the following output:
-Change Dir: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_6b10c/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_6b10c.dir/build.make CMakeFiles/cmTC_6b10c.dir/build
-Building CXX object CMakeFiles/cmTC_6b10c.dir/CheckIncludeFile.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11  -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_6b10c.dir/CheckIncludeFile.cxx.o -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
-Linking CXX executable cmTC_6b10c
-/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6b10c.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11  -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_6b10c.dir/CheckIncludeFile.cxx.o  -o cmTC_6b10c 
+Run Build Command:"/usr/bin/make" "cmTC_2fba3/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_2fba3.dir/build.make CMakeFiles/cmTC_2fba3.dir/build
+Building CXX object CMakeFiles/cmTC_2fba3.dir/CheckIncludeFile.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11  -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_2fba3.dir/CheckIncludeFile.cxx.o -c /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_2fba3
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2fba3.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11  -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_2fba3.dir/CheckIncludeFile.cxx.o  -o cmTC_2fba3 
 
 
 Determining if the include file regex exists passed with the following output:
-Change Dir: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_78b63/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_78b63.dir/build.make CMakeFiles/cmTC_78b63.dir/build
-Building CXX object CMakeFiles/cmTC_78b63.dir/CheckIncludeFile.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11  -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_78b63.dir/CheckIncludeFile.cxx.o -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
-Linking CXX executable cmTC_78b63
-/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_78b63.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11  -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_78b63.dir/CheckIncludeFile.cxx.o  -o cmTC_78b63 
+Run Build Command:"/usr/bin/make" "cmTC_fea02/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_fea02.dir/build.make CMakeFiles/cmTC_fea02.dir/build
+Building CXX object CMakeFiles/cmTC_fea02.dir/CheckIncludeFile.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11  -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_fea02.dir/CheckIncludeFile.cxx.o -c /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_fea02
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fea02.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11  -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_fea02.dir/CheckIncludeFile.cxx.o  -o cmTC_fea02 
 
 
 Performing C SOURCE FILE Test C_mavx2_mfma_FLAG_ACCEPTED succeeded with the following output:
-Change Dir: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_deaa6/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_deaa6.dir/build.make CMakeFiles/cmTC_deaa6.dir/build
-Building C object CMakeFiles/cmTC_deaa6.dir/src.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-unknown-pragmas  -DC_mavx2_mfma_FLAG_ACCEPTED  -mavx2 -mfma -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_deaa6.dir/src.c.o   -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_deaa6
-/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_deaa6.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc  -Wno-unknown-pragmas  -DC_mavx2_mfma_FLAG_ACCEPTED  -mavx2 -mfma -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_deaa6.dir/src.c.o  -o cmTC_deaa6 
+Run Build Command:"/usr/bin/make" "cmTC_25cdb/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_25cdb.dir/build.make CMakeFiles/cmTC_25cdb.dir/build
+Building C object CMakeFiles/cmTC_25cdb.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-unknown-pragmas  -DC_mavx2_mfma_FLAG_ACCEPTED  -mavx2 -mfma -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_25cdb.dir/src.c.o   -c /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_25cdb
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_25cdb.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -Wno-unknown-pragmas  -DC_mavx2_mfma_FLAG_ACCEPTED  -mavx2 -mfma -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_25cdb.dir/src.c.o  -o cmTC_25cdb 
 
 Source file was:
 int main(void) { return 0; }
 Performing C SOURCE FILE Test C_mavx2_mfma_COMPILE_WORKS succeeded with the following output:
-Change Dir: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_5d844/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_5d844.dir/build.make CMakeFiles/cmTC_5d844.dir/build
-Building C object CMakeFiles/cmTC_5d844.dir/src.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-unknown-pragmas  -DC_mavx2_mfma_COMPILE_WORKS  -mavx2 -mfma -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_5d844.dir/src.c.o   -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_5d844
-/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d844.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc  -Wno-unknown-pragmas  -DC_mavx2_mfma_COMPILE_WORKS  -mavx2 -mfma -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_5d844.dir/src.c.o  -o cmTC_5d844 
+Run Build Command:"/usr/bin/make" "cmTC_e3cd6/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_e3cd6.dir/build.make CMakeFiles/cmTC_e3cd6.dir/build
+Building C object CMakeFiles/cmTC_e3cd6.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-unknown-pragmas  -DC_mavx2_mfma_COMPILE_WORKS  -mavx2 -mfma -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_e3cd6.dir/src.c.o   -c /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_e3cd6
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e3cd6.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -Wno-unknown-pragmas  -DC_mavx2_mfma_COMPILE_WORKS  -mavx2 -mfma -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e3cd6.dir/src.c.o  -o cmTC_e3cd6 
 
 Source file was:
 #include<immintrin.h>
 int main(){__m256i x=_mm256_set1_epi32(5);x=_mm256_add_epi32(x,x);return _mm256_movemask_epi8(x);}
 Performing C++ SOURCE FILE Test CXX_mavx2_mfma_FLAG_ACCEPTED succeeded with the following output:
-Change Dir: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_81dc2/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_81dc2.dir/build.make CMakeFiles/cmTC_81dc2.dir/build
-Building CXX object CMakeFiles/cmTC_81dc2.dir/src.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11  -Wno-unknown-pragmas  -DCXX_mavx2_mfma_FLAG_ACCEPTED  -mavx2 -mfma -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_81dc2.dir/src.cxx.o -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_81dc2
-/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_81dc2.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11  -Wno-unknown-pragmas  -DCXX_mavx2_mfma_FLAG_ACCEPTED  -mavx2 -mfma -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_81dc2.dir/src.cxx.o  -o cmTC_81dc2 
+Run Build Command:"/usr/bin/make" "cmTC_2b488/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_2b488.dir/build.make CMakeFiles/cmTC_2b488.dir/build
+Building CXX object CMakeFiles/cmTC_2b488.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11  -Wno-unknown-pragmas  -DCXX_mavx2_mfma_FLAG_ACCEPTED  -mavx2 -mfma -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_2b488.dir/src.cxx.o -c /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_2b488
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2b488.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11  -Wno-unknown-pragmas  -DCXX_mavx2_mfma_FLAG_ACCEPTED  -mavx2 -mfma -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_2b488.dir/src.cxx.o  -o cmTC_2b488 
 
 Source file was:
 int main() { return 0;}
 Performing C++ SOURCE FILE Test CXX_mavx2_mfma_COMPILE_WORKS succeeded with the following output:
-Change Dir: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_4dad4/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_4dad4.dir/build.make CMakeFiles/cmTC_4dad4.dir/build
-Building CXX object CMakeFiles/cmTC_4dad4.dir/src.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11  -Wno-unknown-pragmas  -DCXX_mavx2_mfma_COMPILE_WORKS  -mavx2 -mfma -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_4dad4.dir/src.cxx.o -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_4dad4
-/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4dad4.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11  -Wno-unknown-pragmas  -DCXX_mavx2_mfma_COMPILE_WORKS  -mavx2 -mfma -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_4dad4.dir/src.cxx.o  -o cmTC_4dad4 
+Run Build Command:"/usr/bin/make" "cmTC_36733/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_36733.dir/build.make CMakeFiles/cmTC_36733.dir/build
+Building CXX object CMakeFiles/cmTC_36733.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11  -Wno-unknown-pragmas  -DCXX_mavx2_mfma_COMPILE_WORKS  -mavx2 -mfma -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_36733.dir/src.cxx.o -c /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_36733
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_36733.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11  -Wno-unknown-pragmas  -DCXX_mavx2_mfma_COMPILE_WORKS  -mavx2 -mfma -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_36733.dir/src.cxx.o  -o cmTC_36733 
 
 Source file was:
 #include<immintrin.h>
 int main(){__m256i x=_mm256_set1_epi32(5);x=_mm256_add_epi32(x,x);return _mm256_movemask_epi8(x);}
 Performing C SOURCE FILE Test C_mavx512f_mfma_FLAG_ACCEPTED succeeded with the following output:
-Change Dir: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_fbbc1/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_fbbc1.dir/build.make CMakeFiles/cmTC_fbbc1.dir/build
-Building C object CMakeFiles/cmTC_fbbc1.dir/src.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-unknown-pragmas  -DC_mavx512f_mfma_FLAG_ACCEPTED  -mavx512f -mfma -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_fbbc1.dir/src.c.o   -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_fbbc1
-/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fbbc1.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc  -Wno-unknown-pragmas  -DC_mavx512f_mfma_FLAG_ACCEPTED  -mavx512f -mfma -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_fbbc1.dir/src.c.o  -o cmTC_fbbc1 
+Run Build Command:"/usr/bin/make" "cmTC_660ea/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_660ea.dir/build.make CMakeFiles/cmTC_660ea.dir/build
+Building C object CMakeFiles/cmTC_660ea.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-unknown-pragmas  -DC_mavx512f_mfma_FLAG_ACCEPTED  -mavx512f -mfma -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_660ea.dir/src.c.o   -c /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_660ea
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_660ea.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -Wno-unknown-pragmas  -DC_mavx512f_mfma_FLAG_ACCEPTED  -mavx512f -mfma -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_660ea.dir/src.c.o  -o cmTC_660ea 
 
 Source file was:
 int main(void) { return 0; }
 Performing C SOURCE FILE Test C_mavx512f_mfma_COMPILE_WORKS succeeded with the following output:
-Change Dir: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a9cca/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_a9cca.dir/build.make CMakeFiles/cmTC_a9cca.dir/build
-Building C object CMakeFiles/cmTC_a9cca.dir/src.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-unknown-pragmas  -DC_mavx512f_mfma_COMPILE_WORKS  -mavx512f -mfma -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_a9cca.dir/src.c.o   -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_a9cca
-/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a9cca.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc  -Wno-unknown-pragmas  -DC_mavx512f_mfma_COMPILE_WORKS  -mavx512f -mfma -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a9cca.dir/src.c.o  -o cmTC_a9cca 
+Run Build Command:"/usr/bin/make" "cmTC_40e46/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_40e46.dir/build.make CMakeFiles/cmTC_40e46.dir/build
+Building C object CMakeFiles/cmTC_40e46.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-unknown-pragmas  -DC_mavx512f_mfma_COMPILE_WORKS  -mavx512f -mfma -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_40e46.dir/src.c.o   -c /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_40e46
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_40e46.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -Wno-unknown-pragmas  -DC_mavx512f_mfma_COMPILE_WORKS  -mavx512f -mfma -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_40e46.dir/src.c.o  -o cmTC_40e46 
 
 Source file was:
 #include<immintrin.h>
@@ -1270,28 +1270,28 @@ Source file was:
           _mm512_storeu_si512(idata, i);
           return idata[0]*(int)(_mm512_cmp_ps_mask(x,y,_CMP_LT_OS));}
 Performing C++ SOURCE FILE Test CXX_mavx512f_mfma_FLAG_ACCEPTED succeeded with the following output:
-Change Dir: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b57c1/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_b57c1.dir/build.make CMakeFiles/cmTC_b57c1.dir/build
-Building CXX object CMakeFiles/cmTC_b57c1.dir/src.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11  -Wno-unknown-pragmas  -DCXX_mavx512f_mfma_FLAG_ACCEPTED  -mavx512f -mfma -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_b57c1.dir/src.cxx.o -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_b57c1
-/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b57c1.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11  -Wno-unknown-pragmas  -DCXX_mavx512f_mfma_FLAG_ACCEPTED  -mavx512f -mfma -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b57c1.dir/src.cxx.o  -o cmTC_b57c1 
+Run Build Command:"/usr/bin/make" "cmTC_174ec/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_174ec.dir/build.make CMakeFiles/cmTC_174ec.dir/build
+Building CXX object CMakeFiles/cmTC_174ec.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11  -Wno-unknown-pragmas  -DCXX_mavx512f_mfma_FLAG_ACCEPTED  -mavx512f -mfma -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_174ec.dir/src.cxx.o -c /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_174ec
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_174ec.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11  -Wno-unknown-pragmas  -DCXX_mavx512f_mfma_FLAG_ACCEPTED  -mavx512f -mfma -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_174ec.dir/src.cxx.o  -o cmTC_174ec 
 
 Source file was:
 int main() { return 0;}
 Performing C++ SOURCE FILE Test CXX_mavx512f_mfma_COMPILE_WORKS succeeded with the following output:
-Change Dir: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_40929/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_40929.dir/build.make CMakeFiles/cmTC_40929.dir/build
-Building CXX object CMakeFiles/cmTC_40929.dir/src.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11  -Wno-unknown-pragmas  -DCXX_mavx512f_mfma_COMPILE_WORKS  -mavx512f -mfma -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_40929.dir/src.cxx.o -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_40929
-/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_40929.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11  -Wno-unknown-pragmas  -DCXX_mavx512f_mfma_COMPILE_WORKS  -mavx512f -mfma -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_40929.dir/src.cxx.o  -o cmTC_40929 
+Run Build Command:"/usr/bin/make" "cmTC_35a1b/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_35a1b.dir/build.make CMakeFiles/cmTC_35a1b.dir/build
+Building CXX object CMakeFiles/cmTC_35a1b.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11  -Wno-unknown-pragmas  -DCXX_mavx512f_mfma_COMPILE_WORKS  -mavx512f -mfma -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_35a1b.dir/src.cxx.o -c /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_35a1b
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_35a1b.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11  -Wno-unknown-pragmas  -DCXX_mavx512f_mfma_COMPILE_WORKS  -mavx512f -mfma -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_35a1b.dir/src.cxx.o  -o cmTC_35a1b 
 
 Source file was:
 #include<immintrin.h>
@@ -1302,28 +1302,28 @@ Source file was:
           _mm512_storeu_si512(idata, i);
           return idata[0]*(int)(_mm512_cmp_ps_mask(x,y,_CMP_LT_OS));}
 Performing C++ SOURCE FILE Test _Wno_unused_command_line_argument_FLAG_ACCEPTED succeeded with the following output:
-Change Dir: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_7aa97/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_7aa97.dir/build.make CMakeFiles/cmTC_7aa97.dir/build
-Building CXX object CMakeFiles/cmTC_7aa97.dir/src.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11  -Wno-unknown-pragmas  -D_Wno_unused_command_line_argument_FLAG_ACCEPTED -Wno-unused-command-line-argument -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_7aa97.dir/src.cxx.o -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_7aa97
-/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7aa97.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11  -Wno-unknown-pragmas  -D_Wno_unused_command_line_argument_FLAG_ACCEPTED -Wno-unused-command-line-argument -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_7aa97.dir/src.cxx.o  -o cmTC_7aa97 
+Run Build Command:"/usr/bin/make" "cmTC_c7701/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_c7701.dir/build.make CMakeFiles/cmTC_c7701.dir/build
+Building CXX object CMakeFiles/cmTC_c7701.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11  -Wno-unknown-pragmas  -D_Wno_unused_command_line_argument_FLAG_ACCEPTED -Wno-unused-command-line-argument -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_c7701.dir/src.cxx.o -c /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c7701
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c7701.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -std=c++11  -Wno-unknown-pragmas  -D_Wno_unused_command_line_argument_FLAG_ACCEPTED -Wno-unused-command-line-argument -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c7701.dir/src.cxx.o  -o cmTC_c7701 
 
 Source file was:
 int main() { return 0;}
 Performing C SOURCE FILE Test _callconv___vectorcall succeeded with the following output:
-Change Dir: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_44b1e/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_44b1e.dir/build.make CMakeFiles/cmTC_44b1e.dir/build
-Building C object CMakeFiles/cmTC_44b1e.dir/src.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-unknown-pragmas  -D_callconv___vectorcall -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_44b1e.dir/src.c.o   -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_44b1e
-/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_44b1e.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc  -Wno-unknown-pragmas  -D_callconv___vectorcall -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_44b1e.dir/src.c.o  -o cmTC_44b1e 
+Run Build Command:"/usr/bin/make" "cmTC_81ea2/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_81ea2.dir/build.make CMakeFiles/cmTC_81ea2.dir/build
+Building C object CMakeFiles/cmTC_81ea2.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-unknown-pragmas  -D_callconv___vectorcall -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_81ea2.dir/src.c.o   -c /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_81ea2
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_81ea2.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -Wno-unknown-pragmas  -D_callconv___vectorcall -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_81ea2.dir/src.c.o  -o cmTC_81ea2 
 
 Source file was:
 
@@ -1331,39 +1331,39 @@ Source file was:
 int __vectorcall f(int i) {return i;} int main(void) {return f(0);}
 
 Determining if the function dgemm_ exists passed with the following output:
-Change Dir: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_5c611/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_5c611.dir/build.make CMakeFiles/cmTC_5c611.dir/build
-Building C object CMakeFiles/cmTC_5c611.dir/CheckFunctionExists.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-unknown-pragmas  -DCHECK_FUNCTION_EXISTS=dgemm_ -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_5c611.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.11.1/share/cmake/Modules/CheckFunctionExists.c
-Linking C executable cmTC_5c611
-/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c611.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc  -Wno-unknown-pragmas  -DCHECK_FUNCTION_EXISTS=dgemm_ -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_5c611.dir/CheckFunctionExists.c.o  -o cmTC_5c611 -framework Accelerate 
+Run Build Command:"/usr/bin/make" "cmTC_907e3/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_907e3.dir/build.make CMakeFiles/cmTC_907e3.dir/build
+Building C object CMakeFiles/cmTC_907e3.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-unknown-pragmas  -DCHECK_FUNCTION_EXISTS=dgemm_ -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_907e3.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.11.1/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_907e3
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_907e3.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -Wno-unknown-pragmas  -DCHECK_FUNCTION_EXISTS=dgemm_ -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_907e3.dir/CheckFunctionExists.c.o  -o cmTC_907e3 -framework Accelerate 
 
 
 Determining if the function cheev_ exists passed with the following output:
-Change Dir: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_26ca3/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_26ca3.dir/build.make CMakeFiles/cmTC_26ca3.dir/build
-Building C object CMakeFiles/cmTC_26ca3.dir/CheckFunctionExists.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-unknown-pragmas  -DCHECK_FUNCTION_EXISTS=cheev_ -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_26ca3.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.11.1/share/cmake/Modules/CheckFunctionExists.c
-Linking C executable cmTC_26ca3
-/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_26ca3.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc  -Wno-unknown-pragmas  -DCHECK_FUNCTION_EXISTS=cheev_ -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_26ca3.dir/CheckFunctionExists.c.o  -o cmTC_26ca3 -framework Accelerate -framework Accelerate 
+Run Build Command:"/usr/bin/make" "cmTC_e0744/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_e0744.dir/build.make CMakeFiles/cmTC_e0744.dir/build
+Building C object CMakeFiles/cmTC_e0744.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wno-unknown-pragmas  -DCHECK_FUNCTION_EXISTS=cheev_ -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_e0744.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.11.1/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e0744
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0744.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -Wno-unknown-pragmas  -DCHECK_FUNCTION_EXISTS=cheev_ -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e0744.dir/CheckFunctionExists.c.o  -o cmTC_e0744 -framework Accelerate -framework Accelerate 
 
 
 Performing C SOURCE FILE Test HAVE_DLOPEN succeeded with the following output:
-Change Dir: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_31256/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_31256.dir/build.make CMakeFiles/cmTC_31256.dir/build
-Building C object CMakeFiles/cmTC_31256.dir/src.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/dlfcn.h  -Wno-unknown-pragmas  -DHAVE_DLOPEN -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_31256.dir/src.c.o   -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_31256
-/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_31256.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc  -Wno-unknown-pragmas  -DHAVE_DLOPEN -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_31256.dir/src.c.o  -o cmTC_31256 -ldl 
+Run Build Command:"/usr/bin/make" "cmTC_8b0ac/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_8b0ac.dir/build.make CMakeFiles/cmTC_8b0ac.dir/build
+Building C object CMakeFiles/cmTC_8b0ac.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc  -I/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/dlfcn.h  -Wno-unknown-pragmas  -DHAVE_DLOPEN -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_8b0ac.dir/src.c.o   -c /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_8b0ac
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b0ac.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -Wno-unknown-pragmas  -DHAVE_DLOPEN -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_8b0ac.dir/src.c.o  -o cmTC_8b0ac -ldl 
 
 Source file was:
 #include <dlfcn.h>
@@ -1372,67 +1372,67 @@ int main(void) {
   return 0;
 }
 Performing C++ SOURCE FILE Test HAS_NO_UNUSED_VARIABLE succeeded with the following output:
-Change Dir: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8e143/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_8e143.dir/build.make CMakeFiles/cmTC_8e143.dir/build
-Building CXX object CMakeFiles/cmTC_8e143.dir/src.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -mavx2 -mfma    -std=c++11  -Wno-unknown-pragmas  -DHAS_NO_UNUSED_VARIABLE -Wno-unused-variable -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_8e143.dir/src.cxx.o -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_8e143
-/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8e143.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++   -mavx2 -mfma    -std=c++11  -Wno-unknown-pragmas  -DHAS_NO_UNUSED_VARIABLE -Wno-unused-variable -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names     CMakeFiles/cmTC_8e143.dir/src.cxx.o  -o cmTC_8e143 
+Run Build Command:"/usr/bin/make" "cmTC_ae47b/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_ae47b.dir/build.make CMakeFiles/cmTC_ae47b.dir/build
+Building CXX object CMakeFiles/cmTC_ae47b.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -mavx2 -mfma    -std=c++11  -Wno-unknown-pragmas  -DHAS_NO_UNUSED_VARIABLE -Wno-unused-variable -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_ae47b.dir/src.cxx.o -c /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_ae47b
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ae47b.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -mavx2 -mfma    -std=c++11  -Wno-unknown-pragmas  -DHAS_NO_UNUSED_VARIABLE -Wno-unused-variable -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names     CMakeFiles/cmTC_ae47b.dir/src.cxx.o  -o cmTC_ae47b 
 
 Source file was:
 int main() { return 0;}
 Performing C++ SOURCE FILE Test HAS_NO_UNUSED succeeded with the following output:
-Change Dir: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1ddc2/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_1ddc2.dir/build.make CMakeFiles/cmTC_1ddc2.dir/build
-Building CXX object CMakeFiles/cmTC_1ddc2.dir/src.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -mavx2 -mfma    -std=c++11  -Wno-unknown-pragmas  -DHAS_NO_UNUSED -Wno-unused -Wno-unused-parameter -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_1ddc2.dir/src.cxx.o -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_1ddc2
-/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1ddc2.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++   -mavx2 -mfma    -std=c++11  -Wno-unknown-pragmas  -DHAS_NO_UNUSED -Wno-unused -Wno-unused-parameter -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names     CMakeFiles/cmTC_1ddc2.dir/src.cxx.o  -o cmTC_1ddc2 
+Run Build Command:"/usr/bin/make" "cmTC_bf827/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_bf827.dir/build.make CMakeFiles/cmTC_bf827.dir/build
+Building CXX object CMakeFiles/cmTC_bf827.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -mavx2 -mfma    -std=c++11  -Wno-unknown-pragmas  -DHAS_NO_UNUSED -Wno-unused -Wno-unused-parameter -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_bf827.dir/src.cxx.o -c /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_bf827
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf827.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -mavx2 -mfma    -std=c++11  -Wno-unknown-pragmas  -DHAS_NO_UNUSED -Wno-unused -Wno-unused-parameter -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names     CMakeFiles/cmTC_bf827.dir/src.cxx.o  -o cmTC_bf827 
 
 Source file was:
 int main() { return 0;}
 Performing C++ SOURCE FILE Test HAS_NO_MISSING_DECL succeeded with the following output:
-Change Dir: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_0047e/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_0047e.dir/build.make CMakeFiles/cmTC_0047e.dir/build
-Building CXX object CMakeFiles/cmTC_0047e.dir/src.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -mavx2 -mfma    -std=c++11  -Wno-unknown-pragmas  -DHAS_NO_MISSING_DECL -Wno-missing-declarations -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_0047e.dir/src.cxx.o -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_0047e
-/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0047e.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++   -mavx2 -mfma    -std=c++11  -Wno-unknown-pragmas  -DHAS_NO_MISSING_DECL -Wno-missing-declarations -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names     CMakeFiles/cmTC_0047e.dir/src.cxx.o  -o cmTC_0047e 
+Run Build Command:"/usr/bin/make" "cmTC_031db/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_031db.dir/build.make CMakeFiles/cmTC_031db.dir/build
+Building CXX object CMakeFiles/cmTC_031db.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -mavx2 -mfma    -std=c++11  -Wno-unknown-pragmas  -DHAS_NO_MISSING_DECL -Wno-missing-declarations -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_031db.dir/src.cxx.o -c /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_031db
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_031db.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -mavx2 -mfma    -std=c++11  -Wno-unknown-pragmas  -DHAS_NO_MISSING_DECL -Wno-missing-declarations -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names     CMakeFiles/cmTC_031db.dir/src.cxx.o  -o cmTC_031db 
 
 Source file was:
 int main() { return 0;}
 Performing C++ SOURCE FILE Test HAS_NO_MISSING_PROTO succeeded with the following output:
-Change Dir: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_7477b/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_7477b.dir/build.make CMakeFiles/cmTC_7477b.dir/build
-Building CXX object CMakeFiles/cmTC_7477b.dir/src.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -mavx2 -mfma    -std=c++11  -Wno-unknown-pragmas  -DHAS_NO_MISSING_PROTO -Wno-missing-prototypes -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_7477b.dir/src.cxx.o -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/src.cxx
-Linking CXX executable cmTC_7477b
-/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7477b.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++   -mavx2 -mfma    -std=c++11  -Wno-unknown-pragmas  -DHAS_NO_MISSING_PROTO -Wno-missing-prototypes -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names     CMakeFiles/cmTC_7477b.dir/src.cxx.o  -o cmTC_7477b 
+Run Build Command:"/usr/bin/make" "cmTC_e8892/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_e8892.dir/build.make CMakeFiles/cmTC_e8892.dir/build
+Building CXX object CMakeFiles/cmTC_e8892.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -mavx2 -mfma    -std=c++11  -Wno-unknown-pragmas  -DHAS_NO_MISSING_PROTO -Wno-missing-prototypes -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_e8892.dir/src.cxx.o -c /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_e8892
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e8892.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++   -mavx2 -mfma    -std=c++11  -Wno-unknown-pragmas  -DHAS_NO_MISSING_PROTO -Wno-missing-prototypes -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names     CMakeFiles/cmTC_e8892.dir/src.cxx.o  -o cmTC_e8892 
 
 Source file was:
 int main() { return 0;}
 Determining if the system is big endian passed with the following output:
-Change Dir: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d124c/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_d124c.dir/build.make CMakeFiles/cmTC_d124c.dir/build
-Building C object CMakeFiles/cmTC_d124c.dir/TestEndianess.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc   -mavx2 -mfma    -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_d124c.dir/TestEndianess.c.o   -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/TestEndianess.c
-Linking C executable cmTC_d124c
-/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d124c.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc  -mavx2 -mfma    -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names     CMakeFiles/cmTC_d124c.dir/TestEndianess.c.o  -o cmTC_d124c 
+Run Build Command:"/usr/bin/make" "cmTC_1e878/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_1e878.dir/build.make CMakeFiles/cmTC_1e878.dir/build
+Building C object CMakeFiles/cmTC_1e878.dir/TestEndianess.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -mavx2 -mfma    -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_1e878.dir/TestEndianess.c.o   -c /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTC_1e878
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1e878.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -mavx2 -mfma    -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names     CMakeFiles/cmTC_1e878.dir/TestEndianess.c.o  -o cmTC_1e878 
 
 TestEndianess.c:
 /* A 16 bit integer is required. */
@@ -1461,14 +1461,14 @@ int main(int argc, char *argv[])
 
 
 Determining if the include file inttypes.h exists passed with the following output:
-Change Dir: /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
+Change Dir: /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_5553f/fast"
-/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_5553f.dir/build.make CMakeFiles/cmTC_5553f.dir/build
-Building C object CMakeFiles/cmTC_5553f.dir/CheckIncludeFile.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc   -mavx2 -mfma    -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_5553f.dir/CheckIncludeFile.c.o   -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_5553f
-/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5553f.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc  -mavx2 -mfma    -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names     CMakeFiles/cmTC_5553f.dir/CheckIncludeFile.c.o  -o cmTC_5553f 
+Run Build Command:"/usr/bin/make" "cmTC_18650/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_18650.dir/build.make CMakeFiles/cmTC_18650.dir/build
+Building C object CMakeFiles/cmTC_18650.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -mavx2 -mfma    -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -o CMakeFiles/cmTC_18650.dir/CheckIncludeFile.c.o   -c /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_18650
+/usr/local/Cellar/cmake/3.11.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_18650.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -mavx2 -mfma    -Wno-unknown-pragmas   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names     CMakeFiles/cmTC_18650.dir/CheckIncludeFile.c.o  -o cmTC_18650 
 
 

@@ -43,10 +43,10 @@ RM = /usr/local/Cellar/cmake/3.11.1/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4
+CMAKE_SOURCE_DIR = /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build
+CMAKE_BINARY_DIR = /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build
 
 # Utility rule file for doxygen-all.
 
@@ -54,8 +54,8 @@ CMAKE_BINARY_DIR = /Users/vincentroller/Home/Development/gromacs/installation/gr
 include docs/doxygen/CMakeFiles/doxygen-all.dir/progress.make
 
 docs/doxygen/CMakeFiles/doxygen-all:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Doxygen not available"
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/docs/doxygen && /usr/local/Cellar/cmake/3.11.1/bin/cmake -E echo "Cannot build/run target doxygen-all because Doxygen is not available"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Doxygen not available"
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/docs/doxygen && /usr/local/Cellar/cmake/3.11.1/bin/cmake -E echo "Cannot build/run target doxygen-all because Doxygen is not available"
 
 doxygen-all: docs/doxygen/CMakeFiles/doxygen-all
 doxygen-all: docs/doxygen/CMakeFiles/doxygen-all.dir/build.make
@@ -68,10 +68,10 @@ docs/doxygen/CMakeFiles/doxygen-all.dir/build: doxygen-all
 .PHONY : docs/doxygen/CMakeFiles/doxygen-all.dir/build
 
 docs/doxygen/CMakeFiles/doxygen-all.dir/clean:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/docs/doxygen && $(CMAKE_COMMAND) -P CMakeFiles/doxygen-all.dir/cmake_clean.cmake
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/docs/doxygen && $(CMAKE_COMMAND) -P CMakeFiles/doxygen-all.dir/cmake_clean.cmake
 .PHONY : docs/doxygen/CMakeFiles/doxygen-all.dir/clean
 
 docs/doxygen/CMakeFiles/doxygen-all.dir/depend:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4 /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/docs/doxygen /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/docs/doxygen /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/docs/doxygen/CMakeFiles/doxygen-all.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4 /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/docs/doxygen /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/docs/doxygen /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/docs/doxygen/CMakeFiles/doxygen-all.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : docs/doxygen/CMakeFiles/doxygen-all.dir/depend
 

@@ -342,21 +342,21 @@ gromacs/utility/current_function.h
 
 ../src/testutils/testinit.h
 
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/restraint/tests/manager.cpp
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/restraint/tests/manager.cpp
 gmxpre.h
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/restraint/tests/gmxpre.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/restraint/tests/gmxpre.h
 gromacs/restraint/manager.h
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/restraint/tests/gromacs/restraint/manager.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/restraint/tests/gromacs/restraint/manager.h
 gtest/gtest.h
 -
 
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/testutils/unittest_main.cpp
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/testutils/unittest_main.cpp
 gmxpre.h
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/testutils/gmxpre.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/testutils/gmxpre.h
 gtest/gtest.h
 -
 testutils/testinit.h
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/testutils/testutils/testinit.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/testutils/testutils/testinit.h
 
 src/gmxpre-config.h
 

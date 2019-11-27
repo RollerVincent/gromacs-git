@@ -48,10 +48,10 @@ RM = /usr/local/Cellar/cmake/3.11.1/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4
+CMAKE_SOURCE_DIR = /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build
+CMAKE_BINARY_DIR = /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -116,7 +116,7 @@ test/fast: test
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && /usr/local/Cellar/cmake/3.11.1/bin/cpack --config ./CPackConfig.cmake
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && /usr/local/Cellar/cmake/3.11.1/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -149,7 +149,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && /usr/local/Cellar/cmake/3.11.1/bin/cpack --config ./CPackSourceConfig.cmake /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CPackSourceConfig.cmake
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && /usr/local/Cellar/cmake/3.11.1/bin/cpack --config ./CPackSourceConfig.cmake /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -159,14 +159,14 @@ package_source/fast: package_source
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/ewald/tests/CMakeFiles/progress.marks
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f CMakeFiles/Makefile2 src/gromacs/ewald/tests/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles 0
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/ewald/tests/CMakeFiles/progress.marks
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f CMakeFiles/Makefile2 src/gromacs/ewald/tests/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f CMakeFiles/Makefile2 src/gromacs/ewald/tests/clean
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f CMakeFiles/Makefile2 src/gromacs/ewald/tests/clean
 .PHONY : clean
 
 # The main clean target
@@ -176,22 +176,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f CMakeFiles/Makefile2 src/gromacs/ewald/tests/preinstall
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f CMakeFiles/Makefile2 src/gromacs/ewald/tests/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f CMakeFiles/Makefile2 src/gromacs/ewald/tests/preinstall
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f CMakeFiles/Makefile2 src/gromacs/ewald/tests/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/rule:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f CMakeFiles/Makefile2 src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/rule
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f CMakeFiles/Makefile2 src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/rule
 .PHONY : src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/rule
 
 # Convenience name for target.
@@ -201,7 +201,7 @@ ewald-test: src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/rule
 
 # fast build rule for target.
 ewald-test/fast:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/build.make src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/build
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/build.make src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/build
 .PHONY : ewald-test/fast
 
 __/__/__/testutils/unittest_main.o: __/__/__/testutils/unittest_main.cpp.o
@@ -210,7 +210,7 @@ __/__/__/testutils/unittest_main.o: __/__/__/testutils/unittest_main.cpp.o
 
 # target to build an object file
 __/__/__/testutils/unittest_main.cpp.o:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/build.make src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/__/__/__/testutils/unittest_main.cpp.o
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/build.make src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/__/__/__/testutils/unittest_main.cpp.o
 .PHONY : __/__/__/testutils/unittest_main.cpp.o
 
 __/__/__/testutils/unittest_main.i: __/__/__/testutils/unittest_main.cpp.i
@@ -219,7 +219,7 @@ __/__/__/testutils/unittest_main.i: __/__/__/testutils/unittest_main.cpp.i
 
 # target to preprocess a source file
 __/__/__/testutils/unittest_main.cpp.i:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/build.make src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/__/__/__/testutils/unittest_main.cpp.i
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/build.make src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/__/__/__/testutils/unittest_main.cpp.i
 .PHONY : __/__/__/testutils/unittest_main.cpp.i
 
 __/__/__/testutils/unittest_main.s: __/__/__/testutils/unittest_main.cpp.s
@@ -228,7 +228,7 @@ __/__/__/testutils/unittest_main.s: __/__/__/testutils/unittest_main.cpp.s
 
 # target to generate assembly for a file
 __/__/__/testutils/unittest_main.cpp.s:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/build.make src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/__/__/__/testutils/unittest_main.cpp.s
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/build.make src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/__/__/__/testutils/unittest_main.cpp.s
 .PHONY : __/__/__/testutils/unittest_main.cpp.s
 
 pmebsplinetest.o: pmebsplinetest.cpp.o
@@ -237,7 +237,7 @@ pmebsplinetest.o: pmebsplinetest.cpp.o
 
 # target to build an object file
 pmebsplinetest.cpp.o:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/build.make src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/pmebsplinetest.cpp.o
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/build.make src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/pmebsplinetest.cpp.o
 .PHONY : pmebsplinetest.cpp.o
 
 pmebsplinetest.i: pmebsplinetest.cpp.i
@@ -246,7 +246,7 @@ pmebsplinetest.i: pmebsplinetest.cpp.i
 
 # target to preprocess a source file
 pmebsplinetest.cpp.i:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/build.make src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/pmebsplinetest.cpp.i
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/build.make src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/pmebsplinetest.cpp.i
 .PHONY : pmebsplinetest.cpp.i
 
 pmebsplinetest.s: pmebsplinetest.cpp.s
@@ -255,7 +255,7 @@ pmebsplinetest.s: pmebsplinetest.cpp.s
 
 # target to generate assembly for a file
 pmebsplinetest.cpp.s:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/build.make src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/pmebsplinetest.cpp.s
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/build.make src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/pmebsplinetest.cpp.s
 .PHONY : pmebsplinetest.cpp.s
 
 pmegathertest.o: pmegathertest.cpp.o
@@ -264,7 +264,7 @@ pmegathertest.o: pmegathertest.cpp.o
 
 # target to build an object file
 pmegathertest.cpp.o:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/build.make src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/pmegathertest.cpp.o
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/build.make src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/pmegathertest.cpp.o
 .PHONY : pmegathertest.cpp.o
 
 pmegathertest.i: pmegathertest.cpp.i
@@ -273,7 +273,7 @@ pmegathertest.i: pmegathertest.cpp.i
 
 # target to preprocess a source file
 pmegathertest.cpp.i:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/build.make src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/pmegathertest.cpp.i
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/build.make src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/pmegathertest.cpp.i
 .PHONY : pmegathertest.cpp.i
 
 pmegathertest.s: pmegathertest.cpp.s
@@ -282,7 +282,7 @@ pmegathertest.s: pmegathertest.cpp.s
 
 # target to generate assembly for a file
 pmegathertest.cpp.s:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/build.make src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/pmegathertest.cpp.s
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/build.make src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/pmegathertest.cpp.s
 .PHONY : pmegathertest.cpp.s
 
 pmesolvetest.o: pmesolvetest.cpp.o
@@ -291,7 +291,7 @@ pmesolvetest.o: pmesolvetest.cpp.o
 
 # target to build an object file
 pmesolvetest.cpp.o:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/build.make src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/pmesolvetest.cpp.o
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/build.make src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/pmesolvetest.cpp.o
 .PHONY : pmesolvetest.cpp.o
 
 pmesolvetest.i: pmesolvetest.cpp.i
@@ -300,7 +300,7 @@ pmesolvetest.i: pmesolvetest.cpp.i
 
 # target to preprocess a source file
 pmesolvetest.cpp.i:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/build.make src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/pmesolvetest.cpp.i
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/build.make src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/pmesolvetest.cpp.i
 .PHONY : pmesolvetest.cpp.i
 
 pmesolvetest.s: pmesolvetest.cpp.s
@@ -309,7 +309,7 @@ pmesolvetest.s: pmesolvetest.cpp.s
 
 # target to generate assembly for a file
 pmesolvetest.cpp.s:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/build.make src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/pmesolvetest.cpp.s
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/build.make src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/pmesolvetest.cpp.s
 .PHONY : pmesolvetest.cpp.s
 
 pmesplinespreadtest.o: pmesplinespreadtest.cpp.o
@@ -318,7 +318,7 @@ pmesplinespreadtest.o: pmesplinespreadtest.cpp.o
 
 # target to build an object file
 pmesplinespreadtest.cpp.o:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/build.make src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/pmesplinespreadtest.cpp.o
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/build.make src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/pmesplinespreadtest.cpp.o
 .PHONY : pmesplinespreadtest.cpp.o
 
 pmesplinespreadtest.i: pmesplinespreadtest.cpp.i
@@ -327,7 +327,7 @@ pmesplinespreadtest.i: pmesplinespreadtest.cpp.i
 
 # target to preprocess a source file
 pmesplinespreadtest.cpp.i:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/build.make src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/pmesplinespreadtest.cpp.i
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/build.make src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/pmesplinespreadtest.cpp.i
 .PHONY : pmesplinespreadtest.cpp.i
 
 pmesplinespreadtest.s: pmesplinespreadtest.cpp.s
@@ -336,7 +336,7 @@ pmesplinespreadtest.s: pmesplinespreadtest.cpp.s
 
 # target to generate assembly for a file
 pmesplinespreadtest.cpp.s:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/build.make src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/pmesplinespreadtest.cpp.s
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/build.make src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/pmesplinespreadtest.cpp.s
 .PHONY : pmesplinespreadtest.cpp.s
 
 pmetestcommon.o: pmetestcommon.cpp.o
@@ -345,7 +345,7 @@ pmetestcommon.o: pmetestcommon.cpp.o
 
 # target to build an object file
 pmetestcommon.cpp.o:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/build.make src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/pmetestcommon.cpp.o
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/build.make src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/pmetestcommon.cpp.o
 .PHONY : pmetestcommon.cpp.o
 
 pmetestcommon.i: pmetestcommon.cpp.i
@@ -354,7 +354,7 @@ pmetestcommon.i: pmetestcommon.cpp.i
 
 # target to preprocess a source file
 pmetestcommon.cpp.i:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/build.make src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/pmetestcommon.cpp.i
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/build.make src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/pmetestcommon.cpp.i
 .PHONY : pmetestcommon.cpp.i
 
 pmetestcommon.s: pmetestcommon.cpp.s
@@ -363,7 +363,7 @@ pmetestcommon.s: pmetestcommon.cpp.s
 
 # target to generate assembly for a file
 pmetestcommon.cpp.s:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/build.make src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/pmetestcommon.cpp.s
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/build.make src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/pmetestcommon.cpp.s
 .PHONY : pmetestcommon.cpp.s
 
 testhardwarecontexts.o: testhardwarecontexts.cpp.o
@@ -372,7 +372,7 @@ testhardwarecontexts.o: testhardwarecontexts.cpp.o
 
 # target to build an object file
 testhardwarecontexts.cpp.o:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/build.make src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/testhardwarecontexts.cpp.o
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/build.make src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/testhardwarecontexts.cpp.o
 .PHONY : testhardwarecontexts.cpp.o
 
 testhardwarecontexts.i: testhardwarecontexts.cpp.i
@@ -381,7 +381,7 @@ testhardwarecontexts.i: testhardwarecontexts.cpp.i
 
 # target to preprocess a source file
 testhardwarecontexts.cpp.i:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/build.make src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/testhardwarecontexts.cpp.i
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/build.make src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/testhardwarecontexts.cpp.i
 .PHONY : testhardwarecontexts.cpp.i
 
 testhardwarecontexts.s: testhardwarecontexts.cpp.s
@@ -390,7 +390,7 @@ testhardwarecontexts.s: testhardwarecontexts.cpp.s
 
 # target to generate assembly for a file
 testhardwarecontexts.cpp.s:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/build.make src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/testhardwarecontexts.cpp.s
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(MAKE) -f src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/build.make src/gromacs/ewald/tests/CMakeFiles/ewald-test.dir/testhardwarecontexts.cpp.s
 .PHONY : testhardwarecontexts.cpp.s
 
 # Help Target
@@ -441,6 +441,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

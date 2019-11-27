@@ -43,10 +43,10 @@ RM = /usr/local/Cellar/cmake/3.11.1/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4
+CMAKE_SOURCE_DIR = /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build
+CMAKE_BINARY_DIR = /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build
 
 # Include any dependencies generated for this target.
 include src/programs/mdrun/tests/CMakeFiles/legacy-mdrun-test.dir/depend.make
@@ -59,29 +59,29 @@ include src/programs/mdrun/tests/CMakeFiles/legacy-mdrun-test.dir/flags.make
 
 src/programs/mdrun/tests/CMakeFiles/legacy-mdrun-test.dir/tpitest.cpp.o: src/programs/mdrun/tests/CMakeFiles/legacy-mdrun-test.dir/flags.make
 src/programs/mdrun/tests/CMakeFiles/legacy-mdrun-test.dir/tpitest.cpp.o: ../src/programs/mdrun/tests/tpitest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/programs/mdrun/tests/CMakeFiles/legacy-mdrun-test.dir/tpitest.cpp.o"
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/programs/mdrun/tests && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/legacy-mdrun-test.dir/tpitest.cpp.o -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/programs/mdrun/tests/tpitest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/programs/mdrun/tests/CMakeFiles/legacy-mdrun-test.dir/tpitest.cpp.o"
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/programs/mdrun/tests && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/legacy-mdrun-test.dir/tpitest.cpp.o -c /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/programs/mdrun/tests/tpitest.cpp
 
 src/programs/mdrun/tests/CMakeFiles/legacy-mdrun-test.dir/tpitest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/legacy-mdrun-test.dir/tpitest.cpp.i"
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/programs/mdrun/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/programs/mdrun/tests/tpitest.cpp > CMakeFiles/legacy-mdrun-test.dir/tpitest.cpp.i
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/programs/mdrun/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/programs/mdrun/tests/tpitest.cpp > CMakeFiles/legacy-mdrun-test.dir/tpitest.cpp.i
 
 src/programs/mdrun/tests/CMakeFiles/legacy-mdrun-test.dir/tpitest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/legacy-mdrun-test.dir/tpitest.cpp.s"
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/programs/mdrun/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/programs/mdrun/tests/tpitest.cpp -o CMakeFiles/legacy-mdrun-test.dir/tpitest.cpp.s
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/programs/mdrun/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/programs/mdrun/tests/tpitest.cpp -o CMakeFiles/legacy-mdrun-test.dir/tpitest.cpp.s
 
 src/programs/mdrun/tests/CMakeFiles/legacy-mdrun-test.dir/__/__/__/testutils/unittest_main.cpp.o: src/programs/mdrun/tests/CMakeFiles/legacy-mdrun-test.dir/flags.make
 src/programs/mdrun/tests/CMakeFiles/legacy-mdrun-test.dir/__/__/__/testutils/unittest_main.cpp.o: ../src/testutils/unittest_main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/programs/mdrun/tests/CMakeFiles/legacy-mdrun-test.dir/__/__/__/testutils/unittest_main.cpp.o"
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/programs/mdrun/tests && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/legacy-mdrun-test.dir/__/__/__/testutils/unittest_main.cpp.o -c /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/testutils/unittest_main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/programs/mdrun/tests/CMakeFiles/legacy-mdrun-test.dir/__/__/__/testutils/unittest_main.cpp.o"
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/programs/mdrun/tests && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/legacy-mdrun-test.dir/__/__/__/testutils/unittest_main.cpp.o -c /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/testutils/unittest_main.cpp
 
 src/programs/mdrun/tests/CMakeFiles/legacy-mdrun-test.dir/__/__/__/testutils/unittest_main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/legacy-mdrun-test.dir/__/__/__/testutils/unittest_main.cpp.i"
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/programs/mdrun/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/testutils/unittest_main.cpp > CMakeFiles/legacy-mdrun-test.dir/__/__/__/testutils/unittest_main.cpp.i
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/programs/mdrun/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/testutils/unittest_main.cpp > CMakeFiles/legacy-mdrun-test.dir/__/__/__/testutils/unittest_main.cpp.i
 
 src/programs/mdrun/tests/CMakeFiles/legacy-mdrun-test.dir/__/__/__/testutils/unittest_main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/legacy-mdrun-test.dir/__/__/__/testutils/unittest_main.cpp.s"
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/programs/mdrun/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/testutils/unittest_main.cpp -o CMakeFiles/legacy-mdrun-test.dir/__/__/__/testutils/unittest_main.cpp.s
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/programs/mdrun/tests && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/testutils/unittest_main.cpp -o CMakeFiles/legacy-mdrun-test.dir/__/__/__/testutils/unittest_main.cpp.s
 
 # Object files for target legacy-mdrun-test
 legacy__mdrun__test_OBJECTS = \
@@ -90,14 +90,14 @@ legacy__mdrun__test_OBJECTS = \
 
 # External object files for target legacy-mdrun-test
 legacy__mdrun__test_EXTERNAL_OBJECTS = \
-"/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/programs/mdrun/tests/CMakeFiles/mdrun_test_objlib.dir/energyreader.cpp.o" \
-"/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/programs/mdrun/tests/CMakeFiles/mdrun_test_objlib.dir/energycomparison.cpp.o" \
-"/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/programs/mdrun/tests/CMakeFiles/mdrun_test_objlib.dir/moduletest.cpp.o" \
-"/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/programs/mdrun/tests/CMakeFiles/mdrun_test_objlib.dir/simulationdatabase.cpp.o" \
-"/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/programs/mdrun/tests/CMakeFiles/mdrun_test_objlib.dir/terminationhelper.cpp.o" \
-"/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/programs/mdrun/tests/CMakeFiles/mdrun_test_objlib.dir/trajectorycomparison.cpp.o" \
-"/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/programs/mdrun/tests/CMakeFiles/mdrun_test_objlib.dir/trajectoryreader.cpp.o" \
-"/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/programs/CMakeFiles/mdrun_objlib.dir/mdrun/mdrun.cpp.o"
+"/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/programs/mdrun/tests/CMakeFiles/mdrun_test_objlib.dir/energyreader.cpp.o" \
+"/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/programs/mdrun/tests/CMakeFiles/mdrun_test_objlib.dir/energycomparison.cpp.o" \
+"/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/programs/mdrun/tests/CMakeFiles/mdrun_test_objlib.dir/moduletest.cpp.o" \
+"/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/programs/mdrun/tests/CMakeFiles/mdrun_test_objlib.dir/simulationdatabase.cpp.o" \
+"/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/programs/mdrun/tests/CMakeFiles/mdrun_test_objlib.dir/terminationhelper.cpp.o" \
+"/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/programs/mdrun/tests/CMakeFiles/mdrun_test_objlib.dir/trajectorycomparison.cpp.o" \
+"/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/programs/mdrun/tests/CMakeFiles/mdrun_test_objlib.dir/trajectoryreader.cpp.o" \
+"/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/programs/CMakeFiles/mdrun_objlib.dir/mdrun/mdrun.cpp.o"
 
 bin/legacy-mdrun-test: src/programs/mdrun/tests/CMakeFiles/legacy-mdrun-test.dir/tpitest.cpp.o
 bin/legacy-mdrun-test: src/programs/mdrun/tests/CMakeFiles/legacy-mdrun-test.dir/__/__/__/testutils/unittest_main.cpp.o
@@ -114,8 +114,8 @@ bin/legacy-mdrun-test: lib/libtestutils.a
 bin/legacy-mdrun-test: lib/libgromacs.4.0.0.dylib
 bin/legacy-mdrun-test: lib/libgmock.a
 bin/legacy-mdrun-test: src/programs/mdrun/tests/CMakeFiles/legacy-mdrun-test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../../../../bin/legacy-mdrun-test"
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/programs/mdrun/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/legacy-mdrun-test.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../../../../bin/legacy-mdrun-test"
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/programs/mdrun/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/legacy-mdrun-test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/programs/mdrun/tests/CMakeFiles/legacy-mdrun-test.dir/build: bin/legacy-mdrun-test
@@ -123,10 +123,10 @@ src/programs/mdrun/tests/CMakeFiles/legacy-mdrun-test.dir/build: bin/legacy-mdru
 .PHONY : src/programs/mdrun/tests/CMakeFiles/legacy-mdrun-test.dir/build
 
 src/programs/mdrun/tests/CMakeFiles/legacy-mdrun-test.dir/clean:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/programs/mdrun/tests && $(CMAKE_COMMAND) -P CMakeFiles/legacy-mdrun-test.dir/cmake_clean.cmake
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/programs/mdrun/tests && $(CMAKE_COMMAND) -P CMakeFiles/legacy-mdrun-test.dir/cmake_clean.cmake
 .PHONY : src/programs/mdrun/tests/CMakeFiles/legacy-mdrun-test.dir/clean
 
 src/programs/mdrun/tests/CMakeFiles/legacy-mdrun-test.dir/depend:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4 /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/programs/mdrun/tests /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/programs/mdrun/tests /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/programs/mdrun/tests/CMakeFiles/legacy-mdrun-test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4 /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/programs/mdrun/tests /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/programs/mdrun/tests /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/programs/mdrun/tests/CMakeFiles/legacy-mdrun-test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/programs/mdrun/tests/CMakeFiles/legacy-mdrun-test.dir/depend
 

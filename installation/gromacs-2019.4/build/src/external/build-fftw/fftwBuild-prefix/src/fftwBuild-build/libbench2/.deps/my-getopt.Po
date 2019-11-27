@@ -1,5 +1,5 @@
 my-getopt.o: \
-  /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/libbench2/my-getopt.c \
+  /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/libbench2/my-getopt.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/string.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/_types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_types.h \
@@ -39,7 +39,7 @@ my-getopt.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/sys/_types/_off_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/secure/_stdio.h \
   ../config.h \
-  /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/libbench2/my-getopt.h
+  /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/libbench2/my-getopt.h
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include/string.h:
 
@@ -119,4 +119,4 @@ my-getopt.o: \
 
 ../config.h:
 
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/libbench2/my-getopt.h:
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/src/fftwBuild/libbench2/my-getopt.h:

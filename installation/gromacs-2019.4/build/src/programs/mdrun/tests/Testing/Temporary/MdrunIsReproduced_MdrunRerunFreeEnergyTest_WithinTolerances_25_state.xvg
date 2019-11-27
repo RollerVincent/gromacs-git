@@ -1,15 +1,15 @@
-# This file was created Tue Nov 12 01:54:17 2019
+# This file was created Wed Nov 27 19:15:37 2019
 # Created by:
 #              :-) GROMACS - mdrun-non-integrator-test, 2019.4 (-:
 # 
-# Executable:   /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/bin/mdrun-non-integrator-test
-# Data prefix:  /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4 (source tree)
-# Working dir:  /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/programs/mdrun/tests
+# Executable:   /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/bin/mdrun-non-integrator-test
+# Data prefix:  /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4 (source tree)
+# Working dir:  /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/programs/mdrun/tests
 # Command line:
-#   mdrun-non-integrator-test --gtest_output=xml:/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/Testing/Temporary/MdrunNonIntegratorTests.xml
+#   mdrun-non-integrator-test --gtest_output=xml:/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/Testing/Temporary/MdrunNonIntegratorTests.xml
 # mdrun-non-integrator-test is part of G R O M A C S:
 #
-# Gyas ROwers Mature At Cryogenic Speed
+# GROtesk MACabre and Sinister
 #
 @    title "dH/d\xl\f{} and \xD\f{}H"
 @    xaxis  label "Time (ps)"

@@ -43,10 +43,10 @@ RM = /usr/local/Cellar/cmake/3.11.1/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4
+CMAKE_SOURCE_DIR = /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build
+CMAKE_BINARY_DIR = /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build
 
 # Utility rule file for check-source-fast.
 
@@ -54,8 +54,8 @@ CMAKE_BINARY_DIR = /Users/vincentroller/Home/Development/gromacs/installation/gr
 include docs/doxygen/CMakeFiles/check-source-fast.dir/progress.make
 
 docs/doxygen/CMakeFiles/check-source-fast:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Doxygen not available"
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/docs/doxygen && /usr/local/Cellar/cmake/3.11.1/bin/cmake -E echo "Cannot build/run target check-source-fast because Doxygen is not available"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Doxygen not available"
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/docs/doxygen && /usr/local/Cellar/cmake/3.11.1/bin/cmake -E echo "Cannot build/run target check-source-fast because Doxygen is not available"
 
 check-source-fast: docs/doxygen/CMakeFiles/check-source-fast
 check-source-fast: docs/doxygen/CMakeFiles/check-source-fast.dir/build.make
@@ -68,10 +68,10 @@ docs/doxygen/CMakeFiles/check-source-fast.dir/build: check-source-fast
 .PHONY : docs/doxygen/CMakeFiles/check-source-fast.dir/build
 
 docs/doxygen/CMakeFiles/check-source-fast.dir/clean:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/docs/doxygen && $(CMAKE_COMMAND) -P CMakeFiles/check-source-fast.dir/cmake_clean.cmake
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/docs/doxygen && $(CMAKE_COMMAND) -P CMakeFiles/check-source-fast.dir/cmake_clean.cmake
 .PHONY : docs/doxygen/CMakeFiles/check-source-fast.dir/clean
 
 docs/doxygen/CMakeFiles/check-source-fast.dir/depend:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4 /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/docs/doxygen /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/docs/doxygen /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/docs/doxygen/CMakeFiles/check-source-fast.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4 /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/docs/doxygen /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/docs/doxygen /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/docs/doxygen/CMakeFiles/check-source-fast.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : docs/doxygen/CMakeFiles/check-source-fast.dir/depend
 

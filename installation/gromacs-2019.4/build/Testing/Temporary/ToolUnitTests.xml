@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites tests="4" failures="0" disabled="0" errors="0" timestamp="2019-11-12T01:54:13" time="0.287" name="AllTests">
-  <testsuite name="ReportMethodsTest" tests="4" failures="0" disabled="0" errors="0" time="0.287">
-    <testcase name="WritesCorrectHeadersFormated" status="run" time="0" classname="ReportMethodsTest" />
+<testsuites tests="4" failures="0" disabled="0" errors="0" timestamp="2019-11-27T19:15:32" time="0.5" name="AllTests">
+  <testsuite name="ReportMethodsTest" tests="4" failures="0" disabled="0" errors="0" time="0.5">
+    <testcase name="WritesCorrectHeadersFormated" status="run" time="0.001" classname="ReportMethodsTest" />
     <testcase name="WritesCorrectHeadersUnformatted" status="run" time="0" classname="ReportMethodsTest" />
-    <testcase name="WritesCorrectInformation" status="run" time="0.158" classname="ReportMethodsTest" />
-    <testcase name="ToolEndToEndTest" status="run" time="0.129" classname="ReportMethodsTest" />
+    <testcase name="WritesCorrectInformation" status="run" time="0.25" classname="ReportMethodsTest" />
+    <testcase name="ToolEndToEndTest" status="run" time="0.249" classname="ReportMethodsTest" />
   </testsuite>
 </testsuites>

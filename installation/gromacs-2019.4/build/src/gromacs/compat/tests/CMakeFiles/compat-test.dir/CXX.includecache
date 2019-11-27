@@ -320,19 +320,19 @@ gromacs/utility/current_function.h
 
 ../src/testutils/testinit.h
 
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/compat/tests/make_unique.cpp
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/compat/tests/make_unique.cpp
 gmxpre.h
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/compat/tests/gmxpre.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/compat/tests/gmxpre.h
 gromacs/compat/make_unique.h
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/compat/tests/gromacs/compat/make_unique.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/compat/tests/gromacs/compat/make_unique.h
 gtest/gtest.h
 -
 
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/compat/tests/pointers.cpp
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/compat/tests/pointers.cpp
 gmxpre.h
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/compat/tests/gmxpre.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/compat/tests/gmxpre.h
 gromacs/compat/pointers.h
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/compat/tests/gromacs/compat/pointers.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/compat/tests/gromacs/compat/pointers.h
 memory
 -
 vector
@@ -340,13 +340,13 @@ vector
 gtest/gtest.h
 -
 
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/testutils/unittest_main.cpp
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/testutils/unittest_main.cpp
 gmxpre.h
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/testutils/gmxpre.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/testutils/gmxpre.h
 gtest/gtest.h
 -
 testutils/testinit.h
-/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/testutils/testutils/testinit.h
+/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/testutils/testutils/testinit.h
 
 src/gmxpre-config.h
 

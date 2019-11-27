@@ -43,10 +43,10 @@ RM = /usr/local/Cellar/cmake/3.11.1/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4
+CMAKE_SOURCE_DIR = /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build
+CMAKE_BINARY_DIR = /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build
 
 # Utility rule file for check-phys-prepare.
 
@@ -54,8 +54,8 @@ CMAKE_BINARY_DIR = /Users/vincentroller/Home/Development/gromacs/installation/gr
 include tests/CMakeFiles/check-phys-prepare.dir/progress.make
 
 tests/CMakeFiles/check-phys-prepare:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "No physical validation"
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/tests && /usr/local/Cellar/cmake/3.11.1/bin/cmake -E echo "NOTE: You called the target \`check-phys-prepare\`, but ran cmake with \`-DGMX_PHYSICAL_VALIDATION=OFF\`. The physical validation tests are therefore unavailable, and this target is not doing anything."
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "No physical validation"
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/tests && /usr/local/Cellar/cmake/3.11.1/bin/cmake -E echo "NOTE: You called the target \`check-phys-prepare\`, but ran cmake with \`-DGMX_PHYSICAL_VALIDATION=OFF\`. The physical validation tests are therefore unavailable, and this target is not doing anything."
 
 check-phys-prepare: tests/CMakeFiles/check-phys-prepare
 check-phys-prepare: tests/CMakeFiles/check-phys-prepare.dir/build.make
@@ -68,10 +68,10 @@ tests/CMakeFiles/check-phys-prepare.dir/build: check-phys-prepare
 .PHONY : tests/CMakeFiles/check-phys-prepare.dir/build
 
 tests/CMakeFiles/check-phys-prepare.dir/clean:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/tests && $(CMAKE_COMMAND) -P CMakeFiles/check-phys-prepare.dir/cmake_clean.cmake
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/tests && $(CMAKE_COMMAND) -P CMakeFiles/check-phys-prepare.dir/cmake_clean.cmake
 .PHONY : tests/CMakeFiles/check-phys-prepare.dir/clean
 
 tests/CMakeFiles/check-phys-prepare.dir/depend:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4 /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/tests /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/tests /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/tests/CMakeFiles/check-phys-prepare.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4 /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/tests /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/tests /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/tests/CMakeFiles/check-phys-prepare.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tests/CMakeFiles/check-phys-prepare.dir/depend
 

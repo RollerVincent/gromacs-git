@@ -26,7 +26,7 @@ src/testutils/tests/CMakeFiles/testutils-mpi-test.dir/__/unittest_main.cpp.o
  ../src/external/googletest/googletest/include/gtest/internal/gtest-type-util.h
  ../src/gmxpre.h
  ../src/testutils/testinit.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/testutils/unittest_main.cpp
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/testutils/unittest_main.cpp
  src/gmxpre-config.h
 src/testutils/tests/CMakeFiles/testutils-mpi-test.dir/mpitest.cpp.o
  ../src/external/googletest/googletest/include/gtest/gtest-death-test.h
@@ -58,6 +58,6 @@ src/testutils/tests/CMakeFiles/testutils-mpi-test.dir/mpitest.cpp.o
  ../src/gromacs/utility/basenetwork.h
  ../src/gromacs/utility/gmxmpi.h
  ../src/testutils/mpitest.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/testutils/tests/mpitest.cpp
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/testutils/tests/mpitest.cpp
  src/config.h
  src/gmxpre-config.h

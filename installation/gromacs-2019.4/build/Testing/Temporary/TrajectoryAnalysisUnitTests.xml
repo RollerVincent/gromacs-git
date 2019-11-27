@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites tests="74" failures="0" disabled="0" errors="0" timestamp="2019-11-12T01:54:13" time="0.544" name="AllTests">
+<testsuites tests="74" failures="0" disabled="0" errors="0" timestamp="2019-11-27T19:15:31" time="0.918" name="AllTests">
   <testsuite name="ClustsizeTest" tests="5" failures="0" disabled="0" errors="0" time="0.029">
-    <testcase name="NoMolDefaultCutoff" status="run" time="0.006" classname="ClustsizeTest" />
+    <testcase name="NoMolDefaultCutoff" status="run" time="0.007" classname="ClustsizeTest" />
     <testcase name="NoMolShortCutoff" status="run" time="0.005" classname="ClustsizeTest" />
     <testcase name="MolDefaultCutoff" status="run" time="0.006" classname="ClustsizeTest" />
-    <testcase name="MolShortCutoff" status="run" time="0.006" classname="ClustsizeTest" />
+    <testcase name="MolShortCutoff" status="run" time="0.005" classname="ClustsizeTest" />
     <testcase name="MolCSize" status="run" time="0.006" classname="ClustsizeTest" />
   </testsuite>
-  <testsuite name="TrajectoryAnalysisCommandLineRunnerTest" tests="4" failures="0" disabled="0" errors="0" time="0.007">
-    <testcase name="WritesHelp" status="run" time="0.001" classname="TrajectoryAnalysisCommandLineRunnerTest" />
-    <testcase name="RunsWithSubsetTrajectory" status="run" time="0.003" classname="TrajectoryAnalysisCommandLineRunnerTest" />
-    <testcase name="DetectsIncorrectTrajectorySubset" status="run" time="0.002" classname="TrajectoryAnalysisCommandLineRunnerTest" />
-    <testcase name="FailsWithTrajectorySubsetWithoutTrajectory" status="run" time="0.001" classname="TrajectoryAnalysisCommandLineRunnerTest" />
+  <testsuite name="TrajectoryAnalysisCommandLineRunnerTest" tests="4" failures="0" disabled="0" errors="0" time="0.015">
+    <testcase name="WritesHelp" status="run" time="0.002" classname="TrajectoryAnalysisCommandLineRunnerTest" />
+    <testcase name="RunsWithSubsetTrajectory" status="run" time="0.009" classname="TrajectoryAnalysisCommandLineRunnerTest" />
+    <testcase name="DetectsIncorrectTrajectorySubset" status="run" time="0.003" classname="TrajectoryAnalysisCommandLineRunnerTest" />
+    <testcase name="FailsWithTrajectorySubsetWithoutTrajectory" status="run" time="0" classname="TrajectoryAnalysisCommandLineRunnerTest" />
   </testsuite>
-  <testsuite name="AngleModuleTest" tests="11" failures="0" disabled="0" errors="0" time="0.042">
-    <testcase name="ComputesSimpleAngles" status="run" time="0.003" classname="AngleModuleTest" />
+  <testsuite name="AngleModuleTest" tests="11" failures="0" disabled="0" errors="0" time="0.047">
+    <testcase name="ComputesSimpleAngles" status="run" time="0.004" classname="AngleModuleTest" />
     <testcase name="ComputesDihedrals" status="run" time="0.003" classname="AngleModuleTest" />
     <testcase name="ComputesVectorPairAngles" status="run" time="0.004" classname="AngleModuleTest" />
     <testcase name="ComputesVectorPlanePairAngles" status="run" time="0.004" classname="AngleModuleTest" />
@@ -22,77 +22,77 @@
     <testcase name="ComputesVectorSphereNormalZAxisAngles" status="run" time="0.004" classname="AngleModuleTest" />
     <testcase name="ComputesVectorTimeZeroAngles" status="run" time="0.004" classname="AngleModuleTest" />
     <testcase name="ComputesMultipleAngles" status="run" time="0.004" classname="AngleModuleTest" />
-    <testcase name="HandlesDynamicSelections" status="run" time="0.004" classname="AngleModuleTest" />
-    <testcase name="HandlesOneVsMultipleVectorAngles" status="run" time="0.004" classname="AngleModuleTest" />
-    <testcase name="HandlesOneVsMultipleVectorGroupsAngles" status="run" time="0.004" classname="AngleModuleTest" />
+    <testcase name="HandlesDynamicSelections" status="run" time="0.005" classname="AngleModuleTest" />
+    <testcase name="HandlesOneVsMultipleVectorAngles" status="run" time="0.005" classname="AngleModuleTest" />
+    <testcase name="HandlesOneVsMultipleVectorGroupsAngles" status="run" time="0.005" classname="AngleModuleTest" />
   </testsuite>
-  <testsuite name="DistanceModuleTest" tests="3" failures="0" disabled="0" errors="0" time="0.009">
-    <testcase name="ComputesDistances" status="run" time="0.003" classname="DistanceModuleTest" />
-    <testcase name="ComputesMultipleDistances" status="run" time="0.003" classname="DistanceModuleTest" />
+  <testsuite name="DistanceModuleTest" tests="3" failures="0" disabled="0" errors="0" time="0.018">
+    <testcase name="ComputesDistances" status="run" time="0.009" classname="DistanceModuleTest" />
+    <testcase name="ComputesMultipleDistances" status="run" time="0.005" classname="DistanceModuleTest" />
     <testcase name="HandlesDynamicSelections" status="run" time="0.003" classname="DistanceModuleTest" />
   </testsuite>
-  <testsuite name="FreeVolumeModuleTest" tests="2" failures="0" disabled="0" errors="0" time="0.13">
-    <testcase name="ComputesFreeVolume" status="run" time="0.076" classname="FreeVolumeModuleTest" />
-    <testcase name="ComputesFreeVolumeSelection" status="run" time="0.054" classname="FreeVolumeModuleTest" />
+  <testsuite name="FreeVolumeModuleTest" tests="2" failures="0" disabled="0" errors="0" time="0.183">
+    <testcase name="ComputesFreeVolume" status="run" time="0.096" classname="FreeVolumeModuleTest" />
+    <testcase name="ComputesFreeVolumeSelection" status="run" time="0.087" classname="FreeVolumeModuleTest" />
   </testsuite>
-  <testsuite name="PairDistanceModuleTest" tests="7" failures="0" disabled="0" errors="0" time="0.019">
-    <testcase name="ComputesAllDistances" status="run" time="0.004" classname="PairDistanceModuleTest" />
-    <testcase name="ComputesAllDistancesWithCutoff" status="run" time="0.002" classname="PairDistanceModuleTest" />
-    <testcase name="ComputesMinDistanceWithCutoff" status="run" time="0.003" classname="PairDistanceModuleTest" />
-    <testcase name="ComputesMaxDistance" status="run" time="0.002" classname="PairDistanceModuleTest" />
-    <testcase name="ComputesMaxDistanceWithCutoff" status="run" time="0.002" classname="PairDistanceModuleTest" />
-    <testcase name="ComputesGroupedMinDistanceWithCutoff" status="run" time="0.003" classname="PairDistanceModuleTest" />
-    <testcase name="ComputesGroupedMaxDistanceWithCutoff" status="run" time="0.003" classname="PairDistanceModuleTest" />
+  <testsuite name="PairDistanceModuleTest" tests="7" failures="0" disabled="0" errors="0" time="0.031">
+    <testcase name="ComputesAllDistances" status="run" time="0.006" classname="PairDistanceModuleTest" />
+    <testcase name="ComputesAllDistancesWithCutoff" status="run" time="0.004" classname="PairDistanceModuleTest" />
+    <testcase name="ComputesMinDistanceWithCutoff" status="run" time="0.004" classname="PairDistanceModuleTest" />
+    <testcase name="ComputesMaxDistance" status="run" time="0.004" classname="PairDistanceModuleTest" />
+    <testcase name="ComputesMaxDistanceWithCutoff" status="run" time="0.004" classname="PairDistanceModuleTest" />
+    <testcase name="ComputesGroupedMinDistanceWithCutoff" status="run" time="0.004" classname="PairDistanceModuleTest" />
+    <testcase name="ComputesGroupedMaxDistanceWithCutoff" status="run" time="0.004" classname="PairDistanceModuleTest" />
   </testsuite>
-  <testsuite name="RdfModuleTest" tests="5" failures="0" disabled="0" errors="0" time="0.059">
-    <testcase name="BasicTest" status="run" time="0.013" classname="RdfModuleTest" />
-    <testcase name="SelectionsSolelyFromIndexFileWork" status="run" time="0.01" classname="RdfModuleTest" />
-    <testcase name="SelectionsFromBothTopologyFileAndIndexFileWork" status="run" time="0.013" classname="RdfModuleTest" />
-    <testcase name="CalculatesSurf" status="run" time="0.008" classname="RdfModuleTest" />
-    <testcase name="CalculatesXY" status="run" time="0.015" classname="RdfModuleTest" />
+  <testsuite name="RdfModuleTest" tests="5" failures="0" disabled="0" errors="0" time="0.134">
+    <testcase name="BasicTest" status="run" time="0.023" classname="RdfModuleTest" />
+    <testcase name="SelectionsSolelyFromIndexFileWork" status="run" time="0.017" classname="RdfModuleTest" />
+    <testcase name="SelectionsFromBothTopologyFileAndIndexFileWork" status="run" time="0.032" classname="RdfModuleTest" />
+    <testcase name="CalculatesSurf" status="run" time="0.023" classname="RdfModuleTest" />
+    <testcase name="CalculatesXY" status="run" time="0.038" classname="RdfModuleTest" />
   </testsuite>
-  <testsuite name="SasaModuleTest" tests="5" failures="0" disabled="0" errors="0" time="0.036">
-    <testcase name="BasicTest" status="run" time="0.009" classname="SasaModuleTest" />
-    <testcase name="HandlesSelectedResidues" status="run" time="0.006" classname="SasaModuleTest" />
-    <testcase name="WritesConnollySurfaceWithSolute" status="run" time="0.006" classname="SasaModuleTest" />
-    <testcase name="HandlesDynamicOutputGroup" status="run" time="0.007" classname="SasaModuleTest" />
-    <testcase name="HandlesDynamicCalculationGroup" status="run" time="0.007" classname="SasaModuleTest" />
+  <testsuite name="SasaModuleTest" tests="5" failures="0" disabled="0" errors="0" time="0.065">
+    <testcase name="BasicTest" status="run" time="0.018" classname="SasaModuleTest" />
+    <testcase name="HandlesSelectedResidues" status="run" time="0.013" classname="SasaModuleTest" />
+    <testcase name="WritesConnollySurfaceWithSolute" status="run" time="0.01" classname="SasaModuleTest" />
+    <testcase name="HandlesDynamicOutputGroup" status="run" time="0.01" classname="SasaModuleTest" />
+    <testcase name="HandlesDynamicCalculationGroup" status="run" time="0.012" classname="SasaModuleTest" />
   </testsuite>
-  <testsuite name="SelectModuleTest" tests="8" failures="0" disabled="0" errors="0" time="0.027">
-    <testcase name="BasicTest" status="run" time="0.004" classname="SelectModuleTest" />
-    <testcase name="HandlesPDBOutputWithNonPDBInput" status="run" time="0.004" classname="SelectModuleTest" />
-    <testcase name="HandlesPDBOutputWithPDBInput" status="run" time="0.004" classname="SelectModuleTest" />
-    <testcase name="HandlesMaxPDBOutput" status="run" time="0.003" classname="SelectModuleTest" />
-    <testcase name="HandlesSelectedPDBOutput" status="run" time="0.004" classname="SelectModuleTest" />
-    <testcase name="NormalizesSizes" status="run" time="0.002" classname="SelectModuleTest" />
-    <testcase name="WritesResidueNumbers" status="run" time="0.002" classname="SelectModuleTest" />
-    <testcase name="WritesResidueIndices" status="run" time="0.003" classname="SelectModuleTest" />
+  <testsuite name="SelectModuleTest" tests="8" failures="0" disabled="0" errors="0" time="0.044">
+    <testcase name="BasicTest" status="run" time="0.007" classname="SelectModuleTest" />
+    <testcase name="HandlesPDBOutputWithNonPDBInput" status="run" time="0.006" classname="SelectModuleTest" />
+    <testcase name="HandlesPDBOutputWithPDBInput" status="run" time="0.006" classname="SelectModuleTest" />
+    <testcase name="HandlesMaxPDBOutput" status="run" time="0.006" classname="SelectModuleTest" />
+    <testcase name="HandlesSelectedPDBOutput" status="run" time="0.005" classname="SelectModuleTest" />
+    <testcase name="NormalizesSizes" status="run" time="0.003" classname="SelectModuleTest" />
+    <testcase name="WritesResidueNumbers" status="run" time="0.005" classname="SelectModuleTest" />
+    <testcase name="WritesResidueIndices" status="run" time="0.004" classname="SelectModuleTest" />
   </testsuite>
-  <testsuite name="SurfaceAreaTest" tests="10" failures="0" disabled="0" errors="0" time="0.01">
+  <testsuite name="SurfaceAreaTest" tests="10" failures="0" disabled="0" errors="0" time="0.011">
     <testcase name="ComputesSinglePoint" status="run" time="0" classname="SurfaceAreaTest" />
     <testcase name="ComputesTwoPoints" status="run" time="0" classname="SurfaceAreaTest" />
     <testcase name="ComputesTwoPointsOfUnequalRadius" status="run" time="0.001" classname="SurfaceAreaTest" />
     <testcase name="SurfacePoints12" status="run" time="0" classname="SurfaceAreaTest" />
     <testcase name="SurfacePoints32" status="run" time="0.001" classname="SurfaceAreaTest" />
     <testcase name="SurfacePoints42" status="run" time="0.001" classname="SurfaceAreaTest" />
-    <testcase name="SurfacePoints122" status="run" time="0.002" classname="SurfaceAreaTest" />
-    <testcase name="Computes100Points" status="run" time="0.001" classname="SurfaceAreaTest" />
-    <testcase name="Computes100PointsWithRectangularPBC" status="run" time="0.002" classname="SurfaceAreaTest" />
-    <testcase name="Computes100PointsWithTriclinicPBC" status="run" time="0.002" classname="SurfaceAreaTest" />
+    <testcase name="SurfacePoints122" status="run" time="0.001" classname="SurfaceAreaTest" />
+    <testcase name="Computes100Points" status="run" time="0" classname="SurfaceAreaTest" />
+    <testcase name="Computes100PointsWithRectangularPBC" status="run" time="0.003" classname="SurfaceAreaTest" />
+    <testcase name="Computes100PointsWithTriclinicPBC" status="run" time="0.003" classname="SurfaceAreaTest" />
   </testsuite>
-  <testsuite name="TopologyInformation" tests="4" failures="0" disabled="0" errors="0" time="0.16">
+  <testsuite name="TopologyInformation" tests="4" failures="0" disabled="0" errors="0" time="0.315">
     <testcase name="CantWorkWithoutReadingAFile" status="run" time="0" classname="TopologyInformation" />
-    <testcase name="WorksWithGroFile" status="run" time="0.002" classname="TopologyInformation" />
-    <testcase name="WorksWithPdbFile" status="run" time="0.003" classname="TopologyInformation" />
-    <testcase name="WorksWithTprFromPdbFile" status="run" time="0.155" classname="TopologyInformation" />
+    <testcase name="WorksWithGroFile" status="run" time="0.003" classname="TopologyInformation" />
+    <testcase name="WorksWithPdbFile" status="run" time="0.024" classname="TopologyInformation" />
+    <testcase name="WorksWithTprFromPdbFile" status="run" time="0.288" classname="TopologyInformation" />
   </testsuite>
-  <testsuite name="TrajectoryModuleTest" tests="4" failures="0" disabled="0" errors="0" time="0.016">
-    <testcase name="BasicTest" status="run" time="0.003" classname="TrajectoryModuleTest" />
-    <testcase name="PlotsXOnly" status="run" time="0.004" classname="TrajectoryModuleTest" />
-    <testcase name="HandlesNoVelocities" status="run" time="0.006" classname="TrajectoryModuleTest" />
-    <testcase name="HandlesNoForces" status="run" time="0.003" classname="TrajectoryModuleTest" />
+  <testsuite name="TrajectoryModuleTest" tests="4" failures="0" disabled="0" errors="0" time="0.024">
+    <testcase name="BasicTest" status="run" time="0.009" classname="TrajectoryModuleTest" />
+    <testcase name="PlotsXOnly" status="run" time="0.005" classname="TrajectoryModuleTest" />
+    <testcase name="HandlesNoVelocities" status="run" time="0.004" classname="TrajectoryModuleTest" />
+    <testcase name="HandlesNoForces" status="run" time="0.006" classname="TrajectoryModuleTest" />
   </testsuite>
-  <testsuite name="UnionFinderTest" tests="5" failures="0" disabled="0" errors="0" time="0">
+  <testsuite name="UnionFinderTest" tests="5" failures="0" disabled="0" errors="0" time="0.001">
     <testcase name="WorksEmpty" status="run" time="0" classname="UnionFinderTest" />
     <testcase name="BasicMerges" status="run" time="0" classname="UnionFinderTest" />
     <testcase name="LargerMerges" status="run" time="0" classname="UnionFinderTest" />

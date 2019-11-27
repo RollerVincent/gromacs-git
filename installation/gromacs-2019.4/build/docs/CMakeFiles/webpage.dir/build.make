@@ -43,10 +43,10 @@ RM = /usr/local/Cellar/cmake/3.11.1/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4
+CMAKE_SOURCE_DIR = /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build
+CMAKE_BINARY_DIR = /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build
 
 # Utility rule file for webpage.
 
@@ -54,8 +54,8 @@ CMAKE_BINARY_DIR = /Users/vincentroller/Home/Development/gromacs/installation/gr
 include docs/CMakeFiles/webpage.dir/progress.make
 
 docs/CMakeFiles/webpage:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Webpage build not possible"
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/docs && /usr/local/Cellar/cmake/3.11.1/bin/cmake -E echo "Cannot build webpage because Sphinx expected minimum version 1.6.1 is required"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Webpage build not possible"
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/docs && /usr/local/Cellar/cmake/3.11.1/bin/cmake -E echo "Cannot build webpage because Sphinx expected minimum version 1.6.1 is required"
 
 webpage: docs/CMakeFiles/webpage
 webpage: docs/CMakeFiles/webpage.dir/build.make
@@ -68,10 +68,10 @@ docs/CMakeFiles/webpage.dir/build: webpage
 .PHONY : docs/CMakeFiles/webpage.dir/build
 
 docs/CMakeFiles/webpage.dir/clean:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/docs && $(CMAKE_COMMAND) -P CMakeFiles/webpage.dir/cmake_clean.cmake
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/docs && $(CMAKE_COMMAND) -P CMakeFiles/webpage.dir/cmake_clean.cmake
 .PHONY : docs/CMakeFiles/webpage.dir/clean
 
 docs/CMakeFiles/webpage.dir/depend:
-	cd /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4 /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/docs /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/docs /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/docs/CMakeFiles/webpage.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4 /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/docs /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/docs /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/docs/CMakeFiles/webpage.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : docs/CMakeFiles/webpage.dir/depend
 

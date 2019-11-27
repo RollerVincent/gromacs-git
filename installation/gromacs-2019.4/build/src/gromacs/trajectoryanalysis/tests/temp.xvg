@@ -1,15 +1,15 @@
-# This file was created Tue Nov 12 01:54:13 2019
+# This file was created Wed Nov 27 19:15:31 2019
 # Created by:
 #               :-) GROMACS - trajectoryanalysis-test, 2019.4 (-:
 # 
-# Executable:   /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/bin/trajectoryanalysis-test
-# Data prefix:  /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4 (source tree)
-# Working dir:  /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/gromacs/trajectoryanalysis/tests
+# Executable:   /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/bin/trajectoryanalysis-test
+# Data prefix:  /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4 (source tree)
+# Working dir:  /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/gromacs/trajectoryanalysis/tests
 # Command line:
-#   trajectoryanalysis-test --gtest_output=xml:/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/Testing/Temporary/TrajectoryAnalysisUnitTests.xml
+#   trajectoryanalysis-test --gtest_output=xml:/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/Testing/Temporary/TrajectoryAnalysisUnitTests.xml
 # trajectoryanalysis-test is part of G R O M A C S:
 #
-# Good ROcking Metal Altar for Chronical Sinners
+# Georgetown Riga Oslo Madrid Amsterdam Chisinau Stockholm
 #
 @    title "Temperature of largest cluster"
 @    xaxis  label "Time (ps)"

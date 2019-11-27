@@ -26,7 +26,7 @@ src/gromacs/gpu_utils/tests/CMakeFiles/gpu_utils-test.dir/__/__/__/testutils/uni
  ../src/external/googletest/googletest/include/gtest/internal/gtest-type-util.h
  ../src/gmxpre.h
  ../src/testutils/testinit.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/testutils/unittest_main.cpp
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/testutils/unittest_main.cpp
  src/gmxpre-config.h
 src/gromacs/gpu_utils/tests/CMakeFiles/gpu_utils-test.dir/devicetransfers.cpp.o
  ../src/gmxpre.h
@@ -34,8 +34,8 @@ src/gromacs/gpu_utils/tests/CMakeFiles/gpu_utils-test.dir/devicetransfers.cpp.o
  ../src/gromacs/utility/basedefinitions.h
  ../src/gromacs/utility/current_function.h
  ../src/gromacs/utility/gmxassert.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/gpu_utils/tests/devicetransfers.cpp
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/gpu_utils/tests/devicetransfers.h
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/gpu_utils/tests/devicetransfers.cpp
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/gpu_utils/tests/devicetransfers.h
  src/gmxpre-config.h
 src/gromacs/gpu_utils/tests/CMakeFiles/gpu_utils-test.dir/gputest.cpp.o
  ../src/external/googletest/googletest/include/gtest/gtest-death-test.h
@@ -66,8 +66,8 @@ src/gromacs/gpu_utils/tests/CMakeFiles/gpu_utils-test.dir/gputest.cpp.o
  ../src/gromacs/hardware/gpu_hw_info.h
  ../src/gromacs/utility/basedefinitions.h
  ../src/gromacs/utility/smalloc.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/gpu_utils/tests/gputest.cpp
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/gpu_utils/tests/gputest.h
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/gpu_utils/tests/gputest.cpp
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/gpu_utils/tests/gputest.h
  src/config.h
  src/gmxpre-config.h
 src/gromacs/gpu_utils/tests/CMakeFiles/gpu_utils-test.dir/hostallocator.cpp.o
@@ -111,8 +111,8 @@ src/gromacs/gpu_utils/tests/CMakeFiles/gpu_utils-test.dir/hostallocator.cpp.o
  ../src/gromacs/utility/gmxassert.h
  ../src/gromacs/utility/real.h
  ../src/gromacs/utility/tests/alignedallocator-impl.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/gpu_utils/tests/devicetransfers.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/gpu_utils/tests/gputest.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/gpu_utils/tests/hostallocator.cpp
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/gpu_utils/tests/devicetransfers.h
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/gpu_utils/tests/gputest.h
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/gpu_utils/tests/hostallocator.cpp
  src/config.h
  src/gmxpre-config.h

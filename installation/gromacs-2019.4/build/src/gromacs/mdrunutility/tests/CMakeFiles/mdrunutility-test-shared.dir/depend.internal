@@ -65,7 +65,7 @@ src/gromacs/mdrunutility/tests/CMakeFiles/mdrunutility-test-shared.dir/threadaff
  ../src/gromacs/utility/stringutil.h
  ../src/gromacs/utility/unique_cptr.h
  ../src/testutils/loggertest.h
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/mdrunutility/tests/threadaffinitytest.cpp
- /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/gromacs/mdrunutility/tests/threadaffinitytest.h
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/mdrunutility/tests/threadaffinitytest.cpp
+ /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/gromacs/mdrunutility/tests/threadaffinitytest.h
  src/config.h
  src/gmxpre-config.h

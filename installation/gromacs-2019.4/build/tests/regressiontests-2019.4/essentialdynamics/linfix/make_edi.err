@@ -27,9 +27,9 @@ as published by the Free Software Foundation; either version 2.1
 of the License, or (at your option) any later version.
 
 GROMACS:      gmx make_edi, version 2019.4
-Executable:   /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/bin/gmx
-Data prefix:  /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4 (source tree)
-Working dir:  /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/tests/regressiontests-2019.4/essentialdynamics/linfix
+Executable:   /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/bin/gmx
+Data prefix:  /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4 (source tree)
+Working dir:  /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/tests/regressiontests-2019.4/essentialdynamics/linfix
 Command line:
   gmx make_edi -f eigenvec.trr -outfrq 1 -linfix 1 -linstep 0.0013 -o sam.edi
 

@@ -6,7 +6,7 @@ C_FLAGS =  -mavx2 -mfma    -Wno-unknown-pragmas  -O3 -DNDEBUG   -isysroot /Libra
 
 C_DEFINES = -DGMX_DOUBLE=0 -DHAVE_CONFIG_H
 
-C_INCLUDES = -I/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/include -I/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/src -isystem /Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/external/thread_mpi/include -I/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src -I/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/external/tng_io/include -I/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/build/tng/include -I/Users/vincentroller/Home/Development/gromacs/installation/gromacs-2019.4/src/external/tng_io/external/zlib 
+C_INCLUDES = -I/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src/external/build-fftw/fftwBuild-prefix/include -I/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/src -isystem /Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/external/thread_mpi/include -I/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src -I/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/external/tng_io/include -I/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/build/tng/include -I/Users/vincentroller/Home/Development/gromacs-git/installation/gromacs-2019.4/src/external/tng_io/external/zlib 
 
 # Custom defines: src/gromacs/CMakeFiles/tng_io_obj.dir/__/external/tng_io/src/lib/tng_io.c.o_DEFINES = USE_STD_INTTYPES_H
 
